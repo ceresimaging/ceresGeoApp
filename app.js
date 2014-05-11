@@ -2,25 +2,38 @@ function App(){
 
   var app = this;
 
-  function showLocation(el) {
-    return function(position) {
-      el.html( 'lat: '+position.coords.latitude +
-                    ' long: '+position.coords.longitude +
-                    ' accuracy: '+position.coords.accuracy);
-    }
+  function showLocation(el, position) {
+    el.html( 'lat: '+position.coords.latitude +
+                  ' long: '+position.coords.longitude +
+                  ' accuracy: '+position.coords.accuracy);
   }
   function errorCallback(){
   }
 
   this.watchID = null;
+  this.posCurrent = null;
+  this.posA = null;
+  this.posB = null;
 
-  this.getLocation = function(el) {
-    navigator.geolocation.getCurrentPosition(showLocation(el));
+  this.getLocationA = function(el) {
+    navigator.geolocation.getCurrentPosition(function(position){
+      showLocation(el, position);
+      app.posA = position;
+    });
+  };
+
+  this.getLocationB = function(el) {
+    navigator.geolocation.getCurrentPosition(function(position){
+      showLocation(el, position);
+      app.posB = position;
+    });
   };
 
   this.watchLocation = function(el) {
-    app.watchID = navigator.geolocation.watchPosition(showLocation(el),
-        errorCallback, { enableHighAccuracy: true });
+    app.watchID = navigator.geolocation.watchPosition(function(position){
+      showLocation(el, position);
+      app.posCurrent = position;
+    }, errorCallback, { enableHighAccuracy: true });
   };
 
 }
@@ -37,11 +50,11 @@ $(function(){
   app.watchLocation($position);
   $btnA.click(function(e){
     e.preventDefault();
-    app.getLocation($pntA);
+    app.getLocationA($pntA);
   });
   $btnB.click(function(e){
     e.preventDefault();
-    app.getLocation($pntB);
+    app.getLocationB($pntB);
   });
 
 })
