@@ -121,6 +121,6 @@ $(function(){
     $position.html(parsePoint(posCurrent));
     $pntA.html(parsePoint(posA));
     $pntB.html(parsePoint(posB));
-    $trackDist.html(trackDist);
+    $trackDist.html(trackDist * 1000 + 'm');
   })
 })
