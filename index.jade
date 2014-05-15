@@ -8,17 +8,13 @@ header.bar.bar-nav
    Wrap all non-bar HTML in the .content div (this is actually what scrolls)
 .content
     ul.table-view
-        li.table-view-cell#position-display
+        li#position-display
             div.pull-left
-                ul
-                    li
-                        h5 current position:
-                        span#position
-            div.pull-right
-                h5 track Distance:
-                #track-dist
-        li.table-view-cell
-            h5 TEST
+                h5 current position:
+                span#position
+            div.pull-center
+                span.icon.icon-left.icon-active
+                #track-dist.icon-active N/A
         li.table-view-cell#map
     nav.bar.bar-tab#menu-bar
         a.tab-item
