@@ -90,6 +90,32 @@ function App(){
 
 }
 
+//range slider
+function Slider(){
+  var $menu = $('#menu-bar');
+  var $sliderContain = $menu.find('#slider-container');
+  var $slider = $menu.find('#slider');
+  var $dist = $menu.find('#shift-distance');
+  this.init = function(){
+    $slider.on('input', function(){
+      $dist.html($(this).val()+'ft');
+    })
+    $menu.on('click', '#shift-distance', function(){
+      $sliderContain.slideToggle();
+      $(this).toggleClass('icon-active');
+    });
+  };
+}
+
+// google map
+function Maps(){
+  var mapOptions = {
+    center: new google.maps.LatLng( -35, 150 ),
+    zoom: 8
+  };
+  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+}
+
 $(function(){
 
   // location data
@@ -125,14 +151,12 @@ $(function(){
     $trackDist.html(trackDist * 1000 + 'm');
   });
 
-  // google map
-  function maps(){
-    var mapOptions = {
-      center: new google.maps.LatLng( -35, 150 ),
-      zoom: 8
-    };
-    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-  }
-  maps();
+  //map
+  Maps();
+
+  //slider
+  var slider = new Slider();
+  slider.init();
+
 
 })

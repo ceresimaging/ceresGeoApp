@@ -14,21 +14,20 @@ header.bar.bar-nav
                     li
                         h5 current position:
                         span#position
-                    li
-                        h5 point A:
-                        span#pnt-A
-                    li
-                        h5 point B:
-                        span#pnt-B
-                    li
             div.pull-right
                 h5 track Distance:
                 #track-dist
         li.table-view-cell
             h5 TEST
         li.table-view-cell#map
-    nav.bar.bar-tab
+    nav.bar.bar-tab#menu-bar
         a.tab-item
-            span.icon.icon-compose#btn-A setA
+            span.icon.icon-compose#btn-A.pull-left setA
+            #pnt-A.pull-right
         a.tab-item
-            span.icon.icon-compose#btn-B setB
+            span.icon.icon-compose#btn-B.pull-left setB
+            #pnt-B.pull-right
+        a.tab-item
+            #slider-container
+                input#slider(type='range' min='100' max='1200' value='850')
+            span.icon.icon-code#shift-distance 850ft
