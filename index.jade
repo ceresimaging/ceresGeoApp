@@ -3,18 +3,31 @@
 //
    Make sure all your bars are the first things in your <body>
 header.bar.bar-nav
-  h1.title Ceres Imaging
+    h1.title Ceres Imaging
 //
    Wrap all non-bar HTML in the .content div (this is actually what scrolls)
 .content
-  h1 TEST
-  h3 current position
-  p#position
-  h3 point A
-  p#pnt-A
-  h3 point B
-  p#pnt-B
-  h2 track Distance
-  p#track-dist
-  button#btn-A set point A
-  button#btn-B set point B
+    ul.table-view
+        li.table-view-cell#position-display
+            div.pull-left
+                ul
+                    li
+                        h5 current position:
+                        span#position
+                    li
+                        h5 point A:
+                        span#pnt-A
+                    li
+                        h5 point B:
+                        span#pnt-B
+                    li
+            div.pull-right
+                h5 track Distance:
+                #track-dist
+        li.table-view-cell
+            h5 TEST
+    nav.bar.bar-tab
+        a.tab-item
+            span.icon.icon-compose#btn-A setA
+        a.tab-item
+            span.icon.icon-compose#btn-B setB

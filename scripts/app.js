@@ -102,7 +102,7 @@ $(function(){
     if (point){
       var str = 'lat: ' + point.coords.latitude +
                 ' long: ' + point.coords.longitude +
-                ' accuracy: ' + point.coords.accuracy;
+                ' accuracy: ' + Math.round(point.coords.accuracy);
       return str;
     }
   }
