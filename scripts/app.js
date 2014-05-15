@@ -92,6 +92,7 @@ function App(){
 
 $(function(){
 
+  // location data
   var $position = $('#position');
   var $pntA = $('#pnt-A');
   var $pntB = $('#pnt-B');
@@ -122,5 +123,16 @@ $(function(){
     $pntA.html(parsePoint(posA));
     $pntB.html(parsePoint(posB));
     $trackDist.html(trackDist * 1000 + 'm');
-  })
+  });
+
+  // google map
+  function maps(){
+    var mapOptions = {
+      center: new google.maps.LatLng( -35, 150 ),
+      zoom: 8
+    };
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  }
+  maps();
+
 })
