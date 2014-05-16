@@ -130,8 +130,8 @@ $(function(){
   var $trackDist = $('#track-dist');
   function parsePoint(point) {
     if (point){
-      var str = 'lat: ' + point.coords.latitude +
-                ' long: ' + point.coords.longitude;
+      var str = 'lat: ' + point.coords.latitude.toFixed(5) +
+                ' long: ' + point.coords.longitude.toFixed(5);
       return str;
     }
   }
@@ -150,7 +150,7 @@ $(function(){
     $position.html(parsePoint(posCurrent));
     $pntA.html(parsePoint(posA));
     $pntB.html(parsePoint(posB));
-    $trackDist.html(trackDist * 1000 + 'm L');
+    $trackDist.html( (trackDist * 1000).toFixed(2) + 'm L');
   });
 
   //map
