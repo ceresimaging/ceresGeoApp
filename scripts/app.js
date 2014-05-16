@@ -76,7 +76,6 @@ function App(){
   this.watchLocation = function() {
     window.setInterval(getPosition, 1000);
       function getPosition(){
-        console.log('bam');
         navigator.geolocation.getCurrentPosition(function(position){
           app.posCurrent = position;
           if (app.posA && app.posB){
@@ -132,8 +131,7 @@ $(function(){
   function parsePoint(point) {
     if (point){
       var str = 'lat: ' + point.coords.latitude +
-                ' long: ' + point.coords.longitude +
-                ' accuracy: ' + Math.round(point.coords.accuracy);
+                ' long: ' + point.coords.longitude;
       return str;
     }
   }
