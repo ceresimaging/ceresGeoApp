@@ -64,28 +64,32 @@ function App(){
   this.getLocationA = function() {
     navigator.geolocation.getCurrentPosition(function(position){
       app.posA = position;
-    });
+    }, errorCallback, { enableHighAccuracy: true });
   };
 
   this.getLocationB = function() {
     navigator.geolocation.getCurrentPosition(function(position){
       app.posB = position;
-    });
+    }, errorCallback, { enableHighAccuracy: true });
   };
 
   this.watchLocation = function() {
-    app.watchID = navigator.geolocation.watchPosition(function(position){
-      app.posCurrent = position;
-      if (app.posA && app.posB){
-        app.trackDist = getTrackDist(app.posA, app.posB, app.posCurrent);
+    window.setInterval(getPosition, 1000);
+      function getPosition(){
+        console.log('bam');
+        navigator.geolocation.getCurrentPosition(function(position){
+          app.posCurrent = position;
+          if (app.posA && app.posB){
+            app.trackDist = getTrackDist(app.posA, app.posB, app.posCurrent);
+          }
+          $(app).trigger('move',
+                        [app.posCurrent,
+                         app.posA,
+                         app.posB,
+                         app.trackDist]
+                        );
+        }, errorCallback, { enableHighAccuracy: true });
       }
-      $(app).trigger('move',
-                    [app.posCurrent,
-                     app.posA,
-                     app.posB,
-                     app.trackDist]
-                    );
-    }, errorCallback, { enableHighAccuracy: true });
   };
 
 }
@@ -135,7 +139,7 @@ $(function(){
   }
 
   var app = new App();
-  app.watchLocation($position);
+  app.watchLocation();
   $btnA.click(function(e){
     e.preventDefault();
     app.getLocationA();
