@@ -11,7 +11,7 @@ function App(){
   // gmaps
   var map = new GMaps({div: '#map', lat: -12, lng: -77});
   var currentMarkerIcon = {
-    url: '/images/currentMarker.png',
+    url: '../images/currentMarker.png',
     origin: new google.maps.Point(0,0),
     anchor: new google.maps.Point(32,32)
   };
