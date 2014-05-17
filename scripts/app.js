@@ -74,7 +74,7 @@ function App(){
     return [lat2.toDegrees(), lng2.toDegrees()];
   }
 
-  // get extended point a to b, 100km
+  // get extended point a to b, 2km
   // returns DEGREES
   function getExtendedPoint(a, b){
     var brng = getBearing(a, b);
