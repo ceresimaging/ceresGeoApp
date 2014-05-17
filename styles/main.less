@@ -82,26 +82,3 @@ h3{
   height: 615px;
   border-top: 3px solid #aaa;
 }
-
- /*	pulse the 'I am here' location marker */
-@-webkit-keyframes pulse {
-	0% {
-		opacity: 1.0;
-		-webkit-transform: scale(1.05);
-	}
-	40% {
-		opacity: 0.25;
-		-webkit-transform: scale(0.85);
-	}
-	100% {
-		opacity: 1.0;
-		-webkit-transform: scale(1.05);
-	}
-}
-#map div[style*="currentMarker.png"]:not([title]) {
-	-webkit-animation-name: pulse;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: ease-in-out;
-}
-
