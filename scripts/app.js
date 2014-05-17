@@ -114,7 +114,9 @@ function Slider(){
 function Maps(){
   var mapOptions = {
     center: new google.maps.LatLng( -35, 150 ),
-    zoom: 8
+    zoom: 8,
+    panControl: true,
+    overviewMapControl: true
   };
   var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 }
