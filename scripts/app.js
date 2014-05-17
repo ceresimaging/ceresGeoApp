@@ -8,6 +8,9 @@ Number.prototype.toDegrees = function() {
 function App(){
 
   var app = this;
+  // gmaps
+  var map = new GMaps({div: '#map', lat: -12, lng: -77});
+  var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: '/images/currentMarker.png' });
 
   function errorCallback(){
   }
@@ -74,10 +77,20 @@ function App(){
   };
 
   this.watchLocation = function() {
+    map.addMarker(currentMarker);
     window.setInterval(getPosition, 1000);
       function getPosition(){
         navigator.geolocation.getCurrentPosition(function(position){
+          var lat = position.coords.latitude;
+          var long = position.coords.longitude;
           app.posCurrent = position;
+
+          // set map center
+          map.setCenter(lat, long);
+
+          // update current marker position
+          currentMarker.setPosition({lat: lat, lng: long});
+
           if (app.posA && app.posB){
             app.trackDist = getTrackDist(app.posA, app.posB, app.posCurrent);
           }
@@ -108,17 +121,6 @@ function Slider(){
       $(this).toggleClass('icon-active');
     });
   };
-}
-
-// google map
-function Maps(){
-  var mapOptions = {
-    center: new google.maps.LatLng( -35, 150 ),
-    zoom: 8,
-    panControl: true,
-    overviewMapControl: true
-  };
-  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 }
 
 $(function(){
@@ -154,9 +156,6 @@ $(function(){
     $pntB.html(parsePoint(posB));
     $trackDist.html( (trackDist * 1000).toFixed(2) + 'm L');
   });
-
-  //map
-  Maps();
 
   //slider
   var slider = new Slider();
