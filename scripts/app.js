@@ -8,11 +8,20 @@ Number.prototype.toDegrees = function() {
 function App(){
 
   var app = this;
+  // gmaps
+  var map = new GMaps({div: '#map', lat: -12, lng: -77});
+  var currentMarkerIcon = {
+    url: '/images/currentMarker.png',
+    origin: new google.maps.Point(0,0),
+    anchor: new google.maps.Point(32,32)
+  };
+  var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: currentMarkerIcon});
 
   function errorCallback(){
   }
   // algorithm from Moveable Type
   // www.movable-type.co.uk/scripts/latlong.html
+  // returns KM
   function getPntDist(a, b){
     var R = 6371;
     var lat1 = a.coords.latitude;
@@ -32,20 +41,22 @@ function App(){
 
   // algorithm from Moveable Type
   // www.movable-type.co.uk/scripts/latlong.html
+  // returns RAD
   function getBearing(a, b){
-    var lat1 = a.coords.latitude;
-    var lat2 = b.coords.latitude;
-    var lng1 = a.coords.longitude;
-    var lng2 = b.coords.longitude;
+    var lat1 = a.coords.latitude.toRad();
+    var lat2 = b.coords.latitude.toRad();
+    var lng1 = a.coords.longitude.toRad();
+    var lng2 = b.coords.longitude.toRad();
     var y = Math.sin(lng2 - lng1) * Math.cos(lat2);
     var x = Math.cos(lat1) * Math.sin(lat2) -
             Math.sin(lat1) * Math.cos(lat2) * Math.cos(lng2 - lng1);
-    var brng = Math.atan2(y, x).toDegrees();
+    var brng = Math.atan2(y, x);
     return brng;
   }
 
   // algorithm from Moveable Type
   // www.movable-type.co.uk/scripts/latlong.html
+  // returns KM
   function getTrackDist(a, b, curr){
     var R = 6371;
     dist13 = getPntDist(a, curr);
@@ -53,6 +64,40 @@ function App(){
     brng12 = getBearing(a, b);
     var crossDist = Math.asin(Math.sin(dist13 / R ) * Math.sin(brng13 - brng12)) * R;
     return crossDist;
+  }
+
+  // get destination from bearing and start point
+  // returns DEGREES
+  function getDestPoint(pnt, bearing, dist){
+    var R = 6371;
+    var lat = pnt.coords.latitude.toRad();
+    var lng = pnt.coords.longitude.toRad();
+    var lat2 = Math.asin(Math.sin(lat) * Math.cos(dist/R) +
+                         Math.cos(lat) * Math.sin(dist/R) * Math.cos(bearing));
+    var lng2 = lng + Math.atan2(Math.sin(bearing) * Math.sin(dist/R) * Math.cos(lat),
+                         Math.cos(dist/R) - Math.sin(lat) * Math.sin(lat2));
+    return [lat2.toDegrees(), lng2.toDegrees()];
+  }
+
+  // get extended point a to b, 2km
+  // returns DEGREES
+  function getExtendedPoint(a, b){
+    var brng = getBearing(a, b);
+    return getDestPoint(a, brng, 2);
+  }
+
+  // removes polyline and adds one
+  function drawLine(){
+    var pntA = getExtendedPoint(app.posA, app.posB);
+    var pntB = getExtendedPoint(app.posB, app.posA);
+    var path = [pntA, pntB];
+    map.removePolylines();
+    map.drawPolyline({
+      path: path,
+      strokeColor: '#ff2d55',
+      strikeOpacity: 1,
+      strokeWeight: 6
+    });
   }
 
   this.watchID = null;
@@ -64,20 +109,36 @@ function App(){
   this.getLocationA = function() {
     navigator.geolocation.getCurrentPosition(function(position){
       app.posA = position;
+      if (app.posB) {
+        drawLine()
+      }
     }, errorCallback, { enableHighAccuracy: true });
   };
 
   this.getLocationB = function() {
     navigator.geolocation.getCurrentPosition(function(position){
       app.posB = position;
+      if (app.posA) {
+        drawLine();
+      }
     }, errorCallback, { enableHighAccuracy: true });
   };
 
   this.watchLocation = function() {
+    map.addMarker(currentMarker);
     window.setInterval(getPosition, 1000);
       function getPosition(){
         navigator.geolocation.getCurrentPosition(function(position){
+          var lat = position.coords.latitude;
+          var long = position.coords.longitude;
           app.posCurrent = position;
+
+          // set map center
+          map.setCenter(lat, long);
+
+          // update current marker position
+          currentMarker.setPosition({lat: lat, lng: long});
+
           if (app.posA && app.posB){
             app.trackDist = getTrackDist(app.posA, app.posB, app.posCurrent);
           }
@@ -108,15 +169,6 @@ function Slider(){
       $(this).toggleClass('icon-active');
     });
   };
-}
-
-// google map
-function Maps(){
-  var mapOptions = {
-    center: new google.maps.LatLng( -35, 150 ),
-    zoom: 8
-  };
-  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 }
 
 $(function(){
@@ -152,9 +204,6 @@ $(function(){
     $pntB.html(parsePoint(posB));
     $trackDist.html( (trackDist * 1000).toFixed(2) + 'm L');
   });
-
-  //map
-  Maps();
 
   //slider
   var slider = new Slider();
