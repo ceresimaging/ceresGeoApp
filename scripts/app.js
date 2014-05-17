@@ -10,7 +10,12 @@ function App(){
   var app = this;
   // gmaps
   var map = new GMaps({div: '#map', lat: -12, lng: -77});
-  var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: '/images/currentMarker.png' });
+  var currentMarkerIcon = {
+    url: '/images/currentMarker.png',
+    origin: new google.maps.Point(0,0),
+    anchor: new google.maps.Point(32,32)
+  };
+  var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: currentMarkerIcon});
 
   function errorCallback(){
   }
