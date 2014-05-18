@@ -18,6 +18,11 @@ function App(){
     origin: new google.maps.Point(0,0),
     anchor: new google.maps.Point(32,32)
   };
+  var currentMarkerIcon =  {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+                 scale: 4,
+                 anchor: new google.maps.Point(0, 3),
+                 strokeColor: '#55efcb',
+                 rotation: '0'};
   var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: currentMarkerIcon});
 
   function errorCallback(){
@@ -112,10 +117,6 @@ function App(){
     var lngA = getDestPoint(app.posA, newBrng, dist)[1];
     var latB = getDestPoint(app.posB, newBrng, dist)[0];
     var lngB = getDestPoint(app.posB, newBrng, dist)[1];
-    delete app.posA.coords.latitude;
-    delete app.posA.coords.longitude;
-    delete app.posB.coords.latitude;
-    delete app.posB.coords.longitude;
     app.posA = { coords: { latitude: latA, longitude: lngA } };
     app.posB = { coords: { latitude: latB, longitude: lngB } };
   }
@@ -152,6 +153,13 @@ function App(){
       }
     }, errorCallback, { enableHighAccuracy: true });
   };
+
+  this.watchCompass = function() {
+    Compass.watch(function(heading){
+      currentMarkerIcon.rotation = heading;
+      currentMarker.set('icon', currentMarkerIcon);
+    })
+  }
 
   this.watchLocation = function() {
     map.addMarker(currentMarker);
@@ -222,6 +230,7 @@ $(function(){
 
   var app = new App();
   app.watchLocation();
+  app.watchCompass();
   $btnA.click(function(e){
     e.preventDefault();
     app.getLocationA();
@@ -258,4 +267,4 @@ $(function(){
   slider.init();
 
 
-})
+});
