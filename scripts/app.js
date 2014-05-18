@@ -241,10 +241,18 @@ $(function(){
 
   // move line buttons
   $nextPass.on('click', function(){
-    app.moveLine(1);
+    if ($('span.toggle').hasClass('active')){
+      app.moveLine(1);
+    } else{
+      app.moveLine(-1);
+    }
   });
   $prevPass.on('click', function(){
-    app.moveLine(-1);
+    if ($('span.toggle').hasClass('active')){
+      app.moveLine(-1);
+    } else{
+      app.moveLine(1);
+    }
   });
 
   //slider
