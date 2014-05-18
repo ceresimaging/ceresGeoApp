@@ -13,11 +13,6 @@ function App(){
                        lat: -12,
                        lng: -77,
                        mapType: 'SATELLITE'});
-  var currentMarkerIcon = {
-    url: 'images/currentMarker.png',
-    origin: new google.maps.Point(0,0),
-    anchor: new google.maps.Point(32,32)
-  };
   var currentMarkerIcon =  {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
                  scale: 4,
                  anchor: new google.maps.Point(0, 3),
