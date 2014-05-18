@@ -9,7 +9,11 @@ function App(){
 
   var app = this;
   // gmaps
-  var map = new GMaps({div: '#map', lat: -12, lng: -77});
+  var map = new GMaps({div: '#map',
+                       lat: -12,
+                       lng: -77,
+                       disableDefaultUI: true,
+                       mapType: 'SATELLITE'});
   var currentMarkerIcon = {
     url: 'images/currentMarker.png',
     origin: new google.maps.Point(0,0),
