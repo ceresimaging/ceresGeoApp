@@ -151,11 +151,15 @@ function App(){
 
   this.watchCompass = function() {
     Compass.watch(function(heading){
-      if (Math.abs(window.orientation) === 90){
+      if (window.orientation === 90){
         heading += 90;
-        if (heading > 360){
-          heading-=360;
-        }
+      } else if (window.orientation === -90){
+        heading -= 90;
+      } else if (window.orientation === 180){
+        heading += 180;
+      }
+      if (heading > 360){
+        heading-=360;
       }
       currentMarkerIcon.rotation = heading;
       currentMarker.set('icon', currentMarkerIcon);
