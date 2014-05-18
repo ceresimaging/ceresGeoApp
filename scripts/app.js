@@ -12,7 +12,6 @@ function App(){
   var map = new GMaps({div: '#map',
                        lat: -12,
                        lng: -77,
-                       disableDefaultUI: true,
                        mapType: 'SATELLITE'});
   var currentMarkerIcon = {
     url: 'images/currentMarker.png',
@@ -104,11 +103,39 @@ function App(){
     });
   }
 
+  // move posA and posB
+  // dir == 1 or -1 for directions
+  function movePoints(dist, dir){
+    var brng = getBearing(app.posA, app.posB);
+    var newBrng = brng + (Math.PI/2)*dir;
+    var latA = getDestPoint(app.posA, newBrng, dist)[0];
+    var lngA = getDestPoint(app.posA, newBrng, dist)[1];
+    var latB = getDestPoint(app.posB, newBrng, dist)[0];
+    var lngB = getDestPoint(app.posB, newBrng, dist)[1];
+    delete app.posA.coords.latitude;
+    delete app.posA.coords.longitude;
+    delete app.posB.coords.latitude;
+    delete app.posB.coords.longitude;
+    app.posA.coords.latitude = latA;
+    app.posA.coords.longitude = lngA;
+    app.posB.coords.latitude = latB;
+    app.posB.coords.longitude = lngB;
+  }
+
+
   this.watchID = null;
   this.posCurrent = null;
   this.posA = null;
   this.posB = null;
   this.trackDist = null;
+  this.moveDist = 850/1000;
+
+  this.moveLine = function(dir) {
+    if (app.posA && app.posB){
+      movePoints(app.moveDist, dir);
+      drawLine();
+    }
+  };
 
   this.getLocationA = function() {
     navigator.geolocation.getCurrentPosition(function(position){
@@ -167,6 +194,7 @@ function Slider(){
   this.init = function(){
     $slider.on('input', function(){
       $dist.html($(this).val()+'ft');
+      app.moveDist = $(this).val()/1000;
     })
     $menu.on('click', '#shift-distance', function(){
       $sliderContain.slideToggle();
@@ -183,6 +211,8 @@ $(function(){
   var $pntB = $('#pnt-B');
   var $btnA = $('#btn-A');
   var $btnB = $('#btn-B');
+  var $nextPass = $('#next-pass');
+  var $prevPass = $('#prev-pass');
   var $trackDist = $('#track-dist');
   function parsePoint(point) {
     if (point){
@@ -207,6 +237,14 @@ $(function(){
     $pntA.html(parsePoint(posA));
     $pntB.html(parsePoint(posB));
     $trackDist.html( (trackDist * 1000).toFixed(2) + 'm L');
+  });
+
+  // move line buttons
+  $nextPass.on('click', function(){
+    app.moveLine(1);
+  });
+  $prevPass.on('click', function(){
+    app.moveLine(-1);
   });
 
   //slider
