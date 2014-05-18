@@ -186,7 +186,7 @@ function App(){
 }
 
 //range slider
-function Slider(){
+function Slider(app){
   var $menu = $('#menu-bar');
   var $sliderContain = $menu.find('#slider-container');
   var $slider = $menu.find('#slider');
@@ -248,7 +248,7 @@ $(function(){
   });
 
   //slider
-  var slider = new Slider();
+  var slider = new Slider(app);
   slider.init();
 
 
