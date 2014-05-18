@@ -116,10 +116,8 @@ function App(){
     delete app.posA.coords.longitude;
     delete app.posB.coords.latitude;
     delete app.posB.coords.longitude;
-    app.posA.coords.latitude = latA;
-    app.posA.coords.longitude = lngA;
-    app.posB.coords.latitude = latB;
-    app.posB.coords.longitude = lngB;
+    app.posA = { coords: { latitude: latA, longitude: lngA } };
+    app.posB = { coords: { latitude: latB, longitude: lngB } };
   }
 
 
