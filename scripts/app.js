@@ -1,20 +1,23 @@
 Number.prototype.toRad = function() {
   return this * Math.PI / 180;
-}
+};
 Number.prototype.toDegrees = function() {
   return this * 180 / Math.PI;
-}
+};
 
 function App(){
 
   var app = this;
   // gmaps
-  var map = new GMaps({div: '#map', lat: -12, lng: -77});
-  var currentMarkerIcon = {
-    url: 'images/currentMarker.png',
-    origin: new google.maps.Point(0,0),
-    anchor: new google.maps.Point(32,32)
-  };
+  var map = new GMaps({div: '#map',
+                       lat: -12,
+                       lng: -77,
+                       mapType: 'SATELLITE'});
+  var currentMarkerIcon =  {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+                 scale: 4,
+                 anchor: new google.maps.Point(0, 3),
+                 strokeColor: '#55efcb',
+                 rotation: '0'};
   var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: currentMarkerIcon});
 
   function errorCallback(){
@@ -31,7 +34,7 @@ function App(){
 
     var dLat = (lat2 - lat1).toRad();
     var dLng = (lng2 - lng1).toRad();
-    var a = Math.sin(dLat / 2) * Math.sin(dLat /2) +
+    a = Math.sin(dLat / 2) * Math.sin(dLat /2) +
             Math.cos(lat1.toRad()) * Math.cos(lat2.toRad()) *
             Math.sin(dLng / 2) * Math.sin(dLng / 2);
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
@@ -59,9 +62,9 @@ function App(){
   // returns KM
   function getTrackDist(a, b, curr){
     var R = 6371;
-    dist13 = getPntDist(a, curr);
-    brng13 = getBearing(a, curr);
-    brng12 = getBearing(a, b);
+    var dist13 = getPntDist(a, curr);
+    var brng13 = getBearing(a, curr);
+    var brng12 = getBearing(a, b);
     var crossDist = Math.asin(Math.sin(dist13 / R ) * Math.sin(brng13 - brng12)) * R;
     return crossDist;
   }
@@ -82,7 +85,7 @@ function App(){
   // get extended point a to b, 2km
   // returns DEGREES
   function getExtendedPoint(a, b){
-    var brng = getBearing(a, b);
+    var brng = getBearing(b, a);
     return getDestPoint(a, brng, 2);
   }
 
@@ -100,17 +103,39 @@ function App(){
     });
   }
 
+  // move posA and posB
+  // dir == 1 or -1 for directions
+  function movePoints(dist, dir){
+    var brng = getBearing(app.posA, app.posB);
+    var newBrng = brng + (Math.PI/2)*dir;
+    var latA = getDestPoint(app.posA, newBrng, dist)[0];
+    var lngA = getDestPoint(app.posA, newBrng, dist)[1];
+    var latB = getDestPoint(app.posB, newBrng, dist)[0];
+    var lngB = getDestPoint(app.posB, newBrng, dist)[1];
+    app.posA = { coords: { latitude: latA, longitude: lngA } };
+    app.posB = { coords: { latitude: latB, longitude: lngB } };
+  }
+
+
   this.watchID = null;
   this.posCurrent = null;
   this.posA = null;
   this.posB = null;
   this.trackDist = null;
+  this.moveDist = 850/1000;
+
+  this.moveLine = function(dir) {
+    if (app.posA && app.posB){
+      movePoints(app.moveDist, dir);
+      drawLine();
+    }
+  };
 
   this.getLocationA = function() {
     navigator.geolocation.getCurrentPosition(function(position){
       app.posA = position;
       if (app.posB) {
-        drawLine()
+        drawLine();
       }
     }, errorCallback, { enableHighAccuracy: true });
   };
@@ -122,6 +147,42 @@ function App(){
         drawLine();
       }
     }, errorCallback, { enableHighAccuracy: true });
+  };
+
+  this.watchCompass = function() {
+    var trackDist;
+    var bearing;
+    var angleDiff;
+    Compass.watch(function(heading){
+      if (window.orientation === 90){
+        heading += 90;
+      } else if (window.orientation === -90){
+        heading -= 90;
+      } else if (window.orientation === 180){
+        heading += 180;
+      }
+      if (heading > 360){
+        heading-=360;
+      }
+      currentMarkerIcon.rotation = heading;
+      currentMarker.set('icon', currentMarkerIcon);
+
+      // track dist calculate
+      if (app.posA && app.posB){
+        bearing = getBearing(app.posA, app.posB).toDegrees();
+        if (bearing < 0){
+          bearing = 360 + bearing;
+        }
+        trackDist = getTrackDist(app.posA, app.posB, app.posCurrent);
+        angleDiff = Math.abs(heading - bearing) % 360;
+        angleDiff = angleDiff > 180 ? 360-angleDiff : angleDiff;
+        if (angleDiff > 90 ){
+          app.trackDist = trackDist*-1;
+        } else {
+          app.trackDist = trackDist;
+        }
+      }
+    });
   };
 
   this.watchLocation = function() {
@@ -139,9 +200,6 @@ function App(){
           // update current marker position
           currentMarker.setPosition({lat: lat, lng: long});
 
-          if (app.posA && app.posB){
-            app.trackDist = getTrackDist(app.posA, app.posB, app.posCurrent);
-          }
           $(app).trigger('move',
                         [app.posCurrent,
                          app.posA,
@@ -155,7 +213,7 @@ function App(){
 }
 
 //range slider
-function Slider(){
+function Slider(app){
   var $menu = $('#menu-bar');
   var $sliderContain = $menu.find('#slider-container');
   var $slider = $menu.find('#slider');
@@ -163,7 +221,8 @@ function Slider(){
   this.init = function(){
     $slider.on('input', function(){
       $dist.html($(this).val()+'ft');
-    })
+      app.moveDist = $(this).val()/1000;
+    });
     $menu.on('click', '#shift-distance', function(){
       $sliderContain.slideToggle();
       $(this).toggleClass('icon-active');
@@ -175,11 +234,16 @@ $(function(){
 
   // location data
   var $position = $('#position');
+  var $passNum = $('#pass-number');
   var $pntA = $('#pnt-A');
   var $pntB = $('#pnt-B');
   var $btnA = $('#btn-A');
   var $btnB = $('#btn-B');
+  var $arrow = $('#arrow-icon');
+  var $nextPass = $('#next-pass');
+  var $prevPass = $('#prev-pass');
   var $trackDist = $('#track-dist');
+  var passNum = 1;
   function parsePoint(point) {
     if (point){
       var str = 'lat: ' + point.coords.latitude.toFixed(5) +
@@ -190,24 +254,64 @@ $(function(){
 
   var app = new App();
   app.watchLocation();
+  app.watchCompass();
   $btnA.click(function(e){
     e.preventDefault();
     app.getLocationA();
+    passNum = 1;
+    $passNum.html(passNum);
   });
   $btnB.click(function(e){
     e.preventDefault();
     app.getLocationB();
+    passNum = 1;
+    $passNum.html(passNum);
   });
   $(app).on('move', function(e, posCurrent, posA, posB, trackDist) {
+    var distStr = Math.abs(trackDist * 1000).toFixed(2) + 'm';
     $position.html(parsePoint(posCurrent));
     $pntA.html(parsePoint(posA));
     $pntB.html(parsePoint(posB));
-    $trackDist.html( (trackDist * 1000).toFixed(2) + 'm L');
+    if (trackDist < 0){
+      if ($arrow.hasClass('icon-left')){
+        $arrow.removeClass('icon-left').addClass('icon-right');
+      }
+      $trackDist.html(distStr+' R');
+    } else {
+      if ($arrow.hasClass('icon-right')){
+        $arrow.removeClass('icon-right').addClass('icon-left');
+      }
+      $trackDist.html(distStr+' L');
+    }
+  });
+
+  // move line buttons
+  $nextPass.on('click', function(){
+    if ($('span.toggle').hasClass('active')){
+      app.moveLine(1);
+    } else{
+      app.moveLine(-1);
+    }
+    if ($pntA.html().length && $pntB.html().length){
+      passNum++;
+      $passNum.html(passNum);
+    }
+  });
+  $prevPass.on('click', function(){
+    if ($('span.toggle').hasClass('active')){
+      app.moveLine(-1);
+    } else{
+      app.moveLine(1);
+    }
+    if ($pntA.html().length && $pntB.html().length){
+      passNum--;
+      $passNum.html(passNum);
+    }
   });
 
   //slider
-  var slider = new Slider();
+  var slider = new Slider(app);
   slider.init();
 
 
-})
+});
