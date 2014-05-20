@@ -150,6 +150,9 @@ function App(){
   };
 
   this.watchCompass = function() {
+    var trackDist;
+    var bearing;
+    var angleDiff;
     Compass.watch(function(heading){
       if (window.orientation === 90){
         heading += 90;
@@ -163,7 +166,25 @@ function App(){
       }
       currentMarkerIcon.rotation = heading;
       currentMarker.set('icon', currentMarkerIcon);
-    })
+
+      // track dist calculate
+      if (app.posA && app.posB){
+        bearing = getBearing(app.posA, app.posB).toDegrees();
+        if (bearing < 0){
+          bearing = 360 + bearing;
+        }
+        trackDist = getTrackDist(app.posA, app.posB, app.posCurrent);
+        angleDiff = Math.abs(heading - bearing) % 360;
+        angleDiff = angleDiff > 180 ? 360-angleDiff : angleDiff;
+        if (angleDiff > 90 ){
+          app.trackDist = trackDist*-1;
+        } else {
+          app.trackDist = trackDist;
+        }
+        window.console.log(heading);
+        window.console.log(bearing);
+      }
+    });
   }
 
   this.watchLocation = function() {
@@ -181,9 +202,6 @@ function App(){
           // update current marker position
           currentMarker.setPosition({lat: lat, lng: long});
 
-          if (app.posA && app.posB){
-            app.trackDist = getTrackDist(app.posA, app.posB, app.posCurrent);
-          }
           $(app).trigger('move',
                         [app.posCurrent,
                          app.posA,
