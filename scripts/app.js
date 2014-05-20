@@ -181,8 +181,6 @@ function App(){
         } else {
           app.trackDist = trackDist;
         }
-        window.console.log(heading);
-        window.console.log(bearing);
       }
     });
   }
