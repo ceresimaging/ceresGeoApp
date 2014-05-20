@@ -234,6 +234,7 @@ $(function(){
 
   // location data
   var $position = $('#position');
+  var $passNum = $('#pass-number');
   var $pntA = $('#pnt-A');
   var $pntB = $('#pnt-B');
   var $btnA = $('#btn-A');
@@ -242,6 +243,7 @@ $(function(){
   var $nextPass = $('#next-pass');
   var $prevPass = $('#prev-pass');
   var $trackDist = $('#track-dist');
+  var passNum = 1;
   function parsePoint(point) {
     if (point){
       var str = 'lat: ' + point.coords.latitude.toFixed(5) +
@@ -256,24 +258,30 @@ $(function(){
   $btnA.click(function(e){
     e.preventDefault();
     app.getLocationA();
+    passNum = 1;
+    $passNum.html(passNum);
   });
   $btnB.click(function(e){
     e.preventDefault();
     app.getLocationB();
+    passNum = 1;
+    $passNum.html(passNum);
   });
   $(app).on('move', function(e, posCurrent, posA, posB, trackDist) {
+    var distStr = Math.abs(trackDist * 1000).toFixed(2) + 'm';
     $position.html(parsePoint(posCurrent));
     $pntA.html(parsePoint(posA));
     $pntB.html(parsePoint(posB));
-    $trackDist.html( Math.abs(trackDist * 1000).toFixed(2) + 'm L');
     if (trackDist < 0){
       if ($arrow.hasClass('icon-left')){
         $arrow.removeClass('icon-left').addClass('icon-right');
       }
+      $trackDist.html(distStr+' R');
     } else {
       if ($arrow.hasClass('icon-right')){
         $arrow.removeClass('icon-right').addClass('icon-left');
       }
+      $trackDist.html(distStr+' L');
     }
   });
 
@@ -284,12 +292,20 @@ $(function(){
     } else{
       app.moveLine(-1);
     }
+    if ($pntA.html().length && $pntB.html().length){
+      passNum++;
+      $passNum.html(passNum);
+    }
   });
   $prevPass.on('click', function(){
     if ($('span.toggle').hasClass('active')){
       app.moveLine(-1);
     } else{
       app.moveLine(1);
+    }
+    if ($pntA.html().length && $pntB.html().length){
+      passNum--;
+      $passNum.html(passNum);
     }
   });
 
