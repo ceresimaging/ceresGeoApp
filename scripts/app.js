@@ -238,6 +238,7 @@ $(function(){
   var $pntB = $('#pnt-B');
   var $btnA = $('#btn-A');
   var $btnB = $('#btn-B');
+  var $arrow = $('#arrow-icon');
   var $nextPass = $('#next-pass');
   var $prevPass = $('#prev-pass');
   var $trackDist = $('#track-dist');
@@ -264,7 +265,16 @@ $(function(){
     $position.html(parsePoint(posCurrent));
     $pntA.html(parsePoint(posA));
     $pntB.html(parsePoint(posB));
-    $trackDist.html( (trackDist * 1000).toFixed(2) + 'm L');
+    $trackDist.html( Math.abs(trackDist * 1000).toFixed(2) + 'm L');
+    if (trackDist < 0){
+      if ($arrow.hasClass('icon-left')){
+        $arrow.removeClass('icon-left').addClass('icon-right');
+      }
+    } else {
+      if ($arrow.hasClass('icon-right')){
+        $arrow.removeClass('icon-right').addClass('icon-left');
+      }
+    }
   });
 
   // move line buttons
