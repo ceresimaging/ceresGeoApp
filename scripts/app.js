@@ -1,9 +1,9 @@
 Number.prototype.toRad = function() {
   return this * Math.PI / 180;
-}
+};
 Number.prototype.toDegrees = function() {
   return this * 180 / Math.PI;
-}
+};
 
 function App(){
 
@@ -34,7 +34,7 @@ function App(){
 
     var dLat = (lat2 - lat1).toRad();
     var dLng = (lng2 - lng1).toRad();
-    var a = Math.sin(dLat / 2) * Math.sin(dLat /2) +
+    a = Math.sin(dLat / 2) * Math.sin(dLat /2) +
             Math.cos(lat1.toRad()) * Math.cos(lat2.toRad()) *
             Math.sin(dLng / 2) * Math.sin(dLng / 2);
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
@@ -62,9 +62,9 @@ function App(){
   // returns KM
   function getTrackDist(a, b, curr){
     var R = 6371;
-    dist13 = getPntDist(a, curr);
-    brng13 = getBearing(a, curr);
-    brng12 = getBearing(a, b);
+    var dist13 = getPntDist(a, curr);
+    var brng13 = getBearing(a, curr);
+    var brng12 = getBearing(a, b);
     var crossDist = Math.asin(Math.sin(dist13 / R ) * Math.sin(brng13 - brng12)) * R;
     return crossDist;
   }
@@ -135,7 +135,7 @@ function App(){
     navigator.geolocation.getCurrentPosition(function(position){
       app.posA = position;
       if (app.posB) {
-        drawLine()
+        drawLine();
       }
     }, errorCallback, { enableHighAccuracy: true });
   };
@@ -183,7 +183,7 @@ function App(){
         }
       }
     });
-  }
+  };
 
   this.watchLocation = function() {
     map.addMarker(currentMarker);
@@ -222,7 +222,7 @@ function Slider(app){
     $slider.on('input', function(){
       $dist.html($(this).val()+'ft');
       app.moveDist = $(this).val()/1000;
-    })
+    });
     $menu.on('click', '#shift-distance', function(){
       $sliderContain.slideToggle();
       $(this).toggleClass('icon-active');
