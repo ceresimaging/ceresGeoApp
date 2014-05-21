@@ -4,6 +4,12 @@ Number.prototype.toRad = function() {
 Number.prototype.toDegrees = function() {
   return this * 180 / Math.PI;
 };
+Number.prototype.toFeet = function() {
+  return this * 3.28084;
+}
+Number.prototype.toMeters = function() {
+  return this * 0.3048;
+}
 
 function App(){
 
@@ -122,7 +128,7 @@ function App(){
   this.posA = null;
   this.posB = null;
   this.trackDist = null;
-  this.moveDist = 850/1000;
+  this.moveDist = ((850).toMeters())/1000;
 
   this.moveLine = function(dir) {
     if (app.posA && app.posB){
@@ -221,7 +227,7 @@ function Slider(app){
   this.init = function(){
     $slider.on('input', function(){
       $dist.html($(this).val()+'ft');
-      app.moveDist = $(this).val()/1000;
+      app.moveDist = parseInt($(this).val()).toMeters()/1000;
     });
     $menu.on('click', '#shift-distance', function(){
       $sliderContain.slideToggle();
@@ -268,7 +274,7 @@ $(function(){
     $passNum.html(passNum);
   });
   $(app).on('move', function(e, posCurrent, posA, posB, trackDist) {
-    var distStr = Math.abs(trackDist * 1000).toFixed(2) + 'm';
+    var distStr = Math.abs(trackDist * 1000).toFeet().toFixed(2); + 'ft';
     $position.html(parsePoint(posCurrent));
     $pntA.html(parsePoint(posA));
     $pntB.html(parsePoint(posB));
