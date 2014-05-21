@@ -2,7 +2,7 @@
 
 //
    Make sure all your bars are the first things in your <body>
-header.bar.bar-nav
+header.bar.bar-nav#nav
     button.btn.btn-link.btn-nav.pull-left#prev-pass
         span.icon.icon-back
         |prev pass
@@ -25,11 +25,13 @@ header.bar.bar-nav
         li.table-view-cell#map
     nav.bar.bar-tab#menu-bar
         a.tab-item
-            span.icon.icon-compose#btn-A.pull-left setA
-            #pnt-A.pull-right
+            button.btn.btn-primary#btn-A
+                span.icon.icon-compose.pull-left setA
+                #pnt-A.pull-right
         a.tab-item
-            span.icon.icon-compose#btn-B.pull-left setB
-            #pnt-B.pull-right
+            button.btn.btn-primary#btn-B
+                span.icon.icon-compose.pull-left setB
+                #pnt-B.pull-right
         a.tab-item
             span left
             span.toggle
@@ -38,4 +40,5 @@ header.bar.bar-nav
         a.tab-item
             #slider-container
                 input#slider(type='range' min='100' max='1200' value='850')
-            span.icon.icon-code#shift-distance 850ft
+            button.btn.btn-positive#shift-button
+                span.icon.icon-code.pull-left#shift-distance 850ft
