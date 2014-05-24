@@ -19,6 +19,7 @@ function App(){
                        lat: -12,
                        lng: -77,
                        mapType: 'SATELLITE'});
+  var json = map.map.data.loadGeoJson('/json/test.json');
   var currentMarkerIcon =  {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
                  scale: 4,
                  anchor: new google.maps.Point(0, 3),
