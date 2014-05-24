@@ -26,6 +26,8 @@ function App(){
                  rotation: '0'};
   var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: currentMarkerIcon});
 
+  this.map = map;
+
   function errorCallback(){
   }
   // algorithm from Moveable Type
@@ -236,6 +238,22 @@ function Slider(app){
   };
 }
 
+// sheetsee
+function FlightPaths(map){
+  var gData;
+  var geoJson;
+  var URL = '0Auc8bIl-wd9xdDZ4eFZIeFRJQ3AwMGppOV8xNUo1QVE';
+  Tabletop.init({key: URL, callback: showInfo, simpleSheet: true});
+
+  function showInfo(data){
+    gData = data;
+    var optionsJSON = [];
+    geoJson = Sheetsee.createGeoJSON(gData, optionsJSON);
+    console.log(geoJson);
+  }
+}
+
+
 $(function(){
 
   // location data
@@ -322,4 +340,6 @@ $(function(){
   slider.init();
 
 
+  //sheetsee
+  var flightPaths = new FlightPaths(app.map);
 });
