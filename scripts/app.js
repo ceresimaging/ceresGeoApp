@@ -18,7 +18,29 @@ function App(){
   var map = new GMaps({div: '#map',
                        lat: -12,
                        lng: -77,
-                       mapType: 'SATELLITE'});
+                       mapType: 'SATELLITE', disableDefaultUI: true});
+  map.addControl({
+    position: 'top_right',
+    content: 'Follow',
+    id: 'follow-control',
+    style: {
+      margin: '5px',
+      padding: '1px 6px',
+      border: 'solid 1px #717b87',
+      background: 'lightblue'
+    },
+    events: {
+      click: function(){
+        if (app.follow){
+          app.follow = false;
+          $(this).css('background', 'white');
+        } else {
+          app.follow = true;
+          $(this).css('background', 'lightblue');
+        }
+      }
+    }
+  });
   var currentMarkerIcon =  {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
                  scale: 4,
                  anchor: new google.maps.Point(0, 3),
@@ -131,6 +153,7 @@ function App(){
   this.posB = null;
   this.trackDist = null;
   this.moveDist = ((850).toMeters())/1000;
+  this.follow = true;
 
   this.moveLine = function(dir) {
     if (app.posA && app.posB){
@@ -202,8 +225,10 @@ function App(){
         var long = position.coords.longitude;
         app.posCurrent = position;
 
-        // set map center
-        map.setCenter(lat, long);
+        if (app.follow){
+          // set map center
+          map.setCenter(lat, long);
+        }
 
         // update current marker position
         currentMarker.setPosition({lat: lat, lng: long});
@@ -298,6 +323,11 @@ $(function(){
   var app = new App();
   app.watchLocation();
   app.watchCompass();
+  $('#map').swipe(function(){
+    if (app.follow){
+      $('#follow-control').trigger('click');
+    }
+  })
   $btnA.tapstart(function(e){
     e.preventDefault();
     $btnA.addClass('btn-negative');
