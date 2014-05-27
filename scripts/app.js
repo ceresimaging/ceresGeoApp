@@ -6,10 +6,10 @@ Number.prototype.toDegrees = function() {
 };
 Number.prototype.toFeet = function() {
   return this * 3.28084;
-}
+};
 Number.prototype.toMeters = function() {
   return this * 0.3048;
-}
+};
 
 function App(){
 
@@ -19,7 +19,6 @@ function App(){
                        lat: -12,
                        lng: -77,
                        mapType: 'SATELLITE'});
-  var json = map.map.data.loadGeoJson('/json/test.json');
   var currentMarkerIcon =  {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
                  scale: 4,
                  anchor: new google.maps.Point(0, 3),
@@ -197,26 +196,45 @@ function App(){
   this.watchLocation = function() {
     map.addMarker(currentMarker);
     window.setInterval(getPosition, 1000);
-      function getPosition(){
-        navigator.geolocation.getCurrentPosition(function(position){
-          var lat = position.coords.latitude;
-          var long = position.coords.longitude;
-          app.posCurrent = position;
+    function getPosition(){
+      navigator.geolocation.getCurrentPosition(function(position){
+        var lat = position.coords.latitude;
+        var long = position.coords.longitude;
+        app.posCurrent = position;
 
-          // set map center
-          map.setCenter(lat, long);
+        // set map center
+        map.setCenter(lat, long);
 
-          // update current marker position
-          currentMarker.setPosition({lat: lat, lng: long});
+        // update current marker position
+        currentMarker.setPosition({lat: lat, lng: long});
 
-          $(app).trigger('move',
-                        [app.posCurrent,
-                         app.posA,
-                         app.posB,
-                         app.trackDist]
-                        );
-        }, errorCallback, { enableHighAccuracy: true });
-      }
+        $(app).trigger('move',
+                      [app.posCurrent,
+                       app.posA,
+                       app.posB,
+                       app.trackDist]
+                      );
+      }, errorCallback, { enableHighAccuracy: true });
+    }
+    // navigator.watchPosition(function(position){
+    //     var lat = position.coords.latitude;
+    //     var long = position.coords.longitude;
+    //     app.posCurrent = position;
+    //
+    //     // set map center
+    //     map.setCenter(lat, long);
+    //
+    //     // update current marker position
+    //     currentMarker.setPosition({lat: lat, lng: long});
+    //
+    //     $(app).trigger('move',
+    //                   [app.posCurrent,
+    //                    app.posA,
+    //                    app.posB,
+    //                    app.trackDist]
+    //                   );
+    //
+    // }, errorCallback, { enableHighAccuracy: true });
   };
 
 }
@@ -232,8 +250,8 @@ function Slider(app){
       $dist.html($(this).val()+'ft');
       app.moveDist = parseInt($(this).val()).toMeters()/1000;
     });
-    $menu.on('click', '#shift-button', function(){
-      $sliderContain.slideToggle();
+    $menu.on('tapstart', '#shift-button', function(){
+      $sliderContain.toggle();
       $(this).toggleClass('btn-negative');
     });
   };
@@ -280,14 +298,14 @@ $(function(){
   var app = new App();
   app.watchLocation();
   app.watchCompass();
-  $btnA.click(function(e){
+  $btnA.tapstart(function(e){
     e.preventDefault();
     $btnA.addClass('btn-negative');
     app.getLocationA();
     passNum = 1;
     $passNum.html(passNum);
   });
-  $btnB.click(function(e){
+  $btnB.tapstart(function(e){
     e.preventDefault();
     $btnB.addClass('btn-negative');
     app.getLocationB();
@@ -313,7 +331,7 @@ $(function(){
   });
 
   // move line buttons
-  $nextPass.on('click', function(){
+  $nextPass.on('tapstart', function(){
     if ($('span.toggle').hasClass('active')){
       app.moveLine(1);
     } else{
@@ -324,7 +342,7 @@ $(function(){
       $passNum.html(passNum);
     }
   });
-  $prevPass.on('click', function(){
+  $prevPass.on('tapstart', function(){
     if ($('span.toggle').hasClass('active')){
       app.moveLine(-1);
     } else{
