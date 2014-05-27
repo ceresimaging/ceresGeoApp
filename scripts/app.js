@@ -218,7 +218,7 @@ function App(){
 
   this.watchLocation = function() {
     map.addMarker(currentMarker);
-    window.setInterval(getPosition, 1000);
+    window.setInterval(getPosition, 100);
     function getPosition(){
       navigator.geolocation.getCurrentPosition(function(position){
         var lat = position.coords.latitude;
