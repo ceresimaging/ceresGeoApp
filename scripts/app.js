@@ -6,10 +6,10 @@ Number.prototype.toDegrees = function() {
 };
 Number.prototype.toFeet = function() {
   return this * 3.28084;
-}
+};
 Number.prototype.toMeters = function() {
   return this * 0.3048;
-}
+};
 
 function App(){
 
@@ -18,13 +18,37 @@ function App(){
   var map = new GMaps({div: '#map',
                        lat: -12,
                        lng: -77,
-                       mapType: 'SATELLITE'});
+                       mapType: 'SATELLITE', disableDefaultUI: true});
+  map.addControl({
+    position: 'top_right',
+    content: 'Follow',
+    id: 'follow-control',
+    style: {
+      margin: '5px',
+      padding: '1px 6px',
+      border: 'solid 1px #717b87',
+      background: 'lightblue'
+    },
+    events: {
+      click: function(){
+        if (app.follow){
+          app.follow = false;
+          $(this).css('background', 'white');
+        } else {
+          app.follow = true;
+          $(this).css('background', 'lightblue');
+        }
+      }
+    }
+  });
   var currentMarkerIcon =  {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
                  scale: 4,
                  anchor: new google.maps.Point(0, 3),
                  strokeColor: '#55efcb',
                  rotation: '0'};
   var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: currentMarkerIcon});
+
+  this.map = map;
 
   function errorCallback(){
   }
@@ -129,6 +153,7 @@ function App(){
   this.posB = null;
   this.trackDist = null;
   this.moveDist = ((850).toMeters())/1000;
+  this.follow = true;
 
   this.moveLine = function(dir) {
     if (app.posA && app.posB){
@@ -193,27 +218,48 @@ function App(){
 
   this.watchLocation = function() {
     map.addMarker(currentMarker);
-    window.setInterval(getPosition, 1000);
-      function getPosition(){
-        navigator.geolocation.getCurrentPosition(function(position){
-          var lat = position.coords.latitude;
-          var long = position.coords.longitude;
-          app.posCurrent = position;
+    window.setInterval(getPosition, 100);
+    function getPosition(){
+      navigator.geolocation.getCurrentPosition(function(position){
+        var lat = position.coords.latitude;
+        var long = position.coords.longitude;
+        app.posCurrent = position;
 
+        if (app.follow){
           // set map center
           map.setCenter(lat, long);
+        }
 
-          // update current marker position
-          currentMarker.setPosition({lat: lat, lng: long});
+        // update current marker position
+        currentMarker.setPosition({lat: lat, lng: long});
 
-          $(app).trigger('move',
-                        [app.posCurrent,
-                         app.posA,
-                         app.posB,
-                         app.trackDist]
-                        );
-        }, errorCallback, { enableHighAccuracy: true });
-      }
+        $(app).trigger('move',
+                      [app.posCurrent,
+                       app.posA,
+                       app.posB,
+                       app.trackDist]
+                      );
+      }, errorCallback, { enableHighAccuracy: true });
+    }
+    // navigator.watchPosition(function(position){
+    //     var lat = position.coords.latitude;
+    //     var long = position.coords.longitude;
+    //     app.posCurrent = position;
+    //
+    //     // set map center
+    //     map.setCenter(lat, long);
+    //
+    //     // update current marker position
+    //     currentMarker.setPosition({lat: lat, lng: long});
+    //
+    //     $(app).trigger('move',
+    //                   [app.posCurrent,
+    //                    app.posA,
+    //                    app.posB,
+    //                    app.trackDist]
+    //                   );
+    //
+    // }, errorCallback, { enableHighAccuracy: true });
   };
 
 }
@@ -229,12 +275,38 @@ function Slider(app){
       $dist.html($(this).val()+'ft');
       app.moveDist = parseInt($(this).val()).toMeters()/1000;
     });
-    $menu.on('click', '#shift-button', function(){
-      $sliderContain.slideToggle();
+    $menu.on('tapstart', '#shift-button', function(){
+      $sliderContain.toggle();
       $(this).toggleClass('btn-negative');
     });
   };
 }
+
+// sheetsee
+function FlightPaths(map){
+  var gData;
+  var geoJson;
+  var URL = '0Auc8bIl-wd9xdDZ4eFZIeFRJQ3AwMGppOV8xNUo1QVE';
+  Tabletop.init({key: URL, callback: showInfo, simpleSheet: true});
+
+  function showInfo(data){
+    gData = data;
+    var optionsJSON = [];
+    geoJson = Sheetsee.createGeoJSON(gData, optionsJSON);
+    // add geojson to map
+    geoJson.forEach(function(feature){
+      map.map.data.addGeoJson(feature);
+    });
+    map.map.data.setStyle({
+      strokeColor: 'red',
+      fillOpacity: 0
+    })
+    google.maps.event.addListener(map.map, 'click', function(e) {
+      console.log(e.latLng);
+    });
+  }
+}
+
 
 $(function(){
 
@@ -261,14 +333,19 @@ $(function(){
   var app = new App();
   app.watchLocation();
   app.watchCompass();
-  $btnA.click(function(e){
+  $('#map').swipe(function(){
+    if (app.follow){
+      $('#follow-control').trigger('click');
+    }
+  })
+  $btnA.tapstart(function(e){
     e.preventDefault();
     $btnA.addClass('btn-negative');
     app.getLocationA();
     passNum = 1;
     $passNum.html(passNum);
   });
-  $btnB.click(function(e){
+  $btnB.tapstart(function(e){
     e.preventDefault();
     $btnB.addClass('btn-negative');
     app.getLocationB();
@@ -294,7 +371,7 @@ $(function(){
   });
 
   // move line buttons
-  $nextPass.on('click', function(){
+  $nextPass.on('tapstart', function(){
     if ($('span.toggle').hasClass('active')){
       app.moveLine(1);
     } else{
@@ -305,7 +382,7 @@ $(function(){
       $passNum.html(passNum);
     }
   });
-  $prevPass.on('click', function(){
+  $prevPass.on('tapstart', function(){
     if ($('span.toggle').hasClass('active')){
       app.moveLine(-1);
     } else{
@@ -322,4 +399,6 @@ $(function(){
   slider.init();
 
 
+  //sheetsee
+  var flightPaths = new FlightPaths(app.map);
 });
