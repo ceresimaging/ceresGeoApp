@@ -293,7 +293,17 @@ function FlightPaths(map){
     gData = data;
     var optionsJSON = [];
     geoJson = Sheetsee.createGeoJSON(gData, optionsJSON);
-    console.log(geoJson);
+    // add geojson to map
+    geoJson.forEach(function(feature){
+      map.map.data.addGeoJson(feature);
+    });
+    map.map.data.setStyle({
+      strokeColor: 'red',
+      fillOpacity: 0
+    })
+    google.maps.event.addListener(map.map, 'click', function(e) {
+      console.log(e.latLng);
+    });
   }
 }
 
