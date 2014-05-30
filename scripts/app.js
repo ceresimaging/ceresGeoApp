@@ -242,7 +242,8 @@ function App(){
                       [app.posCurrent,
                        app.posA,
                        app.posB,
-                       app.trackDist]
+                       app.trackDist,
+                       app.heading]
                       );
       }, errorCallback, { enableHighAccuracy: true });
     }
@@ -369,6 +370,7 @@ $(function(){
   var $nextPass = $('#next-pass');
   var $prevPass = $('#prev-pass');
   var $trackDist = $('#track-dist');
+  var $heading = $('#heading');
   var passNum = 1;
   function parsePoint(point) {
     if (point){
@@ -400,9 +402,10 @@ $(function(){
     passNum = 1;
     $passNum.html(passNum);
   });
-  $(app).on('move', function(e, posCurrent, posA, posB, trackDist) {
+  $(app).on('move', function(e, posCurrent, posA, posB, trackDist, heading) {
     var distStr = Math.abs(trackDist * 1000).toFeet().toFixed(2); + 'ft';
     $position.html(parsePoint(posCurrent));
+    $heading.html(heading);
     // $pntA.html(parsePoint(posA));
     // $pntB.html(parsePoint(posB));
     if (trackDist < 0){
