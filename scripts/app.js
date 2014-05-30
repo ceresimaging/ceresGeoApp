@@ -24,6 +24,9 @@ function App(){
     content: 'Follow',
     id: 'follow-control',
     style: {
+      width: '100px',
+      height: '30px',
+      fontSize: '22px',
       margin: '5px',
       padding: '1px 6px',
       border: 'solid 1px #717b87',
@@ -154,6 +157,7 @@ function App(){
   this.trackDist = null;
   this.moveDist = ((850).toMeters())/1000;
   this.follow = true;
+  this.heading = null;
 
   this.moveLine = function(dir) {
     if (app.posA && app.posB){
@@ -185,6 +189,7 @@ function App(){
     var bearing;
     var angleDiff;
     Compass.watch(function(heading){
+      app.heading = heading;
       if (window.orientation === 90){
         heading += 90;
       } else if (window.orientation === -90){
@@ -293,7 +298,11 @@ function FlightPaths(map){
     gData = data;
     var optionsJSON = [];
     geoJson = Sheetsee.createGeoJSON(gData, optionsJSON);
-    // add geojson to map
+    addMarkers();
+  }
+
+  // add geojson to map
+  function addMarkers(){
     geoJson.forEach(function(feature){
       map.map.data.addGeoJson(feature);
     });
@@ -301,10 +310,49 @@ function FlightPaths(map){
       strokeColor: 'red',
       fillOpacity: 0
     })
-    google.maps.event.addListener(map.map, 'click', function(e) {
-      console.log(e.latLng);
-    });
   }
+
+  this.markerVisible = true;
+
+  this.init = function(){
+    var self = this;
+    map.addControl({
+      position: 'top_right',
+      content: 'Markers',
+      id: 'marker-control',
+      style: {
+        width: '100px',
+        height: '30px',
+        fontSize: '22px',
+        margin: '5px',
+        padding: '1px 6px',
+        border: 'solid 1px #717b87',
+        background: 'lightblue'
+      },
+      events: {
+        click: function(){
+          if (self.markerVisible){
+            map.map.data.setStyle({
+              visible: false,
+            });
+            self.markerVisible = false;
+            $(this).css('background', 'white');
+          } else {
+            map.map.data.setStyle({
+              visible: true,
+              strokeColor: 'red',
+              fillOpacity: 0
+            });
+            self.markerVisible = true;
+            $(this).css('background', 'lightblue');
+          }
+        }
+      }
+    });
+  };
+
+  this.init();
+
 }
 
 
