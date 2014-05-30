@@ -169,9 +169,7 @@ function App(){
   this.getLocationA = function() {
     navigator.geolocation.getCurrentPosition(function(position){
       app.posA = position;
-      if (app.posB) {
-        drawLine();
-      }
+      map.removePolylines();
     }, errorCallback, { enableHighAccuracy: true });
   };
 
@@ -392,13 +390,17 @@ $(function(){
     e.preventDefault();
     $btnA.addClass('btn-negative');
     app.getLocationA();
+    $btnB.removeClass('btn-negative');
+    app.posB = null;
     passNum = 1;
     $passNum.html(passNum);
   });
   $btnB.tapstart(function(e){
     e.preventDefault();
-    $btnB.addClass('btn-negative');
-    app.getLocationB();
+    if (app.posB === null){
+      $btnB.addClass('btn-negative');
+      app.getLocationB();
+    }
     passNum = 1;
     $passNum.html(passNum);
   });
