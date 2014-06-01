@@ -308,6 +308,9 @@ function FlightPaths(map){
     map.map.data.setStyle({
       strokeColor: 'red',
       fillOpacity: 0
+    });
+    map.map.data.addListener('click', function(e){
+      console.log(e);
     })
   }
 
