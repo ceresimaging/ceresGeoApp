@@ -19,6 +19,7 @@ function App(){
                        lat: -12,
                        lng: -77,
                        mapType: 'SATELLITE', disableDefaultUI: true});
+
   map.addControl({
     position: 'top_right',
     content: 'Follow',
@@ -127,8 +128,9 @@ function App(){
     var pntA = getExtendedPoint(app.posA, app.posB);
     var pntB = getExtendedPoint(app.posB, app.posA);
     var path = [pntA, pntB];
-    map.removePolylines();
-    map.drawPolyline({
+    if (app.pathLine)
+      app.pathLine.setMap(null);
+    app.pathLine = map.drawPolyline({
       path: path,
       strokeColor: '#ff2d55',
       strikeOpacity: 1,
@@ -158,6 +160,7 @@ function App(){
   this.moveDist = ((850).toMeters())/1000;
   this.follow = true;
   this.heading = null;
+  this.pathLine = null;
 
   this.moveLine = function(dir) {
     if (app.posA && app.posB){
@@ -169,7 +172,8 @@ function App(){
   this.getLocationA = function() {
     navigator.geolocation.getCurrentPosition(function(position){
       app.posA = position;
-      map.removePolylines();
+      if (app.pathLine)
+        app.pathLine.setMap(null);
     }, errorCallback, { enableHighAccuracy: true });
   };
 
@@ -287,7 +291,8 @@ function Slider(app){
 }
 
 // sheetsee
-function FlightPaths(map){
+function FlightPaths(app){
+  var self = this;
   var gData;
   var geoJson;
   var URL = '0Auc8bIl-wd9xdDZ4eFZIeFRJQ3AwMGppOV8xNUo1QVE';
@@ -303,22 +308,43 @@ function FlightPaths(map){
   // add geojson to map
   function addMarkers(){
     geoJson.forEach(function(feature){
-      map.map.data.addGeoJson(feature);
+      app.map.map.data.addGeoJson(feature);
     });
-    map.map.data.setStyle({
+    app.map.map.data.setStyle({
       strokeColor: 'red',
       fillOpacity: 0
     });
-    map.map.data.addListener('click', function(e){
-      console.log(e);
+    app.map.map.data.addListener('click', function(e){
+      self.flyTo = e.latLng;
+      drawLine();
+    });
+    $(app).on('move', function(e, posCurrent){
+      if (self.flyTo)
+        drawLine();
     })
   }
 
+  function drawLine() {
+    var cur = app.posCurrent.coords;
+    var path = [[self.flyTo.lat(), self.flyTo.lng()], [cur.latitude, cur.longitude]];
+    if (self.lineTo){
+      self.lineTo.setMap(null);
+    }
+    self.lineTo = app.map.drawPolyline({
+      path: path,
+      strokeColor: 'red',
+      strikeOpacity: 1,
+      strokeWeight: 6
+    });
+  }
+
   this.markerVisible = true;
+  this.flyTo;
+  this.lineTo;
 
   this.init = function(){
     var self = this;
-    map.addControl({
+    app.map.addControl({
       position: 'top_right',
       content: 'Markers',
       id: 'marker-control',
@@ -456,5 +482,5 @@ $(function(){
 
 
   //sheetsee
-  var flightPaths = new FlightPaths(app.map);
+  var flightPaths = new FlightPaths(app);
 });
