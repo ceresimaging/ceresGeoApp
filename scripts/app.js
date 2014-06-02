@@ -340,7 +340,7 @@ function FlightPaths(app){
     $(app).on('move', function(e, posCurrent){
       if (self.flyTo)
         drawLine();
-    })
+    });
   }
 
   function drawLine() {
@@ -349,17 +349,20 @@ function FlightPaths(app){
     if (self.lineTo){
       self.lineTo.setMap(null);
     }
-    self.lineTo = app.map.drawPolyline({
-      path: path,
-      strokeColor: 'red',
-      strikeOpacity: 1,
-      strokeWeight: 6
-    });
+    if (self.lineToVisible){
+      self.lineTo = app.map.drawPolyline({
+        path: path,
+        strokeColor: 'yellow',
+        strikeOpacity: 1,
+        strokeWeight: 6
+      });
+    }
   }
 
   this.markerVisible = true;
   this.flyTo;
   this.lineTo;
+  this.lineToVisible = true;
 
   this.init = function(){
     var self = this;
@@ -380,13 +383,13 @@ function FlightPaths(app){
       events: {
         click: function(){
           if (self.markerVisible){
-            map.map.data.setStyle({
+            app.map.map.data.setStyle({
               visible: false,
             });
             self.markerVisible = false;
             $(this).css('background', 'white');
           } else {
-            map.map.data.setStyle({
+            app.map.map.data.setStyle({
               visible: true,
               strokeColor: 'red',
               fillOpacity: 0
@@ -397,6 +400,31 @@ function FlightPaths(app){
         }
       }
     });
+    app.map.addControl({
+      position: 'top_right',
+      content: 'flight-line',
+      id: 'marker-control',
+      style: {
+        width: '130px',
+        height: '30px',
+        fontSize: '22px',
+        margin: '5px',
+        padding: '1px 6px',
+        border: 'solid 1px #717b87',
+        background: 'lightblue'
+      },
+      events: {
+        click: function(){
+          if (self.lineToVisible){
+            $(this).css('background', 'white');
+            self.lineToVisible = false;
+          } else {
+            $(this).css('background', 'lightblue');
+            self.lineToVisible = true;
+          }
+        }
+      }
+    })
   };
 
   this.init();
