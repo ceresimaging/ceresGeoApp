@@ -128,7 +128,6 @@ function App(){
     var pntA = getExtendedPoint(app.posA, app.posB);
     var pntB = getExtendedPoint(app.posB, app.posA);
     var path = [pntA, pntB];
-    console.log(path);
     if (app.pathLine)
       app.pathLine.setMap(null);
     app.pathLine = map.drawPolyline({
@@ -160,10 +159,6 @@ function App(){
     var prevLng = prev.coords.longitude;
     var newLat = lat*gamma + prevLat*(1 - gamma);
     var newLng = lng*gamma + prevLng*(1 - gamma);
-    console.log(lat);
-    console.log(lng);
-    console.log(newLat);
-    console.log(newLng);
     return {
       coords:{
         latitude: newLat,
@@ -196,7 +191,6 @@ function App(){
     // navigator.geolocation.getCurrentPosition(function(position){
     //   app.posA = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
       app.posA = app.posCurrent;
-      console.log(app.posA);
       if (app.pathLine)
         app.pathLine.setMap(null);
     // }, errorCallback, { enableHighAccuracy: true });
@@ -206,7 +200,6 @@ function App(){
     // navigator.geolocation.getCurrentPosition(function(position){
     //   app.posB = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
       app.posB = app.posCurrent;
-      console.log(app.posB);
       if (app.posA) {
         drawLine();
       }
@@ -257,10 +250,13 @@ function App(){
       navigator.geolocation.getCurrentPosition(function(position){
         var lat = position.coords.latitude;
         var long = position.coords.longitude;
-        if (app.posPrevious){
+        if (app.posPrevious && app.posCurrent){
+          position = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
+          lat = position.coords.latitude;
+          long = position.coords.longitude;
           if (lat != app.posPrevious.coords.latitude || long != app.posPrevious.coords.longitude){
+            app.posPrevious = app.posCurrent;
             app.posCurrent = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
-            app.posPrevious = position;
           }
         } else {
           app.posPrevious = position;
