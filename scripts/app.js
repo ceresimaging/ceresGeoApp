@@ -408,6 +408,8 @@ $(function(){
 
   // location data
   var $position = $('#position');
+  var $positionDisplay = $('#position-display');
+  var $map = $('#map');
   var $passNum = $('#pass-number');
   var $pntA = $('#pnt-A');
   var $pntB = $('#pnt-B');
@@ -425,6 +427,16 @@ $(function(){
                 ' : ' + point.coords.longitude.toFixed(5);
       return str;
     }
+  }
+  function shrinkMap(){
+    $positionDisplay.addClass('enlarge');
+    $map.addClass('shrink');
+    google.maps.event.trigger(map, "resize");
+  }
+  function enlargeMap(){
+    $positionDisplay.removeClass('enlarge');
+    $map.removeClass('shrink');
+    google.maps.event.trigger(map, "resize");
   }
 
   // start app
@@ -450,12 +462,19 @@ $(function(){
   });
   $btnB.tapstart(function(e){
     e.preventDefault();
-    if (app.posB === null){
+    if (app.posB === null && $btnA.hasClass('btn-negative')){
+      shrinkMap();
       $btnB.addClass('btn-negative');
       app.getLocationB();
     }
     passNum = 1;
     $passNum.html(passNum);
+  });
+  $map.tapstart(function(e){
+    enlargeMap();
+  });
+  $positionDisplay.tapstart(function(e){
+    shrinkMap();
   });
   $gamma.find('input').on('change', function(e){
     app.FILTER_GAMMA = $(this).val();
@@ -480,6 +499,7 @@ $(function(){
 
   // move line buttons
   $nextPass.on('tapstart', function(){
+    shrinkMap();
     if ($('span.toggle').hasClass('active')){
       app.moveLine(1);
     } else{
@@ -491,6 +511,7 @@ $(function(){
     }
   });
   $prevPass.on('tapstart', function(){
+    shrinkMap();
     if ($('span.toggle').hasClass('active')){
       app.moveLine(-1);
     } else{
