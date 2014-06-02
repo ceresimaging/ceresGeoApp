@@ -128,6 +128,7 @@ function App(){
     var pntA = getExtendedPoint(app.posA, app.posB);
     var pntB = getExtendedPoint(app.posB, app.posA);
     var path = [pntA, pntB];
+    console.log(path);
     if (app.pathLine)
       app.pathLine.setMap(null);
     app.pathLine = map.drawPolyline({
@@ -161,8 +162,8 @@ function App(){
     var newLng = lng*gamma + prevLng*(1 - gamma);
     console.log(lat);
     console.log(lng);
-    console.log(prevLat);
-    console.log(prevLng);
+    console.log(newLat);
+    console.log(newLng);
     return {
       coords:{
         latitude: newLat,
@@ -192,20 +193,24 @@ function App(){
   };
 
   this.getLocationA = function() {
-    navigator.geolocation.getCurrentPosition(function(position){
-      app.posA = position;
+    // navigator.geolocation.getCurrentPosition(function(position){
+    //   app.posA = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
+      app.posA = app.posCurrent;
+      console.log(app.posA);
       if (app.pathLine)
         app.pathLine.setMap(null);
-    }, errorCallback, { enableHighAccuracy: true });
+    // }, errorCallback, { enableHighAccuracy: true });
   };
 
   this.getLocationB = function() {
-    navigator.geolocation.getCurrentPosition(function(position){
-      app.posB = position;
+    // navigator.geolocation.getCurrentPosition(function(position){
+    //   app.posB = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
+      app.posB = app.posCurrent;
+      console.log(app.posB);
       if (app.posA) {
         drawLine();
       }
-    }, errorCallback, { enableHighAccuracy: true });
+    // }, errorCallback, { enableHighAccuracy: true });
   };
 
   this.watchCompass = function() {
@@ -261,15 +266,15 @@ function App(){
           app.posPrevious = position;
           app.posCurrent = position;
         }
-        console.log(app.FILTER_GAMMA);
 
         if (app.follow){
           // set map center
-          map.setCenter(lat, long);
+          map.setCenter(app.posCurrent.coords.latitude, app.posCurrent.coords.longitude);
         }
 
         // update current marker position
-        currentMarker.setPosition({lat: lat, lng: long});
+        currentMarker.setPosition({lat: app.posCurrent.coords.latitude,
+                                   lng: app.posCurrent.coords.longitude});
 
         $(app).trigger('move',
                       [app.posCurrent,
