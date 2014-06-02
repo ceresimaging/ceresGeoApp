@@ -46,8 +46,8 @@ function App(){
     }
   });
   var currentMarkerIcon =  {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
-                 scale: 4,
-                 anchor: new google.maps.Point(0, 3),
+                 scale: 7,
+                 anchor: new google.maps.Point(0, 4),
                  strokeColor: '#55efcb',
                  rotation: '0'};
   var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: currentMarkerIcon});
