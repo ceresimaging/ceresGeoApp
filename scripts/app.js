@@ -275,8 +275,7 @@ function App(){
                       [app.posCurrent,
                        app.posA,
                        app.posB,
-                       app.trackDist,
-                       app.heading]
+                       app.trackDist]
                       );
       }, errorCallback, { enableHighAccuracy: true });
     }
@@ -428,20 +427,23 @@ $(function(){
   var $nextPass = $('#next-pass');
   var $prevPass = $('#prev-pass');
   var $trackDist = $('#track-dist');
-  var $heading = $('#heading');
   var $gamma = $('#gamma-popover');
   var passNum = 1;
   function parsePoint(point) {
     if (point){
-      var str = 'lat: ' + point.coords.latitude.toFixed(5) +
-                ' long: ' + point.coords.longitude.toFixed(5);
+      var str = point.coords.latitude.toFixed(5) +
+                ' : ' + point.coords.longitude.toFixed(5);
       return str;
     }
   }
 
+  // start app
   var app = new App();
+  // start location watch
   app.watchLocation();
+  // start compass watch
   app.watchCompass();
+  // stop follow on swipe
   $('#map').swipe(function(){
     if (app.follow){
       $('#follow-control').trigger('click');
@@ -469,9 +471,8 @@ $(function(){
     app.FILTER_GAMMA = $(this).val();
   });
   $(app).on('move', function(e, posCurrent, posA, posB, trackDist, heading) {
-    var distStr = Math.abs(trackDist * 1000).toFeet().toFixed(2); + 'ft';
+    var distStr = Math.abs(trackDist * 1000).toFeet().toFixed(0); + 'ft';
     $position.html(parsePoint(posCurrent));
-    $heading.html(heading);
     // $pntA.html(parsePoint(posA));
     // $pntB.html(parsePoint(posB));
     if (trackDist < 0){
