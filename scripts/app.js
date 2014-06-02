@@ -335,6 +335,7 @@ function FlightPaths(app){
     });
     app.map.map.data.addListener('click', function(e){
       self.flyTo = e.latLng;
+      self.lineToVisible = true;
       drawLine();
     });
     $(app).on('move', function(e, posCurrent){
