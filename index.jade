@@ -6,11 +6,20 @@ header.bar.bar-nav#nav
     button.btn.btn-link.btn-nav.pull-left#prev-pass
         span.icon.icon-back
         |prev pass
+    a(href='#gamma-popover')
+        span gamma
     button.btn.btn-link.btn-nav.pull-right#next-pass
         |next pass
         span.icon.icon-forward
     h1.title PASS #
         span#pass-number
+
+// popover for gamma
+#gamma-popover.popover
+    label Enter Gamma
+    input(name='gamma' type='number' min='0' max='1' step='0.1')
+
+
 //
    Wrap all non-bar HTML in the .content div (this is actually what scrolls)
 .content

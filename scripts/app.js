@@ -151,9 +151,30 @@ function App(){
     app.posB = { coords: { latitude: latB, longitude: lngB } };
   }
 
+  // low pass filter
+  function filterPos(position, prev, gamma){
+    var lat = position.coords.latitude;
+    var lng = position.coords.longitude;
+    var prevLat = prev.coords.latitude;
+    var prevLng = prev.coords.longitude;
+    var newLat = lat*gamma + prevLat*(1 - gamma);
+    var newLng = lng*gamma + prevLng*(1 - gamma);
+    console.log(lat);
+    console.log(lng);
+    console.log(prevLat);
+    console.log(prevLng);
+    return {
+      coords:{
+        latitude: newLat,
+        longitude: newLng
+      }
+    }
+  }
+
 
   this.watchID = null;
   this.posCurrent = null;
+  this.posPrevious = null;
   this.posA = null;
   this.posB = null;
   this.trackDist = null;
@@ -161,6 +182,7 @@ function App(){
   this.follow = true;
   this.heading = null;
   this.pathLine = null;
+  this.FILTER_GAMMA = 0.7;
 
   this.moveLine = function(dir) {
     if (app.posA && app.posB){
@@ -230,7 +252,16 @@ function App(){
       navigator.geolocation.getCurrentPosition(function(position){
         var lat = position.coords.latitude;
         var long = position.coords.longitude;
-        app.posCurrent = position;
+        if (app.posPrevious){
+          if (lat != app.posPrevious.coords.latitude || long != app.posPrevious.coords.longitude){
+            app.posCurrent = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
+            app.posPrevious = position;
+          }
+        } else {
+          app.posPrevious = position;
+          app.posCurrent = position;
+        }
+        console.log(app.FILTER_GAMMA);
 
         if (app.follow){
           // set map center
@@ -398,6 +429,7 @@ $(function(){
   var $prevPass = $('#prev-pass');
   var $trackDist = $('#track-dist');
   var $heading = $('#heading');
+  var $gamma = $('#gamma-popover');
   var passNum = 1;
   function parsePoint(point) {
     if (point){
@@ -432,6 +464,9 @@ $(function(){
     }
     passNum = 1;
     $passNum.html(passNum);
+  });
+  $gamma.find('input').on('change', function(e){
+    app.FILTER_GAMMA = $(this).val();
   });
   $(app).on('move', function(e, posCurrent, posA, posB, trackDist, heading) {
     var distStr = Math.abs(trackDist * 1000).toFeet().toFixed(2); + 'ft';
