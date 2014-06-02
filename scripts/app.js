@@ -328,7 +328,7 @@ function FlightPaths(app){
 
   // add geojson to map
   function addMarkers(){
-    app.map.map.data.loadGeoJson('../flights/flight1.json');
+    app.map.map.data.loadGeoJson('flights/flight1.json');
     app.map.map.data.setStyle({
       strokeColor: 'red',
       fillOpacity: 0
