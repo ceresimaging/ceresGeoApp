@@ -19,6 +19,7 @@ function App(){
                        lat: -12,
                        lng: -77,
                        mapType: 'SATELLITE', disableDefaultUI: true});
+
   map.addControl({
     position: 'top_right',
     content: 'Follow',
@@ -127,8 +128,9 @@ function App(){
     var pntA = getExtendedPoint(app.posA, app.posB);
     var pntB = getExtendedPoint(app.posB, app.posA);
     var path = [pntA, pntB];
-    map.removePolylines();
-    map.drawPolyline({
+    if (app.pathLine)
+      app.pathLine.setMap(null);
+    app.pathLine = map.drawPolyline({
       path: path,
       strokeColor: '#ff2d55',
       strikeOpacity: 1,
@@ -149,15 +151,34 @@ function App(){
     app.posB = { coords: { latitude: latB, longitude: lngB } };
   }
 
+  // low pass filter
+  function filterPos(position, prev, gamma){
+    var lat = position.coords.latitude;
+    var lng = position.coords.longitude;
+    var prevLat = prev.coords.latitude;
+    var prevLng = prev.coords.longitude;
+    var newLat = lat*gamma + prevLat*(1 - gamma);
+    var newLng = lng*gamma + prevLng*(1 - gamma);
+    return {
+      coords:{
+        latitude: newLat,
+        longitude: newLng
+      }
+    }
+  }
+
 
   this.watchID = null;
   this.posCurrent = null;
+  this.posPrevious = null;
   this.posA = null;
   this.posB = null;
   this.trackDist = null;
   this.moveDist = ((850).toMeters())/1000;
   this.follow = true;
   this.heading = null;
+  this.pathLine = null;
+  this.FILTER_GAMMA = 0.7;
 
   this.moveLine = function(dir) {
     if (app.posA && app.posB){
@@ -167,19 +188,22 @@ function App(){
   };
 
   this.getLocationA = function() {
-    navigator.geolocation.getCurrentPosition(function(position){
-      app.posA = position;
-      map.removePolylines();
-    }, errorCallback, { enableHighAccuracy: true });
+    // navigator.geolocation.getCurrentPosition(function(position){
+    //   app.posA = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
+      app.posA = app.posCurrent;
+      if (app.pathLine)
+        app.pathLine.setMap(null);
+    // }, errorCallback, { enableHighAccuracy: true });
   };
 
   this.getLocationB = function() {
-    navigator.geolocation.getCurrentPosition(function(position){
-      app.posB = position;
+    // navigator.geolocation.getCurrentPosition(function(position){
+    //   app.posB = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
+      app.posB = app.posCurrent;
       if (app.posA) {
         drawLine();
       }
-    }, errorCallback, { enableHighAccuracy: true });
+    // }, errorCallback, { enableHighAccuracy: true });
   };
 
   this.watchCompass = function() {
@@ -226,22 +250,33 @@ function App(){
       navigator.geolocation.getCurrentPosition(function(position){
         var lat = position.coords.latitude;
         var long = position.coords.longitude;
-        app.posCurrent = position;
+        if (app.posPrevious && app.posCurrent){
+          position = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
+          lat = position.coords.latitude;
+          long = position.coords.longitude;
+          if (lat != app.posPrevious.coords.latitude || long != app.posPrevious.coords.longitude){
+            app.posPrevious = app.posCurrent;
+            app.posCurrent = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
+          }
+        } else {
+          app.posPrevious = position;
+          app.posCurrent = position;
+        }
 
         if (app.follow){
           // set map center
-          map.setCenter(lat, long);
+          map.setCenter(app.posCurrent.coords.latitude, app.posCurrent.coords.longitude);
         }
 
         // update current marker position
-        currentMarker.setPosition({lat: lat, lng: long});
+        currentMarker.setPosition({lat: app.posCurrent.coords.latitude,
+                                   lng: app.posCurrent.coords.longitude});
 
         $(app).trigger('move',
                       [app.posCurrent,
                        app.posA,
                        app.posB,
-                       app.trackDist,
-                       app.heading]
+                       app.trackDist]
                       );
       }, errorCallback, { enableHighAccuracy: true });
     }
@@ -286,36 +321,50 @@ function Slider(app){
   };
 }
 
-// sheetsee
-function FlightPaths(map){
-  var gData;
-  var geoJson;
-  var URL = '0Auc8bIl-wd9xdDZ4eFZIeFRJQ3AwMGppOV8xNUo1QVE';
-  Tabletop.init({key: URL, callback: showInfo, simpleSheet: true});
+// Flight paths geojson loading
+function FlightPaths(app){
+  var self = this;
 
-  function showInfo(data){
-    gData = data;
-    var optionsJSON = [];
-    geoJson = Sheetsee.createGeoJSON(gData, optionsJSON);
-    addMarkers();
-  }
 
   // add geojson to map
   function addMarkers(){
-    geoJson.forEach(function(feature){
-      map.map.data.addGeoJson(feature);
-    });
-    map.map.data.setStyle({
+    app.map.map.data.loadGeoJson('../flights/flight1.json');
+    app.map.map.data.setStyle({
       strokeColor: 'red',
       fillOpacity: 0
+    });
+    app.map.map.data.addListener('click', function(e){
+      self.flyTo = e.latLng;
+      drawLine();
+    });
+    $(app).on('move', function(e, posCurrent){
+      if (self.flyTo)
+        drawLine();
     })
   }
 
+  function drawLine() {
+    var cur = app.posCurrent.coords;
+    var path = [[self.flyTo.lat(), self.flyTo.lng()], [cur.latitude, cur.longitude]];
+    if (self.lineTo){
+      self.lineTo.setMap(null);
+    }
+    self.lineTo = app.map.drawPolyline({
+      path: path,
+      strokeColor: 'red',
+      strikeOpacity: 1,
+      strokeWeight: 6
+    });
+  }
+
   this.markerVisible = true;
+  this.flyTo;
+  this.lineTo;
 
   this.init = function(){
     var self = this;
-    map.addControl({
+    addMarkers();
+    app.map.addControl({
       position: 'top_right',
       content: 'Markers',
       id: 'marker-control',
@@ -368,19 +417,23 @@ $(function(){
   var $nextPass = $('#next-pass');
   var $prevPass = $('#prev-pass');
   var $trackDist = $('#track-dist');
-  var $heading = $('#heading');
+  var $gamma = $('#gamma-popover');
   var passNum = 1;
   function parsePoint(point) {
     if (point){
-      var str = 'lat: ' + point.coords.latitude.toFixed(5) +
-                ' long: ' + point.coords.longitude.toFixed(5);
+      var str = point.coords.latitude.toFixed(5) +
+                ' : ' + point.coords.longitude.toFixed(5);
       return str;
     }
   }
 
+  // start app
   var app = new App();
+  // start location watch
   app.watchLocation();
+  // start compass watch
   app.watchCompass();
+  // stop follow on swipe
   $('#map').swipe(function(){
     if (app.follow){
       $('#follow-control').trigger('click');
@@ -404,10 +457,12 @@ $(function(){
     passNum = 1;
     $passNum.html(passNum);
   });
+  $gamma.find('input').on('change', function(e){
+    app.FILTER_GAMMA = $(this).val();
+  });
   $(app).on('move', function(e, posCurrent, posA, posB, trackDist, heading) {
-    var distStr = Math.abs(trackDist * 1000).toFeet().toFixed(2); + 'ft';
+    var distStr = Math.abs(trackDist * 1000).toFeet().toFixed(0); + 'ft';
     $position.html(parsePoint(posCurrent));
-    $heading.html(heading);
     // $pntA.html(parsePoint(posA));
     // $pntB.html(parsePoint(posB));
     if (trackDist < 0){
@@ -453,5 +508,5 @@ $(function(){
 
 
   //sheetsee
-  var flightPaths = new FlightPaths(app.map);
+  var flightPaths = new FlightPaths(app);
 });
