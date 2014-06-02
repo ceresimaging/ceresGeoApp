@@ -336,6 +336,7 @@ function FlightPaths(app){
     app.map.map.data.addListener('click', function(e){
       self.flyTo = e.latLng;
       self.lineToVisible = true;
+      $('#flight-control').css('background', 'lightblue');
       drawLine();
     });
     $(app).on('move', function(e, posCurrent){
@@ -404,7 +405,7 @@ function FlightPaths(app){
     app.map.addControl({
       position: 'top_right',
       content: 'flight-line',
-      id: 'marker-control',
+      id: 'flight-control',
       style: {
         width: '130px',
         height: '30px',
