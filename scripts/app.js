@@ -321,26 +321,14 @@ function Slider(app){
   };
 }
 
-// sheetsee
+// Flight paths geojson loading
 function FlightPaths(app){
   var self = this;
-  var gData;
-  var geoJson;
-  var URL = '0Auc8bIl-wd9xdDZ4eFZIeFRJQ3AwMGppOV8xNUo1QVE';
-  Tabletop.init({key: URL, callback: showInfo, simpleSheet: true});
 
-  function showInfo(data){
-    gData = data;
-    var optionsJSON = [];
-    geoJson = Sheetsee.createGeoJSON(gData, optionsJSON);
-    addMarkers();
-  }
 
   // add geojson to map
   function addMarkers(){
-    geoJson.forEach(function(feature){
-      app.map.map.data.addGeoJson(feature);
-    });
+    app.map.map.data.loadGeoJson('../flights/flight1.json');
     app.map.map.data.setStyle({
       strokeColor: 'red',
       fillOpacity: 0
@@ -375,6 +363,7 @@ function FlightPaths(app){
 
   this.init = function(){
     var self = this;
+    addMarkers();
     app.map.addControl({
       position: 'top_right',
       content: 'Markers',
