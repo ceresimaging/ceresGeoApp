@@ -18,7 +18,7 @@ function App(){
   var map = new GMaps({div: '#map',
                        lat: -12,
                        lng: -77,
-                       mapType: 'SATELLITE', disableDefaultUI: true});
+                       mapType: 'HYBRID', disableDefaultUI: true});
 
   map.addControl({
     position: 'top_right',
