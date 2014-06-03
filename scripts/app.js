@@ -18,6 +18,7 @@ function App(){
   var map = new GMaps({div: '#map',
                        lat: -12,
                        lng: -77,
+                       zoom: 10,
                        mapType: 'HYBRID', disableDefaultUI: true});
 
   map.addControl({
@@ -212,7 +213,7 @@ function App(){
     var angleDiff;
     Compass.watch(function(heading){
       if (app.posPrevious, app.posCurrent){
-        if (getBearing(app.posPrevious, app.posCurrent).toDegrees() != 0){
+        if (getBearing(app.posPrevious, app.posCurrent).toDegrees() !== 0){
           // over ground calculated heading
           app.heading = getBearing(app.posPrevious, app.posCurrent).toDegrees();
           heading = app.heading;
@@ -231,7 +232,7 @@ function App(){
           }
         }
       }
-      console.log(heading);
+
       currentMarkerIcon.rotation = heading;
       currentMarker.set('icon', currentMarkerIcon);
 
@@ -255,7 +256,7 @@ function App(){
 
   this.watchLocation = function() {
     map.addMarker(currentMarker);
-    window.setInterval(getPosition, 100);
+    window.setInterval(getPosition, 300);
     function getPosition(){
       navigator.geolocation.getCurrentPosition(function(position){
         var lat = position.coords.latitude;
@@ -268,26 +269,26 @@ function App(){
             app.posPrevious = app.posCurrent;
             app.posCurrent = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
           }
+          if (app.follow){
+            // set map center
+            map.setCenter(app.posCurrent.coords.latitude, app.posCurrent.coords.longitude);
+          }
+
+          // update current marker position
+          currentMarker.setPosition({lat: app.posCurrent.coords.latitude,
+                                     lng: app.posCurrent.coords.longitude});
+
+          $(app).trigger('move',
+                        [app.posCurrent,
+                         app.posA,
+                         app.posB,
+                         app.trackDist]
+                        );
         } else {
           app.posPrevious = position;
           app.posCurrent = position;
         }
 
-        if (app.follow){
-          // set map center
-          map.setCenter(app.posCurrent.coords.latitude, app.posCurrent.coords.longitude);
-        }
-
-        // update current marker position
-        currentMarker.setPosition({lat: app.posCurrent.coords.latitude,
-                                   lng: app.posCurrent.coords.longitude});
-
-        $(app).trigger('move',
-                      [app.posCurrent,
-                       app.posA,
-                       app.posB,
-                       app.trackDist]
-                      );
       }, errorCallback, { enableHighAccuracy: true });
     }
     // navigator.watchPosition(function(position){
@@ -359,9 +360,13 @@ function FlightPaths(app){
     var cur = app.posCurrent.coords;
     var path = [[self.flyTo.lat(), self.flyTo.lng()], [cur.latitude, cur.longitude]];
     if (self.lineTo){
-      self.lineTo.setMap(null);
-    }
-    if (self.lineToVisible){
+      if (self.lineToVisible){
+        self.lineTo.setPath([{ lat: self.flyTo.lat(), lng: self.flyTo.lng()}, {lat: cur.latitude, lng: cur.longitude}]);
+        self.lineTo.setVisible(true);
+      } else {
+        self.lineTo.setVisible(false);
+      }
+    } else {
       self.lineTo = app.map.drawPolyline({
         path: path,
         strokeColor: 'yellow',
@@ -372,8 +377,8 @@ function FlightPaths(app){
   }
 
   this.markerVisible = true;
-  this.flyTo;
-  this.lineTo;
+  this.flyTo = null;
+  this.lineTo = null;
   this.lineToVisible = true;
 
   this.init = function(){
