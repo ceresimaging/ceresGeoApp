@@ -211,17 +211,25 @@ function App(){
     var bearing;
     var angleDiff;
     Compass.watch(function(heading){
-      app.heading = heading;
-      if (window.orientation === 90){
-        heading += 90;
-      } else if (window.orientation === -90){
-        heading -= 90;
-      } else if (window.orientation === 180){
-        heading += 180;
+      if (getBearing(app.posPrevious, app.posCurrent).toDegrees() != 0){
+        // over ground calculated heading
+        app.heading = getBearing(app.posPrevious, app.posCurrent).toDegrees();
+        heading = app.heading;
+      } else {
+        // compass heading
+        app.heading = heading;
+        if (window.orientation === 90){
+          heading += 90;
+        } else if (window.orientation === -90){
+          heading -= 90;
+        } else if (window.orientation === 180){
+          heading += 180;
+        }
+        if (heading > 360){
+          heading-=360;
+        }
       }
-      if (heading > 360){
-        heading-=360;
-      }
+      console.log(heading);
       currentMarkerIcon.rotation = heading;
       currentMarker.set('icon', currentMarkerIcon);
 
