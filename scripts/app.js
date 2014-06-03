@@ -360,7 +360,12 @@ function FlightPaths(app){
     var cur = app.posCurrent.coords;
     var path = [[self.flyTo.lat(), self.flyTo.lng()], [cur.latitude, cur.longitude]];
     if (self.lineTo){
-      self.lineTo.setPath([{ lat: self.flyTo.lat(), lng: self.flyTo.lng()}, {lat: cur.latitude, lng: cur.longitude}]);
+      if (self.lineToVisible){
+        self.lineTo.setPath([{ lat: self.flyTo.lat(), lng: self.flyTo.lng()}, {lat: cur.latitude, lng: cur.longitude}]);
+        self.lineTo.setVisible(true);
+      } else {
+        self.lineTo.setVisible(false);
+      }
     } else {
       self.lineTo = app.map.drawPolyline({
         path: path,
@@ -368,8 +373,6 @@ function FlightPaths(app){
         strikeOpacity: 1,
         strokeWeight: 6
       });
-    }
-    if (self.lineToVisible){
     }
   }
 
