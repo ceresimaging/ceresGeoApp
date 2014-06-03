@@ -31,3 +31,4 @@
 { "type": "Feature", "properties": { "Name": "Bone West", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -119.551375880923302, 35.468540282531407, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "UC Davis 1", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -119.165410206942894, 35.510473166443781, 0.0 ] } }
 ]
+}

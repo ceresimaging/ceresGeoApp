@@ -211,22 +211,24 @@ function App(){
     var bearing;
     var angleDiff;
     Compass.watch(function(heading){
-      if (getBearing(app.posPrevious, app.posCurrent).toDegrees() != 0){
-        // over ground calculated heading
-        app.heading = getBearing(app.posPrevious, app.posCurrent).toDegrees();
-        heading = app.heading;
-      } else {
-        // compass heading
-        app.heading = heading;
-        if (window.orientation === 90){
-          heading += 90;
-        } else if (window.orientation === -90){
-          heading -= 90;
-        } else if (window.orientation === 180){
-          heading += 180;
-        }
-        if (heading > 360){
-          heading-=360;
+      if (app.posPrevious, app.posCurrent){
+        if (getBearing(app.posPrevious, app.posCurrent).toDegrees() != 0){
+          // over ground calculated heading
+          app.heading = getBearing(app.posPrevious, app.posCurrent).toDegrees();
+          heading = app.heading;
+        } else {
+          // compass heading
+          app.heading = heading;
+          if (window.orientation === 90){
+            heading += 90;
+          } else if (window.orientation === -90){
+            heading -= 90;
+          } else if (window.orientation === 180){
+            heading += 180;
+          }
+          if (heading > 360){
+            heading-=360;
+          }
         }
       }
       console.log(heading);
