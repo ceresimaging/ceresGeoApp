@@ -130,13 +130,15 @@ function App(){
     var pntB = getExtendedPoint(app.posB, app.posA);
     var path = [pntA, pntB];
     if (app.pathLine)
-      app.pathLine.setMap(null);
-    app.pathLine = map.drawPolyline({
-      path: path,
-      strokeColor: '#ff2d55',
-      strikeOpacity: 1,
-      strokeWeight: 6
-    });
+      app.pathLine.setPath([{lat: pntA[0], lng: pntA[1]}, {lat: pntB[0], lng: pntB[1]}]);
+    else {
+      app.pathLine = map.drawPolyline({
+        path: path,
+        strokeColor: '#ff2d55',
+        strikeOpacity: 1,
+        strokeWeight: 6
+      });
+    }
   }
 
   // move posA and posB
