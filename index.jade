@@ -30,6 +30,8 @@ header.bar.bar-nav#nav
             div.pull-center
                 span#arrow-icon.icon.icon-left.icon-active
                 #track-dist.icon-active N/A
+            div.pull-right
+                a.btn(href='#flight-modal') Flight
         li.table-view-cell#map
     nav.bar.bar-tab#menu-bar
         a.tab-item
@@ -50,3 +52,15 @@ header.bar.bar-nav#nav
                 input#slider(type='range' min='100' max='1200' value='850')
             button.btn.btn-positive#shift-button
                 span.icon.icon-code.pull-left#shift-distance 850ft
+#flight-modal.modal
+    header.bar.bar-nav
+        a.icon.icon-close.pull-right(href='#flight-modal')
+        h1.title Flights
+    .content
+        ul.table-view
+            li.table-view-cell
+                a.flight-button.navigate-right
+                    Flight 1
+            li.table-view-cell
+                a.flight-button.navigate-right
+                    Flight 2
