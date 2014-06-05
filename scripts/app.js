@@ -183,6 +183,11 @@ function App(){
   this.pathLine = null;
   this.FILTER_GAMMA = 0.7;
 
+  this.addCurrentMarker = function(){
+    currentMarker = map.createMarker({ lat: -12, lng: -77, icon: currentMarkerIcon});
+    map.addMarker(currentMarker);
+  }
+
   this.moveLine = function(dir) {
     if (app.posA && app.posB){
       movePoints(app.moveDist, dir);
@@ -338,10 +343,9 @@ function Slider(app){
 function FlightPaths(app){
   var self = this;
 
-
   // add geojson to map
-  function addMarkers(){
-    app.map.map.data.loadGeoJson('flights/flight1.json');
+  this.addMarkers = function(flightName){
+    app.map.map.data.loadGeoJson('flights/' + flightName + '.json');
     app.map.map.data.setStyle({
       strokeColor: 'red',
       fillOpacity: 0
@@ -385,7 +389,6 @@ function FlightPaths(app){
 
   this.init = function(){
     var self = this;
-    addMarkers();
     app.map.addControl({
       position: 'top_right',
       content: 'Markers',
@@ -467,6 +470,8 @@ $(function(){
   var $prevPass = $('#prev-pass');
   var $trackDist = $('#track-dist');
   var $gamma = $('#gamma-popover');
+  var $flightBtn = $('.flight-button');
+  var $flightModal = $('#flight-modal');
   var passNum = 1;
   function parsePoint(point) {
     if (point){
@@ -577,4 +582,11 @@ $(function(){
 
   //sheetsee
   var flightPaths = new FlightPaths(app);
+  $flightBtn.on('tapstart', function(){
+    var index = $(this).index($flightBtn);
+    app.map.removeMarkers();
+    flightPaths.addMarkers('flight' + (index+1));
+    app.addCurrentMarker();
+    $flightModal.removeClass('active');
+  });
 });
