@@ -335,13 +335,13 @@ function Slider(app){
 }
 
 // Flight paths geojson loading
-function FlightPaths(app){
+function FlightPaths(app, flightName){
   var self = this;
 
 
   // add geojson to map
-  function addMarkers(){
-    app.map.map.data.loadGeoJson('flights/flight1.json');
+  this.addMarkers = function(){
+    app.map.map.data.loadGeoJson('flights/' + flightName + '.json');
     app.map.map.data.setStyle({
       strokeColor: 'red',
       fillOpacity: 0
@@ -385,7 +385,7 @@ function FlightPaths(app){
 
   this.init = function(){
     var self = this;
-    addMarkers();
+    this.addMarkers();
     app.map.addControl({
       position: 'top_right',
       content: 'Markers',
@@ -576,5 +576,5 @@ $(function(){
 
 
   //sheetsee
-  var flightPaths = new FlightPaths(app);
+  var flightPaths = new FlightPaths(app, 'flight1');
 });
