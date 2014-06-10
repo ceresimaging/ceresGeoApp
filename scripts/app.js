@@ -129,8 +129,10 @@ function App(){
     var pntA = getExtendedPoint(app.posA, app.posB);
     var pntB = getExtendedPoint(app.posB, app.posA);
     var path = [pntA, pntB];
-    if (app.pathLine)
+    if (app.pathLine){
       app.pathLine.setPath([{lat: pntA[0], lng: pntA[1]}, {lat: pntB[0], lng: pntB[1]}]);
+      app.pathLine.setVisible(true);
+    }
     else {
       app.pathLine = map.drawPolyline({
         path: path,
@@ -200,7 +202,7 @@ function App(){
     //   app.posA = filterPos(position, app.posPrevious, app.FILTER_GAMMA);
       app.posA = app.posCurrent;
       if (app.pathLine)
-        app.pathLine.setMap(null);
+        app.pathLine.setVisible(false);
     // }, errorCallback, { enableHighAccuracy: true });
   };
 
