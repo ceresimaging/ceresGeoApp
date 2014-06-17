@@ -347,21 +347,43 @@ function FlightPaths(app){
 
   // add geojson to map
   this.addMarkers = function(flightName){
-    app.map.map.data.loadGeoJson('flights/' + flightName + '.json');
-    app.map.map.data.setStyle({
-      strokeColor: 'red',
-      fillOpacity: 0
-    });
-    app.map.map.data.addListener('click', function(e){
-      self.flyTo = e.latLng;
-      self.lineToVisible = true;
-      $('#flight-control').css('background', 'lightblue');
-      drawLine();
-    });
-    $(app).on('move', function(e, posCurrent){
-      if (self.flyTo)
-        drawLine();
-    });
+    $.ajax({
+      dataType: 'json',
+      url: 'flights/' + flightName + '.json',
+      cache: false,
+      success: function(data){
+        app.map.map.data.addGeoJson(data);
+        app.map.map.data.setStyle({
+          strokeColor: 'red',
+          fillOpacity: 0
+        });
+        app.map.map.data.addListener('click', function(e){
+          self.flyTo = e.latLng;
+          self.lineToVisible = true;
+          $('#flight-control').css('background', 'lightblue');
+          drawLine();
+        });
+        $(app).on('move', function(e, posCurrent){
+          if (self.flyTo)
+            drawLine();
+        });
+      }
+    })
+    // app.map.map.data.loadGeoJson('flights/' + flightName + '.json');
+    // app.map.map.data.setStyle({
+    //   strokeColor: 'red',
+    //   fillOpacity: 0
+    // });
+    // app.map.map.data.addListener('click', function(e){
+    //   self.flyTo = e.latLng;
+    //   self.lineToVisible = true;
+    //   $('#flight-control').css('background', 'lightblue');
+    //   drawLine();
+    // });
+    // $(app).on('move', function(e, posCurrent){
+    //   if (self.flyTo)
+    //     drawLine();
+    // });
   }
 
   function drawLine() {
