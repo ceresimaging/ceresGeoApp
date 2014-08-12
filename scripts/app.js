@@ -607,7 +607,7 @@ $(function(){
   //sheetsee
   var flightPaths = new FlightPaths(app);
   $flightBtn.on('tapstart', function(){
-    var index = $(this).index($flightBtn);
+    var index = $flightBtn.index($(this));
     app.map.removeMarkers();
     flightPaths.addMarkers('flight' + (index+1));
     app.addCurrentMarker();
