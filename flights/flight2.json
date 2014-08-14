@@ -7,10 +7,10 @@
 { "type": "Feature", "properties": { "Name": "UC Davis 2", "Description": "" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.671875646756206, 35.506551655058331, 0.0 ], [ -119.662958804467493, 35.506692656148161, 0.0 ], [ -119.663099168710005, 35.513831288376181, 0.0 ], [ -119.671903017943293, 35.51404355272016, 0.0 ], [ -119.671875646756206, 35.506551655058331, 0.0 ] ] ] } },
 { "type": "Feature", "properties": { "Name": "UC Davis 1", "Description": "" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.170042478024101, 35.506813056110438, 0.0 ], [ -119.161170604346495, 35.506942286006513, 0.0 ], [ -119.160761340477904, 35.51407769797914, 0.0 ], [ -119.169883861065898, 35.514162979736568, 0.0 ], [ -119.170042478024101, 35.506813056110438, 0.0 ] ] ] } },
 { "type": "Feature", "properties": { "Name": "Starrah", "Description": "" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.624771555926102, 35.426942378542037, 0.0 ], [ -119.624860435397906, 35.412261197051208, 0.0 ], [ -119.616027428619404, 35.412496746060107, 0.0 ], [ -119.6162149424555, 35.426868163380597, 0.0 ], [ -119.624771555926102, 35.426942378542037, 0.0 ] ] ] } },
-{ "type": "Feature", "properties": { "Name": "Cloverdale", "Description": "3200, 700" }, "geometry": { "type": "Point", "coordinates": [ -119.66647, 36.185939, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "UC Davis 1", "Description": "2900, 700" }, "geometry": { "type": "Point", "coordinates": [ -119.165401909624094, 35.510488018299348, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Billings Pond", "Description": "2800, 700" }, "geometry": { "type": "Point", "coordinates": [ -119.3185417102965, 35.72133084630444, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "UC Davis 2", "Description": "2850, 700" }, "geometry": { "type": "Point", "coordinates": [ -119.667428888262094, 35.510297873038049, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Starrh", "Description": "2850, 700" }, "geometry": { "type": "Point", "coordinates": [ -119.620443992465695, 35.419769634661009, 0.0 ] } }
+{ "type": "Feature", "properties": { "Name": "Cloverdale", "Description": "3200, 600" }, "geometry": { "type": "Point", "coordinates": [ -119.66647, 36.185939, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UC Davis 1", "Description": "2900, 500" }, "geometry": { "type": "Point", "coordinates": [ -119.165401909624094, 35.510488018299348, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Billings Pond", "Description": "2800, 600" }, "geometry": { "type": "Point", "coordinates": [ -119.3185417102965, 35.72133084630444, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UC Davis 2", "Description": "2850, 500" }, "geometry": { "type": "Point", "coordinates": [ -119.667428888262094, 35.510297873038049, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Starrh", "Description": "2850, 500" }, "geometry": { "type": "Point", "coordinates": [ -119.620443992465695, 35.419769634661009, 0.0 ] } }
 ]
 }
