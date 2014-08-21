@@ -13,7 +13,7 @@
 { "type": "Feature", "properties": { "Name": "03-D1-OG", "Description": "1500, 500" }, "geometry": { "type": "Point", "coordinates": [ -119.100195, 35.792591, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Paesano Ranch", "Description": "1300, 500" }, "geometry": { "type": "Point", "coordinates": [ -119.247907210033304, 35.893266603931181, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Paesano Ranch", "Description": "" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.250326306548402, 35.894477357877058, 0.0 ], [ -119.250326039725806, 35.89190018684404, 0.0 ], [ -119.243742810569103, 35.891902809038008, 0.0 ], [ -119.243720841992101, 35.893640253382443, 0.0 ], [ -119.245927493404807, 35.893657110559268, 0.0 ], [ -119.245947904618106, 35.894459722642132, 0.0 ], [ -119.250326306548402, 35.894477357877058, 0.0 ] ] ] } },
-{ "type": "Feature", "properties": { "Name": "UC Davis 1", "Description": "3000. 700" }, "geometry": { "type": "Point", "coordinates": [ -119.165381469907302, 35.510320946657473, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "UC Davis 1", "Description": "3000, 700" }, "geometry": { "type": "Point", "coordinates": [ -119.165381469907302, 35.510320946657473, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "UC Davis 2", "Description": "3000, 700" }, "geometry": { "type": "Point", "coordinates": [ -119.667316001709693, 35.51029876018724, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Starrh", "Description": "3000, 700" }, "geometry": { "type": "Point", "coordinates": [ -119.620704325235806, 35.419512055633277, 0.0 ] } }
 ]
