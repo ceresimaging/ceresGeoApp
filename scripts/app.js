@@ -50,7 +50,7 @@ function App(){
                  scale: 7,
                  anchor: new google.maps.Point(0, 4),
                  strokeColor: '#55efcb',
-                 rotation: '0'};
+                 rotation: 0};
   var currentMarker = map.createMarker({ lat: -12, lng: -77, icon: currentMarkerIcon});
 
   this.map = map;
