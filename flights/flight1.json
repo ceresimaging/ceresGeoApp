@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
+{ "type": "Feature", "properties": { "Name": "Tarp", "Description": "" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.215540334614801, 35.493866810275932, 0.0 ], [ -119.215537873487804, 35.491657715411272, 0.0 ], [ -119.212843069370095, 35.491663555583791, 0.0 ], [ -119.212843765077196, 35.493871409597062, 0.0 ], [ -119.215540334614801, 35.493866810275932, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "Name": "tarp ", "Description": "1500, 0" }, "geometry": { "type": "Point", "coordinates": [ -119.214636173474702, 35.492770581157977, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "PDG2", "Description": "2000, 500" }, "geometry": { "type": "Point", "coordinates": [ -118.769344230137506, 35.234474877082683, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "DAVWhite", "Description": "1800, 500" }, "geometry": { "type": "Point", "coordinates": [ -119.486554694758397, 35.612268118100957, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Block C", "Description": "2900, 700" }, "geometry": { "type": "Point", "coordinates": [ -119.2169325701134, 35.490353387996173, 0.0 ] } },
