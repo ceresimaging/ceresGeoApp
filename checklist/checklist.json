@@ -1,4 +1,4 @@
-{
+[
   "Weather Decision": [
     "Do not fly if any cloud shadows on field",
     "Do not fly if there is 50% or more cloud cover forecast over the field areas",
@@ -232,4 +232,4 @@
     "NDVI Controller",
     "Power switch & LEDs"
   ]
-}
+]
