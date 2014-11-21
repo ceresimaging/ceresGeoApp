@@ -1,0 +1,235 @@
+{
+  "Weather Decision": [
+    "Do not fly if any cloud shadows on field",
+    "Do not fly if there is 50% or more cloud cover forecast over the field areas",
+    "Contact Ceres if"
+  ],
+  "Mounting the Camera System": [
+    {"Camera inspection": [
+      {"Check camera cards (requires Windows laptop and CF card reader)": [
+        {"Check CF (\"CompactFlash\") card settings": [
+          {"Verify that CF card is blank, except for the SETTINGS.TXT file": [
+            {"If the CF card is not blank, reformat it": [
+              "Right click on the drive in Windows Explorer",
+              "Set the Volume Label to \"TTCDISK0\"",
+              "Uncheck \"Quick Format\" (a full format is required)",
+              "Copy the SETTINGS.TXT file to the root directory",
+              {"Open the SETTINGS.TXT fil in a text editor (e.g., Notepad)": [
+                "Set the card number: modify line 12 (which starts with \" 267\") to end with a two digit number that equals the number written on the CF card (e.g., \"02\" for CF card \"A2\")",
+                "Verify the exposure time: verify that line 33 (which starts with “ 291”) ends with “600” and correct it if necessary",
+                {"The following are checks that do not normally require action": [
+                  "Each line starts with a space followed by three digits from “ 256” through “ 299”, and then “ 500”",
+                  "Verify that all lines line up on the right",
+                  "Each line should be 13 characters long, except for the last line, line 42, which simply reads “ 500”",
+                  "There should be no carriage return after “ 500”"
+                ]}
+              ]}
+            ]},
+            "If the USB Flash drive is not blank, delete all files on it",
+            "Promptly install both cards into the camera system"
+          ]}
+        ]}
+      ]},
+      {"Check Camera system components": [
+        {"Camera box": [
+          "Verify USB Flash drive connected",
+          "Verify Compact Flash card in NDVI camera slot",
+          "Verify two GPS antenna cables attached",
+          "Verify cockpit cable assembly attached"
+        ]},
+        {"Strut mount": [
+          "Verify wood and rubber adapters are firmly in place",
+          "Verify that strut mount to camera box assembly is rigid"
+        ]},
+        {"Cockpit cable assembly": [
+          "Verify TetraCam controller box attached",
+          "Verify power switch with two LEDs attached",
+          "Verify battery jack attached"
+        ]},
+        {"Cockpit components": [
+          {"Verify battery present": [
+            "Check for at least 40% charge"
+          ]},
+          "Verify tablet present",
+          "Verify Bluetooth GPS present",
+          {"Verify adequate tablet and Bluetooth GPS power - either": [
+            "Verify cigarette lighter adapter and two USB cables present, OR",
+            "Verify tablet and Bluetooth GPS are fully charged (e.g., verify overnight charge)"
+          ]}
+        ]}
+      ]},
+      {"Airworthiness": [
+        "Verify that all cables are attached to a device",
+        "Inspect bolts, screws, and rivets"
+      ]}
+    ]},
+    {"Mount Camera": [
+      {"Position strut mount on strut": [
+        "Verify that camera box sits outside wheel fairings",
+        "Verify that bolts are not rubbing against strut"
+      ]},
+      "Hand tighten one bolt to hold strut mount in place",
+      {"Tighten second bolt with wrench until strut mount plates are touching": [
+        "One washer per side",
+        "Do not over-tighten"
+      ]},
+      "Tighten first bolt the same way"
+    ]},
+    {"Affix GPS antennas": [
+      "Run GPS antenna cables behind strut fairing to top of wing",
+      {"Position round GPS antenna on wing top outside of rivet line 15-30 cm behind leading edge": [
+        "Note: you must use Gorilla Tape; duct tape is not strong enough",
+        "Place a strip of Gorilla Tape laterally across the front of the antenna",
+        "Place a strip of Gorilla Tape laterally across the top of the antenna",
+        {"Run the GPS cable from the antenna to 10+cm under the wing": [
+          "The cable should be in a plane parallel to the tail plane"
+        ]},
+        {"Place a strip of Gorilla Tape over this segment of cable": [
+          "The ends of this strip must be on both the top and bottom of the wing edge"
+        ]},
+        "Place a strip of Gorilla Tape laterally across this segment of cable at the antenna",
+        "Place a strip of Gorilla Tape diagonally across the GPS antenna"
+      ]},
+      "Affix the square antenna in the same manner inside the rivet line on the wing",
+      "Verify that the stall warning system is unobstructed",
+      {"Cable tie both antenna cables at the top trailing edge of the strut": [
+        "Ensure both pass behind the tie-down ring"
+      ]},
+      "Cable tie both antenna cables near the camera box at the trailing edge of the strut",
+      "Cable tie both antenna cables between the top and bottom cable ties",
+      "GPS antenna cable slack should be coiled and cable tied outside of the camera box"
+    ]},
+    {"Install controller, power switch, and power jack": [
+      "Open the camera side window",
+      "Feed the controller, power switch, and power jack through window",
+      "Position the controller hanging just inside the cockpit from the front bottom window corner",
+      "From the outside, work the cable assemblies into the window corner",
+      "Close and latch the window",
+      "Cable tie the cable assemblies near the camera box at the trailing edge of the strut",
+      {"Cable tie the cable assemblies near the door at the trailing edge of the strut": [
+        "The cable assemblies should hang straight but not taut between the window and strut"
+      ]},
+      "Cable tie the cable assemblies between the first two cable ties",
+      "Remove NDVI camera lens cap"
+    ]},
+    {"Camera system power": [
+      {"Plug the power jack into the battery": [
+        "Verify plug is in DC Out socket"
+      ]},
+      {"Turn the power switch on": [
+        "Both LEDs start off"
+      ]},
+      {"Verify IR camera operation": [
+        "Note: IR Camera is in front of camera box and may be viewed from the top",
+        "Verify a solid blue LED (power)",
+        "Verify a flickering green LED (data traffic)"
+      ]},
+      {"Verify NDVI camera operation": [
+        "Controller box “READY/BUSY” LED is solid green"
+      ]},
+      "Verify red LED comes on after about one minute",
+      {"Verify green LED comes on": [
+        "Note: the green LED comes on when GPS has been established, and will normally only occur when the airplane is outside",
+        "The green LED should come on after about 2.5 minutes outside"
+      ]}
+    ]},
+    {"Tablet & Bluetooth GPS setup": [
+      {"Power (optional if units are fully charged)": [
+        "Plug in cigarette lighter adapter",
+        "Connect USB charger cables to tablet and Bluetooth GPS"
+      ]},
+      {"Tablet mounting arm": [
+        "Place tablet in mount",
+        "Position arm on top of instrument panel",
+        "Adjust so that magnetic compass is not obscured",
+        "Lock suction cup on windscreen"
+      ]},
+      {"Bluetooth GPS": [
+        "Power on Bluetooth GPS",
+        "Power on tablet and unlock screen (no password required)",
+        "Open Bluetooth app & select “Connect”",
+        "Verify that Date/time window has valid date and time",
+        "Exit Bluetooth app",
+        "Place Bluetooth GPS on top of instrument panel facing the sky"
+      ]},
+      {"Ceres Imaging app": [
+        "Press “select flight plan” button",
+        "Select the first flight plan",
+        "Press OK",
+        "Select the first field's map balloon",
+        "select the edge of the field for the initial row to fly"
+      ]}
+    ]}
+  ],
+  "Preflight Checklist": [
+    "Verify green LED is solid on",
+    "Verify that controller “TAKE PIC” LED is solid green",
+    "Verify NDVI camera lens cap removed",
+    {"Verify that fields will be imaged within two hours before and two hours after solar noon": [
+      "Optimal is one hour before and two hours after solar noon"
+    ]},
+    "Verify that there is less than 50% cloud cover over fields"
+  ],
+  "In-Flight Checklist": [
+    {"Navigation to field": [
+      "Verify that correct field is selected in tablet app",
+      {"Verify that correct initial row is selected in tablet app": [
+        "All field rows must be flown in North or South direction"
+      ]}
+    ]},
+    {"Approach to field": [
+      {"Press controller “TAKE PIC” when field is approaching": [
+        "Field should be visible over cowling"
+      ]},
+      {"Verify that “TAKE PIC” LED indicates taking pictures about once per second": [
+        "LED alternates between green and amber"
+      ]},
+      {"Verify that there are no cloud shadows on field": [
+        "If shadows are present, they must be avoided on each row",
+        "Rows may be flown out of sequence so long as each row is flown"
+
+      ]},
+      {"Verify straight and level flight at field altitude and speed": [
+        "90 knots for new pilots",
+        "110 knots max for experienced pilots"
+      ]},
+      "Establish approach angle for first row to fly"
+    ]},
+    {"Over field": [
+      {"Remain within the centerline boundaries for the length of each row": [
+        "Refly any row if outside the boundary at any time",
+        {"If boundaries are too narrow for current conditions": [
+          "Press row width button on bottom right of screen",
+          {"Decrease the row spacing value": [
+            "A decrease of 100 ft → 100 ft increase in total cross track error allowance"
+          ]}
+        ]}
+      ]},
+      {"Upon exiting a row": [
+        "Press “next pass” button",
+        {"Perform a teardrop procedure turn": [
+          "Initiate turn opposite the direction of the next row"
+        ]},
+        "Intercept the next row"
+      ]}
+    ]},
+    {"Departure from field": [
+      "Press controller “TAKE PIC” button when leaving field area",
+      "Verify that “TAKE PIC” LED is solid green"
+    ]},
+    {"Return to airport": [
+      "Remove tablet mounting arm from windscreen"
+    ]}
+  ],
+  "Post-Flight Checklist": [
+    "Place lens cap on NDVI camera lens",
+    "Remove camera system from strut unless aircraft is hangared",
+    "Remove Compact Flash card",
+    "Remove USB Flash drive",
+    "Deliver both drives to Andrew Brown (or designee) at Olam in Carwarp"
+  ],
+  "Malfunction Checklist": [
+    "NDVI Controller",
+    "Power switch & LEDs"
+  ]
+}
