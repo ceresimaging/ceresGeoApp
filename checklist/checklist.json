@@ -1,10 +1,10 @@
 [
-  "Weather Decision": [
+  {"Weather Decision": [
     "Do not fly if any cloud shadows on field",
     "Do not fly if there is 50% or more cloud cover forecast over the field areas",
     "Contact Ceres if"
-  ],
-  "Mounting the Camera System": [
+  ]},
+  {"Mounting the Camera System": [
     {"Camera inspection": [
       {"Check camera cards (requires Windows laptop and CF card reader)": [
         {"Check CF (\"CompactFlash\") card settings": [
@@ -160,8 +160,8 @@
         "select the edge of the field for the initial row to fly"
       ]}
     ]}
-  ],
-  "Preflight Checklist": [
+  ]},
+  {"Preflight Checklist": [
     "Verify green LED is solid on",
     "Verify that controller “TAKE PIC” LED is solid green",
     "Verify NDVI camera lens cap removed",
@@ -169,8 +169,8 @@
       "Optimal is one hour before and two hours after solar noon"
     ]},
     "Verify that there is less than 50% cloud cover over fields"
-  ],
-  "In-Flight Checklist": [
+  ]},
+  {"In-Flight Checklist": [
     {"Navigation to field": [
       "Verify that correct field is selected in tablet app",
       {"Verify that correct initial row is selected in tablet app": [
@@ -220,16 +220,16 @@
     {"Return to airport": [
       "Remove tablet mounting arm from windscreen"
     ]}
-  ],
-  "Post-Flight Checklist": [
+  ]},
+  {"Post-Flight Checklist": [
     "Place lens cap on NDVI camera lens",
     "Remove camera system from strut unless aircraft is hangared",
     "Remove Compact Flash card",
     "Remove USB Flash drive",
     "Deliver both drives to Andrew Brown (or designee) at Olam in Carwarp"
-  ],
-  "Malfunction Checklist": [
+  ]},
+  {"Malfunction Checklist": [
     "NDVI Controller",
     "Power switch & LEDs"
-  ]
+  ]}
 ]
