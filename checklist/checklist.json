@@ -2,7 +2,7 @@
   {"Weather Decision": [
     "Do not fly if any cloud shadows on field",
     "Do not fly if there is 50% or more cloud cover forecast over the field areas",
-    "Contact Ceres if"
+    "Contact Ceres if high cloud cover expected for week"
   ]},
   {"Mounting the Camera System": [
     {"Camera inspection": [
@@ -227,9 +227,5 @@
     "Remove Compact Flash card",
     "Remove USB Flash drive",
     "Deliver both drives to Andrew Brown (or designee) at Olam in Carwarp"
-  ]},
-  {"Malfunction Checklist": [
-    "NDVI Controller",
-    "Power switch & LEDs"
   ]}
 ]
