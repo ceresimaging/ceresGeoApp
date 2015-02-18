@@ -55,7 +55,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Paramount",
-        "Description": "3000, 500"
+        "Description": "2500, 500"
       },
       "geometry": {
         "type": "Point",
