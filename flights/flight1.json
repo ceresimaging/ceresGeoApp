@@ -1,4 +1,3 @@
-
 {
   "type": "FeatureCollection",
   "crs": {
@@ -405,7 +404,7 @@
       "type": "Feature",
       "properties": {
         "Name": "UC Davis 1",
-        "Description": "2900, 500"
+        "Description": "2700, 500"
       },
       "geometry": {
         "type": "Point",
@@ -459,7 +458,7 @@
       "type": "Feature",
       "properties": {
         "Name": "UC Davis 2",
-        "Description": "2900, 500"
+        "Description": "2800, 500"
       },
       "geometry": {
         "type": "Point",
