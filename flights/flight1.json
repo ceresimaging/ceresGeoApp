@@ -109,7 +109,7 @@
       "type": "Feature",
       "properties": {
         "Name": "UC Davis 1",
-        "Description": "2600. 500"
+        "Description": "2600, 500"
       },
       "geometry": {
         "type": "Point",
