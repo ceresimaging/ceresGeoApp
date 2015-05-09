@@ -109,6 +109,70 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Copus",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.1809773986261,
+              35.10866619812754,
+              0
+            ],
+            [
+              -119.1808893727277,
+              35.09513804562528,
+              0
+            ],
+            [
+              -119.1791540045362,
+              35.09509481785832,
+              0
+            ],
+            [
+              -119.1791801685601,
+              35.09423803069895,
+              0
+            ],
+            [
+              -119.1721071395928,
+              35.09412635252959,
+              0
+            ],
+            [
+              -119.1722350142568,
+              35.10864563771771,
+              0
+            ],
+            [
+              -119.1809773986261,
+              35.10866619812754,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Copus",
+        "Description": "1900, 400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.17793149956081,
+          35.10065361152642,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Kern Duch County Drain",
         "Description": ""
       },
@@ -159,7 +223,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Kern Duch County Drain",
-        "Description": "1900, 400"
+        "Description": "2800, 600"
       },
       "geometry": {
         "type": "Point",
