@@ -338,7 +338,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Mustangs Almonds PAP - 1",
-        "Description": "2800, 2900, 600"
+        "Description": "2800, 600"
       },
       "geometry": {
         "type": "Point",
@@ -404,6 +404,60 @@
         "coordinates": [
           -119.16652945789586,
           35.27674042791214,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "wilbur ellis",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.1143150437534,
+              35.22352481765385,
+              0
+            ],
+            [
+              -119.1191320755991,
+              35.22351957651921,
+              0
+            ],
+            [
+              -119.1189441938212,
+              35.21605519283952,
+              0
+            ],
+            [
+              -119.1143357788676,
+              35.2160395211022,
+              0
+            ],
+            [
+              -119.1143150437534,
+              35.22352481765385,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "wilbur ellis",
+        "Description": "2600, 600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.11620842715895,
+          35.22053278515373,
           0
         ]
       }
