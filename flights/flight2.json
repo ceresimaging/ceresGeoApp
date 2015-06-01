@@ -10,6 +10,70 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "49er/Wildwood",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.4373551860884,
+              35.65975584675962,
+              0
+            ],
+            [
+              -119.4196614175129,
+              35.65982803990258,
+              0
+            ],
+            [
+              -119.4196898797564,
+              35.68132864713894,
+              0
+            ],
+            [
+              -119.4107677632262,
+              35.68135834208665,
+              0
+            ],
+            [
+              -119.4107624566496,
+              35.68860889246531,
+              0
+            ],
+            [
+              -119.4373570227807,
+              35.6885535445387,
+              0
+            ],
+            [
+              -119.4373551860884,
+              35.65975584675962,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "49er/Wildwood",
+        "Description": "2000, 400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.42470698744323,
+          35.674169879950206,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Aggie Almonds PAP - 2",
         "Description": ""
       },
@@ -115,7 +179,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Aggie Almonds PAP - 2",
-        "Description": "2800, 600"
+        "Description": "2900, 600"
       },
       "geometry": {
         "type": "Point",
@@ -476,7 +540,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Mustangs Almonds PAP - 1",
-        "Description": "2800, 600"
+        "Description": "2900, 600"
       },
       "geometry": {
         "type": "Point",
