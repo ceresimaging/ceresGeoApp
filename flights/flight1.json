@@ -169,60 +169,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "Malley McFarland",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -119.1869599572555,
-              35.70352337964041,
-              0
-            ],
-            [
-              -119.1868796228575,
-              35.68924909745599,
-              0
-            ],
-            [
-              -119.1781118216883,
-              35.68924886197775,
-              0
-            ],
-            [
-              -119.1781606020908,
-              35.70353935923478,
-              0
-            ],
-            [
-              -119.1869599572555,
-              35.70352337964041,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Malley McFarland",
-        "Description": "2900, 600"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1834143922295,
-          35.69781681558987,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Name": "Parson",
         "Description": ""
       },
