@@ -397,60 +397,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "Kern/Fabbri",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -119.356592575655,
-              35.77574931169652,
-              0
-            ],
-            [
-              -119.3567676317427,
-              35.74666268419843,
-              0
-            ],
-            [
-              -119.34050264256,
-              35.74666531651597,
-              0
-            ],
-            [
-              -119.3507581891109,
-              35.77559777616052,
-              0
-            ],
-            [
-              -119.356592575655,
-              35.77574931169652,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Kern/Fabbri",
-        "Description": "2800, 600"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.35224272294472,
-          35.764084880053595,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Name": "Oberti Almonds North",
         "Description": ""
       },
@@ -851,7 +797,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Tulare 22",
-        "Description": "2300, 500"
+        "Description": "2200, 450"
       },
       "geometry": {
         "type": "Point",
