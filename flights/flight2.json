@@ -70,7 +70,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Lucero",
-        "Description": "2800, 600"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
