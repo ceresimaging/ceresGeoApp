@@ -148,6 +148,80 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Golden Bear Almonds PAP - 12",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.3843618022087,
+              35.63791169973159,
+              0
+            ],
+            [
+              -119.3667724494559,
+              35.6379042123269,
+              0
+            ],
+            [
+              -119.3666226060183,
+              35.645093484561,
+              0
+            ],
+            [
+              -119.3664209652598,
+              35.65225620246942,
+              0
+            ],
+            [
+              -119.3662637685784,
+              35.65957319305863,
+              0
+            ],
+            [
+              -119.3702105345553,
+              35.65961815025298,
+              0
+            ],
+            [
+              -119.3751361569498,
+              35.65962109340956,
+              0
+            ],
+            [
+              -119.3840228962384,
+              35.65967751542591,
+              0
+            ],
+            [
+              -119.3843618022087,
+              35.63791169973159,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Golden Bear Almonds PAP - 12",
+        "Description": "2900, 600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3737969979415,
+          35.64995191677418,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Kern Whistler",
         "Description": ""
       },
@@ -342,6 +416,60 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Kern Wildwood",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.4197488545987,
+              35.67415052651217,
+              0
+            ],
+            [
+              -119.4373487429353,
+              35.67394189346286,
+              0
+            ],
+            [
+              -119.4372702393596,
+              35.65973922895442,
+              0
+            ],
+            [
+              -119.4197197312377,
+              35.65977748116301,
+              0
+            ],
+            [
+              -119.4197488545987,
+              35.67415052651217,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kern Wildwood",
+        "Description": "2900, 600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.42676728454599,
+          35.66835193132093,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Mustangs Almonds PAP - 1",
         "Description": ""
       },
@@ -477,7 +605,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Mustangs Almonds PAP - 1",
-        "Description": "2800, 600"
+        "Description": "2900, 600"
       },
       "geometry": {
         "type": "Point",
