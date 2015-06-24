@@ -22,7 +22,71 @@
               37.25913307463156,
               0
             ],
+            [{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Untitled Polygon",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
             [
+              -120.5247944825684,
+              37.25898290265716,
+              0
+            ],
+            [
+              -120.5243059977759,
+              37.24411245801101,
+              0
+            ],
+            [
+              -120.4881519983244,
+              37.24405837883287,
+              0
+            ],
+            [
+              -120.4879202643814,
+              37.25899849028972,
+              0
+            ],
+            [
+              -120.5247944825684,
+              37.25898290265716,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Untitled Polygon",
+        "Description": "2000, 500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5099934451237,
+          37.25302702648958,
+          0
+        ]
+      }
+    }
+  ]
+}
               -120.5250815166494,
               37.25734490936416,
               0
