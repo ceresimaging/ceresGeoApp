@@ -50,7 +50,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Brown Family Orchards 2",
-        "Description": "1500 ,250"
+        "Description": "1500, 250"
       },
       "geometry": {
         "type": "Point",
@@ -247,60 +247,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "Lloyd",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -120.9090978337745,
-              37.41553421307776,
-              0
-            ],
-            [
-              -120.9094344016185,
-              37.41206477669523,
-              0
-            ],
-            [
-              -120.9046465301974,
-              37.41193101097348,
-              0
-            ],
-            [
-              -120.9048984112491,
-              37.41533396133305,
-              0
-            ],
-            [
-              -120.9090978337745,
-              37.41553421307776,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Lloyd",
-        "Description": "1500, 300"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.9074350021228,
-          37.414079635031456,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Name": "Lloyd2",
         "Description": ""
       },
@@ -459,7 +405,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Small Grapes",
-        "Description": "1500, 300"
+        "Description": "1500, 250"
       },
       "geometry": {
         "type": "Point",
