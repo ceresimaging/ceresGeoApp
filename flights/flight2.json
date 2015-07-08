@@ -50,7 +50,7 @@
       "type": "Feature",
       "properties": {
         "Name": "B10 West 1/4 section -- Blake&apos;s interest",
-        "Description": "2000, 400"
+        "Description": "2400, 400"
       },
       "geometry": {
         "type": "Point",
