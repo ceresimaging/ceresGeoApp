@@ -55,121 +55,13 @@
       "type": "Feature",
       "properties": {
         "Name": "240 R12 F12-13",
-        "Description": "2000, 300"
+        "Description": "2000, 600"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.1842853380431,
           35.5127214976881,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "242 Ranch 8",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -118.8694514105228,
-              35.24536476818197,
-              0
-            ],
-            [
-              -118.8692501655803,
-              35.22715062353591,
-              0
-            ],
-            [
-              -118.8603660104249,
-              35.22729363639515,
-              0
-            ],
-            [
-              -118.8606860974007,
-              35.24539227612571,
-              0
-            ],
-            [
-              -118.8694514105228,
-              35.24536476818197,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "242 Ranch 8",
-        "Description": "2000, 300"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.8658410188903,
-          35.238113214484144,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "243 Ranch 8 sec 28",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -118.8692244108113,
-              35.20879228470282,
-              0
-            ],
-            [
-              -118.8691205468106,
-              35.20166805293675,
-              0
-            ],
-            [
-              -118.8600235189476,
-              35.20170551358312,
-              0
-            ],
-            [
-              -118.8602903310395,
-              35.20903532701506,
-              0
-            ],
-            [
-              -118.8692244108113,
-              35.20879228470282,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "243 Ranch 8 sec 28",
-        "Description": "2000, 300"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.86557664368407,
-          35.20599869258811,
           0
         ]
       }
@@ -267,7 +159,7 @@
       "type": "Feature",
       "properties": {
         "Name": "244 Ranch 12",
-        "Description": "2000, 300"
+        "Description": "2000, 600"
       },
       "geometry": {
         "type": "Point",
@@ -326,7 +218,7 @@
       "type": "Feature",
       "properties": {
         "Name": "245 R12 F9w",
-        "Description": "2000, 300"
+        "Description": "2000, 600"
       },
       "geometry": {
         "type": "Point",
@@ -390,7 +282,7 @@
       "type": "Feature",
       "properties": {
         "Name": "246 Ranch 14",
-        "Description": "2000, 300"
+        "Description": "2000, 600"
       },
       "geometry": {
         "type": "Point",
@@ -444,82 +336,13 @@
       "type": "Feature",
       "properties": {
         "Name": "247 Ranch 7 HQ-sub",
-        "Description": "2000, 300"
+        "Description": "2000, 600"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -118.83375396586545,
           35.162646924144234,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "41 Ranch 7 HQ",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -118.8510855678202,
-              35.16553697041496,
-              0
-            ],
-            [
-              -118.8601456113934,
-              35.1655018789493,
-              0
-            ],
-            [
-              -118.8602279968841,
-              35.16202779144197,
-              0
-            ],
-            [
-              -118.850995001537,
-              35.1619923128638,
-              0
-            ],
-            [
-              -118.8508219283005,
-              35.15831065771324,
-              0
-            ],
-            [
-              -118.8419512008325,
-              35.15827565239705,
-              0
-            ],
-            [
-              -118.8419327343008,
-              35.16560870065295,
-              0
-            ],
-            [
-              -118.8510855678202,
-              35.16553697041496,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "41 Ranch 7 HQ",
-        "Description": "2000, 300"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.85103070111109,
-          35.16284886685603,
           0
         ]
       }
@@ -626,6 +449,114 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Kern/Fabbri",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.356592575655,
+              35.77574931169652,
+              0
+            ],
+            [
+              -119.3567676317427,
+              35.74666268419843,
+              0
+            ],
+            [
+              -119.34050264256,
+              35.74666531651597,
+              0
+            ],
+            [
+              -119.3507581891109,
+              35.77559777616052,
+              0
+            ],
+            [
+              -119.356592575655,
+              35.77574931169652,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kern/Fabbri",
+        "Description": "2800, 600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.35224272294472,
+          35.764084880053595,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Malley McFarland",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.1869599572555,
+              35.70352337964041,
+              0
+            ],
+            [
+              -119.1868796228575,
+              35.68924909745599,
+              0
+            ],
+            [
+              -119.1781118216883,
+              35.68924886197775,
+              0
+            ],
+            [
+              -119.1781606020908,
+              35.70353935923478,
+              0
+            ],
+            [
+              -119.1869599572555,
+              35.70352337964041,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Malley McFarland",
+        "Description": "2800, 600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1834143922295,
+          35.69781681558987,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Tower Line Kiwi Ranch",
         "Description": ""
       },
@@ -706,7 +637,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Tower Line Kiwi Ranch",
-        "Description": "2000, 300"
+        "Description": "1900, 300"
       },
       "geometry": {
         "type": "Point",
