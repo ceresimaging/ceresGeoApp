@@ -249,5 +249,20 @@
         ]
       }
     },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Paramount",
+        "Description": "2600, 500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.71484053611846,
+          35.50646243163507,
+          0
+        ]
+      }
+    }
   ]
 }
