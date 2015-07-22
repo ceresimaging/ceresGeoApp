@@ -109,7 +109,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Husman",
-        "Description": "2600,700"
+        "Description": "2600, 700"
       },
       "geometry": {
         "type": "Point",
