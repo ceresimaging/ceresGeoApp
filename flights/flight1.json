@@ -336,7 +336,7 @@
       "type": "Feature",
       "properties": {
         "Name": "245 R12 F9w",
-        "Description": "1600"
+        "Description": "1600, 300"
       },
       "geometry": {
         "type": "Point",
