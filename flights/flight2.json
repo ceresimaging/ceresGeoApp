@@ -60,7 +60,7 @@
       "type": "Feature",
       "properties": {
         "Name": "138 CCFS 1",
-        "Description": "2600, 700"
+        "Description": "3600, 900"
       },
       "geometry": {
         "type": "Point",
@@ -129,7 +129,7 @@
       "type": "Feature",
       "properties": {
         "Name": "139 CCFS 2",
-        "Description": "2600, 400"
+        "Description": "3600, 400"
       },
       "geometry": {
         "type": "Point",
@@ -223,7 +223,7 @@
       "type": "Feature",
       "properties": {
         "Name": "140 CCFS 3",
-        "Description": "2600, 700"
+        "Description": "3600, 700"
       },
       "geometry": {
         "type": "Point",
@@ -282,7 +282,7 @@
       "type": "Feature",
       "properties": {
         "Name": "195 L5-Tomatoes",
-        "Description": "2600, 400"
+        "Description": "3600, 400"
       },
       "geometry": {
         "type": "Point",
@@ -336,7 +336,7 @@
       "type": "Feature",
       "properties": {
         "Name": "219 Mike Lux M10",
-        "Description": "2600, 400"
+        "Description": "3600, 400"
       },
       "geometry": {
         "type": "Point",
@@ -390,7 +390,7 @@
       "type": "Feature",
       "properties": {
         "Name": "220 Richter Ag -B5",
-        "Description": "2600, 400"
+        "Description": "3600, 400"
       },
       "geometry": {
         "type": "Point",
@@ -454,7 +454,7 @@
       "type": "Feature",
       "properties": {
         "Name": "221 SBL LAGRANDE G12",
-        "Description": "2600, 400"
+        "Description": "3600, 400"
       },
       "geometry": {
         "type": "Point",
@@ -508,7 +508,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CFFS-B6 B4",
-        "Description": "2600, 500"
+        "Description": "3600, 500"
       },
       "geometry": {
         "type": "Point",
