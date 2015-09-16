@@ -232,7 +232,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Hornet",
-        "Description": "2800,700"
+        "Description": "2800, 700"
       },
       "geometry": {
         "type": "Point",
