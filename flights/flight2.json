@@ -10,75 +10,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "Coonawarra 10",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              140.8249674694432,
-              -37.28271474713774,
-              0
-            ],
-            [
-              140.8238645061362,
-              -37.29066381880622,
-              0
-            ],
-            [
-              140.8282913112996,
-              -37.29110507091779,
-              0
-            ],
-            [
-              140.8284106394124,
-              -37.29062632952743,
-              0
-            ],
-            [
-              140.8284508122595,
-              -37.29063605173493,
-              0
-            ],
-            [
-              140.82898622637,
-              -37.29065554604754,
-              0
-            ],
-            [
-              140.8300323635564,
-              -37.28318484019902,
-              0
-            ],
-            [
-              140.8249674694432,
-              -37.28271474713774,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Coonawarra 10",
-        "Description": "3200, 300"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.82724634974005,
-          -37.28778764393854,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Name": "Coonawarra 11",
         "Description": ""
       },
@@ -139,7 +70,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 11",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
@@ -203,7 +134,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 12",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
@@ -267,7 +198,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 13",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
@@ -321,7 +252,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 14",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
@@ -395,7 +326,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 15",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
@@ -464,7 +395,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 16",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
@@ -486,13 +417,13 @@
         "coordinates": [
           [
             [
-              140.8243713306654,
-              -37.24122051319841,
+              140.8175367530228,
+              -37.24062325330636,
               0
             ],
             [
-              140.823587898509,
-              -37.24734556900383,
+              140.8165019853254,
+              -37.24682761084391,
               0
             ],
             [
@@ -506,8 +437,8 @@
               0
             ],
             [
-              140.8243713306654,
-              -37.24122051319841,
+              140.8175367530228,
+              -37.24062325330636,
               0
             ]
           ]
@@ -518,13 +449,13 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 17",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.82597461633085,
-          -37.24384750643691,
+          140.8218236026371,
+          -37.243505010848104,
           0
         ]
       }
@@ -572,7 +503,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 18",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
@@ -666,7 +597,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 19",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
@@ -725,67 +656,13 @@
       "type": "Feature",
       "properties": {
         "Name": "Coonawarra 20",
-        "Description": "3200, 300"
+        "Description": "2200, 300"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           140.8656875531578,
           -37.22463606384469,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Coonawarra 21",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              140.8413718393128,
-              -37.19193589622881,
-              0
-            ],
-            [
-              140.8433468940616,
-              -37.1949276554437,
-              0
-            ],
-            [
-              140.8445229931198,
-              -37.19491417995431,
-              0
-            ],
-            [
-              140.8424833936016,
-              -37.19159987850397,
-              0
-            ],
-            [
-              140.8413718393128,
-              -37.19193589622881,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Coonawarra 21",
-        "Description": "3200, 300"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.84261939188173,
-          -37.19306270127193,
           0
         ]
       }
