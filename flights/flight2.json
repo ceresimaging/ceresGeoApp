@@ -10,6 +10,60 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "4650-02-4 Trial Area",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.6808657554659,
+              35.51732655950019,
+              0
+            ],
+            [
+              -119.6808887770459,
+              35.51376690266805,
+              0
+            ],
+            [
+              -119.6719593155877,
+              35.51383596613657,
+              0
+            ],
+            [
+              -119.6719618998555,
+              35.5173827722027,
+              0
+            ],
+            [
+              -119.6808657554659,
+              35.51732655950019,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "4650-02-4 Trial Area",
+        "Description": "2500, 500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.67730830068417,
+          35.51592775200154,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "78 Oberti Almonds North",
         "Description": ""
       },
@@ -60,7 +114,7 @@
       "type": "Feature",
       "properties": {
         "Name": "78 Oberti Almonds North",
-        "Description": "2800, 700"
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
@@ -114,7 +168,7 @@
       "type": "Feature",
       "properties": {
         "Name": "79 Oberti Almonds South",
-        "Description": "2800, 700"
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +227,7 @@
       "type": "Feature",
       "properties": {
         "Name": "80 Omaha Ranch",
-        "Description": "2800, 700"
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
