@@ -28,13 +28,13 @@
               0
             ],
             [
-              -122.2484920730956,
-              39.95046741639222,
+              -122.2351644029037,
+              39.95034323764551,
               0
             ],
             [
-              -122.2486981221459,
-              39.95774339374,
+              -122.235213346154,
+              39.95753243627058,
               0
             ],
             [
@@ -50,13 +50,13 @@
       "type": "Feature",
       "properties": {
         "Name": "CAPEX",
-        "Description": "2700, 700"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.26180494627799,
-          39.9549640514973,
+          -122.25644245704125,
+          39.95489702425408,
           0
         ]
       }
@@ -109,7 +109,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CAPEX Walnuts",
-        "Description": "2700, 700"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
@@ -183,7 +183,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CSCU Blk 6-D",
-        "Description": "2700, 700"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
@@ -257,7 +257,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CSCU F 3-4",
-        "Description": "2700, 700"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
@@ -326,7 +326,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Dairyville",
-        "Description": "2700, 700"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
@@ -395,7 +395,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Englehorn",
-        "Description": "2700, 700"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
@@ -449,7 +449,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Irrigation",
-        "Description": "2700, 700"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
@@ -513,7 +513,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Walnuts Lindauer",
-        "Description": "2700, 700"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
@@ -582,7 +582,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Wilson",
-        "Description": "2700, 700"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
