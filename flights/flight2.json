@@ -10,119 +10,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "134 Paramount",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -119.7074931287215,
-              35.49162234491342,
-              0
-            ],
-            [
-              -119.7075071666871,
-              35.52091564939784,
-              0
-            ],
-            [
-              -119.7252434447271,
-              35.52100170228654,
-              0
-            ],
-            [
-              -119.7252140129599,
-              35.4917193459128,
-              0
-            ],
-            [
-              -119.7163483735425,
-              35.49171996012693,
-              0
-            ],
-            [
-              -119.7074931287215,
-              35.49162234491342,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "134 Paramount",
-        "Description": "2500, 500"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.71488320922658,
-          35.50143355792516,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "4650-02-4",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -119.6808657554659,
-              35.51732655950019,
-              0
-            ],
-            [
-              -119.6808887770459,
-              35.51376690266805,
-              0
-            ],
-            [
-              -119.6719593155877,
-              35.51383596613657,
-              0
-            ],
-            [
-              -119.6719618998555,
-              35.5173827722027,
-              0
-            ],
-            [
-              -119.6808657554659,
-              35.51732655950019,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "4650-02-4",
-        "Description": "2000, 400"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.67730830068417,
-          35.51592775200154,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Name": "78 Oberti Almonds North",
         "Description": ""
       },
@@ -350,7 +237,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Yuelong-SinoMatic-Zonglin-Xindogyna",
-        "Description": "2800, 700"
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
