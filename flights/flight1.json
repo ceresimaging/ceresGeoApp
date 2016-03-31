@@ -50,7 +50,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CAPEX",
-        "Description": "3000, 300"
+        "Description": "3500, 300"
       },
       "geometry": {
         "type": "Point",
@@ -109,7 +109,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CAPEX Walnuts",
-        "Description": "3000, 300"
+        "Description": "3500, 300"
       },
       "geometry": {
         "type": "Point",
@@ -183,7 +183,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CSCU Blk 6-D",
-        "Description": "3000, 300"
+        "Description": "3500, 300"
       },
       "geometry": {
         "type": "Point",
@@ -257,7 +257,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CSCU F 3-4",
-        "Description": "3000, 300"
+        "Description": "3500, 300"
       },
       "geometry": {
         "type": "Point",
@@ -326,7 +326,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Dairyville",
-        "Description": "3000, 300"
+        "Description": "3500, 300"
       },
       "geometry": {
         "type": "Point",
@@ -395,7 +395,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Englehorn",
-        "Description": "3000, 300"
+        "Description": "3500, 300"
       },
       "geometry": {
         "type": "Point",
@@ -449,7 +449,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Irrigation",
-        "Description": "3000, 300"
+        "Description": "3500, 300"
       },
       "geometry": {
         "type": "Point",
@@ -513,7 +513,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Walnuts Lindauer",
-        "Description": "3000, 300"
+        "Description": "3500, 300"
       },
       "geometry": {
         "type": "Point",
@@ -582,7 +582,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Wilson",
-        "Description": "3000, 300"
+        "Description": "3500, 300"
       },
       "geometry": {
         "type": "Point",
