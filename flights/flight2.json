@@ -289,7 +289,7 @@
       "type": "Feature",
       "properties": {
         "Name": "60 Lucero",
-        "Description": "1600, 300"
+        "Description": "1800, 400"
       },
       "geometry": {
         "type": "Point",
@@ -343,7 +343,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Aztec\\Freedom",
-        "Description": "1600, 300"
+        "Description": "1800, 400"
       },
       "geometry": {
         "type": "Point",
@@ -414,6 +414,60 @@
         "coordinates": [
           -119.32406921194702,
           35.666797142836714,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Powwow",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.2062806481229,
+              36.02975498841777,
+              0
+            ],
+            [
+              -119.2063044740655,
+              36.02245525945928,
+              0
+            ],
+            [
+              -119.1974052379683,
+              36.02247933585569,
+              0
+            ],
+            [
+              -119.1974826492454,
+              36.02976426565327,
+              0
+            ],
+            [
+              -119.2062806481229,
+              36.02975498841777,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Powwow",
+        "Description": "2000, 400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.20275073150499,
+          36.026841767560754,
           0
         ]
       }
