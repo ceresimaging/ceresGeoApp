@@ -60,7 +60,7 @@
       "type": "Feature",
       "properties": {
         "Name": "1-3 Production",
-        "Description": "2700, 400"
+        "Description": "5000, 700"
       },
       "geometry": {
         "type": "Point",
@@ -114,7 +114,7 @@
       "type": "Feature",
       "properties": {
         "Name": "23-2",
-        "Description": "2700, 400"
+        "Description": "5000, 700"
       },
       "geometry": {
         "type": "Point",
@@ -193,7 +193,7 @@
       "type": "Feature",
       "properties": {
         "Name": "27-2 Production",
-        "Description": "2700, 400"
+        "Description": "5000, 700"
       },
       "geometry": {
         "type": "Point",
@@ -257,7 +257,7 @@
       "type": "Feature",
       "properties": {
         "Name": "27-4 NMP",
-        "Description": "2700, 400"
+        "Description": "5000, 700"
       },
       "geometry": {
         "type": "Point",
@@ -311,7 +311,7 @@
       "type": "Feature",
       "properties": {
         "Name": "31-2",
-        "Description": "2700, 400"
+        "Description": "5000, 700"
       },
       "geometry": {
         "type": "Point",
@@ -370,7 +370,7 @@
       "type": "Feature",
       "properties": {
         "Name": "9 UC Davis Eastern Test Plot (Water)",
-        "Description": "2700, 400"
+        "Description": "5000, 700"
       },
       "geometry": {
         "type": "Point",
