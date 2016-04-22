@@ -987,7 +987,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Redbanks/Alta Loma",
-        "Description": "2900, 700"
+        "Description": "2300, 500"
       },
       "geometry": {
         "type": "Point",
