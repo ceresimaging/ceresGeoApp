@@ -571,60 +571,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "Terranova",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -120.02563939264,
-              36.58930051251108,
-              0
-            ],
-            [
-              -120.0258734249054,
-              36.58223315584425,
-              0
-            ],
-            [
-              -120.0076525202874,
-              36.5821892264208,
-              0
-            ],
-            [
-              -120.0074690404147,
-              36.58925753485342,
-              0
-            ],
-            [
-              -120.02563939264,
-              36.58930051251108,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Terranova",
-        "Description": "2700, 700"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.01845475417751,
-          36.58645618842813,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Name": "VCE-123",
         "Description": ""
       },
