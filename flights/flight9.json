@@ -1093,6 +1093,7 @@
         "type": "Point"
       }
     },
+    {
      "features": [
     {
       "type": "Feature",
@@ -1201,10 +1202,8 @@
           36.98396447361224,
           0
         ]
-      },
-    
-  
-
+      }
+    },
     {
       "type": "Feature",
       "properties": {
