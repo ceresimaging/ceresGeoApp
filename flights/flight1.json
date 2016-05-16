@@ -365,7 +365,7 @@
       "type": "Feature",
       "properties": {
         "Name": "West Valley Pistachio",
-        "Description": "2000, 400"
+        "Description": "3000, 400"
       },
       "geometry": {
         "type": "Point",
