@@ -120,7 +120,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Belridge May AOI",
-        "Description": "2000, 400"
+        "Description": "3500, 700"
       },
       "geometry": {
         "type": "Point",
