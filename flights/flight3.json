@@ -55,7 +55,7 @@
       "type": "Feature",
       "properties": {
         "Name": "134 Paramount",
-        "Description": "2000, 400"
+        "Description": "3500, 400"
       },
       "geometry": {
         "type": "Point",
@@ -119,7 +119,7 @@
       "type": "Feature",
       "properties": {
         "Name": "78 Oberti Almonds North",
-        "Description": "2700, 700"
+        "Description": "4000, 600"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "Name": "79 Oberti Almonds South",
-        "Description": "2700, 700"
+        "Description": "4000, 600"
       },
       "geometry": {
         "type": "Point",
@@ -232,7 +232,7 @@
       "type": "Feature",
       "properties": {
         "Name": "80 Omaha Ranch",
-        "Description": "2700, 700"
+        "Description": "4000, 700"
       },
       "geometry": {
         "type": "Point",
@@ -311,7 +311,7 @@
       "type": "Feature",
       "properties": {
         "Name": "West Valley Pistachio",
-        "Description": "3000, 400"
+        "Description": "4500, 400"
       },
       "geometry": {
         "type": "Point",
@@ -375,7 +375,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Yuelong-SinoMatic-Zonglin-Xindogyna",
-        "Description": "2700, 700"
+        "Description": "4000, 600"
       },
       "geometry": {
         "type": "Point",
