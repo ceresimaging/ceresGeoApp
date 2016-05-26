@@ -69,6 +69,65 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "5-3",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.0482302168142,
+              36.2240087718126,
+              0
+            ],
+            [
+              -120.0482252097121,
+              36.21055862316874,
+              0
+            ],
+            [
+              -120.0392466244006,
+              36.21059524056476,
+              0
+            ],
+            [
+              -120.0392479039155,
+              36.22639549736322,
+              0
+            ],
+            [
+              -120.0421205429868,
+              36.22635783277772,
+              0
+            ],
+            [
+              -120.0482302168142,
+              36.2240087718126,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "5-3",
+        "Description": "3500, 600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.04421678577391,
+          36.220320789583276,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "82 A &amp; P GAP - 15",
         "Description": ""
       },
@@ -439,13 +498,72 @@
       "type": "Feature",
       "properties": {
         "Name": "82 A &amp; P GAP - 15",
-        "Description": "4500, 600"
+        "Description": "4500, 700"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.92378227527533,
           35.63818738476322,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New fields",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.0036442555988,
+              36.24118876082994,
+              0
+            ],
+            [
+              -120.0130257293023,
+              36.23755633912181,
+              0
+            ],
+            [
+              -120.012775273745,
+              36.23372249355639,
+              0
+            ],
+            [
+              -119.9950130100262,
+              36.23402464475326,
+              0
+            ],
+            [
+              -119.9948867268871,
+              36.24118921113962,
+              0
+            ],
+            [
+              -120.0036442555988,
+              36.24118876082994,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New fields",
+        "Description": "3500, 600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0038315418597,
+          36.23814503503849,
           0
         ]
       }
@@ -572,7 +690,7 @@
       "type": "Feature",
       "properties": {
         "Name": "West Valley Pistachio",
-        "Description": "3800, 300"
+        "Description": "4000, 300"
       },
       "geometry": {
         "type": "Point",
@@ -636,7 +754,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Yuelong-SinoMatic-Zonglin-Xindogyna",
-        "Description": "4000, 600"
+        "Description": "4500, 600"
       },
       "geometry": {
         "type": "Point",
