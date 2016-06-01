@@ -10,6 +10,65 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "134 Paramount",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.7074931287215,
+              35.49162234491342,
+              0
+            ],
+            [
+              -119.7075071666871,
+              35.52091564939784,
+              0
+            ],
+            [
+              -119.7252434447271,
+              35.52100170228654,
+              0
+            ],
+            [
+              -119.7252140129599,
+              35.4917193459128,
+              0
+            ],
+            [
+              -119.7163483735425,
+              35.49171996012693,
+              0
+            ],
+            [
+              -119.7074931287215,
+              35.49162234491342,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "134 Paramount",
+        "Description": "2800, 400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.71488320922658,
+          35.50143355792516,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "C1",
         "Description": ""
       },
@@ -50,7 +109,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C1",
-        "Description": "1200, 200"
+        "Description": "1200, 250"
       },
       "geometry": {
         "type": "Point",
@@ -124,7 +183,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C2",
-        "Description": "1200, 200"
+        "Description": "1200, 250"
       },
       "geometry": {
         "type": "Point",
@@ -193,7 +252,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C3",
-        "Description": "1200, 200"
+        "Description": "1200, 250"
       },
       "geometry": {
         "type": "Point",
@@ -262,7 +321,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C4",
-        "Description": "1200, 200"
+        "Description": "1200, 250"
       },
       "geometry": {
         "type": "Point",
@@ -321,7 +380,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C5",
-        "Description": "1200, 200"
+        "Description": "1200, 250"
       },
       "geometry": {
         "type": "Point",
@@ -480,7 +539,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C6",
-        "Description": "1200, 200"
+        "Description": "1200, 250"
       },
       "geometry": {
         "type": "Point",
@@ -534,7 +593,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C7",
-        "Description": "1200, 200"
+        "Description": "1200, 250"
       },
       "geometry": {
         "type": "Point",
@@ -603,7 +662,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C8",
-        "Description": "1200, 200"
+        "Description": "1200, 250"
       },
       "geometry": {
         "type": "Point",
