@@ -80,7 +80,7 @@
       "type": "Feature",
       "properties": {
         "Name": "12A",
-        "Description": "2700, 700"
+        "Description": "3700, 700"
       },
       "geometry": {
         "type": "Point",
@@ -682,7 +682,7 @@
       "type": "Feature",
       "properties": {
         "Name": "F 95 Series",
-        "Description": "2700, 700"
+        "Description": "3700, 700"
       },
       "geometry": {
         "type": "Point",
@@ -736,7 +736,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Fundus 1",
-        "Description": "1800, 300"
+        "Description": "2300, 300"
       },
       "geometry": {
         "type": "Point",
@@ -830,7 +830,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Fundus 2",
-        "Description": "1800, 300"
+        "Description": "2300, 300"
       },
       "geometry": {
         "type": "Point",
@@ -884,7 +884,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Fundus 3",
-        "Description": "1800, 300"
+        "Description": "2300, 300"
       },
       "geometry": {
         "type": "Point",
@@ -938,7 +938,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Fundus 4",
-        "Description": "1800, 300"
+        "Description": "2300, 300"
       },
       "geometry": {
         "type": "Point",
@@ -1027,7 +1027,7 @@
       "type": "Feature",
       "properties": {
         "Name": "PRMF Almonds",
-        "Description": "2700, 700"
+        "Description": "3700, 700"
       },
       "geometry": {
         "type": "Point",
