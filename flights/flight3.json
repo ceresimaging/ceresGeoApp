@@ -104,6 +104,60 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "25S",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.5535445446235,
+              35.97827575953747,
+              0
+            ],
+            [
+              -119.5364842823851,
+              35.97845605914996,
+              0
+            ],
+            [
+              -119.5367086654214,
+              35.98526682346249,
+              0
+            ],
+            [
+              -119.5535427939194,
+              35.98527084542856,
+              0
+            ],
+            [
+              -119.5535445446235,
+              35.97827575953747,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "25S",
+        "Description": "1800, 300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.54676496619459,
+          35.98110904942319,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Arya Ranch",
         "Description": ""
       },
@@ -307,7 +361,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Calvin Almond",
-        "Description": "2700, 70"
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
@@ -513,6 +567,65 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "New fields",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.0036442555988,
+              36.24118876082994,
+              0
+            ],
+            [
+              -120.0130257293023,
+              36.23755633912181,
+              0
+            ],
+            [
+              -120.012775273745,
+              36.23372249355639,
+              0
+            ],
+            [
+              -119.9950130100262,
+              36.23402464475326,
+              0
+            ],
+            [
+              -119.9948867268871,
+              36.24118921113962,
+              0
+            ],
+            [
+              -120.0036442555988,
+              36.24118876082994,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "New fields",
+        "Description": "1800, 300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0038315418597,
+          36.23814503503849,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Ranch 6",
         "Description": ""
       },
@@ -553,7 +666,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Ranch 6",
-        "Description": "1800, 300"
+        "Description": "2700, 600"
       },
       "geometry": {
         "type": "Point",
@@ -712,7 +825,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Riverdale Ranch",
-        "Description": "2500, 600"
+        "Description": "2700, 600"
       },
       "geometry": {
         "type": "Point",
