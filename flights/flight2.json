@@ -75,7 +75,7 @@
       "type": "Feature",
       "properties": {
         "Name": "163 Golden Bobcat PFP - 5",
-        "Description": "2000, 400"
+        "Description": "1600, 300"
       },
       "geometry": {
         "type": "Point",
@@ -324,6 +324,114 @@
         "coordinates": [
           -120.24404683000007,
           37.07515888188565,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Luker Buchannan Hollow",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.3431521612351,
+              37.20510588381175,
+              0
+            ],
+            [
+              -120.3432003889489,
+              37.20021577376777,
+              0
+            ],
+            [
+              -120.3387301412758,
+              37.20022130939702,
+              0
+            ],
+            [
+              -120.3387099542906,
+              37.20511027997612,
+              0
+            ],
+            [
+              -120.3431521612351,
+              37.20510588381175,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Luker Buchannan Hollow",
+        "Description": "2700, 700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.34138896139709,
+          37.203151826152876,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Luker Home Ranch",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.3379015495073,
+              37.25111346381411,
+              0
+            ],
+            [
+              -120.3378807535401,
+              37.24386912105952,
+              0
+            ],
+            [
+              -120.3341420663342,
+              37.24386955343083,
+              0
+            ],
+            [
+              -120.3342189229981,
+              37.25109765032416,
+              0
+            ],
+            [
+              -120.3379015495073,
+              37.25111346381411,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Luker Home Ranch",
+        "Description": "2700, 700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.3364089683774,
+          37.24821265048855,
           0
         ]
       }
