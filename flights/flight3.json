@@ -451,7 +451,7 @@
       "type": "Feature",
       "properties": {
         "Name": "A",
-        "Description": "3800,600"
+        "Description": "3800, 600"
       },
       "geometry": {
         "type": "Point",
