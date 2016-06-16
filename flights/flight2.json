@@ -392,67 +392,13 @@
       "type": "Feature",
       "properties": {
         "Name": "Olam",
-        "Description": "2000, 400"
+        "Description": "2100, 400"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -120.75751883608716,
           36.934753964922535,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Ritchie",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -119.1539842766532,
-              36.20364130033966,
-              0
-            ],
-            [
-              -119.1536188660676,
-              36.19637725559262,
-              0
-            ],
-            [
-              -119.1490953584794,
-              36.1963432087657,
-              0
-            ],
-            [
-              -119.1492788327754,
-              36.20364136042058,
-              0
-            ],
-            [
-              -119.1539842766532,
-              36.20364130033966,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Ritchie",
-        "Description": "2500, 700"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.15199232212576,
-          36.20072888509164,
           0
         ]
       }
