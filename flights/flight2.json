@@ -104,6 +104,60 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Bill Green",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.7000689324449,
+              36.6200308390562,
+              0
+            ],
+            [
+              -119.6957423867209,
+              36.62000467334794,
+              0
+            ],
+            [
+              -119.6957442163249,
+              36.62354904591058,
+              0
+            ],
+            [
+              -119.7000829710843,
+              36.62353051167376,
+              0
+            ],
+            [
+              -119.7000689324449,
+              36.6200308390562,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bill Green",
+        "Description": "1800, 300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.69834148780396,
+          36.621429181808935,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Central Ranch",
         "Description": ""
       },
@@ -798,7 +852,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Yuelong Sinomatic Zhonglin Xindognya",
-        "Description": "2800, 700"
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
