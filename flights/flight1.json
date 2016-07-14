@@ -496,7 +496,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Mapes",
-        "Description": "2200, 400"
+        "Description": "2000, 400"
       },
       "geometry": {
         "type": "Point",
