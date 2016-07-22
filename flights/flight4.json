@@ -10,85 +10,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "Alta Loma",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -119.1575498369832,
-              36.43555903518061,
-              0
-            ],
-            [
-              -119.1550437959538,
-              36.43162436749635,
-              0
-            ],
-            [
-              -119.1509353284138,
-              36.42774897790318,
-              0
-            ],
-            [
-              -119.1493887735105,
-              36.42715775939564,
-              0
-            ],
-            [
-              -119.1470568340798,
-              36.42556583456788,
-              0
-            ],
-            [
-              -119.1444718388221,
-              36.42487448811023,
-              0
-            ],
-            [
-              -119.1390773657964,
-              36.42385739753237,
-              0
-            ],
-            [
-              -119.1358359040547,
-              36.42887235993643,
-              0
-            ],
-            [
-              -119.1528141287288,
-              36.43557320021362,
-              0
-            ],
-            [
-              -119.1575498369832,
-              36.43555903518061,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Alta Loma",
-        "Description": "3300, 500"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.14897236433265,
-          36.42963924555169,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Name": "CSH Stone Corral",
         "Description": ""
       },
@@ -194,7 +115,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CSH Stone Corral",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
@@ -303,7 +224,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CSH Sumos",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
@@ -487,7 +408,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CSH Woodlake Lemons",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
@@ -596,7 +517,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Dave Tomlinson #2",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
@@ -715,7 +636,7 @@
       "type": "Feature",
       "properties": {
         "Name": "EL Mirador/Stratmore/TerraVista",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
@@ -804,7 +725,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Hill",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
@@ -878,7 +799,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Mg Ranch",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
@@ -932,7 +853,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Murmack",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
@@ -1041,7 +962,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Redbanks/Alta Loma",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
@@ -1135,67 +1056,13 @@
       "type": "Feature",
       "properties": {
         "Name": "South Stratmore",
-        "Description": "3300, 500"
+        "Description": "3200, 400"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.0100211186948,
           36.14211389467204,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "west redbanks",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -119.1415241324545,
-              36.42120659616172,
-              0
-            ],
-            [
-              -119.1416437130513,
-              36.41598114852238,
-              0
-            ],
-            [
-              -119.1400557638676,
-              36.41598112989264,
-              0
-            ],
-            [
-              -119.1399964651708,
-              36.42120656046483,
-              0
-            ],
-            [
-              -119.1415241324545,
-              36.42120659616172,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "west redbanks",
-        "Description": "3300, 500"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.14094884139975,
-          36.419116406240654,
           0
         ]
       }
