@@ -100,7 +100,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Spurlock",
-        "Description": "3500, 700"
+        "Description": "6000, 850"
       },
       "geometry": {
         "type": "Point",
