@@ -9,7 +9,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "3500, 500",
         "Name": "Portwood M1"
       },
       "type": "Feature"
@@ -313,7 +313,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "3500, 500",
         "Name": "Portwood P-series"
       },
       "type": "Feature"
@@ -617,7 +617,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "3500, 500",
         "Name": "Portwood King"
       },
       "type": "Feature"
@@ -921,7 +921,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "3500, 500",
         "Name": "Portwood S-series"
       },
       "type": "Feature"
@@ -1233,7 +1233,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "3500, 500",
         "Name": "Portwood BW-series"
       },
       "type": "Feature"
