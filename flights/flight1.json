@@ -784,7 +784,7 @@
       },
       "properties": {
         "Name": "White Diamond Ranch",
-        "Description": "2600, 700"
+        "Description": "2000, 400"
       },
       "type": "Feature"
     },
@@ -1516,7 +1516,7 @@
       },
       "properties": {
         "Name": "Sierra Loma",
-        "Description": "2500, 700"
+        "Description": "1200, 250"
       },
       "type": "Feature"
     },
