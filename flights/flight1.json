@@ -65,7 +65,7 @@
       "type": "Feature",
       "properties": {
         "Name": "A",
-        "Description": "1800, 250"
+        "Description": "2000, 250"
       },
       "geometry": {
         "type": "Point",
@@ -119,7 +119,7 @@
       "type": "Feature",
       "properties": {
         "Name": "B",
-        "Description": "1800, 250"
+        "Description": "2000, 250"
       },
       "geometry": {
         "type": "Point",
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C",
-        "Description": "1800, 250"
+        "Description": "2000, 250"
       },
       "geometry": {
         "type": "Point",
@@ -267,7 +267,7 @@
       "type": "Feature",
       "properties": {
         "Name": "D",
-        "Description": "1800, 250"
+        "Description": "2000, 250"
       },
       "geometry": {
         "type": "Point",
@@ -321,7 +321,7 @@
       "type": "Feature",
       "properties": {
         "Name": "E",
-        "Description": "1800, 250"
+        "Description": "2000, 250"
       },
       "geometry": {
         "type": "Point",
@@ -375,7 +375,7 @@
       "type": "Feature",
       "properties": {
         "Name": "F",
-        "Description": "1800, 250"
+        "Description": "2000, 250"
       },
       "geometry": {
         "type": "Point",
