@@ -418,60 +418,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "Freeman",
-        "Description": ""
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -121.1575618702736,
-              38.03652043109419,
-              0
-            ],
-            [
-              -121.1548393281343,
-              38.03657147470332,
-              0
-            ],
-            [
-              -121.1549568433831,
-              38.03986342579682,
-              0
-            ],
-            [
-              -121.1576962816041,
-              38.03980921286646,
-              0
-            ],
-            [
-              -121.1575618702736,
-              38.03652043109419,
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Freeman",
-        "Description": "2600, 700"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.15652323873374,
-          38.037856995111,
-          0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Name": "Mapes",
         "Description": ""
       },
