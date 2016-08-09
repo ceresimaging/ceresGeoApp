@@ -246,6 +246,60 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Added polygon",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.529407075842,
+              36.23360562837911,
+              0
+            ],
+            [
+              -119.529407075842,
+              36.21825922162111,
+              0
+            ],
+            [
+              -119.519420045671,
+              36.21825922162111,
+              0
+            ],
+            [
+              -119.519420045671,
+              36.23360562837911,
+              0
+            ],
+            [
+              -119.529407075842,
+              36.23360562837911,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Added polygon",
+        "Description": "2700, 700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.52541226377359,
+          36.22746706567591,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Boston",
         "Description": ""
       },
