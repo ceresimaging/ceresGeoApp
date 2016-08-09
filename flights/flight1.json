@@ -717,6 +717,60 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Freedom",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.4113902193047,
+              35.61594629750015,
+              0
+            ],
+            [
+              -119.4112468846789,
+              35.60155794935627,
+              0
+            ],
+            [
+              -119.402600032057,
+              35.60155142231046,
+              0
+            ],
+            [
+              -119.4024718342015,
+              35.61590191397814,
+              0
+            ],
+            [
+              -119.4113902193047,
+              35.61594629750015,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Freedom",
+        "Description": "2700, 700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.40781983790937,
+          35.61018077612904,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Prudential",
         "Description": ""
       },
