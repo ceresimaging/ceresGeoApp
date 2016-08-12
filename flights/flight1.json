@@ -104,7 +104,7 @@
       "type": "Feature",
       "properties": {
         "Name": "B",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
@@ -158,7 +158,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +212,7 @@
       "type": "Feature",
       "properties": {
         "Name": "D",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
@@ -316,7 +316,7 @@
       "type": "Feature",
       "properties": {
         "Name": "E",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
@@ -380,7 +380,7 @@
       "type": "Feature",
       "properties": {
         "Name": "F",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
@@ -444,7 +444,7 @@
       "type": "Feature",
       "properties": {
         "Name": "G",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
@@ -498,7 +498,7 @@
       "type": "Feature",
       "properties": {
         "Name": "H",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
@@ -562,7 +562,7 @@
       "type": "Feature",
       "properties": {
         "Name": "I",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
@@ -636,7 +636,7 @@
       "type": "Feature",
       "properties": {
         "Name": "J",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
@@ -710,7 +710,7 @@
       "type": "Feature",
       "properties": {
         "Name": "K",
-        "Description": "2400, 250"
+        "Description": "2400, 350"
       },
       "geometry": {
         "type": "Point",
