@@ -328,6 +328,65 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Sierra Orchards",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -121.924602722674,
+              38.52927176141524,
+              0
+            ],
+            [
+              -121.92019503244,
+              38.52113430686654,
+              0
+            ],
+            [
+              -121.8998628236905,
+              38.52833875275503,
+              0
+            ],
+            [
+              -121.9018686670493,
+              38.53131737792261,
+              0
+            ],
+            [
+              -121.9126302878261,
+              38.52953029467076,
+              0
+            ],
+            [
+              -121.924602722674,
+              38.52927176141524,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sierra Orchards",
+        "Description": "2500, 700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.91396037605898,
+          38.52814404250757,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Stagecoach",
         "Description": ""
       },
