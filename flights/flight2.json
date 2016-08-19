@@ -10,7 +10,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Riverdale Ranch",
-        "Description": "2600, 700"
+        "Description": "4100, 700"
       },
       "geometry": {
         "coordinates": [
@@ -678,7 +678,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Akhavi Pistachio",
-        "Description": "2600, 700"
+        "Description": "4100, 700"
       },
       "geometry": {
         "coordinates": [
@@ -1126,7 +1126,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Akhavi 504",
-        "Description": "2600, 700"
+        "Description": "4100, 700"
       },
       "geometry": {
         "coordinates": [
@@ -1430,7 +1430,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Akhavi 564",
-        "Description": "2600, 700"
+        "Description": "4100, 700"
       },
       "geometry": {
         "coordinates": [
@@ -1994,7 +1994,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Papas Ranch",
-        "Description": "2600, 700"
+        "Description": "4100, 700"
       },
       "geometry": {
         "coordinates": [
