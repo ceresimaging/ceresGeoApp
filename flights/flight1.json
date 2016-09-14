@@ -2,7 +2,7 @@
   "features": [
     {
       "properties": {
-        "Description": "2900, 700",
+        "Description": "1600, 250",
         "Name": "Stagecoach"
       },
       "type": "Feature",
@@ -1314,7 +1314,7 @@
     },
     {
       "properties": {
-        "Description": "2900, 700",
+        "Description": "1600, 250",
         "Name": "Stagecoach"
       },
       "type": "Feature",
@@ -1422,7 +1422,7 @@
     },
     {
       "properties": {
-        "Description": "2900, 700",
+        "Description": "1600, 250",
         "Name": "Stagecoach"
       },
       "type": "Feature",
@@ -2446,7 +2446,7 @@
     },
     {
       "properties": {
-        "Description": "2900, 700",
+        "Description": "1600, 250",
         "Name": "Stagecoach"
       },
       "type": "Feature",
@@ -2574,7 +2574,7 @@
     },
     {
       "properties": {
-        "Description": "2700, 700",
+        "Description": "1400, 250",
         "Name": "Sun Lake"
       },
       "type": "Feature",
@@ -2666,7 +2666,7 @@
     },
     {
       "properties": {
-        "Description": "2500, 700",
+        "Description": "1200, 250",
         "Name": "Del Rio"
       },
       "type": "Feature",
@@ -2746,7 +2746,7 @@
     },
     {
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1300, 250",
         "Name": "Mac Murray VYD"
       },
       "type": "Feature",
@@ -2814,7 +2814,7 @@
     },
     {
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1300, 250",
         "Name": "Mac Murray VYD"
       },
       "type": "Feature",
@@ -2882,7 +2882,7 @@
     },
     {
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1300, 250",
         "Name": "Vino"
       },
       "type": "Feature",
