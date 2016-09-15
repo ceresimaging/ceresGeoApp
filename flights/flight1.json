@@ -2,7 +2,7 @@
   "features": [
     {
       "properties": {
-        "Description": "2500, 700",
+        "Description": "1200, 300",
         "Name": "Strain 100"
       },
       "geometry": {
@@ -102,7 +102,7 @@
     },
     {
       "properties": {
-        "Description": "2700, 700",
+        "Description": "1400, 250",
         "Name": "Sun Lake"
       },
       "geometry": {
@@ -194,7 +194,7 @@
     },
     {
       "properties": {
-        "Description": "2500, 700",
+        "Description": "1200, 250",
         "Name": "Del Rio"
       },
       "geometry": {
@@ -274,7 +274,7 @@
     },
     {
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1300, 250",
         "Name": "Mac Murray VYD"
       },
       "geometry": {
@@ -342,7 +342,7 @@
     },
     {
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1300, 300",
         "Name": "Mac Murray VYD"
       },
       "geometry": {
