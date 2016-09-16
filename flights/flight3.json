@@ -17,7 +17,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "1300, 700",
+        "Description": "1600, 300",
         "Name": "RS Home Ranch"
       }
     },
@@ -85,7 +85,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "1300, 700",
+        "Description": "1600, 300",
         "Name": "Millwood Citrus"
       }
     },
@@ -153,7 +153,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "2600, 700",
+        "Description": "2900, 700",
         "Name": "Swall Ranch"
       }
     },
@@ -287,7 +287,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "1300, 700",
+        "Description": "1600, 300",
         "Name": "Rampage"
       }
     },
