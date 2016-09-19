@@ -16,7 +16,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1300, 250",
         "Name": "GVI 182"
       },
       "type": "Feature"
@@ -84,7 +84,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1300, 250",
         "Name": "GVI 103"
       },
       "type": "Feature"
@@ -160,7 +160,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1300, 250",
         "Name": "GVI 901W/GVI 901M"
       },
       "type": "Feature"
@@ -280,7 +280,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1300, 250",
         "Name": "GVI 567"
       },
       "type": "Feature"
@@ -356,7 +356,7 @@
         ]
       },
       "properties": {
-        "Description": "2500, 700",
+        "Description": "1200, 250",
         "Name": "GVI 956/GVI 953/GVI 952"
       },
       "type": "Feature"
@@ -488,7 +488,7 @@
         ]
       },
       "properties": {
-        "Description": "2500, 700",
+        "Description": "1200, 250",
         "Name": "GVI 962"
       },
       "type": "Feature"
