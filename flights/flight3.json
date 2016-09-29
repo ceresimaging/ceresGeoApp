@@ -3,7 +3,7 @@
     {
       "properties": {
         "Name": "Vino",
-        "Description": "2100, 350"
+        "Description": "2100, 250"
       },
       "type": "Feature",
       "geometry": {
