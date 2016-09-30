@@ -3,7 +3,7 @@
     {
       "properties": {
         "Name": "RS Home Ranch",
-        "Description": "2900, 700"
+        "Description": "1800, 300"
       },
       "type": "Feature",
       "geometry": {
@@ -71,7 +71,7 @@
     {
       "properties": {
         "Name": "Millwood Citrus",
-        "Description": "2900, 700"
+        "Description": "1800, 300"
       },
       "type": "Feature",
       "geometry": {
