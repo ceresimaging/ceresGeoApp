@@ -16,7 +16,7 @@
       },
       "properties": {
         "Name": "Narcooyia",
-        "Description": "2700, 700"
+        "Description": "3200, 800"
       },
       "type": "Feature"
     },
@@ -156,7 +156,7 @@
       },
       "properties": {
         "Name": "Carina13",
-        "Description": "2700, 700"
+        "Description": "3200, 800"
       },
       "type": "Feature"
     },
@@ -300,7 +300,7 @@
       },
       "properties": {
         "Name": "Annuello",
-        "Description": "2700, 700"
+        "Description": "3200, 800"
       },
       "type": "Feature"
     },
