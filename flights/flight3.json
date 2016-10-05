@@ -10,7 +10,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "4500, 700",
+        "Description": "3500, 500",
         "Name": "Sumo-01-101"
       }
     },
@@ -146,7 +146,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "3500, 500",
         "Name": "KG Ranch"
       }
     },
@@ -510,7 +510,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "3500, 500",
         "Name": "Monte Vista Huller"
       }
     },
