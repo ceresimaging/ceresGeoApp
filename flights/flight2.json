@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 800",
         "Name": "Yungera/Wandown"
       },
       "geometry": {
@@ -188,7 +188,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 800",
         "Name": "Lake Powell/Bright Light"
       },
       "geometry": {
