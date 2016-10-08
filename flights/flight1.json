@@ -2,7 +2,7 @@
   "features": [
     {
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 800",
         "Name": "Campbell/Menegazzo"
       },
       "type": "Feature",
@@ -186,7 +186,7 @@
     },
     {
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 800",
         "Name": "Westmore"
       },
       "type": "Feature",
