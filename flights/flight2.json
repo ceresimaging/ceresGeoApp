@@ -17,7 +17,7 @@
       },
       "properties": {
         "Name": "JB-401-Raisin",
-        "Description": "3300, 590"
+        "Description": "1800, 250"
       },
       "type": "Feature"
     },
@@ -85,7 +85,7 @@
       },
       "properties": {
         "Name": "Paramount",
-        "Description": "3400, 590"
+        "Description": "3300, 500"
       },
       "type": "Feature"
     },
@@ -153,7 +153,7 @@
       },
       "properties": {
         "Name": "JB-408-Raisin",
-        "Description": "3200, 590"
+        "Description": "1800, 250"
       },
       "type": "Feature"
     },
