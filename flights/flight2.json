@@ -1,27 +1,34 @@
 {
   "crs": {
+    "type": "name",
     "properties": {
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
+    }
   },
+  "type": "FeatureCollection",
   "features": [
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Indian Belle Ranch",
+        "Description": "4500, 700"
+      },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -118.94185341770114,
           36.03933814085402
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Description": "4500, 700",
-        "Name": "Indian Belle Ranch"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Indian Belle Ranch",
+        "Description": ""
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -113,31 +120,31 @@
               36.044055933295404
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Indian Belle Ranch"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Indian Belle Ranch",
+        "Description": "4500, 700"
+      },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -118.94368074488787,
           36.056129704968136
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Description": "4500, 700",
-        "Name": "Indian Belle Ranch"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Indian Belle Ranch",
+        "Description": ""
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -221,31 +228,31 @@
               36.05875897659786
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Indian Belle Ranch"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jefferson & M E Ranches",
+        "Description": "4400, 700"
+      },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.36891507014568,
           36.65341798787165
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Description": "4400, 700",
-        "Name": "Jefferson & M E Ranches"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jefferson & M E Ranches",
+        "Description": ""
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -329,31 +336,99 @@
               36.65441634308592
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Jefferson & M E Ranches"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Paramount",
+        "Description": "4500, 700"
+      },
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.71634620785129,
+          35.506514244563526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Paramount",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.72572568954536,
+              35.52125883060506
+            ],
+            [
+              -119.72566711090158,
+              35.5214002519613
+            ],
+            [
+              -119.72552568954535,
+              35.52145883060506
+            ],
+            [
+              -119.70716328294458,
+              35.52145883060506
+            ],
+            [
+              -119.70699698902212,
+              35.52136994465167
+            ],
+            [
+              -119.70696328294457,
+              35.491753108708224
+            ],
+            [
+              -119.70705216889797,
+              35.49158681478576
+            ],
+            [
+              -119.72552568954535,
+              35.491553108708224
+            ],
+            [
+              -119.72569198346781,
+              35.49164199466162
+            ],
+            [
+              -119.72572568954536,
+              35.52125883060506
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Agriland 06",
+        "Description": "4300, 700"
+      },
+      "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.90218291094615,
           36.864076507793676
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Description": "4300, 700",
-        "Name": "Agriland 06"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Agriland 06",
+        "Description": ""
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -397,31 +472,31 @@
               36.86587654746626
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Agriland 06"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Agriland 06",
+        "Description": "4300, 700"
+      },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.9393073318367,
           36.854498434592934
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Description": "4300, 700",
-        "Name": "Agriland 06"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Agriland 06",
+        "Description": ""
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -489,31 +564,31 @@
               36.85855788748476
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Agriland 06"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Agriland 06",
+        "Description": "4300, 700"
+      },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.96960904571048,
           36.86219090405168
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Description": "4300, 700",
-        "Name": "Agriland 06"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Agriland 06",
+        "Description": ""
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -557,31 +632,31 @@
               36.86572792482894
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Agriland 06"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lagorio",
+        "Description": "4300, 700"
+      },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.12435256358644,
           37.06181167499114
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Description": "1800, 300",
-        "Name": "Lagorio"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lagorio",
+        "Description": ""
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -625,31 +700,31 @@
               37.0690016671506
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Lagorio"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Turlock Fruit Company",
+        "Description": "4300, 700"
+      },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.71767936139652,
           36.84320748377322
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Description": "4300, 700",
-        "Name": "Turlock Fruit Company"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Name": "Turlock Fruit Company",
+        "Description": ""
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -693,15 +768,8 @@
               36.850385971251804
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Turlock Fruit Company"
-      },
-      "type": "Feature"
+        ]
+      }
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }
