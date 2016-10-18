@@ -343,7 +343,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Paramount",
-        "Description": "4500, 700"
+        "Description": "3300, 500"
       },
       "geometry": {
         "type": "Point",
@@ -639,7 +639,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Lagorio",
-        "Description": "4300, 700"
+        "Description": "1800, 250"
       },
       "geometry": {
         "type": "Point",
