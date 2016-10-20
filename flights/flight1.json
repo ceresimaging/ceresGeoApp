@@ -10,7 +10,7 @@
     {
       "properties": {
         "Name": "Selva",
-        "Description": "1900, 350"
+        "Description": "1900, 250"
       },
       "type": "Feature",
       "geometry": {
@@ -86,7 +86,7 @@
     {
       "properties": {
         "Name": "Shrine",
-        "Description": "1900, 350"
+        "Description": "1900, 250"
       },
       "type": "Feature",
       "geometry": {
@@ -154,7 +154,7 @@
     {
       "properties": {
         "Name": "Garlinger",
-        "Description": "2000, 350"
+        "Description": "2000, 250"
       },
       "type": "Feature",
       "geometry": {
@@ -222,7 +222,7 @@
     {
       "properties": {
         "Name": "Garlinger",
-        "Description": "2000, 350"
+        "Description": "2000, 250"
       },
       "type": "Feature",
       "geometry": {
@@ -290,7 +290,7 @@
     {
       "properties": {
         "Name": "Garlinger",
-        "Description": "2000, 350"
+        "Description": "2000, 250"
       },
       "type": "Feature",
       "geometry": {
@@ -358,7 +358,7 @@
     {
       "properties": {
         "Name": "Broome",
-        "Description": "1900, 350"
+        "Description": "1900, 250"
       },
       "type": "Feature",
       "geometry": {
@@ -434,7 +434,7 @@
     {
       "properties": {
         "Name": "Harkins",
-        "Description": "1900, 350"
+        "Description": "1900, 250"
       },
       "type": "Feature",
       "geometry": {
@@ -506,7 +506,7 @@
     {
       "properties": {
         "Name": "Wilder",
-        "Description": "1800, 350"
+        "Description": "1800, 250"
       },
       "type": "Feature",
       "geometry": {
