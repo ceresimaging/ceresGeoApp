@@ -160,7 +160,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Annuello",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
@@ -334,7 +334,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Campbell",
-        "Description": "2500, 700"
+        "Description": "2200, 500"
       },
       "geometry": {
         "type": "Point",
@@ -433,7 +433,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Carina13",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
@@ -622,7 +622,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Lake Powell -Birght Lights",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
@@ -736,7 +736,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Liparoo",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
@@ -945,7 +945,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Menegazzo",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
@@ -1139,7 +1139,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Mitchell",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
@@ -1443,7 +1443,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Narcooyia Nenandie",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
@@ -1602,7 +1602,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Wandown",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
@@ -1751,7 +1751,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Westmores",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
@@ -1925,7 +1925,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Yungera",
-        "Description": "2500, 700"
+        "Description": "3200, 850"
       },
       "geometry": {
         "type": "Point",
