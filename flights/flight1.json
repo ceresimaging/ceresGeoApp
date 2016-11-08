@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "Description": "2700, 700",
+        "Description": "2200, 500",
         "Name": "Campbell"
       }
     },
@@ -143,7 +143,7 @@
         ]
       },
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3100, 850",
         "Name": "Westmore"
       }
     },
@@ -239,7 +239,7 @@
         ]
       },
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 850",
         "Name": "Annuello"
       }
     },
