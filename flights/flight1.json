@@ -1,20 +1,32 @@
 {
+  "type": "FeatureCollection",
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
   "features": [
     {
+      "properties": {
+        "Name": "CCAGA-Sanger",
+        "Description": "4400, 700"
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           -119.59418998017358,
           36.766616899754624
         ],
         "type": "Point"
-      },
-      "properties": {
-        "Description": "4400, 700",
-        "Name": "CCAGA-Sanger"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "CCAGA-Sanger",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           [
@@ -61,28 +73,28 @@
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "CCAGA-Sanger"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Harris-Woolf",
+        "Description": "4300, 700"
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           -120.18781316773926,
           36.35244944194753
         ],
         "type": "Point"
-      },
-      "properties": {
-        "Description": "4300, 700",
-        "Name": "Harris-Woolf"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Harris-Woolf",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           [
@@ -153,28 +165,28 @@
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Harris-Woolf"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Hulling Company",
+        "Description": "4200, 700"
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           -120.20069421335438,
           37.028785154911105
         ],
         "type": "Point"
-      },
-      "properties": {
-        "Description": "4200, 700",
-        "Name": "Hulling Company"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Hulling Company",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           [
@@ -245,136 +257,96 @@
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Hulling Company"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Holland Nut",
+        "Description": "4200, 700"
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
-          -120.21815667599468,
-          36.73827635629605
+          -120.2186839272674,
+          36.73812094502054
         ],
         "type": "Point"
-      },
-      "properties": {
-        "Description": "4200, 700",
-        "Name": "Holland Nut"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Holland Nut",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           [
             [
-              -120.22331293245561,
-              36.741723492212344
+              -120.22334719928674,
+              36.73419623949017
             ],
             [
-              -120.22325263403204,
-              36.74185981574841
+              -120.22349257967744,
+              36.73425455268919
             ],
             [
-              -120.22311479775794,
-              36.7419165710822
+              -120.22355134883269,
+              36.73439974936123
             ],
             [
-              -120.21384969993694,
-              36.741949852617644
+              -120.22331293245557,
+              36.741723492212486
             ],
             [
-              -120.2137779650877,
-              36.74179023852507
+              -120.22323834459026,
+              36.74187246892772
             ],
             [
-              -120.21403659601799,
-              36.73446845919055
+              -120.21397961833243,
+              36.74199631396117
             ],
             [
-              -120.21419304786824,
-              36.7343876542716
+              -120.21382159766485,
+              36.74192113407184
             ],
             [
-              -120.22347764175171,
-              36.73424108913267
+              -120.21399732151681,
+              36.73458152750704
             ],
             [
-              -120.2235506948291,
-              36.734379650076164
+              -120.2140638561383,
+              36.734438574716584
             ],
             [
-              -120.22353150968928,
-              36.73551614524681
-            ],
-            [
-              -120.22342617601517,
-              36.73568878549005
-            ],
-            [
-              -120.22061870785808,
-              36.735742471033234
-            ],
-            [
-              -120.22058448524697,
-              36.73662380880717
-            ],
-            [
-              -120.22049501562668,
-              36.7367650217244
-            ],
-            [
-              -120.21886894566478,
-              36.73679718535379
-            ],
-            [
-              -120.21900071905434,
-              36.73873748078691
-            ],
-            [
-              -120.22320799245297,
-              36.73864586676381
-            ],
-            [
-              -120.22336122923332,
-              36.73871227567441
-            ],
-            [
-              -120.22341222692421,
-              36.73885273287561
-            ],
-            [
-              -120.22331293245561,
-              36.741723492212344
+              -120.22334719928674,
+              36.73419623949017
             ]
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Holland Nut"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Minturn",
+        "Description": "4200, 700"
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           -120.26742742363703,
           37.15677848981613
         ],
         "type": "Point"
-      },
-      "properties": {
-        "Description": "4200, 700",
-        "Name": "Minturn"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Minturn",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           [
@@ -449,28 +421,28 @@
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Minturn"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "MOC East Soil",
+        "Description": "4200, 700"
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           -120.32637942001853,
           37.02356369436076
         ],
         "type": "Point"
-      },
-      "properties": {
-        "Description": "4200, 700",
-        "Name": "MOC East Soil"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "MOC East Soil",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           [
@@ -533,28 +505,28 @@
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "MOC East Soil"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "West Valley Hulling",
+        "Description": "4500, 700"
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           -120.60683075153722,
           36.62493702519825
         ],
         "type": "Point"
-      },
-      "properties": {
-        "Description": "4500, 700",
-        "Name": "West Valley Hulling"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "West Valley Hulling",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           [
@@ -613,28 +585,28 @@
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "West Valley Hulling"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "RPAC",
+        "Description": "4200, 700"
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           -120.8667202632446,
           36.97851871693286
         ],
         "type": "Point"
-      },
-      "properties": {
-        "Description": "4200, 700",
-        "Name": "RPAC"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "RPAC",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           [
@@ -681,135 +653,91 @@
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "RPAC"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Westside Hulling",
+        "Description": "4100, 700"
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
-          -121.18503373271403,
-          37.53927148530539
+          -121.18504821361351,
+          37.539624850941564
         ],
         "type": "Point"
-      },
-      "properties": {
-        "Description": "4100, 700",
-        "Name": "Westside Hulling"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "properties": {
+        "Name": "Westside Hulling",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "coordinates": [
           [
             [
-              -121.18526231964366,
-              37.53725944341755
+              -121.18783373685679,
+              37.539307560568574
             ],
             [
-              -121.18550218546547,
-              37.53725465865
+              -121.18790096638138,
+              37.53944271746447
             ],
             [
-              -121.18783373685683,
-              37.53930756056863
+              -121.18784142578603,
+              37.53960054890031
             ],
             [
-              -121.18789859381157,
-              37.53942352250104
+              -121.18485530652242,
+              37.54199129815982
             ],
             [
-              -121.1878662966486,
-              37.539570981270685
+              -121.18470785723133,
+              37.541944973147515
             ],
             [
-              -121.18665711342851,
-              37.54053456064924
+              -121.1836738602152,
+              37.541072062499296
             ],
             [
-              -121.18650035493656,
-              37.54051322588966
+              -121.18280900686376,
+              37.54093457365721
             ],
             [
-              -121.18565638579862,
-              37.539881480378114
+              -121.1826978790519,
+              37.54049660097789
             ],
             [
-              -121.18480941524918,
-              37.54056992447591
+              -121.18284783152286,
+              37.54027835780279
             ],
             [
-              -121.18465728594839,
-              37.540598652088306
+              -121.18227790279593,
+              37.539702842734876
             ],
             [
-              -121.18417902606004,
-              37.54026609165108
+              -121.18235428647175,
+              37.53953121786408
             ],
             [
-              -121.18414881480142,
-              37.54013472439366
+              -121.18537157047807,
+              37.53721753339807
             ],
             [
-              -121.18422549847654,
-              37.539983376988076
+              -121.18551765828553,
+              37.537266986850256
             ],
             [
-              -121.1837580130236,
-              37.54034606704034
-            ],
-            [
-              -121.18410664699604,
-              37.5408317840769
-            ],
-            [
-              -121.18402480651235,
-              37.54106900642402
-            ],
-            [
-              -121.18282470855705,
-              37.540946960880774
-            ],
-            [
-              -121.182697879052,
-              37.540496600977754
-            ],
-            [
-              -121.1828478315229,
-              37.5402783578028
-            ],
-            [
-              -121.18231902069526,
-              37.53981094282725
-            ],
-            [
-              -121.18231397467598,
-              37.5395735500464
-            ],
-            [
-              -121.18526231964366,
-              37.53725944341755
+              -121.18783373685679,
+              37.539307560568574
             ]
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Westside Hulling"
-      },
-      "type": "Feature"
+      }
     }
-  ],
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
-  "type": "FeatureCollection"
+  ]
 }
