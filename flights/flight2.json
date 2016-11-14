@@ -8,7 +8,7 @@
   "features": [
     {
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 850",
         "Name": "Narcooyia"
       },
       "type": "Feature",
@@ -148,7 +148,7 @@
     },
     {
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 850",
         "Name": "Carina13"
       },
       "type": "Feature",
