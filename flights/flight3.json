@@ -8,7 +8,7 @@
   "features": [
     {
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 850",
         "Name": "Amaroo"
       },
       "type": "Feature",
@@ -132,7 +132,7 @@
     },
     {
       "properties": {
-        "Description": "2600, 700",
+        "Description": "3200, 850",
         "Name": "Australian Government Almonds 1"
       },
       "type": "Feature",
@@ -220,7 +220,7 @@
     },
     {
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 850",
         "Name": "Australian Government Almonds 2"
       },
       "type": "Feature",
@@ -316,7 +316,7 @@
     },
     {
       "properties": {
-        "Description": "2700, 700",
+        "Description": "3200, 850",
         "Name": "Australian Government Almonds 3"
       },
       "type": "Feature",
