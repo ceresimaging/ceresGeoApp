@@ -8,7 +8,7 @@
   "features": [
     {
       "properties": {
-        "Description": "3100, 590",
+        "Description": "3100, 600",
         "Name": "RPAC"
       },
       "type": "Feature",
@@ -76,7 +76,7 @@
     },
     {
       "properties": {
-        "Description": "3000, 590",
+        "Description": "3000, 600",
         "Name": "Westside Hulling"
       },
       "type": "Feature",
@@ -160,7 +160,7 @@
     },
     {
       "properties": {
-        "Description": "3100, 590",
+        "Description": "3100, 600",
         "Name": "Cortina"
       },
       "type": "Feature",
