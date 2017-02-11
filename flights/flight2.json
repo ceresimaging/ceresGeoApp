@@ -1,23 +1,31 @@
 {
-  "type": "FeatureCollection",
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
   "features": [
     {
+      "properties": {
+        "Name": "4650 02-4/4650 02-4",
+        "Description": "1800, 420"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -119.67644603068544,
           35.51558975708859
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
-      "properties": {
-        "Description": "2000, 400",
-        "Name": "4650 02-4/4650 02-4"
-      }
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "4650 02-4/4650 02-4",
+        "Description": ""
+      },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -65,31 +73,31 @@
               35.51364121733114
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "4650 02-4/4650 02-4"
-      }
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "Paramount/Paramount",
+        "Description": "1900, 420"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -119.71926146094587,
           35.50296229433049
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
-      "properties": {
-        "Description": "2000, 400",
-        "Name": "Paramount/Paramount"
-      }
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "Paramount/Paramount",
+        "Description": ""
+      },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -157,31 +165,31 @@
               35.52145883060523
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Paramount/Paramount"
-      }
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "Wonderful Orchards/Wonderful Orchards",
+        "Description": "2100, 420"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -119.91589681784457,
           35.65877836229301
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
-      "properties": {
-        "Description": "2000, 400",
-        "Name": "Wonderful Orchards/Wonderful Orchards"
-      }
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "Wonderful Orchards/Wonderful Orchards",
+        "Description": ""
+      },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -237,19 +245,11 @@
               35.67686087470429
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Wonderful Orchards/Wonderful Orchards"
-      }
+      "type": "Feature"
     }
   ],
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  }
+  "type": "FeatureCollection"
 }
