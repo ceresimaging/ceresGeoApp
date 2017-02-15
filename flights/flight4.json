@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Almond Variable Rate Irrigation/CAPEX Almonds",
-        "Description": "2900, 740"
+        "Description": "1500, 300"
       }
     },
     {
@@ -178,7 +178,7 @@
       "type": "Feature",
       "properties": {
         "Name": "CAPEX SW Irrig/CAPEX-C8",
-        "Description": "2900, 740"
+        "Description": "1500, 300"
       }
     },
     {
