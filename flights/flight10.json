@@ -3,7 +3,7 @@
     {
       "properties": {
         "Name": "Wynns b20/Wynns b14/TWE sc7 sh9",
-        "Description": "1600, 200"
+        "Description": "1500, 200"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +87,7 @@
     {
       "properties": {
         "Name": "Yalumba",
-        "Description": "1600, 200"
+        "Description": "1500, 200"
       },
       "geometry": {
         "type": "Point",
@@ -167,7 +167,7 @@
     {
       "properties": {
         "Name": "Balnaves",
-        "Description": "1600, 200"
+        "Description": "1500, 200"
       },
       "geometry": {
         "type": "Point",
@@ -235,7 +235,7 @@
     {
       "properties": {
         "Name": "Wynns Alex 88",
-        "Description": "1600, 200"
+        "Description": "1500, 200"
       },
       "geometry": {
         "type": "Point",
@@ -303,7 +303,7 @@
     {
       "properties": {
         "Name": "Wynns McBains",
-        "Description": "1600, 200"
+        "Description": "1500, 200"
       },
       "geometry": {
         "type": "Point",
