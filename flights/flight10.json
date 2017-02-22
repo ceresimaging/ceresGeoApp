@@ -9,7 +9,7 @@
   "features": [
     {
       "properties": {
-        "Description": "2200, 590",
+        "Description": "2000, 400",
         "Name": "TWE Coonawarra"
       },
       "geometry": {
@@ -217,7 +217,7 @@
     },
     {
       "properties": {
-        "Description": "2200, 590",
+        "Description": "2000, 400",
         "Name": "TWE Coonawarra"
       },
       "geometry": {
@@ -329,7 +329,7 @@
     },
     {
       "properties": {
-        "Description": "2200, 590",
+        "Description": "2000, 400",
         "Name": "TWE Coonawarra"
       },
       "geometry": {
@@ -441,7 +441,7 @@
     },
     {
       "properties": {
-        "Description": "2200, 590",
+        "Description": "2000, 400",
         "Name": "TWE Coonawarra"
       },
       "geometry": {
