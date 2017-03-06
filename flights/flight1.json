@@ -55,7 +55,7 @@
       "type": "Feature",
       "properties": {
         "Name": "9 UC Davis Eastern Test Plot (Water)",
-        "Description": "1900, 420"
+        "Description": "2500, 420"
       },
       "geometry": {
         "type": "Point",
@@ -134,7 +134,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Belridge",
-        "Description": "1900, 420"
+        "Description": "2500, 420"
       },
       "geometry": {
         "type": "Point",
@@ -188,7 +188,7 @@
       "type": "Feature",
       "properties": {
         "Name": "East Side",
-        "Description": "1900, 420"
+        "Description": "2500, 420"
       },
       "geometry": {
         "type": "Point",
@@ -252,7 +252,7 @@
       "type": "Feature",
       "properties": {
         "Name": "West Valley",
-        "Description": "2100, 420"
+        "Description": "2700, 420"
       },
       "geometry": {
         "type": "Point",
