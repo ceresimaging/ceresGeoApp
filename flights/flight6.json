@@ -3,7 +3,7 @@
     {
       "properties": {
         "Name": "TWE Coonawarra",
-        "Description": "2000, 250"
+        "Description": "2800, 300"
       },
       "type": "Feature",
       "geometry": {
@@ -115,7 +115,7 @@
     {
       "properties": {
         "Name": "TWE Coonawarra",
-        "Description": "2000, 250"
+        "Description": "2800, 350"
       },
       "type": "Feature",
       "geometry": {
@@ -227,7 +227,7 @@
     {
       "properties": {
         "Name": "TWE Coonawarra",
-        "Description": "2000, 250"
+        "Description": "2800, 350"
       },
       "type": "Feature",
       "geometry": {
