@@ -2,20 +2,21 @@
   "type": "FeatureCollection",
   "features": [
     {
+      "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.16136764615908,
           35.47397753457675
-        ],
-        "type": "Point"
+        ]
       },
-      "type": "Feature",
       "properties": {
-        "Description": "4400, 700",
-        "Name": "Mustangs Almonds PAP-1"
+        "Name": "Mustangs Almonds PAP-1",
+        "Description": "2900, 700"
       }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -63,27 +64,27 @@
           ]
         ]
       },
-      "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Mustangs Almonds PAP-1"
+        "Name": "Mustangs Almonds PAP-1",
+        "Description": ""
       }
     },
     {
+      "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.23513897487386,
           35.517772995903265
-        ],
-        "type": "Point"
+        ]
       },
-      "type": "Feature",
       "properties": {
-        "Description": "4400, 700",
-        "Name": "Aggie Almonds PAP-2"
+        "Name": "Aggie Almonds PAP-2",
+        "Description": "2900, 700"
       }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -151,27 +152,27 @@
           ]
         ]
       },
-      "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Aggie Almonds PAP-2"
+        "Name": "Aggie Almonds PAP-2",
+        "Description": ""
       }
     },
     {
+      "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.3752923548399,
           35.64888250565195
-        ],
-        "type": "Point"
+        ]
       },
-      "type": "Feature",
       "properties": {
-        "Description": "4300, 700",
-        "Name": "Golden Bear Almonds PAP-12"
+        "Name": "Golden Bear Almonds PAP-12",
+        "Description": "2800, 700"
       }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -231,27 +232,27 @@
           ]
         ]
       },
-      "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Golden Bear Almonds PAP-12"
+        "Name": "Golden Bear Almonds PAP-12",
+        "Description": ""
       }
     },
     {
+      "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.42727098065549,
           35.67548808855799
-        ],
-        "type": "Point"
+        ]
       },
-      "type": "Feature",
       "properties": {
-        "Description": "4300, 700",
-        "Name": "Kern Wildwood/49er Pistachios PAP-20"
+        "Name": "Kern Wildwood/49er Pistachios PAP-20",
+        "Description": "2800, 700"
       }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -311,10 +312,9 @@
           ]
         ]
       },
-      "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Kern Wildwood/49er Pistachios PAP-20"
+        "Name": "Kern Wildwood/49er Pistachios PAP-20",
+        "Description": ""
       }
     }
   ],
