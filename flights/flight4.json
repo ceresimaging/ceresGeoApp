@@ -1,32 +1,20 @@
 {
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
-  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Roadrunner #2"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.16575793922128,
           36.257975049179464
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Roadrunner #2",
+        "Description": "2800, 700"
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Roadrunner #2"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -125,28 +113,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Roadrunner #2",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "2900, 700",
-        "Name": "Roadrunner #1"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.16918941430895,
           36.27031126158783
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Roadrunner #1",
+        "Description": "2900, 700"
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Roadrunner #1"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -225,28 +213,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Roadrunner #1",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Berberian #20"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.684101070962,
           36.675736857796515
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Berberian #20",
+        "Description": "2800, 700"
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Berberian #20"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -341,28 +329,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Berberian #20",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Berberian #10"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.69316220692177,
           36.685547342936175
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Berberian #10",
+        "Description": "2800, 700"
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Berberian #10"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -441,28 +429,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Berberian #10",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Esajian Farming"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.9730217769773,
           36.17458586288345
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Esajian Farming",
+        "Description": "2800, 700"
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Esajian Farming"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -545,28 +533,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Esajian Farming",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Esajian Farming"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -119.98140742338693,
           36.20336780103053
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Esajian Farming",
+        "Description": "2800, 700"
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Esajian Farming"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -661,7 +649,167 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Esajian Farming",
+        "Description": ""
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.10130400099189,
+          36.584265470855804
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "TerraNova",
+        "Description": "2700, 700"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.10743226279266,
+              36.585780199111106
+            ],
+            [
+              -120.10741739090894,
+              36.58905735908808
+            ],
+            [
+              -120.10717275197423,
+              36.589582286693386
+            ],
+            [
+              -120.10672105523257,
+              36.58988612966598
+            ],
+            [
+              -120.1060319317884,
+              36.58997042254586
+            ],
+            [
+              -120.0978278491583,
+              36.58997454197462
+            ],
+            [
+              -120.09744604000194,
+              36.589896741530254
+            ],
+            [
+              -120.09719530571785,
+              36.58974502299508
+            ],
+            [
+              -120.09694923594742,
+              36.58944289585445
+            ],
+            [
+              -120.09683731619015,
+              36.58906965985812
+            ],
+            [
+              -120.09685087785304,
+              36.582490388067626
+            ],
+            [
+              -120.09658760100712,
+              36.582183635764416
+            ],
+            [
+              -120.09646291776151,
+              36.5817067809999
+            ],
+            [
+              -120.09643523459162,
+              36.577597311292244
+            ],
+            [
+              -120.09647461586098,
+              36.57731262673427
+            ],
+            [
+              -120.09664902549672,
+              36.57697258558181
+            ],
+            [
+              -120.0970238414823,
+              36.576679106757894
+            ],
+            [
+              -120.09774151778163,
+              36.57653953538044
+            ],
+            [
+              -120.09932031593377,
+              36.576516718061484
+            ],
+            [
+              -120.09987752732125,
+              36.576735922803515
+            ],
+            [
+              -120.10252902077218,
+              36.57940619124776
+            ],
+            [
+              -120.10300380833918,
+              36.57980143656094
+            ],
+            [
+              -120.10349792350867,
+              36.580424546628784
+            ],
+            [
+              -120.10361370241853,
+              36.58087658468671
+            ],
+            [
+              -120.10396765046728,
+              36.58095406075663
+            ],
+            [
+              -120.10421673080396,
+              36.5811019098334
+            ],
+            [
+              -120.10653966110243,
+              36.58344498251044
+            ],
+            [
+              -120.10737609828371,
+              36.584671876763466
+            ],
+            [
+              -120.10744882551529,
+              36.58503279813722
+            ],
+            [
+              -120.10743226279266,
+              36.585780199111106
+            ]
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "TerraNova",
+        "Description": ""
       }
     }
-  ]
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "type": "FeatureCollection"
 }
