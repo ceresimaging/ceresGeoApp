@@ -1,18 +1,13 @@
 {
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
+  "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.46244680697241,
           35.58642851722407
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -22,6 +17,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -161,8 +157,7 @@
               35.60150086832706
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -172,11 +167,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.51851904008664,
           35.5209726621764
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -186,6 +181,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -321,8 +317,7 @@
               35.51422440263396
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -332,20 +327,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.00359809064447,
           36.09432967409712
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Oberti Almonds",
-        "Description": "3700, 500"
+        "Description": "2700, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -473,8 +472,7 @@
               36.086079167950324
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -484,20 +482,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.07964067140846,
           36.1052620286488
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Omaha Ranch",
-        "Description": "3800, 500"
+        "Description": "2700, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -597,8 +599,7 @@
               36.104832804570265
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -606,6 +607,5 @@
         "Description": ""
       }
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }
