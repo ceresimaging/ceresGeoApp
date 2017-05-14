@@ -1,10 +1,5 @@
 {
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
+  "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
@@ -16,7 +11,10 @@
         ]
       },
       "properties": {
-        "Description": "2700, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2000, 450",
         "Name": "Houston Walnuts"
       }
     },
@@ -140,7 +138,10 @@
         ]
       },
       "properties": {
-        "Description": "2700, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2000, 450",
         "Name": "Houston Walnuts"
       }
     },
@@ -308,7 +309,10 @@
         ]
       },
       "properties": {
-        "Description": "2700, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2000, 450",
         "Name": "Houston Walnuts"
       }
     },
@@ -1848,6 +1852,5 @@
         "Name": "L&L Ranch"
       }
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }
