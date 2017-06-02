@@ -317,8 +317,13 @@
       },
       "type": "Feature",
       "properties": {
+<<<<<<< HEAD
         "Description": "3100, 700",
         "Name": "West/Moms"
+=======
+        "Description": "1900, 250",
+        "Name": "Tower Line Kiwi Ranch"
+>>>>>>> df6ecb1bbcfaaf8a13ebf078a60586e580617ddc
       }
     },
     {
