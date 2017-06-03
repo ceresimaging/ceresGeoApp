@@ -573,7 +573,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1200, 250",
         "Name": "River View"
       },
       "type": "Feature"
@@ -689,7 +689,7 @@
         ]
       },
       "properties": {
-        "Description": "2600, 700",
+        "Description": "1200, 250",
         "Name": "Browns Lake"
       },
       "type": "Feature"
@@ -1053,7 +1053,7 @@
         ]
       },
       "properties": {
-        "Description": "2500, 700",
+        "Description": "1200, 250",
         "Name": "River Junction"
       },
       "type": "Feature"
