@@ -1,21 +1,34 @@
 {
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "type": "FeatureCollection",
   "features": [
     {
-      "geometry": {
-        "coordinates": [
-          -118.8295789857066,
-          35.307149789894616
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "2100, 350",
         "Name": "Vignolo ED Table Grapes"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8295789857066,
+          35.307149789894616
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "Vignolo ED Table Grapes"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -107,31 +120,31 @@
               35.30785995075167
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Vignolo ED Table Grapes"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
-      "geometry": {
-        "coordinates": [
-          -119.25670396349406,
-          35.43693083731305
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "4300, 700",
         "Name": "RBG Farming"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.25670396349406,
+          35.43693083731305
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "RBG Farming"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -235,31 +248,31 @@
               35.434352833440244
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "RBG Farming"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
-      "geometry": {
-        "coordinates": [
-          -119.26973211846617,
-          35.391470168361764
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "4300, 700",
         "Name": "Cauzza Brothers"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.26973211846617,
+          35.391470168361764
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "Cauzza Brothers"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -355,31 +368,31 @@
               35.39888785181853
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Cauzza Brothers"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
-      "geometry": {
-        "coordinates": [
-          -119.27960571899072,
-          35.37570091485354
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "4300, 700",
         "Name": "B J Farms"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.27960571899072,
+          35.37570091485354
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "B J Farms"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -515,31 +528,31 @@
               35.38363211504621
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "B J Farms"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
-      "geometry": {
-        "coordinates": [
-          -119.29863394884862,
-          35.496251805834234
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "4300, 700",
         "Name": "Poplar Ranch"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.29863394884862,
+          35.496251805834234
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "Poplar Ranch"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -623,31 +636,31 @@
               35.49481638393462
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Poplar Ranch"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
-      "geometry": {
-        "coordinates": [
-          -119.31007960510482,
-          35.364141871240264
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "4300, 700",
         "Name": "M & M Farms"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.31007960510482,
+          35.364141871240264
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "M & M Farms"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -731,31 +744,31 @@
               35.35822734089704
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "M & M Farms"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
-      "geometry": {
-        "coordinates": [
-          -119.34504235954975,
-          35.434727157050645
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "4300, 700",
         "Name": "7th Standard Ranch"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.34504235954975,
+          35.434727157050645
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "7th Standard Ranch"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -855,31 +868,31 @@
               35.426512099430845
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "7th Standard Ranch"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
-      "geometry": {
-        "coordinates": [
-          -119.4516229566022,
-          35.42240623587142
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "4300, 700",
         "Name": "Toretta Almonds/Toretta Almonds"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4516229566022,
+          35.42240623587142
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "Toretta Almonds/Toretta Almonds"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -955,31 +968,31 @@
               35.42427316535691
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "Toretta Almonds/Toretta Almonds"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
-      "geometry": {
-        "coordinates": [
-          -119.46244680697241,
-          35.58642851722407
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "4300, 700",
         "Name": "BLACCO North"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.46244680697241,
+          35.58642851722407
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "BLACCO North"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1119,31 +1132,31 @@
               35.60150086832706
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "BLACCO North"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
-      "geometry": {
-        "coordinates": [
-          -119.5197853757499,
-          35.521303241803814
-        ],
-        "type": "Point"
-      },
+      "type": "Feature",
       "properties": {
         "Description": "4300, 700",
         "Name": "BLACCO South"
       },
-      "type": "Feature"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5197853757499,
+          35.521303241803814
+        ]
+      }
     },
     {
+      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "BLACCO South"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1235,21 +1248,8 @@
               35.529469932370375
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Description": "",
-        "Name": "BLACCO South"
-      },
-      "type": "Feature"
+        ]
+      }
     }
-  ],
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
-  "type": "FeatureCollection"
+  ]
 }
