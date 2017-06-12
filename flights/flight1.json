@@ -1,28 +1,27 @@
 {
-  "type": "FeatureCollection",
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
   "features": [
     {
-      "properties": {
-        "Description": "2700, 700",
-        "Name": "HR Mitchell"
-      },
-      "type": "Feature",
       "geometry": {
         "coordinates": [
           -119.5446224976722,
           36.03973215951782
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2700, 700",
         "Name": "HR Mitchell"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -158,31 +157,31 @@
               36.03881172634252
             ]
           ]
-        ]
-      }
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "Description": "",
+        "Name": "HR Mitchell"
+      },
+      "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2700, 700",
-        "Name": "HR Harvester"
-      },
-      "type": "Feature",
       "geometry": {
         "coordinates": [
           -119.59939244919562,
           35.974300412669905
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2700, 700",
         "Name": "HR Harvester"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -262,31 +261,31 @@
               35.97260927596045
             ]
           ]
-        ]
-      }
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "Description": "",
+        "Name": "HR Harvester"
+      },
+      "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2700, 700",
-        "Name": "HR DJ"
-      },
-      "type": "Feature",
       "geometry": {
         "coordinates": [
           -119.59322370091498,
           36.03067311375373
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2700, 700",
         "Name": "HR DJ"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -382,31 +381,31 @@
               36.02837004843729
             ]
           ]
-        ]
-      }
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "Description": "",
+        "Name": "HR DJ"
+      },
+      "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2700, 700",
-        "Name": "HR H&G"
-      },
-      "type": "Feature",
       "geometry": {
         "coordinates": [
           -119.59453419623102,
           36.10363318151405
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2700, 700",
         "Name": "HR H&G"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -558,31 +557,31 @@
               36.1087718100095
             ]
           ]
-        ]
-      }
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "Description": "",
+        "Name": "HR H&G"
+      },
+      "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Baker Farming-Chaney Ranch"
-      },
-      "type": "Feature",
       "geometry": {
         "coordinates": [
           -120.31848314162765,
           36.776670084301664
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2800, 700",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -874,31 +873,31 @@
               36.776072797513955
             ]
           ]
-        ]
-      }
-    },
-    {
+        ],
+        "type": "Polygon"
+      },
       "properties": {
-        "Description": "2800, 700",
+        "Description": "",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
         "coordinates": [
           -120.51023329685765,
           36.62508901288704
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2800, 700",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1018,31 +1017,31 @@
               36.62553573981759
             ]
           ]
-        ]
-      }
-    },
-    {
+        ],
+        "type": "Polygon"
+      },
       "properties": {
-        "Description": "2800, 700",
+        "Description": "",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
         "coordinates": [
           -120.56065914170091,
           36.63901174782642
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2800, 700",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1406,31 +1405,31 @@
               36.62629684332821
             ]
           ]
-        ]
-      }
-    },
-    {
+        ],
+        "type": "Polygon"
+      },
       "properties": {
-        "Description": "2800, 700",
+        "Description": "",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
         "coordinates": [
           -120.56151127419784,
           36.6660539747434
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2800, 700",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1534,31 +1533,31 @@
               36.6694597456101
             ]
           ]
-        ]
-      }
-    },
-    {
+        ],
+        "type": "Polygon"
+      },
       "properties": {
-        "Description": "2800, 700",
+        "Description": "",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
         "coordinates": [
           -120.59803229255378,
           36.653206888767315
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2800, 700",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1666,31 +1665,31 @@
               36.65069342797205
             ]
           ]
-        ]
-      }
-    },
-    {
+        ],
+        "type": "Polygon"
+      },
       "properties": {
-        "Description": "2800, 700",
+        "Description": "",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
         "coordinates": [
           -120.59998368758335,
           36.622852403135155
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2800, 700",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1778,31 +1777,31 @@
               36.618670946842734
             ]
           ]
-        ]
-      }
-    },
-    {
+        ],
+        "type": "Polygon"
+      },
       "properties": {
-        "Description": "2800, 700",
+        "Description": "",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
         "coordinates": [
           -120.62650283716431,
           36.67380083047769
         ],
         "type": "Point"
-      }
-    },
-    {
+      },
       "properties": {
-        "Description": "",
+        "Description": "2800, 700",
         "Name": "Baker Farming-Chaney Ranch"
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1958,14 +1957,15 @@
               36.67019345021625
             ]
           ]
-        ]
-      }
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "Description": "",
+        "Name": "Baker Farming-Chaney Ranch"
+      },
+      "type": "Feature"
     }
   ],
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  }
+  "type": "FeatureCollection"
 }
