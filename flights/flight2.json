@@ -998,8 +998,11 @@
         ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Cardella Fundus",
-        "Description": "2800, 700"
+        "Description": "1600, 250"
       },
       "type": "Feature"
     },
