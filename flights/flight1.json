@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "E05 Boundary/E04 Boundary"
       },
       "geometry": {
@@ -268,7 +268,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "K37 Boundary"
       },
       "geometry": {
@@ -420,7 +420,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "K32 Boundary"
       },
       "geometry": {
@@ -576,7 +576,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "K29 Boundary"
       },
       "geometry": {
@@ -728,7 +728,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "K27 Boundary"
       },
       "geometry": {
@@ -880,7 +880,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "K25 Boundary"
       },
       "geometry": {
@@ -1020,7 +1020,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "K39 Boundary"
       },
       "geometry": {
@@ -1164,7 +1164,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "K18 Boundary/K16 Boundary"
       },
       "geometry": {
@@ -1356,7 +1356,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "K09 Boundary"
       },
       "geometry": {
@@ -1480,7 +1480,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5000, 500",
+        "Description": "8000, 880",
         "Name": "K08 Boundary"
       },
       "geometry": {
@@ -1616,7 +1616,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5100, 500",
+        "Description": "8000, 880",
         "Name": "K06 Boundary"
       },
       "geometry": {
@@ -1756,7 +1756,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "5100, 500",
+        "Description": "8000, 880",
         "Name": "K01.5 Boundary/K01 Boundary"
       },
       "geometry": {
