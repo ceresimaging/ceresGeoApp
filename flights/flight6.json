@@ -1,13 +1,14 @@
 {
   "type": "FeatureCollection",
   "crs": {
+    "type": "name",
     "properties": {
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
+    }
   },
   "features": [
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -18,10 +19,10 @@
       "properties": {
         "Description": "2000, 250",
         "Name": "Rolling Hills 129176"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -104,10 +105,10 @@
       "properties": {
         "Description": "",
         "Name": "Rolling Hills 129176"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -118,10 +119,10 @@
       "properties": {
         "Description": "2000, 250",
         "Name": "GVI BH 464/GVI BH 451/GVI BH 453/GVI BH 454/GVI BH 455/GVI BH 456/GVI BH 458"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -456,10 +457,10 @@
       "properties": {
         "Description": "",
         "Name": "GVI BH 464/GVI BH 451/GVI BH 453/GVI BH 454/GVI BH 455/GVI BH 456/GVI BH 458"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -470,10 +471,10 @@
       "properties": {
         "Description": "1900, 250",
         "Name": "JJB Farms"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -628,10 +629,10 @@
       "properties": {
         "Description": "",
         "Name": "JJB Farms"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -642,10 +643,10 @@
       "properties": {
         "Description": "1900, 250",
         "Name": "Barnyard Owl Vineyard"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -932,10 +933,10 @@
       "properties": {
         "Description": "",
         "Name": "Barnyard Owl Vineyard"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -946,10 +947,10 @@
       "properties": {
         "Description": "1900, 250",
         "Name": "GVI Liberty 530"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1032,10 +1033,10 @@
       "properties": {
         "Description": "",
         "Name": "GVI Liberty 530"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1046,10 +1047,10 @@
       "properties": {
         "Description": "1900, 250",
         "Name": "Okamoto 132357/Okamoto 141201"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1152,10 +1153,10 @@
       "properties": {
         "Description": "",
         "Name": "Okamoto 132357/Okamoto 141201"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1166,10 +1167,10 @@
       "properties": {
         "Description": "1800, 250",
         "Name": "Alberti 122358"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1252,10 +1253,10 @@
       "properties": {
         "Description": "",
         "Name": "Alberti 122358"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1266,10 +1267,10 @@
       "properties": {
         "Description": "1800, 250",
         "Name": "Alberti 100091"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1340,10 +1341,10 @@
       "properties": {
         "Description": "",
         "Name": "Alberti 100091"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1354,10 +1355,10 @@
       "properties": {
         "Description": "1800, 250",
         "Name": "Alberti 100093/Alberti 110559"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1468,10 +1469,10 @@
       "properties": {
         "Description": "",
         "Name": "Alberti 100093/Alberti 110559"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1482,10 +1483,10 @@
       "properties": {
         "Description": "1800, 250",
         "Name": "Isleton"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1616,8 +1617,7 @@
       "properties": {
         "Description": "",
         "Name": "Isleton"
-      },
-      "type": "Feature"
+      }
     }
   ]
 }
