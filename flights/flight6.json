@@ -9,7 +9,7 @@
   "features": [
     {
       "properties": {
-        "Description": "1400, 250",
+        "Description": "2100, 450",
         "Name": "TerraNova"
       },
       "geometry": {
@@ -253,7 +253,7 @@
     },
     {
       "properties": {
-        "Description": "1400, 250",
+        "Description": "2100, 450",
         "Name": "TerraNova"
       },
       "geometry": {
@@ -795,7 +795,7 @@
     },
     {
       "properties": {
-        "Description": "1400, 250",
+        "Description": "2100, 450",
         "Name": "TerraNova"
       },
       "geometry": {
@@ -899,7 +899,7 @@
     },
     {
       "properties": {
-        "Description": "1400, 250",
+        "Description": "2100, 450",
         "Name": "TerraNova"
       },
       "geometry": {
@@ -1111,7 +1111,7 @@
     },
     {
       "properties": {
-        "Description": "1400, 250",
+        "Description": "2100, 450",
         "Name": "TerraNova"
       },
       "geometry": {
