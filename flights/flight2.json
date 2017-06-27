@@ -1,11 +1,16 @@
 {
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
   "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Chrisman Plot",
-        "Description": "12500, 1620"
+        "Description": "7100, 880",
+        "Name": "Chrisman Plot"
       },
       "geometry": {
         "type": "Point",
@@ -13,13 +18,13 @@
           -87.66669978445273,
           39.79457468601261
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Chrisman Plot",
-        "Description": ""
+        "Description": "",
+        "Name": "Chrisman Plot"
       },
       "geometry": {
         "type": "Polygon",
@@ -115,13 +120,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Newman Plot",
-        "Description": "12500, 1620"
+        "Description": "7100, 880",
+        "Name": "Newman Plot"
       },
       "geometry": {
         "type": "Point",
@@ -129,13 +134,13 @@
           -87.97974959243035,
           39.848597559521004
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Newman Plot",
-        "Description": ""
+        "Description": "",
+        "Name": "Newman Plot"
       },
       "geometry": {
         "type": "Polygon",
@@ -215,13 +220,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Gasser E 80",
-        "Description": "12700, 1620"
+        "Description": "7300, 880",
+        "Name": "Gasser E 80"
       },
       "geometry": {
         "type": "Point",
@@ -229,13 +234,13 @@
           -88.2673916766434,
           40.61977307477904
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Gasser E 80",
-        "Description": ""
+        "Description": "",
+        "Name": "Gasser E 80"
       },
       "geometry": {
         "type": "Polygon",
@@ -315,13 +320,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Debolt 80/Debolt Big Field",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Debolt 80/Debolt Big Field"
       },
       "geometry": {
         "type": "Point",
@@ -329,13 +334,13 @@
           -88.39895004070348,
           39.88292975205376
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Debolt 80/Debolt Big Field",
-        "Description": ""
+        "Description": "",
+        "Name": "Debolt 80/Debolt Big Field"
       },
       "geometry": {
         "type": "Polygon",
@@ -467,13 +472,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Trumbo A/Trumbo B/65/Lindys",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Trumbo A/Trumbo B/65/Lindys"
       },
       "geometry": {
         "type": "Point",
@@ -481,13 +486,13 @@
           -88.43200528530774,
           40.74668382159449
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Trumbo A/Trumbo B/65/Lindys",
-        "Description": ""
+        "Description": "",
+        "Name": "Trumbo A/Trumbo B/65/Lindys"
       },
       "geometry": {
         "type": "Polygon",
@@ -707,13 +712,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Hartman",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Hartman"
       },
       "geometry": {
         "type": "Point",
@@ -721,13 +726,13 @@
           -88.42913425306541,
           40.66541050804963
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Hartman",
-        "Description": ""
+        "Description": "",
+        "Name": "Hartman"
       },
       "geometry": {
         "type": "Polygon",
@@ -831,13 +836,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Maj's",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Maj's"
       },
       "geometry": {
         "type": "Point",
@@ -845,13 +850,13 @@
           -88.43414719574903,
           39.8526328116946
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Maj's",
-        "Description": ""
+        "Description": "",
+        "Name": "Maj's"
       },
       "geometry": {
         "type": "Polygon",
@@ -967,13 +972,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Ringler",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Ringler"
       },
       "geometry": {
         "type": "Point",
@@ -981,13 +986,13 @@
           -88.43888971994454,
           40.64053209780215
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Ringler",
-        "Description": ""
+        "Description": "",
+        "Name": "Ringler"
       },
       "geometry": {
         "type": "Polygon",
@@ -1087,13 +1092,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Home",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Home"
       },
       "geometry": {
         "type": "Point",
@@ -1101,13 +1106,13 @@
           -88.43807922752323,
           40.650414945851885
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Home",
-        "Description": ""
+        "Description": "",
+        "Name": "Home"
       },
       "geometry": {
         "type": "Polygon",
@@ -1187,13 +1192,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Gasser N80/Blunier 125/Home 160",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Gasser N80/Blunier 125/Home 160"
       },
       "geometry": {
         "type": "Point",
@@ -1201,13 +1206,13 @@
           -88.45537108039488,
           40.7655558752787
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Gasser N80/Blunier 125/Home 160",
-        "Description": ""
+        "Description": "",
+        "Name": "Gasser N80/Blunier 125/Home 160"
       },
       "geometry": {
         "type": "Polygon",
@@ -1379,13 +1384,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Timber 56",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Timber 56"
       },
       "geometry": {
         "type": "Point",
@@ -1393,13 +1398,13 @@
           -88.45779390731687,
           40.750616091688315
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Timber 56",
-        "Description": ""
+        "Description": "",
+        "Name": "Timber 56"
       },
       "geometry": {
         "type": "Polygon",
@@ -1503,13 +1508,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Wiegand",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Wiegand"
       },
       "geometry": {
         "type": "Point",
@@ -1517,13 +1522,13 @@
           -88.45780586913945,
           40.667967013615744
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Wiegand",
-        "Description": ""
+        "Description": "",
+        "Name": "Wiegand"
       },
       "geometry": {
         "type": "Polygon",
@@ -1607,13 +1612,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Joy 20",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Joy 20"
       },
       "geometry": {
         "type": "Point",
@@ -1621,13 +1626,13 @@
           -88.45780316308448,
           40.77212561288259
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Joy 20",
-        "Description": ""
+        "Description": "",
+        "Name": "Joy 20"
       },
       "geometry": {
         "type": "Polygon",
@@ -1707,13 +1712,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Schick West/James East 80",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Schick West/James East 80"
       },
       "geometry": {
         "type": "Point",
@@ -1721,13 +1726,13 @@
           -88.4830409883207,
           40.73804894607787
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Schick West/James East 80",
-        "Description": ""
+        "Description": "",
+        "Name": "Schick West/James East 80"
       },
       "geometry": {
         "type": "Polygon",
@@ -1859,13 +1864,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Diehl",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Diehl"
       },
       "geometry": {
         "type": "Point",
@@ -1873,13 +1878,13 @@
           -88.51756222955781,
           41.94565818176982
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Diehl",
-        "Description": ""
+        "Description": "",
+        "Name": "Diehl"
       },
       "geometry": {
         "type": "Polygon",
@@ -1979,13 +1984,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "North"
       },
       "geometry": {
         "type": "Point",
@@ -1993,13 +1998,13 @@
           -88.5318138094455,
           41.906982498211974
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North",
-        "Description": ""
+        "Description": "",
+        "Name": "North"
       },
       "geometry": {
         "type": "Polygon",
@@ -2107,13 +2112,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "West/East",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "West/East"
       },
       "geometry": {
         "type": "Point",
@@ -2121,13 +2126,13 @@
           -88.54137478243969,
           41.99840952071277
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "West/East",
-        "Description": ""
+        "Description": "",
+        "Name": "West/East"
       },
       "geometry": {
         "type": "Polygon",
@@ -2275,13 +2280,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Home",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Home"
       },
       "geometry": {
         "type": "Point",
@@ -2289,13 +2294,13 @@
           -88.55004738782914,
           41.87514901266453
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Home",
-        "Description": ""
+        "Description": "",
+        "Name": "Home"
       },
       "geometry": {
         "type": "Polygon",
@@ -2387,13 +2392,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Woods/Perry Road Curve",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Woods/Perry Road Curve"
       },
       "geometry": {
         "type": "Point",
@@ -2401,13 +2406,13 @@
           -88.55953260463916,
           41.853328191601435
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Woods/Perry Road Curve",
-        "Description": ""
+        "Description": "",
+        "Name": "Woods/Perry Road Curve"
       },
       "geometry": {
         "type": "Polygon",
@@ -2615,13 +2620,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Southwest/Leo's House",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Southwest/Leo's House"
       },
       "geometry": {
         "type": "Point",
@@ -2629,13 +2634,13 @@
           -88.56292121383281,
           41.86227278108213
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Southwest/Leo's House",
-        "Description": ""
+        "Description": "",
+        "Name": "Southwest/Leo's House"
       },
       "geometry": {
         "type": "Polygon",
@@ -2743,13 +2748,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Southwest",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Southwest"
       },
       "geometry": {
         "type": "Point",
@@ -2757,13 +2762,13 @@
           -88.58382208744241,
           41.85334271218277
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Southwest",
-        "Description": ""
+        "Description": "",
+        "Name": "Southwest"
       },
       "geometry": {
         "type": "Polygon",
@@ -2839,13 +2844,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "H 1/Big Field",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "H 1/Big Field"
       },
       "geometry": {
         "type": "Point",
@@ -2853,13 +2858,13 @@
           -88.59554429577832,
           41.87069079509586
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "H 1/Big Field",
-        "Description": ""
+        "Description": "",
+        "Name": "H 1/Big Field"
       },
       "geometry": {
         "type": "Polygon",
@@ -2999,13 +3004,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Estate and Patterson's",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Estate and Patterson's"
       },
       "geometry": {
         "type": "Point",
@@ -3013,13 +3018,13 @@
           -88.62993089781001,
           41.14244990279643
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Estate and Patterson's",
-        "Description": ""
+        "Description": "",
+        "Name": "Estate and Patterson's"
       },
       "geometry": {
         "type": "Polygon",
@@ -3091,13 +3096,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "T1",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "T1"
       },
       "geometry": {
         "type": "Point",
@@ -3105,13 +3110,13 @@
           -88.63147187447096,
           41.92123575524677
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "T1",
-        "Description": ""
+        "Description": "",
+        "Name": "T1"
       },
       "geometry": {
         "type": "Polygon",
@@ -3251,13 +3256,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Bradley West Plot",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "Bradley West Plot"
       },
       "geometry": {
         "type": "Point",
@@ -3265,13 +3270,13 @@
           -88.63715549741491,
           39.894638073010256
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Bradley West Plot",
-        "Description": ""
+        "Description": "",
+        "Name": "Bradley West Plot"
       },
       "geometry": {
         "type": "Polygon",
@@ -3359,13 +3364,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North kent",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "North kent"
       },
       "geometry": {
         "type": "Point",
@@ -3373,13 +3378,13 @@
           -89.79027692475363,
           42.17279100912429
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North kent",
-        "Description": ""
+        "Description": "",
+        "Name": "North kent"
       },
       "geometry": {
         "type": "Polygon",
@@ -3459,13 +3464,13 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North",
-        "Description": "12600, 1620"
+        "Description": "7200, 880",
+        "Name": "North"
       },
       "geometry": {
         "type": "Point",
@@ -3473,13 +3478,13 @@
           -89.81808384232546,
           42.17782168889904
         ]
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North",
-        "Description": ""
+        "Description": "",
+        "Name": "North"
       },
       "geometry": {
         "type": "Polygon",
@@ -3627,13 +3632,8 @@
             ]
           ]
         ]
-      }
+      },
+      "type": "Feature"
     }
-  ],
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  }
+  ]
 }
