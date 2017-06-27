@@ -1,30 +1,140 @@
 {
-  "type": "FeatureCollection",
   "crs": {
-    "type": "name",
     "properties": {
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
+    },
+    "type": "name"
   },
+  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
+      "properties": {
+        "Description": "3200, 560",
+        "Name": "Tower Line Kiwi Ranch"
+      },
       "geometry": {
-        "type": "Point",
+        "coordinates": [
+          -119.14145286391624,
+          36.00302048450908
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Description": "",
+        "Name": "Tower Line Kiwi Ranch"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -119.14448029576457,
+              36.0080249867641
+            ],
+            [
+              -119.14440417529707,
+              36.00840767019646
+            ],
+            [
+              -119.14418740254575,
+              36.008732093545284
+            ],
+            [
+              -119.14386297919692,
+              36.00894886629661
+            ],
+            [
+              -119.14348029576456,
+              36.009024986764096
+            ],
+            [
+              -119.13887341405773,
+              36.00902017149077
+            ],
+            [
+              -119.1383370379139,
+              36.008797997217464
+            ],
+            [
+              -119.13801449086233,
+              36.008315271441354
+            ],
+            [
+              -119.13799064591765,
+              36.00037237758776
+            ],
+            [
+              -119.1381984207447,
+              35.99993307462561
+            ],
+            [
+              -119.1385887477657,
+              35.99964358837726
+            ],
+            [
+              -119.13897143119806,
+              35.99956746790978
+            ],
+            [
+              -119.14016145113035,
+              35.99956746790978
+            ],
+            [
+              -119.14018066584995,
+              35.99680822750171
+            ],
+            [
+              -119.14045434434917,
+              35.99629621104254
+            ],
+            [
+              -119.14087116645311,
+              35.99604637748799
+            ],
+            [
+              -119.14367538608657,
+              35.99602253254332
+            ],
+            [
+              -119.14418740254575,
+              35.99629621104254
+            ],
+            [
+              -119.14443723610029,
+              35.99671303314647
+            ],
+            [
+              -119.14448029576457,
+              36.0080249867641
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Description": "3300, 560",
+        "Name": "UC Davis Eastern Test Plot (Water)"
+      },
+      "geometry": {
         "coordinates": [
           -119.16537067067598,
           35.5104661078326
-        ]
+        ],
+        "type": "Point"
       },
-      "properties": {
-        "Name": "UC Davis Eastern Test Plot (Water)",
-        "Description": "3300, 560"
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "UC Davis Eastern Test Plot (Water)"
+      },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -108,31 +218,131 @@
               35.50716115570312
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "properties": {
-        "Name": "UC Davis Eastern Test Plot (Water)",
-        "Description": ""
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "properties": {
+        "Description": "3100, 560",
+        "Name": "Flying Mandarin"
+      },
       "geometry": {
-        "type": "Point",
+        "coordinates": [
+          -119.22754254232997,
+          35.734900210322635
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Description": "",
+        "Name": "Flying Mandarin"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -119.23296236145026,
+              35.737264028206205
+            ],
+            [
+              -119.2329198001917,
+              35.737554781835236
+            ],
+            [
+              -119.23273612642357,
+              35.73789961340683
+            ],
+            [
+              -119.23243434174458,
+              35.7381477481956
+            ],
+            [
+              -119.23206051203657,
+              35.738261309699986
+            ],
+            [
+              -119.22312592231827,
+              35.738266137906145
+            ],
+            [
+              -119.22265452558145,
+              35.7381480591705
+            ],
+            [
+              -119.22229445270597,
+              35.737821708139165
+            ],
+            [
+              -119.2221307375916,
+              35.73736415504648
+            ],
+            [
+              -119.22212592231827,
+              35.732533399823126
+            ],
+            [
+              -119.22224400105392,
+              35.7320620030863
+            ],
+            [
+              -119.22265452558145,
+              35.731651478558774
+            ],
+            [
+              -119.22312592231827,
+              35.73153339982313
+            ],
+            [
+              -119.2319523789962,
+              35.73153339982313
+            ],
+            [
+              -119.23242319419604,
+              35.731651167967215
+            ],
+            [
+              -119.23278311533132,
+              35.73197673372795
+            ],
+            [
+              -119.23294736791375,
+              35.7324334145545
+            ],
+            [
+              -119.23296236145026,
+              35.737264028206205
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Description": "3300, 560",
+        "Name": "Belridge"
+      },
+      "geometry": {
         "coordinates": [
           -119.71936508517827,
           35.50300657477649
-        ]
+        ],
+        "type": "Point"
       },
-      "properties": {
-        "Name": "Belridge",
-        "Description": "3300, 560"
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "Belridge"
+      },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -308,31 +518,31 @@
               35.49484982348195
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "properties": {
-        "Name": "Belridge",
-        "Description": ""
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "properties": {
+        "Description": "3500, 560",
+        "Name": "West Valley"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -119.91583623044129,
           35.659067152746566
-        ]
+        ],
+        "type": "Point"
       },
-      "properties": {
-        "Name": "West Valley",
-        "Description": "3500, 560"
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "properties": {
+        "Description": "",
+        "Name": "West Valley"
+      },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -428,12 +638,10 @@
               35.64254783003734
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "properties": {
-        "Name": "West Valley",
-        "Description": ""
-      }
+      "type": "Feature"
     }
   ]
 }
