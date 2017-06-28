@@ -1,27 +1,26 @@
 {
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
+  "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.13208476268808,
           37.7069934675462
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Fiscalini",
-        "Description": "1300, 250"
+        "Description": "2700, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -189,8 +188,7 @@
               37.70339366419506
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Fiscalini",
@@ -200,20 +198,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.16777924276586,
           37.6250913268438
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Mapes Ranch",
-        "Description": "1200, 250"
+        "Description": "2700, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -429,8 +431,7 @@
               37.629654120802535
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Mapes Ranch",
@@ -440,11 +441,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.38525396470969,
           36.409280826852964
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "MP Sansaba",
@@ -454,6 +455,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -549,8 +551,7 @@
               36.41241461133403
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "MP Sansaba",
@@ -558,6 +559,5 @@
       },
       "type": "Feature"
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }

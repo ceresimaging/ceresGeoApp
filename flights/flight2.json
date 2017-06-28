@@ -1,27 +1,23 @@
 {
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
+  "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.69202208602862,
           37.73308466792118
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Field 63-66",
-        "Description": "1400, 250"
+        "Description": "2700, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -105,8 +101,7 @@
               37.74035653495514
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Field 63-66",
@@ -116,20 +111,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.69489710281829,
           37.66457071398758
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Hazeldean",
-        "Description": "1400, 250"
+        "Description": "2700, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -229,8 +225,7 @@
               37.67113833466078
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Hazeldean",
@@ -240,20 +235,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.72365274044986,
           37.55717050508661
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Joshua Orchards",
-        "Description": "1400, 250"
+        "Description": "2700, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -345,8 +341,7 @@
               37.565859891842194
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Joshua Orchards",
@@ -356,20 +351,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.73640816791155,
           37.82357583783062
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Thompson Lease",
-        "Description": "1600, 250"
+        "Description": "2900, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -489,8 +485,7 @@
               37.82843659525652
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Thompson Lease",
@@ -500,20 +495,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.72563222921244,
           37.85432070723819
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "White Diamond Ranch",
-        "Description": "1500, 250"
+        "Description": "2800, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -601,8 +597,7 @@
               37.857744749190346
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "White Diamond Ranch",
@@ -612,20 +607,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.78143617263973,
           37.66662944394668
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Ellenwood/Oakdale",
-        "Description": "1400, 250"
+        "Description": "2700, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -789,8 +785,7 @@
               37.67154252765664
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Ellenwood/Oakdale",
@@ -800,20 +795,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.78928449221449,
           37.60558800316284
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "CRI",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -929,8 +925,7 @@
               37.60620647330143
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "CRI",
@@ -940,20 +935,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.83569313006716,
           37.56921799468568
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "A little Almonds",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1057,8 +1053,7 @@
               37.573186652882896
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "A little Almonds",
@@ -1068,20 +1063,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.92551662757232,
           37.559355033254626
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Eisenhut Almonds",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1157,8 +1153,7 @@
               37.56045673942273
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Eisenhut Almonds",
@@ -1168,20 +1163,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.04663314713113,
           37.93205129196128
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Chiappes Walnuts",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1305,8 +1301,7 @@
               37.932621382526165
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Chiappes Walnuts",
@@ -1316,20 +1311,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15133249447629,
           37.75026947344728
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "JR Farms",
-        "Description": "1300, 250"
+        "Description": "1400, 250"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1495,8 +1494,7 @@
               37.75162188881318
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "JR Farms",
@@ -1506,20 +1504,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15625771725155,
           38.03816437351033
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Freeman Ranch",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1595,8 +1594,7 @@
               38.038333290091835
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Freeman Ranch",
@@ -1606,20 +1604,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1647051378702,
           38.03593664089072
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Thomas Ranch",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1695,8 +1694,7 @@
               38.037601672970816
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Thomas Ranch",
@@ -1706,20 +1704,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.17122859456984,
           38.04151322741139
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Jory Ranch/Jory Ranch",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1799,8 +1798,7 @@
               38.0377682121206
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Jory Ranch/Jory Ranch",
@@ -1810,20 +1808,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.17195567361318,
           38.09108749159008
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Bear Creek Ranch",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1935,8 +1934,7 @@
               38.091508136753426
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Bear Creek Ranch",
@@ -1946,20 +1944,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.18619632529733,
           38.05624556854204
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Patton",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2043,8 +2042,7 @@
               38.05359628644516
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Patton",
@@ -2054,20 +2052,21 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2057148452699,
           38.053077172383624
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Alpine Ranch",
-        "Description": "1300, 250"
+        "Description": "2600, 700"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2143,8 +2142,7 @@
               38.05091445923716
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Alpine Ranch",
@@ -2152,6 +2150,5 @@
       },
       "type": "Feature"
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }
