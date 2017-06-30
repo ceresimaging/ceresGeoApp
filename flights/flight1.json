@@ -1,16 +1,7 @@
 {
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
+  "type": "FeatureCollection",
   "features": [
     {
-      "properties": {
-        "Description": "2900, 700",
-        "Name": "Mustangs Almonds PAP-1"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -18,13 +9,13 @@
           35.47398043497404
         ]
       },
+      "properties": {
+        "Name": "Mustangs Almonds PAP-1",
+        "Description": "2900, 700"
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Mustangs Almonds PAP-1"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -104,13 +95,13 @@
           ]
         ]
       },
+      "properties": {
+        "Name": "Mustangs Almonds PAP-1",
+        "Description": ""
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2900, 700",
-        "Name": "UC Davis Eastern Test Plot (Water)/UC Davis Eastern Test Plot (Water)"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -118,13 +109,13 @@
           35.5104661078326
         ]
       },
+      "properties": {
+        "Name": "UC Davis Eastern Test Plot (Water)/UC Davis Eastern Test Plot (Water)",
+        "Description": "2900, 700"
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "UC Davis Eastern Test Plot (Water)/UC Davis Eastern Test Plot (Water)"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -212,13 +203,13 @@
           ]
         ]
       },
+      "properties": {
+        "Name": "UC Davis Eastern Test Plot (Water)/UC Davis Eastern Test Plot (Water)",
+        "Description": ""
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2900, 700",
-        "Name": "Aggie Almonds PAP-2"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -226,13 +217,13 @@
           35.517739323028145
         ]
       },
+      "properties": {
+        "Name": "Aggie Almonds PAP-2",
+        "Description": "2900, 700"
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Aggie Almonds PAP-2"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -348,13 +339,13 @@
           ]
         ]
       },
+      "properties": {
+        "Name": "Aggie Almonds PAP-2",
+        "Description": ""
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Kern Sullivan"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -362,13 +353,13 @@
           35.392472844287404
         ]
       },
+      "properties": {
+        "Name": "Kern Sullivan",
+        "Description": "2800, 700"
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Kern Sullivan"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -448,13 +439,13 @@
           ]
         ]
       },
+      "properties": {
+        "Name": "Kern Sullivan",
+        "Description": ""
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Kern Sullivan"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -462,13 +453,13 @@
           35.4178794455856
         ]
       },
+      "properties": {
+        "Name": "Kern Sullivan",
+        "Description": "2800, 700"
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Kern Sullivan"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -568,13 +559,13 @@
           ]
         ]
       },
+      "properties": {
+        "Name": "Kern Sullivan",
+        "Description": ""
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Golden Bear Almonds PAP-12"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -582,13 +573,13 @@
           35.648882505651954
         ]
       },
+      "properties": {
+        "Name": "Golden Bear Almonds PAP-12",
+        "Description": "2800, 700"
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Golden Bear Almonds PAP-12"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -680,13 +671,13 @@
           ]
         ]
       },
+      "properties": {
+        "Name": "Golden Bear Almonds PAP-12",
+        "Description": ""
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "2800, 700",
-        "Name": "Wegis Ranch Field 508"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -694,13 +685,13 @@
           35.57013792797259
         ]
       },
+      "properties": {
+        "Name": "Wegis Ranch Field 508",
+        "Description": "2800, 700"
+      },
       "type": "Feature"
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Wegis Ranch Field 508"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -792,8 +783,146 @@
           ]
         ]
       },
+      "properties": {
+        "Name": "Wegis Ranch Field 508",
+        "Description": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.86599041195088,
+          36.94276137916266
+        ]
+      },
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Rampage",
+        "Description": "1600, 250"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.89509389562741,
+              36.95056195122231
+            ],
+            [
+              -119.89501777515991,
+              36.950944634654675
+            ],
+            [
+              -119.8948010024086,
+              36.9512690580035
+            ],
+            [
+              -119.89456529236423,
+              36.951443872486664
+            ],
+            [
+              -119.89419191276774,
+              36.95155713594898
+            ],
+            [
+              -119.88829870704495,
+              36.95156195122231
+            ],
+            [
+              -119.88782731030813,
+              36.951443872486664
+            ],
+            [
+              -119.8874167857806,
+              36.95103334795914
+            ],
+            [
+              -119.88730352231828,
+              36.95065996836264
+            ],
+            [
+              -119.88729870704495,
+              36.949763444420874
+            ],
+            [
+              -119.83891584782401,
+              36.94972038475661
+            ],
+            [
+              -119.8385717392171,
+              36.94953645487424
+            ],
+            [
+              -119.83837466288895,
+              36.949319014653895
+            ],
+            [
+              -119.83820613250126,
+              36.94876344442088
+            ],
+            [
+              -119.8382471590266,
+              36.93515767600635
+            ],
+            [
+              -119.83848578980295,
+              36.9347475534807
+            ],
+            [
+              -119.83897871855484,
+              36.934467373636565
+            ],
+            [
+              -119.85040078649115,
+              36.93184582086565
+            ],
+            [
+              -119.85078370776102,
+              36.93195206100417
+            ],
+            [
+              -119.85102686747209,
+              36.93212590520947
+            ],
+            [
+              -119.85131029190057,
+              36.93264463563898
+            ],
+            [
+              -119.85133023012523,
+              36.93637290134499
+            ],
+            [
+              -119.89438418030466,
+              36.93641596100925
+            ],
+            [
+              -119.89486690608076,
+              36.93673850806082
+            ],
+            [
+              -119.89508908035408,
+              36.937274884204655
+            ],
+            [
+              -119.89509389562741,
+              36.95056195122231
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "Name": "Rampage",
+        "Description": ""
+      },
       "type": "Feature"
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }
