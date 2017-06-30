@@ -8,7 +8,7 @@
   "features": [
     {
       "properties": {
-        "Description": "4700, 700",
+        "Description": "2300, 250"
         "Name": "Vignolo ED Table Grapes"
       },
       "geometry": {
@@ -772,7 +772,7 @@
     },
     {
       "properties": {
-        "Description": "4100, 700",
+        "Description": "2300, 250",
         "Name": "Adam Bros"
       },
       "geometry": {
