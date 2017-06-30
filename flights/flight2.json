@@ -119,7 +119,10 @@
     },
     {
       "properties": {
-        "Description": "2600, 350",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4800, 700",
         "Name": "Swall Ranch Field 202"
       },
       "geometry": {
@@ -448,7 +451,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "2100, 350",
+        "Description": "4500, 700",
         "Name": "Wegis Ranch Field 611"
       },
       "geometry": {
