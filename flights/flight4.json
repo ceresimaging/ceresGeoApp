@@ -1,18 +1,12 @@
 {
   "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Ridgeroad Corn",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Ridgeroad Corn"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -22,11 +16,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Ridgeroad Corn",
-        "Description": ""
+        "Description": "",
+        "Name": "Ridgeroad Corn"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -112,11 +106,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Lecrone Plot",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "Lecrone Plot"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -126,11 +120,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Lecrone Plot",
-        "Description": ""
+        "Description": "",
+        "Name": "Lecrone Plot"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -208,11 +202,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Pope North House",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Pope North House"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -222,11 +216,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Pope North House",
-        "Description": ""
+        "Description": "",
+        "Name": "Pope North House"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -320,11 +314,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Rudin Plot",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "Rudin Plot"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -334,11 +328,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Rudin Plot",
-        "Description": ""
+        "Description": "",
+        "Name": "Rudin Plot"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -412,11 +406,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Kratz Plot",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "Kratz Plot"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -426,11 +420,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Kratz Plot",
-        "Description": ""
+        "Description": "",
+        "Name": "Kratz Plot"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -512,11 +506,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Clarkson",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Clarkson"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -526,11 +520,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Clarkson",
-        "Description": ""
+        "Description": "",
+        "Name": "Clarkson"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -608,11 +602,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Simmons 4",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Simmons 4"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -622,11 +616,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Simmons 4",
-        "Description": ""
+        "Description": "",
+        "Name": "Simmons 4"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -712,11 +706,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Bradley West Plot",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Bradley West Plot"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -726,11 +720,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Bradley West Plot",
-        "Description": ""
+        "Description": "",
+        "Name": "Bradley West Plot"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -820,11 +814,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Trenchard 8",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Trenchard 8"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -834,11 +828,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Trenchard 8",
-        "Description": ""
+        "Description": "",
+        "Name": "Trenchard 8"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -944,11 +938,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Ponderosa North/Pcsc Plot W N Serve",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Ponderosa North/Pcsc Plot W N Serve"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -958,11 +952,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Ponderosa North/Pcsc Plot W N Serve",
-        "Description": ""
+        "Description": "",
+        "Name": "Ponderosa North/Pcsc Plot W N Serve"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1072,11 +1066,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Glasgow 1 South",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Glasgow 1 South"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1086,11 +1080,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Glasgow 1 South",
-        "Description": ""
+        "Description": "",
+        "Name": "Glasgow 1 South"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1164,11 +1158,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Oreana South/Oreana",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Oreana South/Oreana"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1178,11 +1172,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Oreana South/Oreana",
-        "Description": ""
+        "Description": "",
+        "Name": "Oreana South/Oreana"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1492,11 +1486,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "AGRIVEST 240 SW/AGRIVEST SE 160",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "AGRIVEST 240 SW/AGRIVEST SE 160"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1506,11 +1500,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "AGRIVEST 240 SW/AGRIVEST SE 160",
-        "Description": ""
+        "Description": "",
+        "Name": "AGRIVEST 240 SW/AGRIVEST SE 160"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1624,11 +1618,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North 80/Salley South",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "North 80/Salley South"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1638,11 +1632,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North 80/Salley South",
-        "Description": ""
+        "Description": "",
+        "Name": "North 80/Salley South"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1764,11 +1758,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Jokish",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Jokish"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1778,11 +1772,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Jokish",
-        "Description": ""
+        "Description": "",
+        "Name": "Jokish"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1880,11 +1874,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "B Weilepp",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "B Weilepp"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1894,11 +1888,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "B Weilepp",
-        "Description": ""
+        "Description": "",
+        "Name": "B Weilepp"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1980,11 +1974,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Carl Weilepp/PSW/Davis E",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Carl Weilepp/PSW/Davis E"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1994,11 +1988,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Carl Weilepp/PSW/Davis E",
-        "Description": ""
+        "Description": "",
+        "Name": "Carl Weilepp/PSW/Davis E"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2128,11 +2122,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Davis W",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Davis W"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2142,11 +2136,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Davis W",
-        "Description": ""
+        "Description": "",
+        "Name": "Davis W"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2228,11 +2222,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Neeley School",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "Neeley School"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2242,11 +2236,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Neeley School",
-        "Description": ""
+        "Description": "",
+        "Name": "Neeley School"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2344,11 +2338,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "North"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2358,11 +2352,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North",
-        "Description": ""
+        "Description": "",
+        "Name": "North"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2436,11 +2430,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "East 0",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "East 0"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2450,11 +2444,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "East 0",
-        "Description": ""
+        "Description": "",
+        "Name": "East 0"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2524,11 +2518,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "South Place",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "South Place"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2538,11 +2532,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "South Place",
-        "Description": ""
+        "Description": "",
+        "Name": "South Place"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2624,11 +2618,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "East 1",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "East 1"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2638,11 +2632,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "East 1",
-        "Description": ""
+        "Description": "",
+        "Name": "East 1"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2724,11 +2718,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North 38",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "North 38"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2738,11 +2732,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "North 38",
-        "Description": ""
+        "Description": "",
+        "Name": "North 38"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2840,11 +2834,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Darrell mills 40",
-        "Description": "5500, 730"
+        "Description": "5500, 730",
+        "Name": "Darrell mills 40"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2854,11 +2848,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Darrell mills 40",
-        "Description": ""
+        "Description": "",
+        "Name": "Darrell mills 40"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2948,11 +2942,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "MARY LOU MILLS",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "MARY LOU MILLS"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2962,11 +2956,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "MARY LOU MILLS",
-        "Description": ""
+        "Description": "",
+        "Name": "MARY LOU MILLS"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3060,11 +3054,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "MILLS HOLLOWAY HEYNE",
-        "Description": "5400, 730"
+        "Description": "5400, 730",
+        "Name": "MILLS HOLLOWAY HEYNE"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -3074,11 +3068,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "MILLS HOLLOWAY HEYNE",
-        "Description": ""
+        "Description": "",
+        "Name": "MILLS HOLLOWAY HEYNE"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3172,11 +3166,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Stonington Fungicide Field/Stonington whole field",
-        "Description": "5200, 730"
+        "Description": "5200, 730",
+        "Name": "Stonington Fungicide Field/Stonington whole field"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -3186,11 +3180,11 @@
       }
     },
     {
-      "type": "Feature",
       "properties": {
-        "Name": "Stonington Fungicide Field/Stonington whole field",
-        "Description": ""
+        "Description": "",
+        "Name": "Stonington Fungicide Field/Stonington whole field"
       },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3271,5 +3265,11 @@
         ]
       }
     }
-  ]
+  ],
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  }
 }
