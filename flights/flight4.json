@@ -3,7 +3,7 @@
   "features": [
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "Home n of creek"
       },
       "type": "Feature",
@@ -123,7 +123,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "Doenitz"
       },
       "type": "Feature",
@@ -231,7 +231,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "25"
       },
       "type": "Feature",
@@ -335,7 +335,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "Laskowski"
       },
       "type": "Feature",
@@ -447,7 +447,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "Eureka"
       },
       "type": "Feature",
@@ -575,7 +575,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "Bechtel S/Bechtel N"
       },
       "type": "Feature",
@@ -755,7 +755,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "North Farm"
       },
       "type": "Feature",
@@ -891,7 +891,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "Debolt 80/Debolt 40"
       },
       "type": "Feature",
@@ -1035,7 +1035,7 @@
     },
     {
       "properties": {
-        "Description": "5400, 730",
+        "Description": "5400, 1100",
         "Name": "Voelker Middle/Voelker North/Voelker South"
       },
       "type": "Feature",
@@ -1283,7 +1283,7 @@
     },
     {
       "properties": {
-        "Description": "5400, 730",
+        "Description": "5400, 1100",
         "Name": "Fort Farm"
       },
       "type": "Feature",
@@ -1435,7 +1435,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "Reeb"
       },
       "type": "Feature",
@@ -1543,7 +1543,7 @@
     },
     {
       "properties": {
-        "Description": "5400, 730",
+        "Description": "5400, 1100",
         "Name": "Kohl West"
       },
       "type": "Feature",
@@ -1723,7 +1723,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "West Blacktop"
       },
       "type": "Feature",
@@ -1863,7 +1863,7 @@
     },
     {
       "properties": {
-        "Description": "5500, 730",
+        "Description": "5500, 1100",
         "Name": "EDELSTEIN"
       },
       "type": "Feature",
