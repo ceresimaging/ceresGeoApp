@@ -8,7 +8,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Chowchilla",
-        "Description": "5300, 850"
+        "Description": "5300, 1150"
       },
       "geometry": {
         "type": "Point",
@@ -111,7 +111,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Chowchilla",
-        "Description": "5300, 850"
+        "Description": "5300, 1150"
       },
       "geometry": {
         "type": "Point",
@@ -214,7 +214,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Phase 3 Pistachios",
-        "Description": "1600, 200"
+        "Description": "1600, 300"
       },
       "geometry": {
         "type": "Point",
