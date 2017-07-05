@@ -16,7 +16,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "3800, 500",
+        "Description": "2800, 700",
         "Name": "BLACCO North"
       },
       "type": "Feature"
@@ -180,7 +180,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "3800, 500",
+        "Description": "2800, 700",
         "Name": "Wegis Ranch Field 611"
       },
       "type": "Feature"
@@ -292,7 +292,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "3800, 500",
+        "Description": "2800, 700",
         "Name": "BLACCO South/Blacco T3"
       },
       "type": "Feature"
@@ -452,7 +452,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "4200, 500",
+        "Description": "3200, 700",
         "Name": "AP Gap"
       },
       "type": "Feature"
@@ -668,7 +668,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "3600, 500",
+        "Description": "2600, 700",
         "Name": "Adam Bros"
       },
       "type": "Feature"
