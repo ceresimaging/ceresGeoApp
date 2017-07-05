@@ -16,7 +16,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "2200, 250",
+        "Description": "1600, 250",
         "Name": "Rampage"
       },
       "type": "Feature"
@@ -148,7 +148,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "2000, 250",
+        "Description": "1400, 250",
         "Name": "Mission Bell"
       },
       "type": "Feature"
@@ -268,7 +268,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "2000, 250",
+        "Description": "1400, 250",
         "Name": "Denis Prosperi"
       },
       "type": "Feature"
@@ -412,7 +412,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "2000, 250",
+        "Description": "1400, 250",
         "Name": "GVI 743"
       },
       "type": "Feature"
@@ -504,7 +504,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "2000, 250",
+        "Description": "1400, 250",
         "Name": "GVI 760"
       },
       "type": "Feature"
@@ -608,7 +608,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "1900, 250",
+        "Description": "1300, 250",
         "Name": "Field 40-41"
       },
       "type": "Feature"
@@ -720,7 +720,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "1900, 250",
+        "Description": "1300, 250",
         "Name": "GVI 135"
       },
       "type": "Feature"
@@ -824,7 +824,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "1900, 250",
+        "Description": "1300, 250",
         "Name": "GVI 103"
       },
       "type": "Feature"
