@@ -1,6 +1,7 @@
 {  
-  "1": "Kilo (Mitch) P3 2017-07-05",
+  "1": "Alexandria (Kreg) P4 2017-06-07",
   "10": "Test KCSI",
+<<<<<<< HEAD
   "2": "Wing (Chris) P6 2017-07-05 Napa",
   "3": "KCSI (Bryan) L1 2017-07-05 Bakersfield/Santa Maria",
   "4": "Kilo (Jim) L8 2017-07-04 Powercycle",
@@ -8,5 +9,14 @@
   "6": "Big E (Alex) P6 2017-07-07 Modesto",
   "7": "Big E (Alex) P6 2017-07-03 Bakersfield/Corcoran",
   "8": "TESTFLIGHT John Fluno P7/L6 Possible prodcution",
+=======
+  "2": "Kilo (Mitch) P3 2017-06-07",
+  "3": "Bryan (KCSI) L6 2017-06-07 Bakersfield/Lost Hills",
+  "4": "Wings (Chris) P7 2017-06-07 Sac/Lodi",
+  "5": "Bentecore (Lloyd) L11 2017-07-06 Lodi/Stockton",
+  "6": "Wings (Chris) P7 2017-07-06 Napa/Rio Vista/West Lodi",
+  "7": "Skyview (Phillip) L9 2017-07-06 Modesto",
+  "8": "KCSI (Bryan) L6 2017-07-06 Visalia",
+>>>>>>> 905ddf49284ebf0a91dee845877939691faabe8a
   "9": "Tom Add on field, only fly half doesn't matter which half"
 }
