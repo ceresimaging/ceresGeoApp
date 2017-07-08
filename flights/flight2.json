@@ -1,17 +1,18 @@
 {
+  "type": "FeatureCollection",
   "crs": {
+    "type": "name",
     "properties": {
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
+    }
   },
   "features": [
     {
+      "type": "Feature",
       "properties": {
         "Name": "Hames Valley",
-        "Description": "2200, 440"
+        "Description": "1900, 370"
       },
-      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -21,12 +22,13 @@
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Hames Valley",
         "Description": ""
       },
-      "type": "Feature",
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -560,16 +562,15 @@
               35.891050510495674
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "San Lucas",
-        "Description": "2100, 440"
+        "Description": "1800, 370"
       },
-      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -579,12 +580,13 @@
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "San Lucas",
         "Description": ""
       },
-      "type": "Feature",
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -788,16 +790,15 @@
               36.05679475058924
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Mesa",
-        "Description": "2000, 440"
+        "Description": "1700, 370"
       },
-      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -807,12 +808,13 @@
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Mesa",
         "Description": ""
       },
-      "type": "Feature",
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1156,16 +1158,15 @@
               36.25791096398227
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Hacienda",
-        "Description": "1900, 440"
+        "Description": "1600, 370"
       },
-      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1175,12 +1176,13 @@
       }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Hacienda",
         "Description": ""
       },
-      "type": "Feature",
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1316,10 +1318,8 @@
               36.27021904655642
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }
