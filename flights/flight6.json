@@ -1,17 +1,14 @@
 {
   "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Brooks Ranch",
-        "Description": "2000, 250"
+        "Description": "3800, 500"
       },
       "geometry": {
         "type": "Point",
@@ -146,8 +143,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Brooks Ranch",
-        "Description": "2000, 250"
+        "Description": "3800, 500"
       },
       "geometry": {
         "type": "Point",
@@ -322,8 +322,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "8 of 21-16",
-        "Description": "2400, 250"
+        "Description": "3800, 500"
       },
       "geometry": {
         "type": "Point",
@@ -434,8 +437,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "NE 14 of 30",
-        "Description": "2200, 250"
+        "Description": "3800, 500"
       },
       "geometry": {
         "type": "Point",
@@ -534,8 +540,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "NE 14 of 24/E 12 of 13",
-        "Description": "2200, 250"
+        "Description": "3800, 500"
       },
       "geometry": {
         "type": "Point",
@@ -1126,6 +1135,106 @@
             [
               -120.55090662626921,
               36.66691830644597
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cardella Fundus",
+        "Description": "2100, 250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.55788725473982,
+          36.781670467873674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cardella Fundus",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.56324179089106,
+              36.7852670276659
+            ],
+            [
+              -120.5631645466039,
+              36.785649682320454
+            ],
+            [
+              -120.56294668297872,
+              36.78597360623957
+            ],
+            [
+              -120.56271029638488,
+              36.78614775052371
+            ],
+            [
+              -120.56233635183649,
+              36.786259807381086
+            ],
+            [
+              -120.55350979313282,
+              36.78622270607234
+            ],
+            [
+              -120.55295660290024,
+              36.78605182887687
+            ],
+            [
+              -120.55263243005163,
+              36.78569159723246
+            ],
+            [
+              -120.55251569633978,
+              36.7852212483046
+            ],
+            [
+              -120.55252622890467,
+              36.77808143151703
+            ],
+            [
+              -120.55269608617522,
+              36.77752535414411
+            ],
+            [
+              -120.55305760710235,
+              36.777199507230954
+            ],
+            [
+              -120.55353013190113,
+              36.77708291432339
+            ],
+            [
+              -120.56226495264528,
+              36.77711564237654
+            ],
+            [
+              -120.56281965811425,
+              36.777285982128134
+            ],
+            [
+              -120.56314471148204,
+              36.77764688715079
+            ],
+            [
+              -120.56325683448209,
+              36.778020397567495
+            ],
+            [
+              -120.56324179089106,
+              36.7852670276659
             ]
           ]
         ]
