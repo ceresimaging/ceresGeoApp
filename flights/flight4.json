@@ -1,24 +1,21 @@
 {
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "Description": "1400, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2600, 700",
         "Name": "Ribeiro"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.69707273253104,
           37.665446025378436
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -28,6 +25,7 @@
         "Name": "Ribeiro"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -115,22 +113,24 @@
               37.67101486474843
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Description": "1300, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2500, 700",
         "Name": "Ron Martella Farms"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.8588791151495,
           37.64840482327994
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -140,6 +140,7 @@
         "Name": "Ron Martella Farms"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -307,22 +308,24 @@
               37.65311658597453
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Description": "1300, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2500, 700",
         "Name": "Ribeiro Patterson"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.97928436163546,
           37.738084211710294
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -332,6 +335,7 @@
         "Name": "Ribeiro Patterson"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -407,22 +411,24 @@
               37.740009799151835
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Description": "1300, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2500, 700",
         "Name": "Chiappes Walnuts"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.04663314713113,
           37.93205129196128
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -432,6 +438,7 @@
         "Name": "Chiappes Walnuts"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -555,8 +562,7 @@
               37.932621382526165
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
@@ -566,11 +572,11 @@
         "Name": "Winters Land"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1376600773594,
           37.77444194205679
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -580,6 +586,7 @@
         "Name": "Winters Land"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -687,8 +694,7 @@
               37.77573642226954
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
@@ -698,11 +704,11 @@
         "Name": "Locust"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19242404254815,
           38.12990544718374
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -712,6 +718,7 @@
         "Name": "Locust"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -819,8 +826,7 @@
               38.129739298433286
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
@@ -830,20 +836,26 @@
         "Name": "Winters Land"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19883358669314,
           37.848748542113896
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
         "Description": "",
         "Name": "Winters Land"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1079,22 +1091,24 @@
               37.84551654954118
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Description": "1300, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2500, 700",
         "Name": "Rosus Lane"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2183730513356,
           38.13567059111231
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -1104,6 +1118,7 @@
         "Name": "Rosus Lane"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1191,8 +1206,7 @@
               38.137750725779476
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
@@ -1202,11 +1216,11 @@
         "Name": "Vintage Rd"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23145566107848,
           38.10768009411118
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -1216,6 +1230,7 @@
         "Name": "Vintage Rd"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1311,8 +1326,7 @@
               38.105769043822576
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     }
   ]
