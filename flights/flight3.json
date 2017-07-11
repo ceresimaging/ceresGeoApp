@@ -1,10 +1,4 @@
 {
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "type": "FeatureCollection",
   "features": [
     {
@@ -14,11 +8,11 @@
         "Name": "Roberts at WB"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24643585092,
           38.159618668932765
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -28,6 +22,7 @@
         "Name": "Roberts at WB"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -115,8 +110,7 @@
               38.159547268859335
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
@@ -126,11 +120,11 @@
         "Name": "Goto SB/Goto VG"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.25065327910994,
           38.15238065320139
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -140,6 +134,7 @@
         "Name": "Goto SB/Goto VG"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -243,8 +238,7 @@
               38.15403374756337
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
@@ -254,11 +248,11 @@
         "Name": "River Rd"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.51279148390503,
           38.3824358953622
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -268,6 +262,7 @@
         "Name": "River Rd"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -383,8 +378,7 @@
               38.381076202457585
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
@@ -394,11 +388,11 @@
         "Name": "Willow Pt"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.55123952294063,
           38.42405131101925
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -408,6 +402,7 @@
         "Name": "Willow Pt"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -535,22 +530,24 @@
               38.42210148619578
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Description": "1900, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "3100, 700",
         "Name": "Sierra Orchard 2017 Field"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.90701739898773,
           38.52800871678097
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -560,6 +557,7 @@
         "Name": "Sierra Orchard 2017 Field"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -655,8 +653,7 @@
               38.52351126914194
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     }
   ]
