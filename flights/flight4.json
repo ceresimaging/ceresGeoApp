@@ -1,19 +1,13 @@
 {
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.86599041195088,
           36.94276137916266
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -23,6 +17,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -130,8 +125,7 @@
               36.95056195122231
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -141,20 +135,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.97500060042788,
           36.470940453203745
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Eriksson Farm",
-        "Description": "1400, 250"
+        "Description": "2600, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -580,8 +578,7 @@
               36.48133067303544
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -591,20 +588,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.94758122505365,
           36.73886990418368
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Rolinda Ranch",
-        "Description": "1500, 250"
+        "Description": "2700, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -684,8 +685,7 @@
               36.742472475074464
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -695,11 +695,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.22658774006332,
           36.79941592607812
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -709,6 +709,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -828,8 +829,7 @@
               36.8067606269611
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -839,11 +839,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.34007620144979,
           36.48881657529194
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -853,6 +853,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -960,8 +961,7 @@
               36.490856318757096
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -971,11 +971,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.3613492756104,
           36.488793574153064
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -985,6 +985,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1056,8 +1057,7 @@
               36.48696035010613
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
