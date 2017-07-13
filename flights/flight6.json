@@ -1,19 +1,13 @@
 {
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.74036992694222,
           36.30473584605336
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -23,6 +17,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -166,8 +161,7 @@
               36.30628972385318
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -177,20 +171,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.83610295351495,
           36.39027912159353
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "PG-Riverdale Ranch",
-        "Description": "1400, 250"
+        "Description": "2600, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -510,8 +508,7 @@
               36.394150161315544
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -521,20 +518,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.00359809064447,
           36.09432967409712
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Oberti Almonds",
-        "Description": "1500, 250"
+        "Description": "2700, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -662,8 +663,7 @@
               36.086079167950324
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -673,20 +673,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.05476529422627,
           36.21943184673306
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Golden Rod-400",
-        "Description": "1500, 250"
+        "Description": "2700, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -846,8 +850,7 @@
               36.223549549290745
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -857,20 +860,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.07964067140846,
           36.1052620286488
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Omaha Ranch",
-        "Description": "1600, 250"
+        "Description": "2800, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -970,8 +977,7 @@
               36.104832804570265
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -981,20 +987,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.1006236103211,
           36.12946351386634
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Huron Fields",
-        "Description": "1600, 250"
+        "Description": "2800, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1122,8 +1132,7 @@
               36.122640737402286
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1133,11 +1142,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.106540677332,
           36.11242673620593
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1147,6 +1156,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1234,8 +1244,7 @@
               36.108068344854324
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1245,20 +1254,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.13517039190067,
           36.82676671176389
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "LJL Farming",
-        "Description": "1400, 250"
+        "Description": "2600, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1338,8 +1351,7 @@
               36.82613340131893
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1349,20 +1361,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.17650660963284,
           36.810856953130795
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Alkali Hollow",
-        "Description": "1400, 250"
+        "Description": "2600, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1466,8 +1482,7 @@
               36.81479050149954
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1477,20 +1492,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.19926429514702,
           36.821565361223456
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Karen Andrew",
-        "Description": "1400, 250"
+        "Description": "2600, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1570,8 +1589,7 @@
               36.821868123823926
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1581,20 +1599,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.21632417931755,
           36.821916546698276
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Karen & Janice Trust",
-        "Description": "1400, 250"
+        "Description": "2600, 700"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1682,8 +1704,7 @@
               36.825499938939636
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
