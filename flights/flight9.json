@@ -1,32 +1,21 @@
 {
   "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Newman Plot",
-        "Description": "3900, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -87.97974450501145,
           39.848583047482144
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Newman Plot",
-        "Description": ""
-      },
+        "Description": "6800, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -165,28 +154,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Newman Plot",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Leverett Plot 1/Leverett Plot 2",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.20473906859446,
           40.1878982484684
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Leverett Plot 1/Leverett Plot 2",
-        "Description": ""
-      },
+        "Description": "6900, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -317,28 +306,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Leverett Plot 1/Leverett Plot 2",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Debolt 80/Debolt Big Field",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.39894480460028,
           39.88293147401189
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Debolt 80/Debolt Big Field",
-        "Description": ""
-      },
+        "Description": "6800, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -477,28 +466,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Debolt 80/Debolt Big Field",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Maj's",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.43413905987131,
           39.85261493067088
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Maj's",
-        "Description": ""
-      },
+        "Description": "6800, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -645,28 +634,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Maj's",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Homeplace West 154 Acres/Homeplace East 157 Acres",
-        "Description": "4100, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.6410613921191,
           40.35109010246809
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Homeplace West 154 Acres/Homeplace East 157 Acres",
-        "Description": ""
-      },
+        "Description": "6900, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -845,28 +834,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Homeplace West 154 Acres/Homeplace East 157 Acres",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "LDG Ayre",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.7552194557784,
           39.9623652597016
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "LDG Ayre",
-        "Description": ""
-      },
+        "Description": "6800, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1057,28 +1046,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "LDG Ayre",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Whitson-white/E.Buddie farm",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.81705646419228,
           40.00216942650206
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Whitson-white/E.Buddie farm",
-        "Description": ""
-      },
+        "Description": "6800, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1313,28 +1302,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Whitson-white/E.Buddie farm",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "South 160",
-        "Description": "4100, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.84703470814374,
           40.27174292927627
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "South 160",
-        "Description": ""
-      },
+        "Description": "7000, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1465,28 +1454,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "South 160",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Oreana South/Oreana",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.86693348096631,
           39.924838093184796
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Oreana South/Oreana",
-        "Description": ""
-      },
+        "Description": "6800, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1797,28 +1786,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Oreana South/Oreana",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "AGRIVEST 240 SW/AGRIVEST SE 160/North 80/Salley South",
-        "Description": "4100, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.87090501065438,
           40.34405781354823
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "AGRIVEST 240 SW/AGRIVEST SE 160/North 80/Salley South",
-        "Description": ""
-      },
+        "Description": "7000, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2121,28 +2110,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "AGRIVEST 240 SW/AGRIVEST SE 160/North 80/Salley South",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Jokish",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.87566950589316,
           39.963514676594265
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Jokish",
-        "Description": ""
-      },
+        "Description": "6800, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2289,28 +2278,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Jokish",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "B Weilepp",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.90352812821264,
           39.99662331835725
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "B Weilepp",
-        "Description": ""
-      },
+        "Description": "6900, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2437,28 +2426,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "B Weilepp",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Carl Weilepp/PSW/Davis E/Davis W",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.92434326959527,
           39.96395134098081
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Carl Weilepp/PSW/Davis E/Davis W",
-        "Description": ""
-      },
+        "Description": "6800, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2701,28 +2690,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Carl Weilepp/PSW/Davis E/Davis W",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "South 160",
-        "Description": "4100, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.91624733326542,
           40.282331475377696
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "South 160",
-        "Description": ""
-      },
+        "Description": "7000, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2861,28 +2850,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "South 160",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Welles/Neeley School",
-        "Description": "4000, 950"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -88.94075159715,
           39.89801033618123
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Welles/Neeley School",
-        "Description": ""
-      },
+        "Description": "6800, 950"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3085,7 +3074,18 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Welles/Neeley School",
+        "Description": ""
       }
     }
-  ]
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  }
 }
