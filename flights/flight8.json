@@ -1,11 +1,5 @@
 {
   "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
       "geometry": {
@@ -132,6 +126,9 @@
         ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Description": "1800, 250",
         "Name": "PG Romo"
       },
@@ -220,7 +217,10 @@
         ]
       },
       "properties": {
-        "Description": "1600, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2800, 700",
         "Name": "PG Ranch 6"
       },
       "type": "Feature"
@@ -344,7 +344,10 @@
         ]
       },
       "properties": {
-        "Description": "1800, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "3000, 700",
         "Name": "PG-Ducor Ranch"
       },
       "type": "Feature"
@@ -436,7 +439,10 @@
         ]
       },
       "properties": {
-        "Description": "1600, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2800, 700",
         "Name": "PG-Blossom Ranch"
       },
       "type": "Feature"
@@ -636,7 +642,10 @@
         ]
       },
       "properties": {
-        "Description": "1800, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "3000, 700",
         "Name": "8 of 21-16"
       },
       "type": "Feature"
@@ -952,7 +961,10 @@
         ]
       },
       "properties": {
-        "Description": "1400, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2600, 700",
         "Name": "Raisin City Almonds"
       },
       "type": "Feature"
