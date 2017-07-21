@@ -1,10 +1,5 @@
 {
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
+  "type": "FeatureCollection",
   "features": [
     {
       "properties": {
@@ -12,11 +7,11 @@
         "Description": "1600, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.3552823564577,
           36.439181599681596
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -26,6 +21,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -415,22 +411,24 @@
               36.42940657965806
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Zhonglin-Xindongya",
-        "Description": "1500, 250"
+        "Description": "2700, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.3613474022984,
           36.488792036622755
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -440,6 +438,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -503,22 +502,24 @@
               36.48696035010613
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "SinoMatic",
-        "Description": "1500, 250"
+        "Description": "2700, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.34008897654753,
           36.48881358905692
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -528,6 +529,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -619,22 +621,24 @@
               36.49089555592672
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "915 Farms/Granville Farms/Sommerville Farms/FNF Farms",
-        "Description": "1800, 250"
+        "Description": "3000, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.43959422997371,
           36.52225959074799
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -644,6 +648,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -995,11 +1000,9 @@
               36.49447771276143
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }
