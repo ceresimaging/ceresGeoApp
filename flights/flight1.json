@@ -1,17 +1,14 @@
 {
   "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Woods/Leo's House",
-        "Description": "4000, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -234,8 +231,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Home",
-        "Description": "4100, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -366,8 +366,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "H 1",
-        "Description": "4100, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -490,8 +493,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "North",
-        "Description": "4100, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -630,8 +636,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Chana West",
-        "Description": "4000, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -754,8 +763,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Chana North",
-        "Description": "4000, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -878,8 +890,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "East/West",
-        "Description": "4100, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -1046,8 +1061,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "T1",
-        "Description": "4100, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -1222,8 +1240,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Degraff",
-        "Description": "4100, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -1358,8 +1379,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "North kent",
-        "Description": "4200, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
@@ -1474,8 +1498,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "North",
-        "Description": "4200, 440"
+        "Description": "7600, 880"
       },
       "geometry": {
         "type": "Point",
