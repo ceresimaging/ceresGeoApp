@@ -1,11 +1,5 @@
 {
   "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
       "type": "Feature",
@@ -1370,8 +1364,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Sheldon Giesbrecht",
-        "Description": "1900, 350"
+        "Description": "4100, 700"
       },
       "geometry": {
         "type": "Point",
@@ -1482,8 +1479,11 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Louis McPherrin",
-        "Description": "1900, 350"
+        "Description": "4100, 700"
       },
       "geometry": {
         "type": "Point",
