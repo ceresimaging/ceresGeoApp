@@ -1,21 +1,26 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.16149193922864,
           37.9293118162141
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
-        "Description": "1200, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2400, 700",
         "Name": "Camera Brothers Stockton"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -79,8 +84,7 @@
               37.92686589116693
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -90,20 +94,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.20951753221223,
           37.95216847690198
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
-        "Description": "1200, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2400, 700",
         "Name": "Camera Brothers Stockton"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -219,8 +227,7 @@
               37.951372467258416
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -230,20 +237,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15801768168309,
           38.01842098758929
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
-        "Description": "1300, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2500, 700",
         "Name": "Nola Orchards"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -327,8 +338,7 @@
               38.02040339161499
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -338,20 +348,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.18650009643234,
           37.94300705669094
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
-        "Description": "1200, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2400, 700",
         "Name": "Camera Brothers Stockton"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -431,8 +445,7 @@
               37.950179746212164
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -442,11 +455,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.34979817998162,
           38.084891788292666
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -456,6 +469,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -543,8 +557,7 @@
               38.082384013323235
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -554,11 +567,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.22665402418026,
           38.107431341961316
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -568,6 +581,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -639,8 +653,7 @@
               38.105547469143396
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -650,20 +663,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15660748421017,
           38.119105475041735
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
-        "Description": "1300, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2500, 700",
         "Name": "Morada Produce Field"
       }
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -735,8 +752,7 @@
               38.11683680584003
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -746,11 +762,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.34881864683675,
           38.14346850090939
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -760,6 +776,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -871,8 +888,7 @@
               38.14623924230237
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -882,11 +898,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.09309498166549,
           38.14565135856938
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -896,6 +912,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -967,8 +984,7 @@
               38.14287342679111
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -978,11 +994,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23000568662017,
           38.17075935145813
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -992,6 +1008,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1079,8 +1096,7 @@
               38.16670995769179
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1090,11 +1106,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.38419074661584,
           38.17230752284272
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1104,6 +1120,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1171,8 +1188,7 @@
               38.174550317653406
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1182,11 +1198,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.32224664148204,
           38.19720453265862
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1196,6 +1212,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1379,8 +1396,7 @@
               38.19863041567152
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1390,11 +1406,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23847235399553,
           38.20266263129756
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1404,6 +1420,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1527,8 +1544,7 @@
               38.19974642354348
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature",
       "properties": {
@@ -1536,12 +1552,5 @@
         "Name": "Jahant Vineyard Fields"
       }
     }
-  ],
-  "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  }
+  ]
 }
