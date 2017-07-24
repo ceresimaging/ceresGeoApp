@@ -1,0 +1,101 @@
+{
+  "crs": {
+    "properties": {
+      "name": "Geoff Test Flight Alameda"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "properties": {
+        "Name": "Alameda Test Site 0",
+        "Description": "0, 100"
+      },
+      "geometry": {
+        "coordinates": [-122.309834, 37.781302],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Name": "Alameda Test Site 0",
+        "Description": ""
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [-122.3108032907379, 37.78079609158581],
+            [-122.308464200812, 37.78062489204017],
+            [-122.3083420100908, 37.78186649655647],
+            [-122.3106970648727, 37.78202523056141],
+            [-122.3108032907379, 37.78079609158581]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Name": "Alameda Test Site 1",
+        "Description": "123, 10"
+      },
+      "geometry": {
+        "coordinates": [-122.306204, 37.783345],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Name": "Alameda Test Site 1",
+        "Description": ""
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [-122.3083414552394, 37.78351289118797],
+            [-122.3083539652546, 37.7834113704824],
+            [-122.3037619838109, 37.78316896226423],
+            [-122.3037504912284, 37.78327109553762],
+            [-122.3083414552394, 37.78351289118797]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Name": "Alameda Test Site 2",
+        "Description": "33, 50"
+      },
+      "geometry": {
+        "coordinates": [-122.292022, 37.776144],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Name": "Alameda Test Site 2",
+        "Description": ""
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [-122.2922800999237, 37.77653518604784],
+            [-122.2923401959164, 37.77579988709201],
+            [-122.2917553177651, 37.77579390950768],
+            [-122.2916991135799, 37.77650784693304],
+            [-122.2922800999237, 37.77653518604784]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
