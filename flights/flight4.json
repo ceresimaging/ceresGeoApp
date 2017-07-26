@@ -803,7 +803,10 @@
     },
     {
       "properties": {
-        "Description": "1600, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 150",
         "Name": "MP Carmel"
       },
       "type": "Feature",
@@ -911,7 +914,10 @@
     },
     {
       "properties": {
-        "Description": "1600, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 150",
         "Name": "MP Sunrise"
       },
       "type": "Feature",
