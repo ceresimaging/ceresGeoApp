@@ -3,7 +3,10 @@
   "features": [
     {
       "properties": {
-        "Description": "2700, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1500, 250",
         "Name": "Denis Prosperi"
       },
       "type": "Feature",
