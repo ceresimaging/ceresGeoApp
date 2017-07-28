@@ -1093,9 +1093,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "Name": "A",
         "Description": "7200, 880"
       },
@@ -1109,7 +1106,6 @@
     },
     {
       "type": "Feature",
-      "properties": {},
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1141,9 +1137,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "Name": "B",
         "Description": "7200, 880"
       },
@@ -1189,9 +1182,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "Name": "C",
         "Description": "7200, 880"
       },
@@ -1237,9 +1227,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "Name": "D",
         "Description": "3900, 950"
       },
