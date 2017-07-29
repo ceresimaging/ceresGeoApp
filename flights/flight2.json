@@ -8,21 +8,20 @@
   "features": [
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -122.35926113638526,
           38.353599625290386
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Lamoreaux",
-        "Description": "2000, 350"
-      }
+        "Description": "2000, 350",
+        "Name": "Lamoreaux"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -154,31 +153,31 @@
               38.354450399404996
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Lamoreaux",
-        "Description": ""
-      }
+        "Description": "",
+        "Name": "Lamoreaux"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -122.37008110134106,
           38.45453331440638
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Kramlich",
-        "Description": "2000, 350"
-      }
+        "Description": "2000, 350",
+        "Name": "Kramlich"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -286,31 +285,31 @@
               38.45383295056692
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Kramlich",
-        "Description": ""
-      }
+        "Description": "",
+        "Name": "Kramlich"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -122.40768451767217,
           38.41372358994831
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Harlan Blocks 2017",
-        "Description": "2200, 350"
-      }
+        "Description": "2200, 350",
+        "Name": "Harlan Blocks 2017"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -654,31 +653,31 @@
               38.41259078176754
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Harlan Blocks 2017",
-        "Description": ""
-      }
+        "Description": "",
+        "Name": "Harlan Blocks 2017"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -122.41388142711504,
           38.42011575682332
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Oakville Grade",
-        "Description": "2100, 350"
-      }
+        "Description": "2100, 350",
+        "Name": "Oakville Grade"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -762,31 +761,31 @@
               38.41846129060094
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Oakville Grade",
-        "Description": ""
-      }
+        "Description": "",
+        "Name": "Oakville Grade"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -122.79557051495577,
           38.479412274350686
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Rodney Strong Estates Fulton",
-        "Description": "1900, 350"
-      }
+        "Description": "1900, 350",
+        "Name": "Rodney Strong Estates Fulton"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1002,31 +1001,31 @@
               38.48369487666952
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Rodney Strong Estates Fulton",
-        "Description": ""
-      }
+        "Description": "",
+        "Name": "Rodney Strong Estates Fulton"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -122.4582096901441,
           38.515806749312695
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "The Napa Valley Reserve",
-        "Description": "2000, 350"
-      }
+        "Description": "2000, 350",
+        "Name": "The Napa Valley Reserve"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1146,31 +1145,31 @@
               38.51601640173291
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "The Napa Valley Reserve",
-        "Description": ""
-      }
+        "Description": "",
+        "Name": "The Napa Valley Reserve"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -122.97942768228359,
           38.78562976502981
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Rodney Strong Estates Cloverdale",
-        "Description": "2400, 350"
-      }
+        "Description": "2400, 350",
+        "Name": "Rodney Strong Estates Cloverdale"
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1369,31 +1368,6 @@
               -122.97527250754838,
               38.77863866601872
             ],
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "A",
-        "Description": "7200, 880"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.09173965454102,
-          40.533502586787584
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
->>>>>>> 86065735b64bc2cfe352ab8bfeb2bc7a464c9416
             [
               -122.97547393415904,
               38.77828350596202
@@ -1414,31 +1388,6 @@
               -122.97800324466714,
               38.778437014202666
             ],
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "B",
-        "Description": "7200, 880"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.24039840698242,
-          40.72540497175607
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
->>>>>>> 86065735b64bc2cfe352ab8bfeb2bc7a464c9416
             [
               -122.97852236967593,
               38.778609000660474
@@ -1459,31 +1408,6 @@
               -122.98035328471431,
               38.78010676714696
             ],
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "C",
-        "Description": "7200, 880"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.69949340820312,
-          40.7464766581497
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
->>>>>>> 86065735b64bc2cfe352ab8bfeb2bc7a464c9416
             [
               -122.9805383741328,
               38.78014894253644
@@ -1508,31 +1432,6 @@
               -122.98387729305797,
               38.7794029808174
             ],
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "D",
-        "Description": "3900, 950"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.8241195678711,
-          41.08452688125755
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
->>>>>>> 86065735b64bc2cfe352ab8bfeb2bc7a464c9416
             [
               -122.98411851545079,
               38.77966813671811
@@ -1562,13 +1461,14 @@
               38.78721232358424
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
-        "Name": "Rodney Strong Estates Cloverdale",
-        "Description": ""
-      }
+        "Description": "",
+        "Name": "Rodney Strong Estates Cloverdale"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
