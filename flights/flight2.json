@@ -1,27 +1,172 @@
 {
-  "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
+      "properties": {
+        "Name": "North Coast GVI W Block",
+        "Description": "1300, 250"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
-          -122.8654698610646,
-          38.54564010875122
+          -122.27519412134646,
+          38.35340471389703
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Name": "North Coast GVI W Block",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.28550837034662,
+              38.35302578389582
+            ],
+            [
+              -122.28564964566269,
+              38.35349280119932
+            ],
+            [
+              -122.28559632322352,
+              38.35397779665721
+            ],
+            [
+              -122.28535695730447,
+              38.354402964663414
+            ],
+            [
+              -122.28496994828664,
+              38.35470009745665
+            ],
+            [
+              -122.26855663055197,
+              38.360717812485596
+            ],
+            [
+              -122.2678733898615,
+              38.36063177808922
+            ],
+            [
+              -122.26734597123412,
+              38.36018900348523
+            ],
+            [
+              -122.26525905801765,
+              38.35629150682248
+            ],
+            [
+              -122.26512367319503,
+              38.35585853700879
+            ],
+            [
+              -122.26519040526564,
+              38.355297304038494
+            ],
+            [
+              -122.26554882603455,
+              38.35453550796712
+            ],
+            [
+              -122.26575076019287,
+              38.35423689977904
+            ],
+            [
+              -122.26603124341888,
+              38.354010463443146
+            ],
+            [
+              -122.27347028263033,
+              38.35141498168182
+            ],
+            [
+              -122.2716424053383,
+              38.34812591721889
+            ],
+            [
+              -122.27154058491979,
+              38.34767279538672
+            ],
+            [
+              -122.27161574593212,
+              38.34721449677813
+            ],
+            [
+              -122.27185696401814,
+              38.34681763329104
+            ],
+            [
+              -122.27222917907899,
+              38.346539887470406
+            ],
+            [
+              -122.27605389706413,
+              38.345148667976254
+            ],
+            [
+              -122.27664970734989,
+              38.34520442736266
+            ],
+            [
+              -122.27696853874339,
+              38.34537463843076
+            ],
+            [
+              -122.27722339630708,
+              38.345630905649536
+            ],
+            [
+              -122.27971050390815,
+              38.34982065538553
+            ],
+            [
+              -122.28231942660055,
+              38.348863275853546
+            ],
+            [
+              -122.28278265897274,
+              38.34887392825759
+            ],
+            [
+              -122.28330151041372,
+              38.34912682349191
+            ],
+            [
+              -122.28359528369798,
+              38.34948514591907
+            ],
+            [
+              -122.28550837034662,
+              38.35302578389582
+            ]
+          ]
         ]
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "properties": {
         "Name": "North Coast GVI BT Block/North Coast GVI R Block",
         "Description": "1900, 350"
-      }
+      },
+      "geometry": {
+        "coordinates": [
+          -122.8654698610646,
+          38.54564010875122
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "North Coast GVI BT Block/North Coast GVI R Block",
+        "Description": ""
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -145,27 +290,27 @@
           ]
         ]
       },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI BT Block/North Coast GVI R Block",
-        "Description": ""
-      }
+      "type": "Feature"
     },
     {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.84114038239558,
-          38.55159576718135
-        ]
-      },
-      "type": "Feature",
       "properties": {
         "Name": "North Coast GVI NC Block",
         "Description": "2000, 350"
-      }
+      },
+      "geometry": {
+        "coordinates": [
+          -122.84114038239558,
+          38.55159576718135
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "North Coast GVI NC Block",
+        "Description": ""
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -293,27 +438,27 @@
           ]
         ]
       },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI NC Block",
-        "Description": ""
-      }
+      "type": "Feature"
     },
     {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.84225246425248,
-          38.572281423723666
-        ]
-      },
-      "type": "Feature",
       "properties": {
         "Name": "North Coast GVI CPR Block",
         "Description": "1900, 350"
-      }
+      },
+      "geometry": {
+        "coordinates": [
+          -122.84225246425248,
+          38.572281423723666
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "North Coast GVI CPR Block",
+        "Description": ""
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -429,27 +574,27 @@
           ]
         ]
       },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI CPR Block",
-        "Description": ""
-      }
+      "type": "Feature"
     },
     {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.91317013305168,
-          38.66537748696052
-        ]
-      },
-      "type": "Feature",
       "properties": {
         "Name": "North Coast GVI D Block",
         "Description": "2000, 350"
-      }
+      },
+      "geometry": {
+        "coordinates": [
+          -122.91317013305168,
+          38.66537748696052
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "North Coast GVI D Block",
+        "Description": ""
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -557,27 +702,27 @@
           ]
         ]
       },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI D Block",
-        "Description": ""
-      }
+      "type": "Feature"
     },
     {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.31535612370779,
-          38.689944476224355
-        ]
-      },
-      "type": "Feature",
       "properties": {
         "Name": "North Coast GVI AN Block",
         "Description": "2300, 350"
-      }
+      },
+      "geometry": {
+        "coordinates": [
+          -123.31535612370779,
+          38.689944476224355
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "North Coast GVI AN Block",
+        "Description": ""
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -685,27 +830,143 @@
           ]
         ]
       },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI AN Block",
-        "Description": ""
-      }
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "North Coast GVI C Block",
+        "Description": "2100, 350"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
-          -123.33963731218108,
-          38.714344135763966
+          -122.94859904648395,
+          38.70972726037086
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Name": "North Coast GVI C Block",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.95420938595693,
+              38.71675857989478
+            ],
+            [
+              -122.95375098397022,
+              38.71712598692298
+            ],
+            [
+              -122.95341088850871,
+              38.71722672647342
+            ],
+            [
+              -122.95305618806236,
+              38.71722573989888
+            ],
+            [
+              -122.94497531005828,
+              38.71601963870427
+            ],
+            [
+              -122.94461333187124,
+              38.71590619006515
+            ],
+            [
+              -122.94430345964776,
+              38.71568737962953
+            ],
+            [
+              -122.94027698615024,
+              38.70970667818343
+            ],
+            [
+              -122.93947113475691,
+              38.70462535259771
+            ],
+            [
+              -122.93953572342923,
+              38.70415896086028
+            ],
+            [
+              -122.9397715627138,
+              38.70375144057712
+            ],
+            [
+              -122.94004066621773,
+              38.70352128899214
+            ],
+            [
+              -122.94036438267595,
+              38.70337778253732
+            ],
+            [
+              -122.94555061781288,
+              38.70193046110378
+            ],
+            [
+              -122.94590581568879,
+              38.70188568362353
+            ],
+            [
+              -122.9462587793477,
+              38.7019455769392
+            ],
+            [
+              -122.95874058658231,
+              38.708937019289685
+            ],
+            [
+              -122.95904002414063,
+              38.70932506845922
+            ],
+            [
+              -122.95915056908146,
+              38.70967681022496
+            ],
+            [
+              -122.95915137399159,
+              38.71004551309426
+            ],
+            [
+              -122.95898306152856,
+              38.71050585636195
+            ],
+            [
+              -122.95420938595693,
+              38.71675857989478
+            ]
+          ]
         ]
       },
-      "type": "Feature",
+      "type": "Feature"
+    },
+    {
       "properties": {
         "Name": "North Coast GVI AN Block",
         "Description": "2300, 350"
-      }
+      },
+      "geometry": {
+        "coordinates": [
+          -123.33963731218108,
+          38.714344135763966
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "North Coast GVI AN Block",
+        "Description": ""
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -821,143 +1082,27 @@
           ]
         ]
       },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI AN Block",
-        "Description": ""
-      }
+      "type": "Feature"
     },
     {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.94859904648395,
-          38.70972726037086
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI C Block",
-        "Description": "2100, 350"
-      }
-    },
-    {
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.95420938595693,
-              38.71675857989478
-            ],
-            [
-              -122.95375098397022,
-              38.71712598692298
-            ],
-            [
-              -122.95341088850871,
-              38.71722672647342
-            ],
-            [
-              -122.95305618806236,
-              38.71722573989888
-            ],
-            [
-              -122.94497531005828,
-              38.71601963870427
-            ],
-            [
-              -122.94461333187124,
-              38.71590619006515
-            ],
-            [
-              -122.94430345964776,
-              38.71568737962953
-            ],
-            [
-              -122.94027698615024,
-              38.70970667818343
-            ],
-            [
-              -122.93947113475691,
-              38.70462535259771
-            ],
-            [
-              -122.93953572342923,
-              38.70415896086028
-            ],
-            [
-              -122.9397715627138,
-              38.70375144057712
-            ],
-            [
-              -122.94004066621773,
-              38.70352128899214
-            ],
-            [
-              -122.94036438267595,
-              38.70337778253732
-            ],
-            [
-              -122.94555061781288,
-              38.70193046110378
-            ],
-            [
-              -122.94590581568879,
-              38.70188568362353
-            ],
-            [
-              -122.9462587793477,
-              38.7019455769392
-            ],
-            [
-              -122.95874058658231,
-              38.708937019289685
-            ],
-            [
-              -122.95904002414063,
-              38.70932506845922
-            ],
-            [
-              -122.95915056908146,
-              38.70967681022496
-            ],
-            [
-              -122.95915137399159,
-              38.71004551309426
-            ],
-            [
-              -122.95898306152856,
-              38.71050585636195
-            ],
-            [
-              -122.95420938595693,
-              38.71675857989478
-            ]
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI C Block",
-        "Description": ""
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.98259004729654,
-          38.71380311892957
-        ]
-      },
-      "type": "Feature",
       "properties": {
         "Name": "North Coast GVI CH Block",
         "Description": "2000, 350"
-      }
+      },
+      "geometry": {
+        "coordinates": [
+          -122.98259004729654,
+          38.71380311892957
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "North Coast GVI CH Block",
+        "Description": ""
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1041,27 +1186,27 @@
           ]
         ]
       },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI CH Block",
-        "Description": ""
-      }
+      "type": "Feature"
     },
     {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.97766317178463,
-          38.75575348124543
-        ]
-      },
-      "type": "Feature",
       "properties": {
         "Name": "North Coast GVI AST Block/North Coast GVI A Block",
         "Description": "2100, 350"
-      }
+      },
+      "geometry": {
+        "coordinates": [
+          -122.97766317178463,
+          38.75575348124543
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
     },
     {
+      "properties": {
+        "Name": "North Coast GVI AST Block/North Coast GVI A Block",
+        "Description": ""
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1309,11 +1454,14 @@
           ]
         ]
       },
-      "type": "Feature",
-      "properties": {
-        "Name": "North Coast GVI AST Block/North Coast GVI A Block",
-        "Description": ""
-      }
+      "type": "Feature"
     }
-  ]
+  ],
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection"
 }
