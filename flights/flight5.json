@@ -1,12 +1,13 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.40694491790673,
           35.608735756439465
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Freedom",
@@ -16,6 +17,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -147,8 +149,7 @@
               35.608772084929434
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Freedom",
@@ -158,11 +159,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.32253557319291,
           35.66315239158408
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Poso Creek",
@@ -172,6 +173,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -347,8 +349,7 @@
               35.660053647247274
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Poso Creek",
@@ -358,11 +359,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.22753891822107,
           35.73489423266053
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Flying Mandarin",
@@ -372,6 +373,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -471,8 +473,7 @@
               35.737261172244324
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Flying Mandarin",
@@ -482,20 +483,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.31387477877846,
           35.968229830739624
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "White-Soares",
-        "Description": "2700, 700"
+        "Description": "2100, 400"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -607,8 +612,7 @@
               35.96128773732252
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "White-Soares",
@@ -618,20 +622,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.14145960566806,
           36.00290891214306
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Tower Line Kiwi Ranch",
-        "Description": "2900, 700"
+        "Description": "2100, 300"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -747,8 +755,7 @@
               36.0080249867641
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Tower Line Kiwi Ranch",
@@ -758,20 +765,24 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.2967792700221,
           36.01667893486779
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Pitigliano Home Ranch",
-        "Description": "2800, 700"
+        "Description": "2100, 400"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -875,8 +886,7 @@
               36.00820924751192
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Pitigliano Home Ranch",
@@ -886,11 +896,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.58767826503197,
           36.06163521367589
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "14P",
@@ -900,6 +910,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1007,8 +1018,7 @@
               36.055696809338095
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "14P",
@@ -1018,11 +1028,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.00360111651301,
           36.09432258185375
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Oberti Almonds",
@@ -1032,6 +1042,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1179,8 +1190,7 @@
               36.084714725852
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Oberti Almonds",
@@ -1190,11 +1200,11 @@
     },
     {
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.07962325001458,
           36.10528561233402
-        ],
-        "type": "Point"
+        ]
       },
       "properties": {
         "Name": "Omaha Ranch",
@@ -1204,6 +1214,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1307,8 +1318,7 @@
               36.10473762028042
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Name": "Omaha Ranch",
@@ -1316,12 +1326,5 @@
       },
       "type": "Feature"
     }
-  ],
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
-  "type": "FeatureCollection"
+  ]
 }
