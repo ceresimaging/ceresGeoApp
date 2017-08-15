@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "K29 Boundary/JGW Boundary",
+        "Name": "JGW Boundary/K29 Boundary",
         "Description": "7000, 730"
       },
       "geometry": {
@@ -18,7 +18,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "K29 Boundary/JGW Boundary",
+        "Name": "JGW Boundary/K29 Boundary",
         "Description": ""
       },
       "geometry": {
@@ -472,7 +472,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "K06 Boundary/K08 Boundary",
+        "Name": "K08 Boundary/K06 Boundary",
         "Description": "7000, 730"
       },
       "geometry": {
@@ -486,7 +486,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "K06 Boundary/K08 Boundary",
+        "Name": "K08 Boundary/K06 Boundary",
         "Description": ""
       },
       "geometry": {
@@ -716,7 +716,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "E05 Boundary/E04 Boundary",
+        "Name": "E04 Boundary/E05 Boundary",
         "Description": "6900, 730"
       },
       "geometry": {
@@ -730,7 +730,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "E05 Boundary/E04 Boundary",
+        "Name": "E04 Boundary/E05 Boundary",
         "Description": ""
       },
       "geometry": {
@@ -1308,7 +1308,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "K39 Boundary/K27 Boundary/K25 Boundary/K18 Boundary/K16 Boundary",
+        "Name": "K16 Boundary/K25 Boundary/K18 Boundary/K27 Boundary/K39 Boundary",
         "Description": "7000, 730"
       },
       "geometry": {
@@ -1322,7 +1322,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "K39 Boundary/K27 Boundary/K25 Boundary/K18 Boundary/K16 Boundary",
+        "Name": "K16 Boundary/K25 Boundary/K18 Boundary/K27 Boundary/K39 Boundary",
         "Description": ""
       },
       "geometry": {
