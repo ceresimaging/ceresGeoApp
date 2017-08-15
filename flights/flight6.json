@@ -869,7 +869,7 @@
       "type": "Feature",
       "properties": {
         "Name": "White Diamond Ranch",
-        "Description": "2800, 700"
+        "Description": "2100, 400"
       },
       "geometry": {
         "type": "Point",
