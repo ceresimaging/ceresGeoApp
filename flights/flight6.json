@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Mapes Ranch",
-        "Description": "2500, 700"
+        "Description": "4000, 700"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +261,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Field 63-66",
-        "Description": "2700, 700"
+        "Description": "4200, 700"
       },
       "geometry": {
         "type": "Point",
@@ -397,7 +397,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Ribeiro",
-        "Description": "2700, 700"
+        "Description": "4200, 700"
       },
       "geometry": {
         "type": "Point",
@@ -517,7 +517,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Ratto Bros 7",
-        "Description": "2500, 700"
+        "Description": "4000, 700"
       },
       "geometry": {
         "type": "Point",
@@ -657,7 +657,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Thompson Lease",
-        "Description": "2900, 700"
+        "Description": "4400, 700"
       },
       "geometry": {
         "type": "Point",
@@ -868,11 +868,8 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "Name": "White Diamond Ranch",
-        "Description": "2100, 400"
+        "Description": "4300, 700"
       },
       "geometry": {
         "type": "Point",
@@ -1008,7 +1005,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Ribeiro Patterson",
-        "Description": "2600, 700"
+        "Description": "4100, 700"
       },
       "geometry": {
         "type": "Point",
@@ -1132,5 +1129,11 @@
         ]
       }
     }
-  ]
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  }
 }
