@@ -1,14 +1,17 @@
 {
   "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "Name": "Isleton",
-        "Description": "1200, 250"
+        "Description": "2500, 700"
       },
       "geometry": {
         "type": "Point",
@@ -175,11 +178,8 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "Name": "Barnyard Owl Vineyard",
-        "Description": "1200, 250"
+        "Description": "2600, 700"
       },
       "geometry": {
         "type": "Point",
