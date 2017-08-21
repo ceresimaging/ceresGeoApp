@@ -1,10 +1,5 @@
 {
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
+  "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
@@ -15,13 +10,17 @@
         ]
       },
       "properties": {
-        "Description": "3700, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2500, 250",
         "Name": "Ricchiuti West"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -137,8 +136,7 @@
               36.58642619330078
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -155,13 +153,17 @@
         ]
       },
       "properties": {
-        "Description": "3700, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2500, 250",
         "Name": "Ricchiuti East"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -273,8 +275,7 @@
               36.586576668862946
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -291,13 +292,17 @@
         ]
       },
       "properties": {
-        "Description": "3800, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2600, 250",
         "Name": "Cedar and Manning"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -385,8 +390,7 @@
               36.60367837332487
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -410,6 +414,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -497,8 +502,7 @@
               36.6611403675313
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -506,6 +510,5 @@
       },
       "type": "Feature"
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }
