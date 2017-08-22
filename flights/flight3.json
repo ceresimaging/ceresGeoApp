@@ -1,10 +1,5 @@
 {
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
+  "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
@@ -22,6 +17,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -129,8 +125,7 @@
               36.85033558386972
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -154,6 +149,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -325,8 +321,7 @@
               37.29727882891119
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -350,6 +345,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -661,8 +657,7 @@
               37.70792958900349
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -686,6 +681,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -817,8 +813,7 @@
               37.41313224618176
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -842,6 +837,7 @@
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -965,8 +961,7 @@
               37.4196872781502
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -983,13 +978,17 @@
         ]
       },
       "properties": {
-        "Description": "2700, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1500, 250",
         "Name": "Lyons 1/Lyons 2/Lyons 3/Walmart"
       },
       "type": "Feature"
     },
     {
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1145,8 +1144,7 @@
               37.278075827502384
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
         "Description": "",
@@ -1154,6 +1152,5 @@
       },
       "type": "Feature"
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }
