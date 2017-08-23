@@ -1,16 +1,20 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
       "properties": {
-        "Description": "2800, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "Baker Farming-Chaney Ranch"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.57509974829934,
           36.62993270597753
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -20,6 +24,7 @@
         "Name": "Baker Farming-Chaney Ranch"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -119,22 +124,24 @@
               36.63338965770882
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2800, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "Baker Farming-Chaney Ranch"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.59997673802896,
           36.6300334269799
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -144,6 +151,7 @@
         "Name": "Baker Farming-Chaney Ranch"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -247,22 +255,24 @@
               36.626379948753716
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2800, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "Baker Farming-Chaney Ranch"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.55271992115316,
           36.64356072331936
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -272,6 +282,7 @@
         "Name": "Baker Farming-Chaney Ranch"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -379,22 +390,24 @@
               36.647984860134954
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2800, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "Baker Farming-Chaney Ranch"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.57864266598887,
           36.65246689125698
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -404,6 +417,7 @@
         "Name": "Baker Farming-Chaney Ranch"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -631,22 +645,24 @@
               36.63996214750908
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2700, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2100, 400",
         "Name": "AR04/AR05/AR06/AR09"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.76844857847024,
           36.90848782386902
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -656,6 +672,7 @@
         "Name": "AR04/AR05/AR06/AR09"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -887,22 +904,24 @@
               36.91082096250997
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2700, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2100, 400",
         "Name": "RR-08/RR-07"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.62223372493976,
           36.87179906407548
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -912,6 +931,7 @@
         "Name": "RR-08/RR-07"
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1031,17 +1051,9 @@
               36.882107161169984
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     }
-  ],
-  "type": "FeatureCollection",
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  }
+  ]
 }
