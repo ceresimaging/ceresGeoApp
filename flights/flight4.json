@@ -3,15 +3,18 @@
   "features": [
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Winters Land",
-        "Description": "1300, 250"
+        "Description": "2500, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.22708069588785,
           37.74669891180406
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -107,11 +110,11 @@
         "Description": "1300, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.07056263666081,
           37.74987525866917
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -363,11 +366,11 @@
         "Description": "1300, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15132427782243,
           37.750258059726704
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -559,15 +562,18 @@
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Winters Land",
-        "Description": "1300, 250"
+        "Description": "2500, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.20871884333003,
           37.754781217639525
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -671,15 +677,18 @@
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Winters Land",
-        "Description": "1300, 250"
+        "Description": "2500, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.13764477370228,
           37.77444083293074
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -807,11 +816,11 @@
         "Description": "1300, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.02860765240811,
           37.78592817126421
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -899,15 +908,18 @@
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Winters Land",
-        "Description": "1300, 250"
+        "Description": "2500, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.14623779976768,
           37.78850891797754
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -1111,15 +1123,18 @@
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Winters Land",
-        "Description": "1300, 250"
+        "Description": "2500, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15634914551512,
           37.81521432549484
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -1235,15 +1250,18 @@
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Winters Land",
-        "Description": "1300, 250"
+        "Description": "2500, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19879479881835,
           37.84874879783903
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -1483,11 +1501,11 @@
         "Description": "1300, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.13548033543819,
           37.89626155000235
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -1591,15 +1609,18 @@
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "SVOJT",
-        "Description": "1300, 250"
+        "Description": "2500, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15660140594505,
           37.92375920773532
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -1695,11 +1716,11 @@
         "Description": "1300, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10839006000684,
           37.86997088621333
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -1985,11 +2006,5 @@
       },
       "type": "Feature"
     }
-  ],
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  }
+  ]
 }
