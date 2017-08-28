@@ -1,4 +1,5 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
       "properties": {
@@ -6,11 +7,11 @@
         "Description": "1300, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.07056263666081,
           37.74987525866917
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -20,6 +21,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -251,8 +253,7 @@
               37.75834927653344
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -262,11 +263,11 @@
         "Description": "1300, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15132427782243,
           37.750258059726704
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -276,6 +277,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -451,22 +453,24 @@
               37.747185550126815
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Winters Land",
-        "Description": "1300, 250"
+        "Description": "2700, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.02860765240811,
           37.78592817126421
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -476,6 +480,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -547,8 +552,7 @@
               37.78561932305352
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -558,11 +562,11 @@
         "Description": "1200, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.67121151670254,
           38.15670454034393
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -572,6 +576,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -695,8 +700,7 @@
               38.158056982456934
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -706,11 +710,11 @@
         "Description": "1200, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.28714799887672,
           38.192030748467914
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -720,6 +724,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -803,8 +808,7 @@
               38.19452867665888
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -814,11 +818,11 @@
         "Description": "1200, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.32562808037927,
           38.201587636980705
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -828,6 +832,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -919,8 +924,7 @@
               38.203595569902205
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -930,11 +934,11 @@
         "Description": "1300, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.22251525818007,
           38.46434744883581
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -944,6 +948,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1239,8 +1244,7 @@
               38.47466241788092
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -1250,11 +1254,11 @@
         "Description": "1200, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.30121608862532,
           38.205859095936056
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -1264,6 +1268,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1387,8 +1392,7 @@
               38.205314050052756
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -1398,11 +1402,11 @@
         "Description": "1200, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.29691153350497,
           38.191617552862276
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -1412,6 +1416,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1499,17 +1504,9 @@
               38.19388806879279
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     }
-  ],
-  "type": "FeatureCollection",
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  }
+  ]
 }
