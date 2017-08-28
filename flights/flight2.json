@@ -4,7 +4,7 @@
     {
       "properties": {
         "Name": "Kern Lerdo",
-        "Description": "2800, 700"
+        "Description": "4300, 700"
       },
       "geometry": {
         "type": "Point",
@@ -347,7 +347,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Flying Mandarin",
-        "Description": "1600, 250"
+        "Description": "2500, 250"
       },
       "geometry": {
         "type": "Point",
@@ -471,7 +471,7 @@
     {
       "properties": {
         "Name": "Tulare 43",
-        "Description": "2700, 700"
+        "Description": "4200, 700"
       },
       "geometry": {
         "type": "Point",
@@ -658,7 +658,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Tower Line Kiwi Ranch",
-        "Description": "1700, 250"
+        "Description": "2500, 250"
       },
       "geometry": {
         "type": "Point",
