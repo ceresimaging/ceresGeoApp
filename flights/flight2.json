@@ -1,4 +1,5 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
       "properties": {
@@ -6,11 +7,11 @@
         "Description": "2800, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.00360111651301,
           36.09432258185375
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -20,6 +21,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -167,8 +169,7 @@
               36.084714725852
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -178,11 +179,11 @@
         "Description": "2900, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.07962325001485,
           36.105285612333674
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -192,6 +193,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -295,8 +297,7 @@
               36.10473762028241
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -306,11 +307,11 @@
         "Description": "2800, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.36134784289595,
           36.488792922874204
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -320,6 +321,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -415,22 +417,24 @@
               36.48696035010613
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Gravelly Ford Ranch, LLC",
-        "Description": "2700, 700"
+        "Description": "1400, 250"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.22660659217881,
           36.79946760687924
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -440,6 +444,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -603,8 +608,7 @@
               36.80612386818156
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     },
@@ -614,11 +618,11 @@
         "Description": "2800, 700"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.33999713322088,
           36.48883418931279
-        ],
-        "type": "Point"
+        ]
       },
       "type": "Feature"
     },
@@ -628,6 +632,7 @@
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -763,17 +768,9 @@
               36.49080210699504
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "type": "Feature"
     }
-  ],
-  "type": "FeatureCollection",
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  }
+  ]
 }
