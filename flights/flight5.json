@@ -16,7 +16,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "4100, 500",
+        "Description": "4100, 400",
         "Name": "Larry Jefts Updated"
       }
     },
@@ -124,7 +124,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "4100, 500",
+        "Description": "4100, 400",
         "Name": "Larry Jefts Updated"
       }
     },
@@ -280,7 +280,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "4200, 500",
+        "Description": "4200, 400",
         "Name": "Larry Jefts Updated/Jefts"
       }
     },
@@ -728,7 +728,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "4300, 500",
+        "Description": "4300, 400",
         "Name": "Dole Pineapple Monthly"
       }
     },
@@ -896,7 +896,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "4200, 500",
+        "Description": "4200, 400",
         "Name": "Opaeula 14"
       }
     },
@@ -1064,7 +1064,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "4300, 500",
+        "Description": "4300, 400",
         "Name": "Dole Pineapple Monthly"
       }
     },
@@ -1950,7 +1950,7 @@
         "type": "Point"
       },
       "properties": {
-        "Description": "4300, 500",
+        "Description": "4300, 400",
         "Name": "Dole Pineapple Monthly"
       }
     },
