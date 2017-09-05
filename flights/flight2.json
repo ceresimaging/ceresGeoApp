@@ -11,7 +11,10 @@
         ]
       },
       "properties": {
-        "Description": "1900, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2700, 250",
         "Name": "Denair"
       }
     },
@@ -183,7 +186,10 @@
         ]
       },
       "properties": {
-        "Description": "1900, 250",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "2700, 250",
         "Name": "JR Farms"
       }
     },
@@ -386,7 +392,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "2200, 250",
+        "Description": "2700, 250",
         "Name": "JJB Farms"
       }
     },
@@ -613,7 +619,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "3500, 500",
+        "Description": "4100, 500",
         "Name": "SVOJT"
       }
     },
@@ -716,7 +722,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "2200, 250",
+        "Description": "2700, 250",
         "Name": "JJB Farms"
       }
     },
