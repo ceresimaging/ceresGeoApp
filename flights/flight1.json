@@ -4,8 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2700, 700",
-        "Name": "Carlton Duty Farms 2_3_10"
+        "Name": "Carlton Duty Farms 2_3_10",
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
@@ -18,8 +18,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Carlton Duty Farms 2_3_10"
+        "Name": "Carlton Duty Farms 2_3_10",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -352,8 +352,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2700, 700",
-        "Name": "Carlton Duty Farms 18_19"
+        "Name": "Carlton Duty Farms 18_19",
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
@@ -366,8 +366,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Carlton Duty Farms 18_19"
+        "Name": "Carlton Duty Farms 18_19",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -532,8 +532,168 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2700, 700",
-        "Name": "Potter"
+        "Name": "West Redbanks",
+        "Description": "2900, 700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1468267239935,
+          36.418780877869956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "West Redbanks",
+        "Description": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.15509742494105,
+              36.42127626157507
+            ],
+            [
+              -119.15513220367137,
+              36.42527519562334
+            ],
+            [
+              -119.15499543885656,
+              36.425980355138506
+            ],
+            [
+              -119.1547887255059,
+              36.426419907014505
+            ],
+            [
+              -119.15433282441951,
+              36.42697498251146
+            ],
+            [
+              -119.15375516114946,
+              36.42736265449891
+            ],
+            [
+              -119.15312050527596,
+              36.42756217900903
+            ],
+            [
+              -119.15223597969924,
+              36.42754149203517
+            ],
+            [
+              -119.14804754498701,
+              36.42626779451074
+            ],
+            [
+              -119.14459168540992,
+              36.4254127959716
+            ],
+            [
+              -119.1440196445972,
+              36.42513444399565
+            ],
+            [
+              -119.14319456564404,
+              36.42448441853901
+            ],
+            [
+              -119.13999526790916,
+              36.42452462933249
+            ],
+            [
+              -119.13905910677416,
+              36.424289644674445
+            ],
+            [
+              -119.13846560757489,
+              36.42388963278658
+            ],
+            [
+              -119.13814026797439,
+              36.423525940478456
+            ],
+            [
+              -119.1378085934155,
+              36.422891714383525
+            ],
+            [
+              -119.13767548129849,
+              36.42218249806826
+            ],
+            [
+              -119.13768898766642,
+              36.414699422397476
+            ],
+            [
+              -119.13781433402754,
+              36.41401388965897
+            ],
+            [
+              -119.13821946171635,
+              36.41289335165878
+            ],
+            [
+              -119.13861352141893,
+              36.41230414546306
+            ],
+            [
+              -119.13897177003992,
+              36.41197979819738
+            ],
+            [
+              -119.13959712255743,
+              36.41164605996684
+            ],
+            [
+              -119.14029799257945,
+              36.411506333320496
+            ],
+            [
+              -119.1526330501085,
+              36.41152263492245
+            ],
+            [
+              -119.15321895496858,
+              36.41159452660305
+            ],
+            [
+              -119.15367185438359,
+              36.41175598115892
+            ],
+            [
+              -119.15425915865478,
+              36.41214645150636
+            ],
+            [
+              -119.1545832799222,
+              36.412501600626726
+            ],
+            [
+              -119.15491858187671,
+              36.41312205671758
+            ],
+            [
+              -119.15503807499917,
+              36.41358778928686
+            ],
+            [
+              -119.15509742494105,
+              36.42127626157507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Potter",
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
@@ -546,8 +706,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Potter"
+        "Name": "Potter",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -676,8 +836,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2700, 700",
-        "Name": "Potter"
+        "Name": "Potter",
+        "Description": "2700, 700"
       },
       "geometry": {
         "type": "Point",
@@ -690,8 +850,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Potter"
+        "Name": "Potter",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -808,8 +968,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2800, 700",
-        "Name": "Zhonglin-Xindongya"
+        "Name": "Zhonglin-Xindongya",
+        "Description": "2800, 700"
       },
       "geometry": {
         "type": "Point",
@@ -822,8 +982,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Zhonglin-Xindongya"
+        "Name": "Zhonglin-Xindongya",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -928,8 +1088,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2800, 700",
-        "Name": "SinoMatic"
+        "Name": "SinoMatic",
+        "Description": "2800, 700"
       },
       "geometry": {
         "type": "Point",
@@ -942,8 +1102,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "SinoMatic"
+        "Name": "SinoMatic",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1088,8 +1248,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2800, 700",
-        "Name": "Berberian #20"
+        "Name": "Berberian #20",
+        "Description": "2800, 700"
       },
       "geometry": {
         "type": "Point",
@@ -1102,8 +1262,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Berberian #20"
+        "Name": "Berberian #20",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1232,8 +1392,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2900, 700",
-        "Name": "Yellow Oak South"
+        "Name": "Yellow Oak South",
+        "Description": "2900, 700"
       },
       "geometry": {
         "type": "Point",
@@ -1246,8 +1406,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Yellow Oak South"
+        "Name": "Yellow Oak South",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1432,8 +1592,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2900, 700",
-        "Name": "Yellow Oak North"
+        "Name": "Yellow Oak North",
+        "Description": "2900, 700"
       },
       "geometry": {
         "type": "Point",
@@ -1446,8 +1606,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Yellow Oak North"
+        "Name": "Yellow Oak North",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1643,8 +1803,8 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "1600, 250",
-        "Name": "Gravelly Ford Ranch, LLC"
+        "Name": "Gravelly Ford Ranch, LLC",
+        "Description": "1600, 250"
       },
       "geometry": {
         "type": "Point",
@@ -1657,8 +1817,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Gravelly Ford Ranch, LLC"
+        "Name": "Gravelly Ford Ranch, LLC",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1834,8 +1994,8 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "1500, 250",
-        "Name": "Mission Bell"
+        "Name": "Mission Bell",
+        "Description": "1600, 250"
       },
       "geometry": {
         "type": "Point",
@@ -1848,8 +2008,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Mission Bell"
+        "Name": "Mission Bell",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1962,8 +2122,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "1600, 250",
-        "Name": "Rampage"
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Rampage",
+        "Description": "1600, 250"
       },
       "geometry": {
         "type": "Point",
@@ -1976,8 +2139,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "",
-        "Name": "Rampage"
+        "Name": "Rampage",
+        "Description": ""
       },
       "geometry": {
         "type": "Polygon",
