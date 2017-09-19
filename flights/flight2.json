@@ -11,7 +11,7 @@
       },
       "properties": {
         "Name": "MP Oasis",
-        "Description": "2300, 350"
+        "Description": "2300, 275"
       },
       "type": "Feature"
     },
@@ -175,7 +175,7 @@
       },
       "properties": {
         "Name": "MP Oasis",
-        "Description": "2300, 350"
+        "Description": "2300, 275"
       },
       "type": "Feature"
     },
@@ -549,7 +549,7 @@
       },
       "properties": {
         "Name": "MP Sweetwater",
-        "Description": "2500, 350"
+        "Description": "2500, 275"
       },
       "type": "Feature"
     },
@@ -1073,7 +1073,7 @@
       },
       "properties": {
         "Name": "MP Loma Pacific",
-        "Description": "2300, 350"
+        "Description": "2300, 275"
       },
       "type": "Feature"
     },
@@ -1193,7 +1193,7 @@
       },
       "properties": {
         "Name": "MP Sansaba",
-        "Description": "2000, 350"
+        "Description": "2000, 275"
       },
       "type": "Feature"
     },
@@ -1325,7 +1325,7 @@
       },
       "properties": {
         "Name": "MP Sunrise",
-        "Description": "2200, 350"
+        "Description": "2200, 275"
       },
       "type": "Feature"
     },
@@ -1565,7 +1565,7 @@
       },
       "properties": {
         "Name": "MP Quail Run",
-        "Description": "2100, 350"
+        "Description": "2100, 275"
       },
       "type": "Feature"
     },
@@ -1693,7 +1693,7 @@
       },
       "properties": {
         "Name": "MP Garcia/MP Casagrande",
-        "Description": "2100, 350"
+        "Description": "2100, 275"
       },
       "type": "Feature"
     },
@@ -1897,7 +1897,7 @@
       },
       "properties": {
         "Name": "MP Rancho Solo",
-        "Description": "2200, 350"
+        "Description": "2200, 275"
       },
       "type": "Feature"
     },
@@ -2041,7 +2041,7 @@
       },
       "properties": {
         "Name": "MP Hobsonave/MP Lago/MP Los Ositos/MP Monroe/MP Alta Loma/MP Airport/MP Alans/MP Arr Loma",
-        "Description": "2400, 350"
+        "Description": "2400, 275"
       },
       "type": "Feature"
     },
@@ -2971,7 +2971,7 @@
       },
       "properties": {
         "Name": "MP Kristys/MP Marsino",
-        "Description": "2100, 350"
+        "Description": "2100, 275"
       },
       "type": "Feature"
     },
