@@ -11,7 +11,7 @@
       },
       "properties": {
         "Name": "Ranch 14",
-        "Description": "3000, 700"
+        "Description": "4500, 700"
       },
       "type": "Feature"
     },
@@ -163,7 +163,7 @@
       },
       "properties": {
         "Name": "Kern Whistler",
-        "Description": "2900, 700"
+        "Description": "4400, 700"
       },
       "type": "Feature"
     },
@@ -431,7 +431,7 @@
       },
       "properties": {
         "Name": "Oberti Almonds",
-        "Description": "2800, 700"
+        "Description": "4300, 700"
       },
       "type": "Feature"
     },
@@ -603,7 +603,7 @@
       },
       "properties": {
         "Name": "Omaha Ranch",
-        "Description": "2900, 700"
+        "Description": "4400, 700"
       },
       "type": "Feature"
     },
@@ -731,7 +731,7 @@
       },
       "properties": {
         "Name": "Akhavi Pistachio",
-        "Description": "2700, 700"
+        "Description": "4200, 700"
       },
       "type": "Feature"
     },
