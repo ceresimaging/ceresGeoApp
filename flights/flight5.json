@@ -16,7 +16,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9100, 1180",
+        "Description": "9100, 0",
         "Name": "Greene County 170"
       }
     },
@@ -212,7 +212,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Bill nth 80"
       }
     },
@@ -356,7 +356,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "SHOUP"
       }
     },
@@ -544,7 +544,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9200, 1180",
+        "Description": "9200, 0",
         "Name": "Curvey 80"
       }
     },
@@ -716,7 +716,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9200, 1180",
+        "Description": "9200, 0",
         "Name": "HF South"
       }
     },
@@ -936,7 +936,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9200, 1180",
+        "Description": "9200, 0",
         "Name": "Hunter 12&13"
       }
     },
@@ -1264,7 +1264,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9200, 1180",
+        "Description": "9200, 0",
         "Name": "PYLES"
       }
     },
@@ -1452,7 +1452,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "SIL_114"
       }
     },
@@ -1604,7 +1604,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Aufdenkamp"
       }
     },
@@ -1764,7 +1764,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Chrisman Plot"
       }
     },
@@ -1920,7 +1920,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Newman Plot"
       }
     },
@@ -2076,7 +2076,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Helen 157"
       }
     },
@@ -2232,7 +2232,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Barnes 320"
       }
     },
@@ -2388,7 +2388,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "SIL_102"
       }
     },
@@ -2536,7 +2536,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Curran 80"
       }
     },
@@ -2692,7 +2692,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Debolt 80/Debolt Big Field"
       }
     },
@@ -2856,7 +2856,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Glasgow 1 South"
       }
     },
@@ -3012,7 +3012,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Jennings Plot"
       }
     },
@@ -3164,7 +3164,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Neeley School/Welles"
       }
     },
@@ -3356,7 +3356,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Clarkson"
       }
     },
@@ -3512,7 +3512,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Bradley West Plot"
       }
     },
@@ -3664,7 +3664,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Paul Butcher Farm"
       }
     },
@@ -3884,7 +3884,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Maj's"
       }
     },
@@ -4052,7 +4052,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9100, 1180",
+        "Description": "9100, 0",
         "Name": "Stonington Fungicide Field/Stonington whole field"
       }
     },
@@ -4200,7 +4200,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Pope North House"
       }
     },
@@ -4356,7 +4356,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Blankenship"
       }
     },
@@ -4508,7 +4508,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9100, 1180",
+        "Description": "9100, 0",
         "Name": "Arm-4"
       }
     },
@@ -4664,7 +4664,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9200, 1180",
+        "Description": "9200, 0",
         "Name": "GPF Birks"
       }
     },
@@ -4824,7 +4824,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Cassity South"
       }
     },
@@ -4984,7 +4984,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "North Farm - S70"
       }
     },
@@ -5152,7 +5152,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Ponderosa North/Pcsc Plot W N Serve/Pcsc Plot W O N-Serve"
       }
     },
@@ -5320,7 +5320,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Carl Weilepp/PSW/Davis W/Davis E"
       }
     },
@@ -5604,7 +5604,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "LDG Ayre"
       }
     },
@@ -5820,7 +5820,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Jokish"
       }
     },
@@ -5988,7 +5988,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Oreana/Oreana South"
       }
     },
@@ -6320,7 +6320,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Simmons 3/Simmons 4"
       }
     },
@@ -6484,7 +6484,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "South Place/South Place"
       }
     },
@@ -6640,7 +6640,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Route 24 North"
       }
     },
@@ -6804,7 +6804,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Ridgeroad Soybeans/Ridgeroad Corn"
       }
     },
@@ -6956,7 +6956,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Lecrone Plot"
       }
     },
@@ -7112,7 +7112,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9200, 1180",
+        "Description": "9200, 0",
         "Name": "32"
       }
     },
@@ -7264,7 +7264,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Knox-Bowdre"
       }
     },
@@ -7432,7 +7432,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Trenchard 8"
       }
     },
@@ -7596,7 +7596,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Darrell mills 40"
       }
     },
@@ -7752,7 +7752,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Curry"
       }
     },
@@ -7904,7 +7904,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "MARY LOU MILLS"
       }
     },
@@ -8060,7 +8060,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "MILLS HOLLOWAY HEYNE"
       }
     },
@@ -8224,7 +8224,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Leverett Plot 1/Leverett Plot 2"
       }
     },
@@ -8380,7 +8380,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Young 40"
       }
     },
@@ -8532,7 +8532,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Rudin Plot"
       }
     },
@@ -8688,7 +8688,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "West-MIddle"
       }
     },
@@ -8876,7 +8876,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "45"
       }
     },
@@ -9068,7 +9068,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Heagy South 92 Acres"
       }
     },
@@ -9232,7 +9232,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "South 160"
       }
     },
@@ -9380,7 +9380,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "South 160"
       }
     },
@@ -9540,7 +9540,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "North 38"
       }
     },
@@ -9692,7 +9692,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "North/East 1/East 0"
       }
     },
@@ -9948,7 +9948,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Warner West"
       }
     },
@@ -10144,7 +10144,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "45"
       }
     },
@@ -10300,7 +10300,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Miller 40"
       }
     },
@@ -10448,7 +10448,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Singley"
       }
     },
@@ -10600,7 +10600,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Ponderosa West"
       }
     },
@@ -10788,7 +10788,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9200, 1180",
+        "Description": "9200, 0",
         "Name": "East Of Pivot"
       }
     },
@@ -10944,7 +10944,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "East of Ditch"
       }
     },
@@ -11100,7 +11100,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Graff/Cooper East"
       }
     },
@@ -11316,7 +11316,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "10/Home/Knupp 120 North/West"
       }
     },
@@ -11600,7 +11600,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Home West"
       }
     },
@@ -11764,7 +11764,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "AGRIVEST SE 160/North 80/Salley South/AGRIVEST 240 SW"
       }
     },
@@ -12092,7 +12092,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Rudolph"
       }
     },
@@ -12260,7 +12260,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Bretts"
       }
     },
@@ -12416,7 +12416,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "BFI North 60 Acres"
       }
     },
@@ -12568,7 +12568,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Homeplace West 154 Acres/Homeplace East 157 Acres"
       }
     },
@@ -12752,7 +12752,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Nan's 80 East 38 Acres"
       }
     },
@@ -12920,7 +12920,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "E.Buddie farm/Whitson-white"
       }
     },
@@ -13160,7 +13160,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Gulley 40"
       }
     },
@@ -13320,7 +13320,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "SIL_111/SIL_116"
       }
     },
@@ -13548,7 +13548,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "B Weilepp"
       }
     },
@@ -13696,7 +13696,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Kratz Plot"
       }
     },
@@ -13852,7 +13852,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "25"
       }
     },
@@ -14000,7 +14000,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Hood"
       }
     },
@@ -14164,7 +14164,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "HMW80"
       }
     },
@@ -14320,7 +14320,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Laskowski"
       }
     },
@@ -14468,7 +14468,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Home n of creek"
       }
     },
@@ -14632,7 +14632,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "The 320"
       }
     },
@@ -14780,7 +14780,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "Doenitz"
       }
     },
@@ -14928,7 +14928,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Gasser E 80"
       }
     },
@@ -15080,7 +15080,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Wil-Mays 40"
       }
     },
@@ -15232,7 +15232,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Home/Ringler/Hartman"
       }
     },
@@ -15488,7 +15488,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "South Home"
       }
     },
@@ -15696,7 +15696,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Wiegand"
       }
     },
@@ -15844,7 +15844,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Section 20"
       }
     },
@@ -15988,7 +15988,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Eureka"
       }
     },
@@ -16148,7 +16148,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Bechtel S/Bechtel N"
       }
     },
@@ -16364,7 +16364,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Home 80"
       }
     },
@@ -16512,7 +16512,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Hayslip"
       }
     },
@@ -16656,7 +16656,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Shane 60"
       }
     },
@@ -16812,7 +16812,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Bir South"
       }
     },
@@ -16964,7 +16964,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Elson West 50/Wil-Long North"
       }
     },
@@ -17168,7 +17168,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Wahls South"
       }
     },
@@ -17320,7 +17320,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Reeb"
       }
     },
@@ -17472,7 +17472,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Eppels"
       }
     },
@@ -17644,7 +17644,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Mackinson South"
       }
     },
@@ -17796,7 +17796,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Craddock East"
       }
     },
@@ -17952,7 +17952,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "North Farm"
       }
     },
@@ -18136,7 +18136,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "EDELSTEIN"
       }
     },
@@ -18292,7 +18292,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Debolt 40/Debolt 80"
       }
     },
@@ -18476,7 +18476,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Leo East"
       }
     },
@@ -18628,7 +18628,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Kohl West"
       }
     },
@@ -18836,7 +18836,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Voelker North/Voelker South/Voelker Middle"
       }
     },
@@ -19092,7 +19092,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "West Blacktop"
       }
     },
@@ -19292,7 +19292,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Home 160/65/Timber 56/Lindys/Trumbo A/Trumbo B/Gasser N80/Blunier 125/Joy 20"
       }
     },
@@ -19908,7 +19908,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Schick West/James East 80"
       }
     },
@@ -20124,7 +20124,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "sleezer's"
       }
     },
@@ -20280,7 +20280,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "trainor east"
       }
     },
@@ -20456,7 +20456,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "trainor patch/trainor south"
       }
     },
@@ -20640,7 +20640,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Moms East of Road"
       }
     },
@@ -20804,7 +20804,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Estate and Patterson's"
       }
     },
@@ -20952,7 +20952,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "North 80"
       }
     },
@@ -21112,7 +21112,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9200, 1180",
+        "Description": "9200, 0",
         "Name": "Evan's East"
       }
     },
@@ -21284,7 +21284,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "LaSalle 80"
       }
     },
@@ -21444,7 +21444,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "SMITH 160"
       }
     },
@@ -21600,7 +21600,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "MARY JOS"
       }
     },
@@ -21744,7 +21744,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Evans"
       }
     },
@@ -21908,7 +21908,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "kohns west"
       }
     },
@@ -22092,7 +22092,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Burke corn"
       }
     },
@@ -22276,7 +22276,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "WELCH'S"
       }
     },
@@ -22440,7 +22440,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "Waterman Fungicide Field"
       }
     },
@@ -22592,7 +22592,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "North 40/Bottoms/Boonies/South of the Rd"
       }
     },
@@ -22872,7 +22872,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "Southwest"
       }
     },
@@ -23032,7 +23032,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "North"
       }
     },
@@ -23204,7 +23204,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "T1"
       }
     },
@@ -23424,7 +23424,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Rochelle Demonstration Plots"
       }
     },
@@ -23588,7 +23588,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Chana West/Chana North/Chana  North"
       }
     },
@@ -23856,7 +23856,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "Diehl"
       }
     },
@@ -24024,7 +24024,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "Gobels 30"
       }
     },
@@ -24188,7 +24188,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "Fry South"
       }
     },
@@ -24348,7 +24348,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "West/East"
       }
     },
@@ -24564,7 +24564,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "Degraff"
       }
     },
@@ -24740,7 +24740,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9600, 1180",
+        "Description": "9600, 0",
         "Name": "North kent"
       }
     },
@@ -24900,7 +24900,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9600, 1180",
+        "Description": "9600, 0",
         "Name": "North"
       }
     },
@@ -25092,7 +25092,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "Home"
       }
     },
@@ -25260,7 +25260,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "H 1/Big Field"
       }
     },
@@ -25456,7 +25456,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9500, 1180",
+        "Description": "9500, 0",
         "Name": "Perry Road Curve/Woods/Southwest/Leo's House"
       }
     },
@@ -25724,7 +25724,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Fort Farm"
       }
     },
@@ -25916,7 +25916,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Leo South"
       }
     },
@@ -26092,7 +26092,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "West/Moms"
       }
     },
@@ -26272,7 +26272,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9300, 1180",
+        "Description": "9300, 0",
         "Name": "Rods house"
       }
     },
@@ -26436,7 +26436,7 @@
       },
       "type": "Feature",
       "properties": {
-        "Description": "9400, 1180",
+        "Description": "9400, 0",
         "Name": "south yates"
       }
     },
