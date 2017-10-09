@@ -7,7 +7,7 @@
   },
   "features": [
     {
-      "geometry": {{
+      "geometry": {
   "crs": {
     "type": "name",
     "properties": {
