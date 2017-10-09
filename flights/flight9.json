@@ -1,25 +1,21 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Bill nth 80"
-      },
       "geometry": {
         "coordinates": [
           -89.56495849701653,
           39.43829529604575
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Bill nth 80",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Bill nth 80"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -190,28 +186,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Bill nth 80",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "SHOUP"
-      },
       "geometry": {
         "coordinates": [
           -89.63170588742565,
           39.526028964912875
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "SHOUP",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "SHOUP"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -418,28 +414,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "SHOUP",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Curvey 80"
-      },
       "geometry": {
         "coordinates": [
           -89.44999613256033,
           39.538292791624066
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Curvey 80",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Curvey 80"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -622,28 +618,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Curvey 80",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Hunter 12&13"
-      },
       "geometry": {
         "coordinates": [
           -89.43545957534707,
           39.606320605680686
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Hunter 12&13",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Hunter 12&13"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -938,28 +934,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Hunter 12&13",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "PYLES"
-      },
       "geometry": {
         "coordinates": [
           -89.62431806433972,
           39.6428172296788
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "PYLES",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "PYLES"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -1154,28 +1150,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "PYLES",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Barnes 320"
-      },
       "geometry": {
         "coordinates": [
           -88.8262286038097,
           39.71907720727972
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Barnes 320",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Barnes 320"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -1346,28 +1342,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Barnes 320",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "SIL_102"
-      },
       "geometry": {
         "coordinates": [
           -89.9411911101424,
           39.71994465248351
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "SIL_102",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "SIL_102"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -1542,28 +1538,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "SIL_102",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Curran 80"
-      },
       "geometry": {
         "coordinates": [
           -89.77847740980677,
           39.723761188571316
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Curran 80",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Curran 80"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -1730,28 +1726,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Curran 80",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "SIL_114"
-      },
       "geometry": {
         "coordinates": [
           -89.75805460032952,
           39.76859344043445
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "SIL_114",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "SIL_114"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -1926,28 +1922,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "SIL_114",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Aufdenkamp"
-      },
       "geometry": {
         "coordinates": [
           -90.36851861444887,
           39.792001586755994
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Aufdenkamp",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Aufdenkamp"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -2126,28 +2122,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Aufdenkamp",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Helen 157"
-      },
       "geometry": {
         "coordinates": [
           -88.76219573121814,
           39.828712337108904
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Helen 157",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Helen 157"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -2318,28 +2314,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Helen 157",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9700, 1850",
-        "Name": "Stonington Fungicide Field/Stonington whole field"
-      },
       "geometry": {
         "coordinates": [
           -90.47925924096374,
           39.85594991341486
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Stonington Fungicide Field/Stonington whole field",
+        "Description": "9700, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Stonington Fungicide Field/Stonington whole field"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -2510,28 +2506,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Stonington Fungicide Field/Stonington whole field",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Paul Butcher Farm"
-      },
       "geometry": {
         "coordinates": [
           -89.91193784753418,
           39.84880270933753
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Paul Butcher Farm",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Paul Butcher Farm"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -2774,28 +2770,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Paul Butcher Farm",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Debolt 80/Debolt Big Field"
-      },
       "geometry": {
         "coordinates": [
           -88.39894537671888,
           39.88293295962543
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Debolt 80/Debolt Big Field",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Debolt 80/Debolt Big Field"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -2966,28 +2962,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Debolt 80/Debolt Big Field",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Neeley School/Welles"
-      },
       "geometry": {
         "coordinates": [
           -88.94076480767298,
           39.89801424987583
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Neeley School/Welles",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Neeley School/Welles"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -3198,28 +3194,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Neeley School/Welles",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Clarkson"
-      },
       "geometry": {
         "coordinates": [
           -88.5975742242007,
           39.892666215612266
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Clarkson",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Clarkson"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -3378,28 +3374,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Clarkson",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Bradley West Plot"
-      },
       "geometry": {
         "coordinates": [
           -88.6371558814888,
           39.894638809273765
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Bradley West Plot",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Bradley West Plot"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -3550,28 +3546,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Bradley West Plot",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Maj's"
-      },
       "geometry": {
         "coordinates": [
           -88.43414278857455,
           39.852618511451396
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Maj's",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Maj's"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -3746,28 +3742,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Maj's",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Pope North House"
-      },
       "geometry": {
         "coordinates": [
           -88.55769552602844,
           39.860904082926815
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Pope North House",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Pope North House"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -3938,28 +3934,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Pope North House",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Blankenship"
-      },
       "geometry": {
         "coordinates": [
           -88.81028842561926,
           39.86647190338107
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Blankenship",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Blankenship"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -4130,28 +4126,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Blankenship",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Glasgow 1 South"
-      },
       "geometry": {
         "coordinates": [
           -88.67668551152558,
           39.87325820455055
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Glasgow 1 South",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Glasgow 1 South"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -4314,28 +4310,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Glasgow 1 South",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9600, 1850",
-        "Name": "Arm-4"
-      },
       "geometry": {
         "coordinates": [
           -90.50197264382477,
           39.939687793960864
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Arm-4",
+        "Description": "9600, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Arm-4"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -4498,28 +4494,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Arm-4",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Lecrone Plot"
-      },
       "geometry": {
         "coordinates": [
           -88.54695284363906,
           40.00993114546869
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Lecrone Plot",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Lecrone Plot"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -4666,28 +4662,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Lecrone Plot",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Ridgeroad Soybeans/Ridgeroad Corn"
-      },
       "geometry": {
         "coordinates": [
           -88.47733509627169,
           40.02461464277041
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Ridgeroad Soybeans/Ridgeroad Corn",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Ridgeroad Soybeans/Ridgeroad Corn"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -4846,28 +4842,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Ridgeroad Soybeans/Ridgeroad Corn",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "MARY LOU MILLS/MILLS HOLLOWAY HEYNE"
-      },
       "geometry": {
         "coordinates": [
           -89.13426481178199,
           40.033774570255716
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "MARY LOU MILLS/MILLS HOLLOWAY HEYNE",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "MARY LOU MILLS/MILLS HOLLOWAY HEYNE"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -5142,28 +5138,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "MARY LOU MILLS/MILLS HOLLOWAY HEYNE",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Kratz Plot"
-      },
       "geometry": {
         "coordinates": [
           -88.57386405654688,
           40.0016724154415
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Kratz Plot",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Kratz Plot"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -5326,28 +5322,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Kratz Plot",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "B Weilepp"
-      },
       "geometry": {
         "coordinates": [
           -88.90352455068613,
           39.99662406211749
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "B Weilepp",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "B Weilepp"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -5518,28 +5514,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "B Weilepp",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "E.Buddie farm/Whitson-white"
-      },
       "geometry": {
         "coordinates": [
           -88.81709538251093,
           40.002128676487196
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "E.Buddie farm/Whitson-white",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "E.Buddie farm/Whitson-white"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -5790,28 +5786,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "E.Buddie farm/Whitson-white",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Gulley 40"
-      },
       "geometry": {
         "coordinates": [
           -88.7404913851351,
           39.9958930945646
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Gulley 40",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Gulley 40"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -5970,28 +5966,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Gulley 40",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Ponderosa North/Pcsc Plot W N Serve/Pcsc Plot W O N-Serve"
-      },
       "geometry": {
         "coordinates": [
           -88.66706741295971,
           39.97658749862494
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Ponderosa North/Pcsc Plot W N Serve/Pcsc Plot W O N-Serve",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Ponderosa North/Pcsc Plot W N Serve/Pcsc Plot W O N-Serve"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -6178,28 +6174,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Ponderosa North/Pcsc Plot W N Serve/Pcsc Plot W O N-Serve",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "LDG Ayre"
-      },
       "geometry": {
         "coordinates": [
           -88.75524724841279,
           39.96234327694305
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "LDG Ayre",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "LDG Ayre"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -6454,28 +6450,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "LDG Ayre",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Jokish"
-      },
       "geometry": {
         "coordinates": [
           -88.87565586183779,
           39.96351702262806
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Jokish",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Jokish"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -6670,28 +6666,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Jokish",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Carl Weilepp/PSW/Davis W/Davis E"
-      },
       "geometry": {
         "coordinates": [
           -88.92443267352228,
           39.964003363515445
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Carl Weilepp/PSW/Davis W/Davis E",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Carl Weilepp/PSW/Davis W/Davis E"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -6966,28 +6962,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Carl Weilepp/PSW/Davis W/Davis E",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "North Farm - S70"
-      },
       "geometry": {
         "coordinates": [
           -89.03392095516148,
           39.97180092639256
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "North Farm - S70",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "North Farm - S70"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -7166,28 +7162,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "North Farm - S70",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "SIL_111/SIL_116"
-      },
       "geometry": {
         "coordinates": [
           -89.98767799327644,
           39.98164507597441
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "SIL_111/SIL_116",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "SIL_111/SIL_116"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -7446,28 +7442,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "SIL_111/SIL_116",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Jennings Plot"
-      },
       "geometry": {
         "coordinates": [
           -88.5773179518878,
           39.916049423923226
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Jennings Plot",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Jennings Plot"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -7634,28 +7630,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Jennings Plot",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "South Place/South Place"
-      },
       "geometry": {
         "coordinates": [
           -89.0247683248875,
           39.917184896502555
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "South Place/South Place",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "South Place/South Place"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -7822,28 +7818,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "South Place/South Place",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Simmons 3/Simmons 4"
-      },
       "geometry": {
         "coordinates": [
           -88.6078577494656,
           39.92545820134932
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Simmons 3/Simmons 4",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Simmons 3/Simmons 4"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -8018,28 +8014,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Simmons 3/Simmons 4",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Oreana/Oreana South"
-      },
       "geometry": {
         "coordinates": [
           -88.86684454905446,
           39.92482317313416
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Oreana/Oreana South",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Oreana/Oreana South"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -8382,28 +8378,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Oreana/Oreana South",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "GPF Birks"
-      },
       "geometry": {
         "coordinates": [
           -89.26636932549287,
           39.93180019288437
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "GPF Birks",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "GPF Birks"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -8586,28 +8582,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "GPF Birks",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Cassity South"
-      },
       "geometry": {
         "coordinates": [
           -88.9205141108193,
           39.94125353685107
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Cassity South",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Cassity South"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -8786,28 +8782,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Cassity South",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Curry"
-      },
       "geometry": {
         "coordinates": [
           -88.51874058006568,
           40.14254732768548
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Curry",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Curry"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -8958,28 +8954,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Curry",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Young 40"
-      },
       "geometry": {
         "coordinates": [
           -89.80656691171204,
           40.19227890152575
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Young 40",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Young 40"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -9142,28 +9138,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Young 40",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Rudin Plot"
-      },
       "geometry": {
         "coordinates": [
           -88.56755305077999,
           40.23354671725627
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Rudin Plot",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Rudin Plot"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -9322,28 +9318,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Rudin Plot",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "North 38/East 1/East 0/Darrell mills 40"
-      },
       "geometry": {
         "coordinates": [
           -89.02907015707014,
           40.17978368900562
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "North 38/East 1/East 0/Darrell mills 40",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "North 38/East 1/East 0/Darrell mills 40"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -9750,28 +9746,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "North 38/East 1/East 0/Darrell mills 40",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "West-MIddle"
-      },
       "geometry": {
         "coordinates": [
           -89.25710509627596,
           40.255542208282904
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "West-MIddle",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "West-MIddle"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -9978,28 +9974,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "West-MIddle",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "South 160"
-      },
       "geometry": {
         "coordinates": [
           -88.84703406216555,
           40.2717481987421
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "South 160",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "South 160"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -10162,28 +10158,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "South 160",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "South 160"
-      },
       "geometry": {
         "coordinates": [
           -88.91624730589088,
           40.28233120586259
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "South 160",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "South 160"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -10322,28 +10318,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "South 160",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "45"
-      },
       "geometry": {
         "coordinates": [
           -89.36207683110749,
           40.3036167400248
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "45",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "45"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -10526,28 +10522,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "45",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "BFI North 60 Acres"
-      },
       "geometry": {
         "coordinates": [
           -88.61486981971579,
           40.36272660158676
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "BFI North 60 Acres",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "BFI North 60 Acres"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -10706,28 +10702,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "BFI North 60 Acres",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "Nan's 80 East 38 Acres"
-      },
       "geometry": {
         "coordinates": [
           -88.51378676008514,
           40.36538365853122
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Nan's 80 East 38 Acres",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Nan's 80 East 38 Acres"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -10894,28 +10890,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Nan's 80 East 38 Acres",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9700, 1850",
-        "Name": "East Of Pivot"
-      },
       "geometry": {
         "coordinates": [
           -89.61637159596422,
           40.374550764303955
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "East Of Pivot",
+        "Description": "9700, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "East Of Pivot"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -11098,28 +11094,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "East Of Pivot",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "45"
-      },
       "geometry": {
         "coordinates": [
           -89.31966956087295,
           40.37787882501293
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "45",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "45"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -11294,28 +11290,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "45",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "Homeplace West 154 Acres/Heagy South 92 Acres/Homeplace East 157 Acres"
-      },
       "geometry": {
         "coordinates": [
           -88.64025101179544,
           40.34463667985127
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Homeplace West 154 Acres/Heagy South 92 Acres/Homeplace East 157 Acres",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Homeplace West 154 Acres/Heagy South 92 Acres/Homeplace East 157 Acres"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -11610,28 +11606,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Homeplace West 154 Acres/Heagy South 92 Acres/Homeplace East 157 Acres",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "AGRIVEST SE 160/North 80/Salley South/AGRIVEST 240 SW"
-      },
       "geometry": {
         "coordinates": [
           -88.87109724554728,
           40.34421640355313
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "AGRIVEST SE 160/North 80/Salley South/AGRIVEST 240 SW",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "AGRIVEST SE 160/North 80/Salley South/AGRIVEST 240 SW"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -11966,28 +11962,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "AGRIVEST SE 160/North 80/Salley South/AGRIVEST 240 SW",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Home West"
-      },
       "geometry": {
         "coordinates": [
           -89.18618445606106,
           40.34784459143479
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Home West",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Home West"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -12170,28 +12166,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Home West",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Bretts"
-      },
       "geometry": {
         "coordinates": [
           -89.38040569048104,
           40.3493313331576
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Bretts",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Bretts"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -12358,28 +12354,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Bretts",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Trenchard 8"
-      },
       "geometry": {
         "coordinates": [
           -88.65943192900694,
           40.118049631091885
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Trenchard 8",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Trenchard 8"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -12558,28 +12554,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Trenchard 8",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "32"
-      },
       "geometry": {
         "coordinates": [
           -89.5345561493314,
           40.123330239661136
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "32",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "32"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -12746,28 +12742,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "32",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Knox-Bowdre"
-      },
       "geometry": {
         "coordinates": [
           -88.37748242905371,
           40.135418471586824
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Knox-Bowdre",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Knox-Bowdre"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -12958,28 +12954,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Knox-Bowdre",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "10/Graff/Home/Knupp 120 North/Cooper East/West"
-      },
       "geometry": {
         "coordinates": [
           -89.32801728522539,
           40.43454735894053
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "10/Graff/Home/Knupp 120 North/Cooper East/West",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "10/Graff/Home/Knupp 120 North/Cooper East/West"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -13422,28 +13418,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "10/Graff/Home/Knupp 120 North/Cooper East/West",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "East of Ditch"
-      },
       "geometry": {
         "coordinates": [
           -89.28072376208621,
           40.4977061494142
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "East of Ditch",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "East of Ditch"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -13622,28 +13618,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "East of Ditch",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Rods house"
-      },
       "geometry": {
         "coordinates": [
           -88.63447625993446,
           40.50442502426473
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Rods house",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Rods house"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -13818,28 +13814,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Rods house",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "The 320"
-      },
       "geometry": {
         "coordinates": [
           -88.51163577489856,
           40.5368420588463
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "The 320",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "The 320"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -14002,28 +13998,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "The 320",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Hood"
-      },
       "geometry": {
         "coordinates": [
           -90.47317246721434,
           40.544279536680286
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Hood",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Hood"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -14202,28 +14198,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Hood",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "25/Doenitz"
-      },
       "geometry": {
         "coordinates": [
           -89.10557941345125,
           40.53717264234227
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "25/Doenitz",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "25/Doenitz"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -14514,28 +14510,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "25/Doenitz",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "south yates"
-      },
       "geometry": {
         "coordinates": [
           -89.2033361237239,
           40.5175850889733
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "south yates",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "south yates"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -14714,28 +14710,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "south yates",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "Home n of creek"
-      },
       "geometry": {
         "coordinates": [
           -89.07668127108407,
           40.536094166981876
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Home n of creek",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Home n of creek"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -14918,28 +14914,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Home n of creek",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "HMW80"
-      },
       "geometry": {
         "coordinates": [
           -88.4857675647692,
           40.584327762912366
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "HMW80",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "HMW80"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -15106,28 +15102,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "HMW80",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "Laskowski"
-      },
       "geometry": {
         "coordinates": [
           -89.14585727682336,
           40.600099885409186
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Laskowski",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Laskowski"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -15294,28 +15290,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Laskowski",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "Gasser E 80"
-      },
       "geometry": {
         "coordinates": [
           -88.26739674598701,
           40.61976626693572
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Gasser E 80",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Gasser E 80"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -15478,28 +15474,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Gasser E 80",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Wil-Mays 40"
-      },
       "geometry": {
         "coordinates": [
           -88.67719931129746,
           40.626911978877196
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Wil-Mays 40",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Wil-Mays 40"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -15670,28 +15666,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Wil-Mays 40",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Section 20"
-      },
       "geometry": {
         "coordinates": [
           -88.66503096019795,
           40.70742896585575
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Section 20",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Section 20"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -15866,28 +15862,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Section 20",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "South Home"
-      },
       "geometry": {
         "coordinates": [
           -88.48416851863756,
           40.65399990826262
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "South Home",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "South Home"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -16098,28 +16094,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "South Home",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "Home/Ringler/Wiegand/Hartman"
-      },
       "geometry": {
         "coordinates": [
           -88.44086666941547,
           40.65718230155887
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Home/Ringler/Wiegand/Hartman",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Home/Ringler/Wiegand/Hartman"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -16514,28 +16510,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Home/Ringler/Wiegand/Hartman",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "Reeb"
-      },
       "geometry": {
         "coordinates": [
           -89.33887011681391,
           40.7827663921567
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Reeb",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Reeb"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -16702,28 +16698,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Reeb",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Mackinson South"
-      },
       "geometry": {
         "coordinates": [
           -88.64896270795626,
           40.7941357269417
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Mackinson South",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Mackinson South"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -16894,28 +16890,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Mackinson South",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Eppels"
-      },
       "geometry": {
         "coordinates": [
           -88.7518076630976,
           40.79181139448262
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Eppels",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Eppels"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -17118,28 +17114,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Eppels",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Craddock East"
-      },
       "geometry": {
         "coordinates": [
           -88.691956937729,
           40.803824323088094
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Craddock East",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Craddock East"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -17310,28 +17306,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Craddock East",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "North Farm"
-      },
       "geometry": {
         "coordinates": [
           -89.28617448649408,
           40.812042700696956
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "North Farm",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "North Farm"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -17526,28 +17522,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "North Farm",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Wahls South"
-      },
       "geometry": {
         "coordinates": [
           -88.65341846944237,
           40.76594703450607
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Wahls South",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Wahls South"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -17710,28 +17706,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Wahls South",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "Eureka/Bechtel S/Bechtel N"
-      },
       "geometry": {
         "coordinates": [
           -89.24206058480513,
           40.72364585882154
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Eureka/Bechtel S/Bechtel N",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Eureka/Bechtel S/Bechtel N"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -18078,28 +18074,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Eureka/Bechtel S/Bechtel N",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Elson West 50/Wil-Long North/Bir South"
-      },
       "geometry": {
         "coordinates": [
           -88.75503542779512,
           40.70042776875496
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Elson West 50/Wil-Long North/Bir South",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Elson West 50/Wil-Long North/Bir South"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -18410,28 +18406,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Elson West 50/Wil-Long North/Bir South",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Hayslip"
-      },
       "geometry": {
         "coordinates": [
           -88.68194182041549,
           40.72358859288484
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Hayslip",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Hayslip"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -18594,28 +18590,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Hayslip",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Home 80"
-      },
       "geometry": {
         "coordinates": [
           -88.64639112196568,
           40.729469528501056
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Home 80",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Home 80"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -18790,28 +18786,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Home 80",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Shane 60"
-      },
       "geometry": {
         "coordinates": [
           -88.76122938304671,
           40.7351275741943
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Shane 60",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Shane 60"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -18986,28 +18982,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Shane 60",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "West Blacktop"
-      },
       "geometry": {
         "coordinates": [
           -89.40378763266958,
           40.7436201111844
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "West Blacktop",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "West Blacktop"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -19218,28 +19214,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "West Blacktop",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Home 160/Schick West/65/Timber 56/Lindys/Trumbo A/Trumbo B/Gasser N80/Blunier 125/Joy 20/James East 80"
-      },
       "geometry": {
         "coordinates": [
           -88.45580933396897,
           40.751450426296316
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Home 160/Schick West/65/Timber 56/Lindys/Trumbo A/Trumbo B/Gasser N80/Blunier 125/Joy 20/James East 80",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Home 160/Schick West/65/Timber 56/Lindys/Trumbo A/Trumbo B/Gasser N80/Blunier 125/Joy 20/James East 80"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -19974,28 +19970,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Home 160/Schick West/65/Timber 56/Lindys/Trumbo A/Trumbo B/Gasser N80/Blunier 125/Joy 20/James East 80",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Leo East"
-      },
       "geometry": {
         "coordinates": [
           -88.68641653960212,
           40.92787354238505
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Leo East",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Leo East"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -20174,28 +20170,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Leo East",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Fort Farm"
-      },
       "geometry": {
         "coordinates": [
           -89.3227390361023,
           40.96355611269749
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Fort Farm",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Fort Farm"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -20398,28 +20394,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Fort Farm",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Leo South"
-      },
       "geometry": {
         "coordinates": [
           -88.66710942283231,
           40.964020213882534
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Leo South",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Leo South"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -20618,28 +20614,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Leo South",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "West/Moms"
-      },
       "geometry": {
         "coordinates": [
           -88.78386402101165,
           40.97526029102069
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "West/Moms",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "West/Moms"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -20834,28 +20830,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "West/Moms",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Moms East of Road"
-      },
       "geometry": {
         "coordinates": [
           -89.74738495527768,
           41.101537576046056
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Moms East of Road",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Moms East of Road"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -21034,28 +21030,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Moms East of Road",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Estate and Patterson's"
-      },
       "geometry": {
         "coordinates": [
           -88.62994291949009,
           41.14244345465574
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Estate and Patterson's",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Estate and Patterson's"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -21226,28 +21222,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Estate and Patterson's",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Evan's East"
-      },
       "geometry": {
         "coordinates": [
           -88.28977813163239,
           41.225833858370144
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Evan's East",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Evan's East"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -21422,28 +21418,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Evan's East",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "sleezer's"
-      },
       "geometry": {
         "coordinates": [
           -88.91477920002598,
           41.08694415717034
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "sleezer's",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "sleezer's"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -21610,28 +21606,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "sleezer's",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Evans"
-      },
       "geometry": {
         "coordinates": [
           -88.87790239891014,
           41.101509206458545
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Evans",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Evans"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -21806,28 +21802,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Evans",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "kohns west"
-      },
       "geometry": {
         "coordinates": [
           -88.72951682612018,
           41.103304125490915
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "kohns west",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "kohns west"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -22010,28 +22006,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "kohns west",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "trainor east"
-      },
       "geometry": {
         "coordinates": [
           -88.79011156580584,
           41.05732930991866
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "trainor east",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "trainor east"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -22234,28 +22230,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "trainor east",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "trainor patch/trainor south"
-      },
       "geometry": {
         "coordinates": [
           -88.73255772630328,
           41.06690475298911
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "trainor patch/trainor south",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "trainor patch/trainor south"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -22450,28 +22446,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "trainor patch/trainor south",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10100, 1850",
-        "Name": "SMITH 160"
-      },
       "geometry": {
         "coordinates": [
           -89.58231011161155,
           41.25932496689709
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "SMITH 160",
+        "Description": "10100, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "SMITH 160"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -22658,28 +22654,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "SMITH 160",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "LaSalle 80"
-      },
       "geometry": {
         "coordinates": [
           -88.72495370244029,
           41.234003335649625
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "LaSalle 80",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "LaSalle 80"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -22858,28 +22854,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "LaSalle 80",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "10000, 1850",
-        "Name": "EDELSTEIN"
-      },
       "geometry": {
         "coordinates": [
           -89.6204294631734,
           40.88995977931622
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "EDELSTEIN",
+        "Description": "10000, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "EDELSTEIN"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -23058,28 +23054,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "EDELSTEIN",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Kohl West"
-      },
       "geometry": {
         "coordinates": [
           -89.37819985466818,
           40.88286259054591
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Kohl West",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Kohl West"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -23294,28 +23290,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Kohl West",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Voelker North/Voelker South/Voelker Middle"
-      },
       "geometry": {
         "coordinates": [
           -89.32402226960463,
           40.8815752435831
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Voelker North/Voelker South/Voelker Middle",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Voelker North/Voelker South/Voelker Middle"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -23578,28 +23574,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Voelker North/Voelker South/Voelker Middle",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Debolt 40/Debolt 80"
-      },
       "geometry": {
         "coordinates": [
           -89.2940336164541,
           40.89885017795625
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Debolt 40/Debolt 80",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Debolt 40/Debolt 80"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -23786,28 +23782,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Debolt 40/Debolt 80",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9900, 1850",
-        "Name": "Miller 40"
-      },
       "geometry": {
         "coordinates": [
           -89.27915319076665,
           40.388267883895246
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Miller 40",
+        "Description": "9900, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Miller 40"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -23978,28 +23974,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Miller 40",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Singley"
-      },
       "geometry": {
         "coordinates": [
           -89.23509938987618,
           40.39538516514815
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Singley",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Singley"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -24162,28 +24158,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Singley",
+        "Description": ""
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "9800, 1850",
-        "Name": "Ponderosa West"
-      },
       "geometry": {
         "coordinates": [
           -89.30980878441598,
           40.395745928036355
         ],
         "type": "Point"
-      }
+      },
+      "properties": {
+        "Name": "Ponderosa West",
+        "Description": "9800, 1850"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "",
-        "Name": "Ponderosa West"
-      },
       "geometry": {
         "coordinates": [
           [
@@ -24390,14 +24386,18 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "properties": {
+        "Name": "Ponderosa West",
+        "Description": ""
+      },
+      "type": "Feature"
     }
   ],
   "crs": {
-    "type": "name",
     "properties": {
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
-  "type": "FeatureCollection"
+    },
+    "type": "name"
+  }
 }
