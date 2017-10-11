@@ -3,7 +3,7 @@
   "features": [
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Almonds Madera"
       },
       "geometry": {
@@ -127,7 +127,7 @@
     },
     {
       "properties": {
-        "Description": "9000, 2570",
+        "Description": "9000, 0",
         "Name": "MOC East Soil"
       },
       "geometry": {
@@ -239,7 +239,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "JP Campbell"
       },
       "geometry": {
@@ -375,7 +375,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Chowchilla East"
       },
       "geometry": {
@@ -487,7 +487,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Chowchilla East"
       },
       "geometry": {
@@ -587,7 +587,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "JP Pool"
       },
       "geometry": {
@@ -675,7 +675,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "JP RD 19"
       },
       "geometry": {
@@ -815,7 +815,7 @@
     },
     {
       "properties": {
-        "Description": "9000, 2570",
+        "Description": "9000, 0",
         "Name": "B&T Shultz"
       },
       "geometry": {
@@ -915,7 +915,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Live Oaks Atholone"
       },
       "geometry": {
@@ -1039,7 +1039,7 @@
     },
     {
       "properties": {
-        "Description": "9000, 2570",
+        "Description": "9000, 0",
         "Name": "Bill's Almonds/Quince"
       },
       "geometry": {
@@ -1207,7 +1207,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Van Curren/Proctor"
       },
       "geometry": {
@@ -1395,7 +1395,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Live Oaks Tomatoes"
       },
       "geometry": {
@@ -1487,7 +1487,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Luker Buchanan Hollow"
       },
       "geometry": {
@@ -1599,7 +1599,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Childs Avenue Ranch"
       },
       "geometry": {
@@ -1755,7 +1755,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Live Oaks Atholone"
       },
       "geometry": {
@@ -1855,7 +1855,7 @@
     },
     {
       "properties": {
-        "Description": "9000, 2570",
+        "Description": "9000, 0",
         "Name": "GVI 135"
       },
       "geometry": {
@@ -1959,7 +1959,7 @@
     },
     {
       "properties": {
-        "Description": "9000, 2570",
+        "Description": "9000, 0",
         "Name": "VCE-123"
       },
       "geometry": {
@@ -2063,7 +2063,7 @@
     },
     {
       "properties": {
-        "Description": "9000, 2570",
+        "Description": "9000, 0",
         "Name": "Jonathan Sikma"
       },
       "geometry": {
@@ -2175,7 +2175,7 @@
     },
     {
       "properties": {
-        "Description": "9000, 2570",
+        "Description": "9000, 0",
         "Name": "JR Wood"
       },
       "geometry": {
@@ -2375,7 +2375,7 @@
     },
     {
       "properties": {
-        "Description": "9000, 2570",
+        "Description": "9000, 0",
         "Name": "Aaron Wickstrom"
       },
       "geometry": {
@@ -2547,7 +2547,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Doll AWP"
       },
       "geometry": {
@@ -2647,7 +2647,7 @@
     },
     {
       "properties": {
-        "Description": "9100, 2570",
+        "Description": "9100, 0",
         "Name": "Van Dyn Hickman Ranch"
       },
       "geometry": {
@@ -2827,7 +2827,7 @@
     },
     {
       "properties": {
-        "Description": "9000, 2570",
+        "Description": "9000, 0",
         "Name": "Newport"
       },
       "geometry": {
