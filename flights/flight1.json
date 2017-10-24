@@ -1,4 +1,5 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
@@ -495,7 +496,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3000, 560",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4400, 700",
         "Name": "Almonds 78-79"
       },
       "geometry": {
@@ -655,7 +659,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3000, 560",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4400, 700",
         "Name": "Almond and Nectarines"
       },
       "geometry": {
@@ -819,7 +826,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3200, 560",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4400, 700",
         "Name": "Yellow Oak South"
       },
       "geometry": {
@@ -1035,7 +1045,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3200, 560",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4400, 700",
         "Name": "Yellow Oak North"
       },
       "geometry": {
@@ -1260,12 +1273,5 @@
         ]
       }
     }
-  ],
-  "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  }
+  ]
 }
