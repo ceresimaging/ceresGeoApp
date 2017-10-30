@@ -176,8 +176,11 @@
     },
     {
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Description": "9300, 2530",
-        "Name": "Paramount Hulling"
+        "Name": "Mosaic"
       },
       "geometry": {
         "type": "Point",
@@ -232,7 +235,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Description": "9100, 1000",
-        "Name": "Central Valley Almond Association"
+        "Name": "Mosaic"
       },
       "geometry": {
         "type": "Point",
@@ -622,7 +625,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Description": "8900, 1200",
-        "Name": "CCAGA-Kerman"
+        "Name": "East-West"
       },
       "geometry": {
         "type": "Point",
@@ -736,7 +739,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Description": "9100, 800",
-        "Name": "Sierra Valley Almonds"
+        "Name": "Mosaic"
       },
       "geometry": {
         "type": "Point",
@@ -1043,7 +1046,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Description": "9000, 600",
-        "Name": "Almond Tree Hulling Co"
+        "Name": "East-West"
       },
       "geometry": {
         "type": "Point",
