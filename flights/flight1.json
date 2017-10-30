@@ -120,7 +120,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "9100, 800",
+        "Description": "9100, 600",
         "Name": "Shafter Wasco Almond Hulling"
       },
       "geometry": {
@@ -314,7 +314,10 @@
     },
     {
       "properties": {
-        "Description": "9000, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9000, 1200",
         "Name": "Harris-Woolf"
       },
       "geometry": {
@@ -382,7 +385,10 @@
     },
     {
       "properties": {
-        "Description": "9200, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9200, 1400",
         "Name": "Superior"
       },
       "geometry": {
@@ -438,7 +444,10 @@
     },
     {
       "properties": {
-        "Description": "9000, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9000, 1300",
         "Name": "Campos"
       },
       "geometry": {
@@ -612,7 +621,10 @@
     },
     {
       "properties": {
-        "Description": "8900, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "8900, 800",
         "Name": "CCAGA-Kerman"
       },
       "geometry": {
@@ -668,7 +680,10 @@
     },
     {
       "properties": {
-        "Description": "9300, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9300, 1400",
         "Name": "West Valley Hulling"
       },
       "geometry": {
@@ -720,7 +735,10 @@
     },
     {
       "properties": {
-        "Description": "9100, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9100, 800",
         "Name": "Sierra Valley Almonds"
       },
       "geometry": {
@@ -804,7 +822,10 @@
     },
     {
       "properties": {
-        "Description": "8900, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "8900, 1200",
         "Name": "Holland Nut"
       },
       "geometry": {
@@ -852,7 +873,10 @@
     },
     {
       "properties": {
-        "Description": "9100, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9100, 600",
         "Name": "CCAGA-Sanger"
       },
       "geometry": {
@@ -900,7 +924,10 @@
     },
     {
       "properties": {
-        "Description": "8900, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "8900, 650",
         "Name": "RPAC"
       },
       "geometry": {
@@ -948,7 +975,10 @@
     },
     {
       "properties": {
-        "Description": "9000, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9000, 1200",
         "Name": "Hulling Company"
       },
       "geometry": {
@@ -1012,7 +1042,10 @@
     },
     {
       "properties": {
-        "Description": "9000, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9000, 600",
         "Name": "Almond Tree Hulling Co"
       },
       "geometry": {
