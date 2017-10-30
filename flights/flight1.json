@@ -54,7 +54,10 @@
     },
     {
       "properties": {
-        "Description": "9000, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9000, 1300",
         "Name": "Sunny Gem"
       },
       "geometry": {
@@ -114,7 +117,10 @@
     },
     {
       "properties": {
-        "Description": "9100, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9100, 800",
         "Name": "Shafter Wasco Almond Hulling"
       },
       "geometry": {
@@ -170,7 +176,10 @@
     },
     {
       "properties": {
-        "Description": "9300, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9300, 1500",
         "Name": "Paramount Hulling"
       },
       "geometry": {
@@ -222,7 +231,10 @@
     },
     {
       "properties": {
-        "Description": "9100, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9100, 1000",
         "Name": "Central Valley Almond Association"
       },
       "geometry": {
@@ -498,7 +510,10 @@
     },
     {
       "properties": {
-        "Description": "9000, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9000, 600",
         "Name": "KernPareil"
       },
       "geometry": {
@@ -546,7 +561,10 @@
     },
     {
       "properties": {
-        "Description": "9000, 2530",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "9000, 1300",
         "Name": "Farmers Coop"
       },
       "geometry": {
