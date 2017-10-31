@@ -1,27 +1,25 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
       "properties": {
-        "Description": "2700, 700",
-        "Name": "Campos"
+        "Name": "Campos",
+        "Description": "2700, 700"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -119.80440956467683,
           36.51129610239932
-        ]
+        ],
+        "type": "Point"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "",
-        "Name": "Campos"
+        "Name": "Campos",
+        "Description": ""
       },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -165,31 +163,31 @@
               36.505284130647276
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2700, 700",
-        "Name": "CCAGA-Kerman"
+        "Name": "CCAGA-Kerman",
+        "Description": "2700, 700"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -120.07107924560701,
           36.61420995890926
-        ]
+        ],
+        "type": "Point"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "",
-        "Name": "CCAGA-Kerman"
+        "Name": "CCAGA-Kerman",
+        "Description": ""
       },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -313,31 +311,143 @@
               36.617890977466466
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2900, 700",
-        "Name": "CCAGA-Sanger"
+        "Name": "Holland Nut",
+        "Description": "2700, 700"
       },
       "geometry": {
-        "type": "Point",
+        "coordinates": [
+          -120.2186722204228,
+          36.73812220906116
+        ],
+        "type": "Point"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Name": "Holland Nut",
+        "Description": ""
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -120.22330152029105,
+              36.73201170368767
+            ],
+            [
+              -120.2240124837789,
+              36.73210463934417
+            ],
+            [
+              -120.22485705537855,
+              36.732546538664614
+            ],
+            [
+              -120.22546112925686,
+              36.733283879119135
+            ],
+            [
+              -120.22572821819462,
+              36.73419888714951
+            ],
+            [
+              -120.225477927096,
+              36.74202585895254
+            ],
+            [
+              -120.22529422222213,
+              36.742681350675674
+            ],
+            [
+              -120.22477757722046,
+              36.74342469002946
+            ],
+            [
+              -120.22402113468483,
+              36.7439219526793
+            ],
+            [
+              -120.22336111447214,
+              36.74408865660433
+            ],
+            [
+              -120.213998691041,
+              36.74418124404582
+            ],
+            [
+              -120.21306283615971,
+              36.74399881947283
+            ],
+            [
+              -120.21227322252479,
+              36.743464391375504
+            ],
+            [
+              -120.21175604629894,
+              36.74266337212787
+            ],
+            [
+              -120.21159396265965,
+              36.741723780739264
+            ],
+            [
+              -120.21183287528848,
+              36.73427436917818
+            ],
+            [
+              -120.2120349471219,
+              36.73358121813793
+            ],
+            [
+              -120.21243517678522,
+              36.73298029584091
+            ],
+            [
+              -120.21299688606233,
+              36.73252667256277
+            ],
+            [
+              -120.2139064931881,
+              36.73222038406935
+            ],
+            [
+              -120.22330152029105,
+              36.73201170368767
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "Name": "CCAGA-Sanger",
+        "Description": "2900, 700"
+      },
+      "geometry": {
         "coordinates": [
           -119.59417648120129,
           36.766620543424615
-        ]
+        ],
+        "type": "Point"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "",
-        "Name": "CCAGA-Sanger"
+        "Name": "CCAGA-Sanger",
+        "Description": ""
       },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -445,31 +555,31 @@
               36.76839828938894
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2700, 700",
-        "Name": "RPAC"
+        "Name": "RPAC",
+        "Description": "2700, 700"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -120.8667064308416,
           36.97851558210683
-        ]
+        ],
+        "type": "Point"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "",
-        "Name": "RPAC"
+        "Name": "RPAC",
+        "Description": ""
       },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -577,31 +687,31 @@
               36.98040341611709
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2700, 700",
-        "Name": "Hulling Company"
+        "Name": "Hulling Company",
+        "Description": "2700, 700"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -120.20045978230952,
           37.02878380801994
-        ]
+        ],
+        "type": "Point"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "",
-        "Name": "Hulling Company"
+        "Name": "Hulling Company",
+        "Description": ""
       },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -745,31 +855,31 @@
               37.03331177209132
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "2700, 700",
-        "Name": "Almond Tree Hulling Co"
+        "Name": "Almond Tree Hulling Co",
+        "Description": "2700, 700"
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -120.24854815926196,
           37.08567380694041
-        ]
+        ],
+        "type": "Point"
       },
       "type": "Feature"
     },
     {
       "properties": {
-        "Description": "",
-        "Name": "Almond Tree Hulling Co"
+        "Name": "Almond Tree Hulling Co",
+        "Description": ""
       },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -877,7 +987,8 @@
               37.08746693284453
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       "type": "Feature"
     }
@@ -887,5 +998,6 @@
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
     },
     "type": "name"
-  }
+  },
+  "type": "FeatureCollection"
 }
