@@ -2,20 +2,25 @@
   "type": "FeatureCollection",
   "features": [
     {
+      "properties": {
+        "Name": "49 Neimann",
+        "Description": "3700, 500"
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
           143.51172672006675,
           -35.3116370174165
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "49 Neimann",
-        "Description": "3700, 500"
       }
     },
     {
+      "properties": {
+        "Name": "49 Neimann",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -110,28 +115,28 @@
             ]
           ]
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "49 Neimann",
-        "Description": ""
       }
     },
     {
+      "properties": {
+        "Name": "Woorinen",
+        "Description": "3800, 500"
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
           143.45386280598535,
           -35.27053733221478
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Woorinen",
-        "Description": "3800, 500"
       }
     },
     {
+      "properties": {
+        "Name": "Woorinen",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -294,28 +299,28 @@
             ]
           ]
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Woorinen",
-        "Description": ""
       }
     },
     {
+      "properties": {
+        "Name": "Minter Magic Ranch/51 Neimann",
+        "Description": "3700, 500"
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
           143.4984529615062,
           -35.30556495297108
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Minter Magic Ranch/51 Neimann",
-        "Description": "3700, 500"
       }
     },
     {
+      "properties": {
+        "Name": "Minter Magic Ranch/51 Neimann",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -422,28 +427,28 @@
             ]
           ]
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Minter Magic Ranch/51 Neimann",
-        "Description": ""
       }
     },
     {
+      "properties": {
+        "Name": "Boundary Bend",
+        "Description": "3700, 500"
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
           143.12414875627772,
           -34.798318168317536
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Boundary Bend",
-        "Description": "3700, 500"
       }
     },
     {
+      "properties": {
+        "Name": "Boundary Bend",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -926,28 +931,28 @@
             ]
           ]
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Boundary Bend",
-        "Description": ""
       }
     },
     {
+      "properties": {
+        "Name": "Boundary Bend",
+        "Description": "3700, 500"
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
           143.13823757905809,
           -34.759657991761785
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Boundary Bend",
-        "Description": "3700, 500"
       }
     },
     {
+      "properties": {
+        "Name": "Boundary Bend",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1138,28 +1143,255 @@
             ]
           ]
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Boundary Bend",
-        "Description": ""
       }
     },
     {
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Narcooyia",
+        "Description": "6200, 820"
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.9683019244461,
+          -34.74630384090341
+        ]
+      }
+    },
+    {
+      "properties": {
+        "Name": "21 Milky",
+        "Description": ""
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              142.93985815899055,
+              -34.71195871492273
+            ],
+            [
+              142.93998509634667,
+              -34.71132172702853
+            ],
+            [
+              142.94034651505223,
+              -34.7107820575102
+            ],
+            [
+              142.94088719791745,
+              -34.71042215653912
+            ],
+            [
+              142.94152453995284,
+              -34.71029700942707
+            ],
+            [
+              142.95276692310821,
+              -34.71143714639648
+            ],
+            [
+              142.9531983982932,
+              -34.71158525488256
+            ],
+            [
+              142.95357333907356,
+              -34.71184511324813
+            ],
+            [
+              142.95714980942495,
+              -34.71513546543073
+            ],
+            [
+              142.96084802091488,
+              -34.71657365919239
+            ],
+            [
+              142.9682051801378,
+              -34.71817620847056
+            ],
+            [
+              142.97440799658065,
+              -34.717940713310284
+            ],
+            [
+              142.98337231790168,
+              -34.7150644663307
+            ],
+            [
+              142.98387999436636,
+              -34.71498501580936
+            ],
+            [
+              142.98930184603591,
+              -34.715016174887765
+            ],
+            [
+              142.9978298346117,
+              -34.71669131598266
+            ],
+            [
+              142.99842920646796,
+              -34.716937847998594
+            ],
+            [
+              142.998791232604,
+              -34.71726424435369
+            ],
+            [
+              142.999098323465,
+              -34.71783496307603
+            ],
+            [
+              142.99917125200204,
+              -34.71831691632301
+            ],
+            [
+              142.99927023786768,
+              -34.77791451804052
+            ],
+            [
+              142.99914514142733,
+              -34.77854705215541
+            ],
+            [
+              142.9986690437247,
+              -34.779193810310396
+            ],
+            [
+              142.99810224094043,
+              -34.77950119139249
+            ],
+            [
+              142.99746110276834,
+              -34.77956967766996
+            ],
+            [
+              142.98342922416413,
+              -34.778319875398324
+            ],
+            [
+              142.9477190546863,
+              -34.77831316204385
+            ],
+            [
+              142.94122931343455,
+              -34.77654656813996
+            ],
+            [
+              142.94077544700508,
+              -34.77634395032517
+            ],
+            [
+              142.94040180802648,
+              -34.776016165901616
+            ],
+            [
+              142.94014182548707,
+              -34.7755925413109
+            ],
+            [
+              142.940018759683,
+              -34.775110977688385
+            ],
+            [
+              142.9400104447899,
+              -34.77194683008207
+            ],
+            [
+              142.9400815945543,
+              -34.7714657910468
+            ],
+            [
+              142.9402889509881,
+              -34.771025945446866
+            ],
+            [
+              142.9406147572707,
+              -34.77066495914707
+            ],
+            [
+              142.9419901565841,
+              -34.7698883005708
+            ],
+            [
+              142.9419901565841,
+              -34.757725921314176
+            ],
+            [
+              142.93531442541058,
+              -34.75295032476602
+            ],
+            [
+              142.93486104060548,
+              -34.75231253693636
+            ],
+            [
+              142.9347423178673,
+              -34.75169571368622
+            ],
+            [
+              142.93475031946502,
+              -34.72869001158679
+            ],
+            [
+              142.93486880816573,
+              -34.72821697817773
+            ],
+            [
+              142.93511950913324,
+              -34.72779870888268
+            ],
+            [
+              142.9354808321686,
+              -34.7274712247725
+            ],
+            [
+              142.93592166037456,
+              -34.727262728558856
+            ],
+            [
+              142.93640402992207,
+              -34.72719117579567
+            ],
+            [
+              142.93985815899055,
+              -34.72719117579567
+            ],
+            [
+              142.93985815899055,
+              -34.71195871492273
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "properties": {
+        "Name": "Wood Wood",
+        "Description": "3800, 500"
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
           142.2972637656989,
           -34.40610699447858
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Wood Wood",
-        "Description": "3800, 500"
       }
     },
     {
+      "properties": {
+        "Name": "Wood Wood",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1430,18 +1662,7 @@
             ]
           ]
         ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Wood Wood",
-        "Description": ""
       }
     }
-  ],
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  }
+  ]
 }
