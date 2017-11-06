@@ -1,26 +1,20 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
-      "properties": {
-        "Name": "Peebinga Park",
-        "Description": "2800, 700"
-      },
-      "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           140.94182221819867,
           -35.06716299865779
-        ],
-        "type": "Point"
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Peebinga Park",
+        "Description": "2800, 700"
       }
     },
     {
-      "properties": {
-        "Name": "Peebinga Park",
-        "Description": ""
-      },
-      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -139,28 +133,28 @@
             ]
           ]
         ]
-      }
-    },
-    {
-      "properties": {
-        "Name": "Peebinga Park",
-        "Description": "2800, 700"
       },
       "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          140.94837940340065,
-          -35.05271381437354
-        ],
-        "type": "Point"
-      }
-    },
-    {
       "properties": {
         "Name": "Peebinga Park",
         "Description": ""
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.94837940340065,
+          -35.05271381437354
+        ]
       },
       "type": "Feature",
+      "properties": {
+        "Name": "Peebinga Park",
+        "Description": "2800, 700"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -271,28 +265,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Peebinga Park",
+        "Description": ""
       }
     },
     {
-      "properties": {
-        "Name": "Nildottie",
-        "Description": "2700, 700"
-      },
-      "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           139.6614262358353,
           -34.733730454049926
-        ],
-        "type": "Point"
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Nildottie",
+        "Description": "2700, 700"
       }
     },
     {
-      "properties": {
-        "Name": "Nildottie",
-        "Description": ""
-      },
-      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -419,28 +413,28 @@
             ]
           ]
         ]
-      }
-    },
-    {
-      "properties": {
-        "Name": "Nildottie",
-        "Description": "2700, 700"
       },
       "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          139.67597529144695,
-          -34.70852374956391
-        ],
-        "type": "Point"
-      }
-    },
-    {
       "properties": {
         "Name": "Nildottie",
         "Description": ""
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.67597529144695,
+          -34.70852374956391
+        ]
       },
       "type": "Feature",
+      "properties": {
+        "Name": "Nildottie",
+        "Description": "2700, 700"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -555,28 +549,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Nildottie",
+        "Description": ""
       }
     },
     {
-      "properties": {
-        "Name": "Sherwood Estates",
-        "Description": "2600, 700"
-      },
-      "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           140.61609373881637,
           -34.462355401614566
-        ],
-        "type": "Point"
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherwood Estates",
+        "Description": "2600, 700"
       }
     },
     {
-      "properties": {
-        "Name": "Sherwood Estates",
-        "Description": ""
-      },
-      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -683,28 +677,28 @@
             ]
           ]
         ]
-      }
-    },
-    {
-      "properties": {
-        "Name": "Sherwood Estates",
-        "Description": "2600, 700"
       },
       "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          140.6194413659386,
-          -34.44929054726095
-        ],
-        "type": "Point"
-      }
-    },
-    {
       "properties": {
         "Name": "Sherwood Estates",
         "Description": ""
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.6194413659386,
+          -34.44929054726095
+        ]
       },
       "type": "Feature",
+      "properties": {
+        "Name": "Sherwood Estates",
+        "Description": "2600, 700"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -847,28 +841,28 @@
             ]
           ]
         ]
-      }
-    },
-    {
-      "properties": {
-        "Name": "Sherwood Estates",
-        "Description": "2600, 700"
       },
       "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          140.5909308321539,
-          -34.405742226403525
-        ],
-        "type": "Point"
-      }
-    },
-    {
       "properties": {
         "Name": "Sherwood Estates",
         "Description": ""
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5909308321539,
+          -34.405742226403525
+        ]
       },
       "type": "Feature",
+      "properties": {
+        "Name": "Sherwood Estates",
+        "Description": "2600, 700"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -967,28 +961,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherwood Estates",
+        "Description": ""
       }
     },
     {
-      "properties": {
-        "Name": "Mootooroo",
-        "Description": "2700, 700"
-      },
-      "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           140.80295648460284,
           -34.11524065352765
-        ],
-        "type": "Point"
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Mootooroo",
+        "Description": "2700, 700"
       }
     },
     {
-      "properties": {
-        "Name": "Mootooroo",
-        "Description": ""
-      },
-      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1155,28 +1149,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Mootooroo",
+        "Description": ""
       }
     },
     {
-      "properties": {
-        "Name": "Sherwood Estates/Ridgehill",
-        "Description": "2700, 700"
-      },
-      "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           140.6571570206758,
           -34.39850030644077
-        ],
-        "type": "Point"
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherwood Estates/Ridgehill",
+        "Description": "2700, 700"
       }
     },
     {
-      "properties": {
-        "Name": "Sherwood Estates/Ridgehill",
-        "Description": ""
-      },
-      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1303,28 +1297,248 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherwood Estates/Ridgehill",
+        "Description": ""
       }
     },
     {
-      "properties": {
-        "Name": "Sunmar",
-        "Description": "2700, 700"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.85780492570638,
+          -34.0780791007933
+        ]
       },
       "type": "Feature",
+      "properties": {
+        "Name": "Kangara",
+        "Description": "2800, 700"
+      }
+    },
+    {
       "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.84240425270886,
+              -34.07545621818965
+            ],
+            [
+              140.84332170330595,
+              -34.069418685160265
+            ],
+            [
+              140.84350705179685,
+              -34.069018629898174
+            ],
+            [
+              140.84391809638245,
+              -34.06850211865365
+            ],
+            [
+              140.84445815286662,
+              -34.0681225392667
+            ],
+            [
+              140.84508335355162,
+              -34.067910724204495
+            ],
+            [
+              140.84574291464818,
+              -34.06788387877683
+            ],
+            [
+              140.85005535154033,
+              -34.06828197194413
+            ],
+            [
+              140.86992620097928,
+              -34.07028599607813
+            ],
+            [
+              140.87061190401164,
+              -34.07046215541462
+            ],
+            [
+              140.87102536824798,
+              -34.0706919086236
+            ],
+            [
+              140.8715966322198,
+              -34.07122423279305
+            ],
+            [
+              140.87192783763993,
+              -34.07179597124362
+            ],
+            [
+              140.87208412785253,
+              -34.072437964433334
+            ],
+            [
+              140.87214238699045,
+              -34.07637262370269
+            ],
+            [
+              140.8720908175668,
+              -34.08341534429766
+            ],
+            [
+              140.87216225332978,
+              -34.086513634743625
+            ],
+            [
+              140.8719625991881,
+              -34.08736548598457
+            ],
+            [
+              140.87161157731327,
+              -34.08792195883052
+            ],
+            [
+              140.8712962484967,
+              -34.08822803697618
+            ],
+            [
+              140.8706426601841,
+              -34.08865651946398
+            ],
+            [
+              140.87023301727018,
+              -34.08882445005353
+            ],
+            [
+              140.8695776107709,
+              -34.08892333469209
+            ],
+            [
+              140.86738213129192,
+              -34.08873683119184
+            ],
+            [
+              140.86654817288073,
+              -34.089155270196585
+            ],
+            [
+              140.8656561993441,
+              -34.089214477655155
+            ],
+            [
+              140.86298957678773,
+              -34.08887149384509
+            ],
+            [
+              140.86232555680263,
+              -34.08868232882209
+            ],
+            [
+              140.8617468010565,
+              -34.08830583482094
+            ],
+            [
+              140.86143418697552,
+              -34.08796668485165
+            ],
+            [
+              140.86110598795537,
+              -34.08735923826986
+            ],
+            [
+              140.86098924313404,
+              -34.08686624640696
+            ],
+            [
+              140.84526727799016,
+              -34.08526275892681
+            ],
+            [
+              140.84459189034538,
+              -34.08508662291149
+            ],
+            [
+              140.84418428855682,
+              -34.08486012321028
+            ],
+            [
+              140.8436780282875,
+              -34.08437963085203
+            ],
+            [
+              140.8432672810337,
+              -34.08354762227615
+            ],
+            [
+              140.84319367403543,
+              -34.082853536995785
+            ],
+            [
+              140.84349193081,
+              -34.08084062682213
+            ],
+            [
+              140.84378740850218,
+              -34.080165698977716
+            ],
+            [
+              140.8441734490237,
+              -34.07968341308086
+            ],
+            [
+              140.84368270609824,
+              -34.079549378390176
+            ],
+            [
+              140.8431075708939,
+              -34.07921622834646
+            ],
+            [
+              140.84265073210207,
+              -34.07873345741406
+            ],
+            [
+              140.8423664237242,
+              -34.078234987546246
+            ],
+            [
+              140.8421845141518,
+              -34.077605118398544
+            ],
+            [
+              140.8421650459336,
+              -34.07716765945752
+            ],
+            [
+              140.84240425270886,
+              -34.07545621818965
+            ]
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Kangara",
+        "Description": ""
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [
           142.04459205506296,
           -33.80998510243876
-        ],
-        "type": "Point"
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sunmar",
+        "Description": "2700, 700"
       }
     },
     {
-      "properties": {
-        "Name": "Sunmar",
-        "Description": ""
-      },
-      "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1507,13 +1721,19 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sunmar",
+        "Description": ""
       }
     }
   ],
+  "type": "FeatureCollection",
   "crs": {
+    "type": "name",
     "properties": {
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
+    }
   }
 }
