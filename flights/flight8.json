@@ -1,4 +1,5 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
       "geometry": {
@@ -10,8 +11,11 @@
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Sherwood Estates",
-        "Description": "2600, 700"
+        "Description": "1400, 250"
       }
     },
     {
@@ -138,8 +142,11 @@
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Sherwood Estates",
-        "Description": "2600, 700"
+        "Description": "1400, 250"
       }
     },
     {
@@ -302,8 +309,11 @@
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Sherwood Estates",
-        "Description": "2600, 700"
+        "Description": "1400, 250"
       }
     },
     {
@@ -610,8 +620,11 @@
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Kangara",
-        "Description": "2800, 700"
+        "Description": "1400, 250"
       }
     },
     {
@@ -1034,8 +1047,11 @@
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Sherwood Estates/Ridgehill",
-        "Description": "2700, 700"
+        "Description": "1400, 250"
       }
     },
     {
@@ -1172,12 +1188,5 @@
         "Description": ""
       }
     }
-  ],
-  "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  }
+  ]
 }
