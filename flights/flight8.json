@@ -11,8 +11,11 @@
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Sherwood Estates",
-        "Description": "2600, 700"
+        "Description": "1400, 250"
       }
     },
     {
@@ -223,8 +226,11 @@
       },
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Name": "Sherwood Estates",
-        "Description": "2600, 700"
+        "Description": "1400, 250"
       }
     },
     {
