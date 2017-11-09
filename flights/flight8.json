@@ -2,28 +2,20 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Name": "Sherwood Estates",
-        "Description": "2000, 350"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           140.61797450535977,
           -34.455325609756464
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Sherwood Estates",
-        "Description": ""
-      },
+        "Description": "2600, 700"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -214,31 +206,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherwood Estates",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Name": "Sherwood Estates",
-        "Description": "2000, 350"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           140.59093086971328,
           -34.40574211369587
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Sherwood Estates",
-        "Description": ""
-      },
+        "Description": "2600, 700"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -337,31 +326,31 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherwood Estates",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Name": "Sherwood Estates/Ridgehill",
-        "Description": "2000, 350"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           140.65715701103827,
           -34.398500313363556
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Sherwood Estates/Ridgehill",
+        "Description": "1500, 250"
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Sherwood Estates/Ridgehill",
-        "Description": ""
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -488,28 +477,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sherwood Estates/Ridgehill",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Mootooroo",
-        "Description": "4200, 700"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           140.80295648234994,
           -34.11524065064832
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Mootooroo",
-        "Description": ""
-      },
+        "Description": "2700, 700"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -676,31 +665,31 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Mootooroo",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Name": "Kangara",
-        "Description": "2000, 350"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           140.8578049224828,
           -34.07807910787599
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Kangara",
+        "Description": "1600, 250"
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Kangara",
-        "Description": ""
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -899,28 +888,28 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Kangara",
+        "Description": ""
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Name": "Sunmar",
-        "Description": "4200, 700"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           142.04459204725046,
           -33.80998505779542
         ]
-      }
-    },
-    {
+      },
       "type": "Feature",
       "properties": {
         "Name": "Sunmar",
-        "Description": ""
-      },
+        "Description": "2700, 700"
+      }
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1103,6 +1092,11 @@
             ]
           ]
         ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Name": "Sunmar",
+        "Description": ""
       }
     }
   ]
