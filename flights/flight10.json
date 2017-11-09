@@ -11,7 +11,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Curry",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -103,7 +103,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Darrell mills 40",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -211,7 +211,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Rudin Plot",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -303,7 +303,7 @@
       "type": "Feature",
       "properties": {
         "Name": "West-MIddle",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -467,7 +467,7 @@
       "type": "Feature",
       "properties": {
         "Name": "South 160",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -579,7 +579,7 @@
       "type": "Feature",
       "properties": {
         "Name": "North 38",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -695,7 +695,7 @@
       "type": "Feature",
       "properties": {
         "Name": "East 0",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -783,7 +783,7 @@
       "type": "Feature",
       "properties": {
         "Name": "East 1",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -883,7 +883,7 @@
       "type": "Feature",
       "properties": {
         "Name": "South 160",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -979,7 +979,7 @@
       "type": "Feature",
       "properties": {
         "Name": "45",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -1115,7 +1115,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Heagy South 92 Acres",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -1243,7 +1243,7 @@
       "type": "Feature",
       "properties": {
         "Name": "AGRIVEST 240 SW/AGRIVEST SE 160",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -1371,7 +1371,7 @@
       "type": "Feature",
       "properties": {
         "Name": "BFI North 60 Acres",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -1483,7 +1483,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Nan's 80 East 38 Acres",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -1591,7 +1591,7 @@
       "type": "Feature",
       "properties": {
         "Name": "East Of Pivot",
-        "Description": "10200, 1940"
+        "Description": "10200, 0"
       },
       "geometry": {
         "coordinates": [
@@ -1691,7 +1691,7 @@
       "type": "Feature",
       "properties": {
         "Name": "45",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -1795,7 +1795,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Miller 40",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -1895,7 +1895,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Singley",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -1995,7 +1995,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Graff",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -2115,7 +2115,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Cooper East",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -2223,7 +2223,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Ponderosa West",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -2363,7 +2363,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Home/Knupp 120 North",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -2491,7 +2491,7 @@
       "type": "Feature",
       "properties": {
         "Name": "East of Ditch",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -2599,7 +2599,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Rods house",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -2727,7 +2727,7 @@
       "type": "Feature",
       "properties": {
         "Name": "south yates",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -2847,7 +2847,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Doenitz",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -2955,7 +2955,7 @@
       "type": "Feature",
       "properties": {
         "Name": "HMW80",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -3067,7 +3067,7 @@
       "type": "Feature",
       "properties": {
         "Name": "The 320",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -3175,7 +3175,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Laskowski",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -3287,7 +3287,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Wil-Mays 40",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -3387,7 +3387,7 @@
       "type": "Feature",
       "properties": {
         "Name": "South Home",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -3547,7 +3547,7 @@
       "type": "Feature",
       "properties": {
         "Name": "25",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -3651,7 +3651,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Home n of creek",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -3771,7 +3771,7 @@
       "type": "Feature",
       "properties": {
         "Name": "10/West",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -3923,7 +3923,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Bretts",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -4035,7 +4035,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Home West",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -4147,7 +4147,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Homeplace West 154 Acres",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -4275,7 +4275,7 @@
       "type": "Feature",
       "properties": {
         "Name": "North 80",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -4371,7 +4371,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Eureka",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -4499,7 +4499,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Hayslip",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -4611,7 +4611,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Schick West/James East 80",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -4771,7 +4771,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Home 80",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -4871,7 +4871,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Section 20",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -4959,7 +4959,7 @@
       "type": "Feature",
       "properties": {
         "Name": "West Blacktop",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -5099,7 +5099,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Wahls South",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -5195,7 +5195,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Reeb",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -5303,7 +5303,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Craddock East",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -5403,7 +5403,7 @@
       "type": "Feature",
       "properties": {
         "Name": "North Farm",
-        "Description": "10500, 1940"
+        "Description": "10500, 0"
       },
       "geometry": {
         "coordinates": [
@@ -5539,7 +5539,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Eppels",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -5659,7 +5659,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Mackinson South",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -5755,7 +5755,7 @@
       "type": "Feature",
       "properties": {
         "Name": "EDELSTEIN",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -5887,7 +5887,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Leo East",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -5999,7 +5999,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Debolt 80/Debolt 40",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -6147,7 +6147,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Kohl West",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -6327,7 +6327,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Voelker North/Voelker South/Voelker Middle",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -6575,7 +6575,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Fort Farm",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -6727,7 +6727,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Leo South",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -6883,7 +6883,7 @@
       "type": "Feature",
       "properties": {
         "Name": "C75",
-        "Description": "10200, 1940"
+        "Description": "0, 0"
       },
       "geometry": {
         "coordinates": [
@@ -6979,7 +6979,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Moms",
-        "Description": "10300, 1940"
+        "Description": "10300, 0"
       },
       "geometry": {
         "coordinates": [
@@ -7103,7 +7103,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Bechtel S/Bechtel N",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -7283,7 +7283,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Shane 60",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -7383,7 +7383,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Bir South",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
@@ -7471,7 +7471,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Elson West 50/Wil-Long North",
-        "Description": "10400, 1940"
+        "Description": "10400, 0"
       },
       "geometry": {
         "coordinates": [
