@@ -2,21 +2,20 @@
   "features": [
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           143.45354848634994,
           -35.2704301300099
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Woorinen",
         "Description": "3700, 500"
-      }
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -184,31 +183,31 @@
               -35.27036202555696
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Woorinen",
         "Description": ""
-      }
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           142.92113839319222,
           -34.749634250742
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
         "Name": "4 Winds",
         "Description": "3700, 500"
-      }
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -500,31 +499,31 @@
               -34.743451766239296
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
         "Name": "4 Winds",
         "Description": ""
-      }
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           143.48829062547443,
           -34.94454412057022
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Wood Wood/Wakool Block 1-6/Rivernook stages 2-3/Rivernook stages 1&4",
         "Description": "3800, 500"
-      }
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -848,20 +847,21 @@
               -34.95585795772108
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Wood Wood/Wakool Block 1-6/Rivernook stages 2-3/Rivernook stages 1&4",
         "Description": ""
-      }
+      },
+      "type": "Feature"
     }
   ],
-  "type": "FeatureCollection",
   "crs": {
-    "type": "name",
     "properties": {
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  }
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection"
 }

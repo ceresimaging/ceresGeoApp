@@ -2,21 +2,20 @@
   "features": [
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -158.0294438620822,
           21.52898411737139
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Dole Pineapple",
         "Description": "4300, 500"
-      }
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -180,163 +179,31 @@
               21.526095975955496
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Dole Pineapple",
         "Description": ""
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.11983071842474,
-          21.57266720048635
-        ]
       },
-      "type": "Feature",
-      "properties": {
-        "Name": "Dole Waialua Estate",
-        "Description": "3500, 500"
-      }
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -158.12038090317836,
-              21.576460898010566
-            ],
-            [
-              -158.11978518777616,
-              21.576517469530074
-            ],
-            [
-              -158.11908987275558,
-              21.57624986935852
-            ],
-            [
-              -158.11825461987513,
-              21.575506206956486
-            ],
-            [
-              -158.1173969602755,
-              21.574560103351285
-            ],
-            [
-              -158.1170557064482,
-              21.573910368908006
-            ],
-            [
-              -158.1170197046594,
-              21.57257309247742
-            ],
-            [
-              -158.11751339883045,
-              21.570470235859933
-            ],
-            [
-              -158.11792604787465,
-              21.56969939959179
-            ],
-            [
-              -158.11825906857263,
-              21.56943501262024
-            ],
-            [
-              -158.1186539172019,
-              21.569277222202423
-            ],
-            [
-              -158.11947144069376,
-              21.569163047141938
-            ],
-            [
-              -158.12032932839625,
-              21.569201508458676
-            ],
-            [
-              -158.12071538082267,
-              21.569309691416112
-            ],
-            [
-              -158.12132692047828,
-              21.569638107191963
-            ],
-            [
-              -158.12200051362103,
-              21.570176442286844
-            ],
-            [
-              -158.12246695615895,
-              21.57070156920016
-            ],
-            [
-              -158.12279788912116,
-              21.57172355748181
-            ],
-            [
-              -158.12279722490618,
-              21.572438894478797
-            ],
-            [
-              -158.12263101385966,
-              21.57283763488388
-            ],
-            [
-              -158.12211053178152,
-              21.57358953591397
-            ],
-            [
-              -158.1219265169874,
-              21.57480663206444
-            ],
-            [
-              -158.12179255236128,
-              21.575234483370586
-            ],
-            [
-              -158.12118921682972,
-              21.576085562704993
-            ],
-            [
-              -158.12081017394067,
-              21.576320157936536
-            ],
-            [
-              -158.12038090317836,
-              21.576460898010566
-            ]
-          ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Dole Waialua Estate",
-        "Description": ""
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
         "coordinates": [
           -158.06248852257824,
           21.541029207474296
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Dole Pineapple",
         "Description": "4300, 500"
-      }
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1242,31 +1109,31 @@
               21.550520282475105
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Dole Pineapple",
         "Description": ""
-      }
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Point",
         "coordinates": [
           -158.0795824631834,
           21.563189232167
-        ]
+        ],
+        "type": "Point"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Dole Pineapple/Dole Coffee",
         "Description": "4300, 500"
-      }
+      },
+      "type": "Feature"
     },
     {
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1622,20 +1489,21 @@
               21.567412703028282
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
-      "type": "Feature",
       "properties": {
         "Name": "Dole Pineapple/Dole Coffee",
         "Description": ""
-      }
+      },
+      "type": "Feature"
     }
   ],
-  "type": "FeatureCollection",
   "crs": {
-    "type": "name",
     "properties": {
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  }
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection"
 }
