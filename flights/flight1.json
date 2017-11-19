@@ -1,21 +1,27 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
+      "properties": {
+        "Description": "4200, 700",
+        "Name": "Westmore"
+      },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           143.1494885902447,
           -34.731805601593635
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Name": "Westmore",
-        "Description": "2700, 700"
+        ]
       },
       "type": "Feature"
     },
     {
+      "properties": {
+        "Description": "",
+        "Name": "Westmore"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -179,31 +185,31 @@
               -34.71659965284247
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Name": "Westmore",
-        "Description": ""
+        ]
       },
       "type": "Feature"
     },
     {
+      "properties": {
+        "Description": "4200, 700",
+        "Name": "Campbell/Menegazzo"
+      },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           143.26820073906555,
           -34.85289524388449
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Name": "Campbell/Menegazzo",
-        "Description": "2700, 700"
+        ]
       },
       "type": "Feature"
     },
     {
+      "properties": {
+        "Description": "",
+        "Name": "Campbell/Menegazzo"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -507,12 +513,7 @@
               -34.83153797518989
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "Name": "Campbell/Menegazzo",
-        "Description": ""
+        ]
       },
       "type": "Feature"
     }
@@ -522,6 +523,5 @@
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
     },
     "type": "name"
-  },
-  "type": "FeatureCollection"
+  }
 }
