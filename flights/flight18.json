@@ -15,7 +15,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Jack Tone Golf",
-        "Description": "7500, 700"
+        "Description": "7500, 0"
       }
     },
     {
@@ -150,7 +150,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Del Rio",
-        "Description": "7500, 700"
+        "Description": "7500, 0"
       }
     },
     {
@@ -277,7 +277,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Manteca",
-        "Description": "7500, 700"
+        "Description": "7500, 0"
       }
     },
     {
@@ -404,7 +404,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Escalon",
-        "Description": "7500, 700"
+        "Description": "7500, 0"
       }
     },
     {
