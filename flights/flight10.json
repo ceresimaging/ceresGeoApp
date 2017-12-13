@@ -12,7 +12,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Belvedere",
-        "Description": "2900, 700"
+        "Description": "4400, 700"
       }
     },
     {
@@ -388,7 +388,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Egan Rd",
-        "Description": "2900, 700"
+        "Description": "4400, 700"
       }
     },
     {
@@ -552,7 +552,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Monartos",
-        "Description": "2900, 700"
+        "Description": "4400, 700"
       }
     },
     {
@@ -727,7 +727,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "Name": "Bilbul",
-        "Description": "1700, 250"
+        "Description": "3200, 250"
       }
     },
     {
@@ -855,7 +855,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Yilgah",
-        "Description": "2900, 700"
+        "Description": "4400, 700"
       }
     },
     {
@@ -1287,7 +1287,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Clark Road",
-        "Description": "2900, 700"
+        "Description": "4400, 700"
       }
     },
     {
