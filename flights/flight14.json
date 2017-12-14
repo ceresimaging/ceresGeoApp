@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Australian Government Almonds 2",
-        "Description": "2700, 700"
+        "Description": "4200, 700"
       }
     },
     {
@@ -338,7 +338,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Allinga",
-        "Description": "2600, 700"
+        "Description": "4100, 700"
       }
     },
     {
@@ -506,7 +506,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Mullroo",
-        "Description": "2700, 700"
+        "Description": "4200, 700"
       }
     },
     {
@@ -662,7 +662,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Jubilee",
-        "Description": "2700, 700"
+        "Description": "4200, 700"
       }
     },
     {
@@ -922,7 +922,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Amaroo",
-        "Description": "2800, 700"
+        "Description": "4300, 700"
       }
     },
     {
@@ -1106,7 +1106,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Amaroo",
-        "Description": "2800, 700"
+        "Description": "4300, 700"
       }
     },
     {
