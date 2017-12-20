@@ -1,29 +1,26 @@
 {
-  "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
+      "properties": {
+        "Name": "Narcooyia-Nenandie",
+        "Description": "2700, 700"
+      },
+      "type": "Feature",
       "geometry": {
-        "type": "Point",
         "coordinates": [
           142.96827305772567,
           -34.74628432075393
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Narcooyia-Nenandie",
-        "Description": "4200, 700"
+        ],
+        "type": "Point"
       }
     },
     {
+      "properties": {
+        "Name": "Narcooyia-Nenandie",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -231,31 +228,31 @@
               -34.71195871492273
             ]
           ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Narcooyia-Nenandie",
-        "Description": ""
+        ],
+        "type": "Polygon"
       }
     },
     {
+      "properties": {
+        "Name": "Minter Magic Ranch",
+        "Description": "2700, 700"
+      },
+      "type": "Feature",
       "geometry": {
-        "type": "Point",
         "coordinates": [
           142.2972773177698,
           -34.406087100873904
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Minter Magic Ranch",
-        "Description": "4200, 700"
+        ],
+        "type": "Point"
       }
     },
     {
+      "properties": {
+        "Name": "Minter Magic Ranch",
+        "Description": ""
+      },
+      "type": "Feature",
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -551,13 +548,16 @@
               -34.401931573075494
             ]
           ]
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "Name": "Minter Magic Ranch",
-        "Description": ""
+        ],
+        "type": "Polygon"
       }
     }
-  ]
+  ],
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection"
 }
