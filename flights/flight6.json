@@ -3,7 +3,7 @@
     {
       "properties": {
         "Name": "Wandown",
-        "Description": "5000, 730"
+        "Description": "3000, 730"
       },
       "type": "Feature",
       "geometry": {
@@ -279,7 +279,7 @@
     {
       "properties": {
         "Name": "Campbell/Menegazzo",
-        "Description": "5000, 730"
+        "Description": "3000, 730"
       },
       "type": "Feature",
       "geometry": {
