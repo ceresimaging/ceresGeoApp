@@ -1,25 +1,20 @@
 {
   "features": [
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "4200, 700",
-        "Name": "Wandown"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           143.0601646269905,
           -34.75449485390273
         ]
-      }
-    },
-    {
-      "type": "Feature",
+      },
       "properties": {
-        "Description": "",
+        "Description": "2700, 700",
         "Name": "Wandown"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -274,28 +269,28 @@
             ]
           ]
         ]
-      }
+      },
+      "properties": {
+        "Description": "",
+        "Name": "Wandown"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Description": "4200, 700",
-        "Name": "Narcooyia-Nenandie"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           142.96827305179812,
           -34.746284310525866
         ]
-      }
-    },
-    {
-      "type": "Feature",
+      },
       "properties": {
-        "Description": "",
+        "Description": "2700, 700",
         "Name": "Narcooyia-Nenandie"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -506,14 +501,19 @@
             ]
           ]
         ]
-      }
+      },
+      "properties": {
+        "Description": "",
+        "Name": "Narcooyia-Nenandie"
+      },
+      "type": "Feature"
     }
   ],
-  "type": "FeatureCollection",
   "crs": {
-    "type": "name",
     "properties": {
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  }
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection"
 }
