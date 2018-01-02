@@ -3,7 +3,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2000, 350",
+        "Description": "2400, 350",
         "Name": "Devlin Vineyards"
       },
       "geometry": {
@@ -195,7 +195,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "2000, 350",
+        "Description": "2400, 350",
         "Name": "Scotts Creek"
       },
       "geometry": {
