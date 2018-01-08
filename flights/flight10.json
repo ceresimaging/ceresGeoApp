@@ -1,9 +1,13 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "Description": "4300, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "3100, 250",
         "Name": "Kangara"
       },
       "geometry": {
@@ -384,12 +388,5 @@
         ]
       }
     }
-  ],
-  "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  }
+  ]
 }
