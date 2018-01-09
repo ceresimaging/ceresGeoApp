@@ -4,7 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3800, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "6500, 1000",
         "Name": "RRAPL Entire 1/RRAPL Entire 1"
       },
       "geometry": {
@@ -152,7 +155,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3800, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "6500, 1000",
         "Name": "RRAPL Sheewash 1"
       },
       "geometry": {
@@ -264,7 +270,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3800, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "6500, 1000",
         "Name": "RRAPL Keoghs 9"
       },
       "geometry": {
@@ -380,7 +389,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3900, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "6500, 1000",
         "Name": "Coleambally"
       },
       "geometry": {
@@ -492,7 +504,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4000, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "6500, 1000",
         "Name": "Yanco"
       },
       "geometry": {
@@ -596,7 +611,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3800, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "6500, 1000",
         "Name": "OCallaghan"
       },
       "geometry": {
@@ -720,7 +738,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3900, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "6500, 1000",
         "Name": "LFS Remote Sense/LFS Water Exp"
       },
       "geometry": {
@@ -851,7 +872,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "2700, 250",
+        "Description": "3500, 350",
         "Name": "Hanwood Estate"
       },
       "geometry": {
