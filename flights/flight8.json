@@ -10993,7 +10993,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "10000, 0",
+        "Description": "0, 0",
         "Name": "Mustang Airport"
       },
       "geometry": {
