@@ -1,31 +1,28 @@
 {
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  },
+  "type": "FeatureCollection",
   "features": [
     {
+      "type": "Feature",
       "properties": {
         "Name": "Browns Lake",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.08813359506136,
           37.75650739273379
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Browns Lake",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -147,31 +144,31 @@
               37.76055800490053
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 8/Lodi-Ranch 08",
+        "Name": "Lodi-Ranch 08/Kidco-Ranch 8",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.17576292776492,
           38.26853171173183
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 8/Lodi-Ranch 08",
+        "Name": "Lodi-Ranch 08/Kidco-Ranch 8",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -353,31 +350,31 @@
               38.27088361050642
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2219596605264,
           38.28674130375647
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -439,31 +436,31 @@
               38.28845161890456
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19128603843848,
           38.246252392639576
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -619,31 +616,31 @@
               38.24564561466198
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.18436630315952,
           38.24717978103954
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -885,31 +882,31 @@
               38.24721220073119
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "M3 West",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.08100394366869,
           37.63316706008172
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "M3 West",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -933,31 +930,31 @@
               37.63812589033738
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Salida Hulling",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.06506151840105,
           37.64083666702564
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Salida Hulling",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -981,31 +978,31 @@
               37.64317734624084
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Ratto Bros 7",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.16488112486542,
           37.67552822289694
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Ratto Bros 7",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1037,31 +1034,31 @@
               37.68129253720786
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Beckwith Farm Laboratory",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.07946323108881,
           37.678790554151526
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Beckwith Farm Laboratory",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1085,31 +1082,31 @@
               37.68171075097645
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Hammett",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10676910852003,
           37.706152325094834
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Hammett",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1133,31 +1130,31 @@
               37.70719351159082
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Kiernan and Corner",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.14014428979542,
           37.71233991640757
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Kiernan and Corner",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1181,31 +1178,31 @@
               37.71433042154336
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Kiernan and Corner",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.13490252387473,
           37.71528976461333
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Kiernan and Corner",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1233,31 +1230,31 @@
               37.71038624104552
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Ciccarelli",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.11188668218199,
           37.716122272814154
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Ciccarelli",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1289,31 +1286,31 @@
               37.71791950834616
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Salida School",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.09373684801334,
           37.72345841427468
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Salida School",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1345,31 +1342,31 @@
               37.72134387357894
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Dale",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.0547287041084,
           37.72786914684436
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jolliff Dale",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1393,31 +1390,31 @@
               37.72991208041071
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Union 4",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21787799680708,
           37.745241071829454
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Union 4",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1449,31 +1446,31 @@
               37.74658396919121
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 12",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.07940785443174,
           37.75680038997483
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 12",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1497,31 +1494,31 @@
               37.75880646500008
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "JR Farms",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15183170654925,
           37.748767269319636
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "JR Farms",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1701,31 +1698,31 @@
               37.75059417933957
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "River View",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.05499544232153,
           37.75285302930716
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "River View",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1801,31 +1798,31 @@
               37.75042859898218
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "JR Farms",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15000065450803,
           37.75437610155174
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "JR Farms",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1897,31 +1894,31 @@
               37.7525217849756
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kisst 6",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2819578872654,
           37.768812017339656
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kisst 6",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1957,31 +1954,31 @@
               37.77054161629267
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Woodward East",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.26848594692363,
           37.77225512330786
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Woodward East",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2009,31 +2006,31 @@
               37.77543364100987
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kisst 5",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.27728420927457,
           37.773075506760684
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kisst 5",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2057,31 +2054,31 @@
               37.77092072680367
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kisst 7",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.27551924397548,
           37.76691772463494
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kisst 7",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2141,31 +2138,31 @@
               37.76958295100788
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "HWY 120",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2943976139002,
           37.785659855971325
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "HWY 120",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2205,31 +2202,31 @@
               37.78856955152438
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "McKinley",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.27599165950582,
           37.79184772053356
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "McKinley",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2337,31 +2334,31 @@
               37.79073248062466
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 15",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10093437766095,
           37.79489420070068
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 15",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2385,31 +2382,31 @@
               37.798342053000056
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 19",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.04312742480627,
           37.800302147970115
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 19",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2433,31 +2430,31 @@
               37.802357795000034
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Dodds Rd",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10406921698922,
           37.849854720921556
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Dodds Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2493,31 +2490,31 @@
               37.85063383775866
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Dodds Rd",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10418597482025,
           37.85350253652943
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Dodds Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2577,31 +2574,31 @@
               37.85612912323355
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 8",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2211804452726,
           37.85477161584557
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 8",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2637,31 +2634,31 @@
               37.85747783000005
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "964 PJ Ranch Walnuts 182 Wildwood",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.14110832551698,
           37.85952677461941
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "964 PJ Ranch Walnuts 182 Wildwood",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2685,31 +2682,31 @@
               37.85598806358148
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Marchini Ag",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.33746318301071,
           37.914524002565486
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Marchini Ag",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2761,31 +2758,31 @@
               37.91248973185564
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Marchini Ag",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.3433780198106,
           37.91786974282186
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Marchini Ag",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2809,31 +2806,31 @@
               37.91615934650973
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Marchini Ag",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.35107322704388,
           37.917855708103026
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Marchini Ag",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2865,31 +2862,31 @@
               37.91911588400761
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Marchini Ag",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.33529318562714,
           37.91892368510724
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Marchini Ag",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -2957,31 +2954,31 @@
               37.91683041124716
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Copperopolis",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1262693470579,
           37.969292777990205
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Copperopolis",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3033,31 +3030,31 @@
               37.97155616710644
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Watkins Walnuts",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.01359656410901,
           37.977024105514225
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Watkins Walnuts",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3081,31 +3078,31 @@
               37.97354160974369
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Chiappes Walnuts",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.04893621563153,
           37.93095386461031
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Chiappes Walnuts",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3245,31 +3242,31 @@
               37.92945760956684
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Chiappes Walnuts",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.0419041481713,
           37.9339776275992
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Chiappes Walnuts",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3333,31 +3330,31 @@
               37.93500186785997
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "J&D Vineyards - Duck Creek Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.04978012184283,
           37.93472807754508
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "J&D Vineyards - Duck Creek Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3477,31 +3474,31 @@
               37.93345819988898
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Watkins Peaches",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.9914522508527,
           37.992777610056905
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Watkins Peaches",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3525,31 +3522,31 @@
               37.99053652853127
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Sanguinetti Ranches",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.235112775868,
           38.012320803511216
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Sanguinetti Ranches",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3597,31 +3594,31 @@
               38.00980229374147
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "SJ RCE",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21936334244599,
           37.99944999243837
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "SJ RCE",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3661,31 +3658,31 @@
               38.00328324721993
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Neli Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.20882372274896,
           38.00415014559627
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Neli Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3713,31 +3710,31 @@
               38.0028197313519
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Nola Orchards",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15803100088992,
           38.019200042338085
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Nola Orchards",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3765,31 +3762,31 @@
               38.01633136670862
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Ivy Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15504065091726,
           38.03025510959937
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Ivy Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3821,31 +3818,31 @@
               38.03104644396355
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Nola Orchards",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15799866948568,
           38.01551855982966
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Nola Orchards",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3869,31 +3866,31 @@
               38.01629739874863
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jory Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.17125239123139,
           38.04151892949579
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jory Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3945,31 +3942,31 @@
               38.038728469830005
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lagorio Brothers",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.9777295442362,
           38.05457399110987
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lagorio Brothers",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -3993,31 +3990,31 @@
               38.04765112637901
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Patton",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.18619880597781,
           38.056265059118516
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Patton",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4045,31 +4042,31 @@
               38.05457366748507
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alpine Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.20572352014993,
           38.05308179788804
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alpine Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4101,31 +4098,31 @@
               38.05191445119442
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Shade Tree Farming",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.92158928712024,
           38.06883748178699
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Shade Tree Farming",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4233,31 +4230,31 @@
               38.06855941531912
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alvin Cortopassi Ranches",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -120.91851126194629,
           38.075670998068645
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alvin Cortopassi Ranches",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4321,31 +4318,31 @@
               38.07402375250018
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LFI Walnuts",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21622805440595,
           38.06667955579147
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LFI Walnuts",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4389,31 +4386,31 @@
               38.06489074420671
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "964 PJ Ranch Cherries 182 Wildwood",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.30765553188226,
           38.06837040973353
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "964 PJ Ranch Cherries 182 Wildwood",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4437,31 +4434,31 @@
               38.06483078133292
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LFI Walnuts",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19430831389363,
           38.0701541199913
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LFI Walnuts",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4501,31 +4498,31 @@
               38.071513148547524
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Thomas Ranch/Home Ranch",
+        "Name": "Home Ranch/Thomas Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.16283689040868,
           38.036044334271175
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Thomas Ranch/Home Ranch",
+        "Name": "Home Ranch/Thomas Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4573,31 +4570,31 @@
               38.03761731828183
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Freeman Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15626108217239,
           38.038163344716246
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Freeman Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4625,31 +4622,31 @@
               38.0397753835166
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lone Oak",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.05452216785947,
           38.09952970073689
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lone Oak",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4681,31 +4678,31 @@
               38.09688643155418
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alberti 122358",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.33636109829295,
           38.10483810906951
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alberti 122358",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4729,31 +4726,31 @@
               38.10599013746
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Rolling Hills 129176",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.0734666744089,
           38.09556451086268
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Rolling Hills 129176",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4777,31 +4774,31 @@
               38.09809333595662
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Davis Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.33610970677042,
           38.095698447632124
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Davis Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4825,31 +4822,31 @@
               38.09753035933686
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "South Lodi",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2464348397184,
           38.099269572291995
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "South Lodi",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4889,31 +4886,31 @@
               38.10123051893076
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Hwy 13",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.37467428592575,
           38.11506541297495
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Hwy 13",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -4961,31 +4958,31 @@
               38.11571233725326
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Hwy 13",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.37363574546772,
           38.112406742257654
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Hwy 13",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5025,31 +5022,31 @@
               38.11395221647177
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alberti 100091",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.35011787869746,
           38.11305865900969
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alberti 100091",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5073,31 +5070,31 @@
               38.11394804178902
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alberti 100093",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.363898650619,
           38.11722068018056
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alberti 100093",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5137,31 +5134,31 @@
               38.11607957523269
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alberti 110559",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.36842359276166,
           38.11851208931389
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Alberti 110559",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5185,31 +5182,31 @@
               38.11936020141299
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Morada Produce Field",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15661037719306,
           38.11910495873091
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Morada Produce Field",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5233,31 +5230,31 @@
               38.11751915241489
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Mondo Limited Partnership",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.0732991067453,
           38.12937150449559
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Mondo Limited Partnership",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5281,31 +5278,31 @@
               38.12572566605404
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Simpson Grapes",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.22665467008854,
           38.10743263920911
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Simpson Grapes",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5329,31 +5326,31 @@
               38.10622979567125
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Vintage Rd",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23148116258976,
           38.107680505065325
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Vintage Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5393,31 +5390,31 @@
               38.1067690404962
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Rosus Lane",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21835855656286,
           38.13572061055768
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Rosus Lane",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5449,31 +5446,31 @@
               38.1377683737555
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 13",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24083771232843,
           38.13593239156904
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 13",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5497,31 +5494,31 @@
               38.138100578000035
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 6",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.38779982016648,
           38.13971226218725
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 6",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5545,31 +5542,31 @@
               38.14206488600007
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 5",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.37248371130482,
           38.143811046288185
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 5",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5593,31 +5590,31 @@
               38.14622193400004
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Brandt Hills Ranch",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.08791769078016,
           38.14572805982514
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Brandt Hills Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5641,31 +5638,31 @@
               38.14368875501953
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Natural Hills Ranch",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.0930955274108,
           38.1456529527472
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Natural Hills Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5689,31 +5686,31 @@
               38.14355558372041
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Turner Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.34713132905753,
           38.14282251534639
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Turner Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5745,31 +5742,31 @@
               38.14027136067167
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Turner Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.3493089825614,
           38.1441144333543
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Turner Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5833,31 +5830,31 @@
               38.14508040186486
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Turner Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.35146347324019,
           38.14424394511466
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Turner Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5885,31 +5882,31 @@
               38.14551930963474
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 9",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24582230755627,
           38.14605562094048
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 9",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -5933,31 +5930,31 @@
               38.144855593000045
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Locust",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19264746352154,
           38.12991861904163
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Locust",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6045,31 +6042,31 @@
               38.12963874764472
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Sargent Rd",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1278777677608,
           38.13536467143792
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Sargent Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6101,31 +6098,31 @@
               38.131807109621434
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 14",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.41169826568972,
           38.15172608825944
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 14",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6149,31 +6146,31 @@
               38.14971563600005
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 11",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.27053037873378,
           38.158447405579885
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 11",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6197,31 +6194,31 @@
               38.16018560600003
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Bare Ranch",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.33674443209513,
           38.16405618395465
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Bare Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6253,31 +6250,31 @@
               38.16749841754972
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Woodbridge Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.34461502541424,
           38.15612862182282
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Woodbridge Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6317,31 +6314,31 @@
               38.15961585551953
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Winery Locations 7/Goto SB/Roberts at WB",
+        "Name": "Goto SB/Roberts at WB/Winery Locations 7",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2466700068895,
           38.1565709658064
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Winery Locations 7/Goto SB/Roberts at WB",
+        "Name": "Goto SB/Roberts at WB/Winery Locations 7",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6421,31 +6418,31 @@
               38.15256836166268
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Camera Brothers Lodi",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23045758675927,
           38.17050418538503
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Camera Brothers Lodi",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6497,31 +6494,31 @@
               38.16739227255086
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Acampo",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.38418031456658,
           38.17229619187759
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Acampo",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6565,31 +6562,31 @@
               38.17456932084776
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Camera Brothers Lodi",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.22738032038241,
           38.17280705764839
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Camera Brothers Lodi",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6613,31 +6610,31 @@
               38.17219419343465
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Goto VG",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.25106466631523,
           38.15118944864448
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Goto VG",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6721,31 +6718,31 @@
               38.15196821528134
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 7/Lodi-Ranch 07",
+        "Name": "Lodi-Ranch 07/Kidco-Ranch 7",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2133900746577,
           38.15156774698482
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 7/Lodi-Ranch 07",
+        "Name": "Lodi-Ranch 07/Kidco-Ranch 7",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6785,31 +6782,31 @@
               38.151366654817025
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 7/Lodi-Ranch 07",
+        "Name": "Lodi-Ranch 07/Kidco-Ranch 7",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2170211836605,
           38.15181710702941
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 7/Lodi-Ranch 07",
+        "Name": "Lodi-Ranch 07/Kidco-Ranch 7",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6857,31 +6854,31 @@
               38.15227059954463
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 7/Lodi-Ranch 07",
+        "Name": "Lodi-Ranch 07/Kidco-Ranch 7",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21324033907796,
           38.15188826000774
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 7/Lodi-Ranch 07",
+        "Name": "Lodi-Ranch 07/Kidco-Ranch 7",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6937,31 +6934,31 @@
               38.15206178299336
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 7/Lodi-Ranch 07",
+        "Name": "Lodi-Ranch 07/Kidco-Ranch 7",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21188905684552,
           38.15254690864045
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "Kidco-Ranch 7/Lodi-Ranch 07",
+        "Name": "Lodi-Ranch 07/Kidco-Ranch 7",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -6989,31 +6986,31 @@
               38.15269865773706
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Armstrong/Armstrong Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.34979791354729,
           38.0839905544322
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Armstrong/Armstrong Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7073,31 +7070,31 @@
               38.08306567321742
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 1",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2402923354316,
           38.08507281283193
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 1",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7133,31 +7130,31 @@
               38.08235772000006
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Bear Creek Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.17168665411464,
           38.091029389355754
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Bear Creek Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7217,31 +7214,31 @@
               38.09257600537279
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Clements",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.0625611642547,
           38.1857864952311
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Clements",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7265,31 +7262,31 @@
               38.1848548571065
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF3",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1910956422037,
           38.184013969338736
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF3",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7313,31 +7310,31 @@
               38.18440389792181
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Mike Bender Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.32097386392375,
           38.19522742552863
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Mike Bender Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7413,31 +7410,31 @@
               38.19627507915079
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT80",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.28756583217942,
           38.19403204100189
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT80",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7477,31 +7474,31 @@
               38.19453311803311
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Clements",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.06765913380791,
           38.1853428499181
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Clements",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7525,31 +7522,31 @@
               38.1845781860205
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF3",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19575832322278,
           38.18525423861472
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF3",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7573,31 +7570,31 @@
               38.18608761881518
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF3",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1911634608143,
           38.184946836276964
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF3",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7629,31 +7626,31 @@
               38.18537841514376
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF3",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19121905462751,
           38.18582576190393
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF3",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7689,31 +7686,31 @@
               38.18537841514376
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Clements",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.06507681119487,
           38.18649057271228
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Clements",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7737,31 +7734,31 @@
               38.18576402219016
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Clements",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.06768238264557,
           38.187277757567145
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Clements",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7785,31 +7782,31 @@
               38.18809405066682
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT38 CS",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.29687558776781,
           38.190653237341905
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT38 CS",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7869,31 +7866,31 @@
               38.19191391577197
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT80",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.28696354283305,
           38.191097985077946
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT80",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -7973,31 +7970,31 @@
               38.1910208889762
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 5",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.14512609986724,
           38.19273467414702
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 5",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8029,31 +8026,31 @@
               38.19244987717781
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT38 CS",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.29698115766553,
           38.19295786365005
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT38 CS",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8089,31 +8086,31 @@
               38.19389251593331
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF1",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21437288624001,
           38.19130183520287
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF1",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8259,31 +8256,31 @@
               38.19178530031722
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 12",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.20095587442523,
           38.19259280225083
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 12",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8335,31 +8332,31 @@
               38.19235630006517
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Mike Bender Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.32010271745936,
           38.19918702419005
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Mike Bender Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8383,31 +8380,31 @@
               38.19841847687182
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT Bender 60 Chard",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.32562887800636,
           38.20158171857783
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "LT Bender 60 Chard",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8447,31 +8444,31 @@
               38.20359791027605
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Redtale Prim",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.30047200815247,
           38.20772629963037
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Redtale Prim",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8529,31 +8526,31 @@
               38.20740445236698
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Oakview Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.22866413386366,
           38.212961263446395
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Oakview Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8589,31 +8586,31 @@
               38.21462556539378
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.46361188274994,
           38.2122955517916
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8677,31 +8674,31 @@
               38.21373493426874
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.46125523430659,
           38.21343860190926
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8767,31 +8764,31 @@
               38.21168137844775
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.46359336721568,
           38.21499650372773
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8819,31 +8816,31 @@
               38.21598768859858
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 10",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.29718124381095,
           38.20487031529767
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Winery Locations 10",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8867,31 +8864,31 @@
               38.20619265200003
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Redtale Prim",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.3029331004579,
           38.20579032664438
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Redtale Prim",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -8965,31 +8962,31 @@
               38.20508643819056
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Redtale Prim",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.30068202795752,
           38.205569657585635
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Redtale Prim",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9025,31 +9022,31 @@
               38.20376912026167
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jahant Vineyard Fields",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23800487476623,
           38.20749723700577
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jahant Vineyard Fields",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9113,31 +9110,31 @@
               38.20385375699923
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.46237342354765,
           38.21739276944506
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9161,31 +9158,31 @@
               38.2186486053251
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Creekside",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.33086262396937,
           38.22687340834735
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Creekside",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9273,31 +9270,31 @@
               38.22798781399898
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.46233604085761,
           38.22014885208521
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9321,31 +9318,31 @@
               38.22153317636593
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.46230645407384,
           38.2233627869301
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Walnut Grove",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9393,31 +9390,31 @@
               38.22477155646182
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Coyote Creek Ranch",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.14819184514941,
           38.22925453849511
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Coyote Creek Ranch",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9461,31 +9458,31 @@
               38.23089524299721
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Liberty",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.12380933717006,
           38.23868896344185
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Liberty",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9521,31 +9518,31 @@
               38.23507694186164
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Twin Creeks",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.14002764757406,
           38.24029953007147
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Twin Creeks",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9569,31 +9566,31 @@
               38.23486522345416
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19227902528543,
           38.24564569805314
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9613,31 +9610,31 @@
               38.24564558676471
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19227882222832,
           38.24564606921275
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9657,31 +9654,31 @@
               38.24564592087337
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF1",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21432229003625,
           38.19494023482133
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch LF1",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9725,31 +9722,31 @@
               38.19300262650165
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 5",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.14484561969968,
           38.195680722123186
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 5",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9781,31 +9778,31 @@
               38.196557469327956
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 5",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.14956516548386,
           38.194482311375
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 5",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9829,31 +9826,31 @@
               38.190909041193834
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 5",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.14524130104842,
           38.197347100879846
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 5",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -9907,31 +9904,31 @@
               38.19670216038611
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Mike Bender Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.32290530366461,
           38.19740294918208
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Mike Bender Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -10003,31 +10000,31 @@
               38.19833383760299
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Mike Bender Rd",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.32529732799878,
           38.1988772702847
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Philips Mike Bender Rd",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -10119,31 +10116,31 @@
               38.19870874007626
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jahant Vineyard Fields",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23779166817897,
           38.19966884354384
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jahant Vineyard Fields",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -10167,31 +10164,31 @@
               38.19647478109333
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jahant Vineyard Fields",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23966970328841,
           38.199838213740335
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Jahant Vineyard Fields",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -10267,31 +10264,31 @@
               38.19644635895388
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 2",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1574563921813,
           38.258047095137144
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 2",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -10547,31 +10544,31 @@
               38.25875068894669
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 2",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15068051567117,
           38.25830846134156
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 2",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -10705,31 +10702,31 @@
               38.257958485963854
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 08",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.18036328493432,
           38.26364261847245
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 08",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -10753,31 +10750,31 @@
               38.263642654041064
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 2",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15783704985063,
           38.26052512756134
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 2",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -10885,31 +10882,31 @@
               38.26151355723073
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 2",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15638430623767,
           38.262912935446444
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Ranch 2",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11031,31 +11028,31 @@
               38.26269020379635
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "GVI 901M/DWR GILBEAU",
+        "Name": "DWR GILBEAU/GVI 901M",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1880306434424,
           38.25253850496302
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "GVI 901M/DWR GILBEAU",
+        "Name": "DWR GILBEAU/GVI 901M",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11119,31 +11116,31 @@
               38.25077352950947
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.22626352753646,
           38.285005666207454
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11163,31 +11160,31 @@
               38.28500574735682
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21766806371373,
           38.28506812825189
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11211,31 +11208,31 @@
               38.28506823202599
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 08",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.17930132144373,
           38.27068219784121
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 08",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11285,31 +11282,31 @@
               38.270759132477565
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 08",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.17591805097406,
           38.275375135105094
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 08",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11385,31 +11382,31 @@
               38.272718345729515
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 455",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10754401475626,
           38.29409503798305
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 455",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11475,31 +11472,31 @@
               38.29422775612109
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 455",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10225118673195,
           38.29457267590253
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 455",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11523,31 +11520,31 @@
               38.29480453629189
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Mustang Airport",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.30684200550643,
           38.334643635347064
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Mustang Airport",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11571,31 +11568,31 @@
               38.33298018335921
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 458",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10660855605653,
           38.30317421432864
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 458",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11639,31 +11636,31 @@
               38.30303537390432
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Okamoto 132357/Okamoto 141201",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24713342657847,
           38.304845369591845
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Okamoto 132357/Okamoto 141201",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11723,31 +11720,31 @@
               38.30627320520485
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 451/GVI 451",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10192830438127,
           38.30600821379634
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 451/GVI 451",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11775,31 +11772,31 @@
               38.30782711611505
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 454",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.09589600317062,
           38.29546053078218
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 454",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -11897,31 +11894,31 @@
               38.29391427360157
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 456",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10669298770162,
           38.297408538299074
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 456",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12007,31 +12004,31 @@
               38.29775550055425
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 456",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1026754858026,
           38.29795785773744
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 456",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12083,31 +12080,31 @@
               38.3004976128985
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 453",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.09989307516625,
           38.29879204622537
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 453",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12191,31 +12188,31 @@
               38.2970293504958
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 454",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.0997314824929,
           38.295534114131016
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 454",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12323,31 +12320,31 @@
               38.29666756777038
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 453",
         "Description": "10200, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.09622969591508,
           38.29865463825566
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 453",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12415,31 +12412,31 @@
               38.29706864696673
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Borden Creek",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.08943436620572,
           38.30033823632965
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Borden Creek",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12539,31 +12536,31 @@
               38.30640705551171
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 464",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.10972087737558,
           38.28822741945611
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 464",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12591,31 +12588,31 @@
               38.28992834660109
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Sierra Loma/Grapex",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1202029515242,
           38.285613945987144
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Sierra Loma/Grapex",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12639,31 +12636,31 @@
               38.293113466523096
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21275873012195,
           38.286896476445776
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12753,31 +12750,31 @@
               38.286753541271594
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21764817861663,
           38.28834649854478
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12801,31 +12798,31 @@
               38.28834660091866
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21770116140243,
           38.28843858075733
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12849,31 +12846,31 @@
               38.28843829541864
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2231892669175,
           38.2884394656336
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12893,31 +12890,31 @@
               38.2884394465508
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.22199598136507,
           38.288448602980715
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12937,31 +12934,31 @@
               38.28844846738093
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2158562402998,
           38.28927847374143
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -12989,31 +12986,31 @@
               38.288711589958666
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21014577577752,
           38.28936274459482
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13041,31 +13038,31 @@
               38.2889039907962
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2126601781445,
           38.291050027431865
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13131,31 +13128,31 @@
               38.2904653814677
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21019470062971,
           38.28869097360361
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Lodi-Ranch 16",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13175,31 +13172,31 @@
               38.28869092441721
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 464",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1052208467273,
           38.291457297451714
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 464",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13329,31 +13326,31 @@
               38.29066037085086
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 464",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1098490080262,
           38.29151266797771
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI BH 464",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13389,31 +13386,31 @@
               38.29308794176343
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19389239273859,
           38.24606988292137
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13489,31 +13486,31 @@
               38.24910875313186
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.18816971136154,
           38.24718553440708
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13537,31 +13534,31 @@
               38.24899240993167
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI 962",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.38096062854952,
           38.25125717186128
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI 962",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13605,31 +13602,31 @@
               38.248796744180765
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.19217143906923,
           38.249794488990446
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR GILBEAU",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13745,31 +13742,31 @@
               38.25061266336318
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI 962",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.38526443842385,
           38.25159667091183
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI 962",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13809,31 +13806,31 @@
               38.25350521159527
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "GVI 901W/DWR GILBEAU",
+        "Name": "DWR GILBEAU/GVI 901W",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.1930057765779,
           38.25227817380455
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "GVI 901W/DWR GILBEAU",
+        "Name": "DWR GILBEAU/GVI 901W",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13873,31 +13870,31 @@
               38.250985016342376
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "DWR GILBEAU/GVI 901E",
+        "Name": "GVI 901E/DWR GILBEAU",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.18297957720686,
           38.251434426242234
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Name": "DWR GILBEAU/GVI 901E",
+        "Name": "GVI 901E/DWR GILBEAU",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -13977,31 +13974,31 @@
               38.25065827069358
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Vino",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15884301010021,
           38.179127195458676
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Vino",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14081,31 +14078,31 @@
               38.180138698153996
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "East Acampo",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21686269902415,
           38.17788995477594
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "East Acampo",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14149,31 +14146,31 @@
               38.17817893245058
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.22743418760695,
           38.17648485268876
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14253,31 +14250,31 @@
               38.17821629253314
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24413858815142,
           38.176577128248255
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14301,31 +14298,31 @@
               38.17698181402244
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24731683532065,
           38.17661802618279
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14349,31 +14346,31 @@
               38.17702062716008
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24101927146772,
           38.176769252015646
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14461,31 +14458,31 @@
               38.17899675050215
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24515191279984,
           38.17658841910318
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14509,31 +14506,31 @@
               38.17699970267671
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24616866804605,
           38.176604442336014
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14557,31 +14554,31 @@
               38.1770060037497
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.2321449101233,
           38.17828498719777
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14741,31 +14738,31 @@
               38.18176323365469
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23672690988573,
           38.17861283476496
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14793,31 +14790,31 @@
               38.17900918990136
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "West Acampo",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.29661127478354,
           38.17924580370433
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "West Acampo",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14865,31 +14862,31 @@
               38.17832587134178
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "West Acampo",
         "Description": "10000, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.30561076963329,
           38.179318245725106
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "West Acampo",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14937,31 +14934,31 @@
               38.18033983616002
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "East Acampo",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.20964919883357,
           38.180433021811076
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "East Acampo",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -14993,31 +14990,31 @@
               38.17985688829003
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI Liberty 530/DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.24035524177083,
           38.18061434932257
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI Liberty 530/DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -15045,31 +15042,31 @@
               38.18139146432155
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI Liberty 530/DWR LIBERTY LOOM",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.23684520210644,
           38.18065802192817
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "GVI Liberty 530/DWR LIBERTY LOOM",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -15175,31 +15172,31 @@
               38.18181453011982
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "East Acampo",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.21336882428226,
           38.18102177560095
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "East Acampo",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -15239,31 +15236,31 @@
               38.18214462338652
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Donnie Clements",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.11452334742988,
           38.18688240970057
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Donnie Clements",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -15415,31 +15412,31 @@
               38.18248293688602
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Vino",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15365102085667,
           38.183106264588794
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Vino",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -15535,31 +15532,31 @@
               38.17914667866131
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Vino",
         "Description": "10100, 0"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -121.15841639621323,
           38.18444073767675
-        ],
-        "type": "Point"
-      },
-      "type": "Feature"
+        ]
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Name": "Kidco-Vino",
         "Description": ""
       },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -15627,11 +15624,14 @@
               38.1814325684378
             ]
           ]
-        ],
-        "type": "Polygon"
-      },
-      "type": "Feature"
+        ]
+      }
     }
   ],
-  "type": "FeatureCollection"
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  }
 }
