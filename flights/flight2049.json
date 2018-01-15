@@ -3,7 +3,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4300, 700",
+        "Description": "2800, 700",
         "Name": "Carina"
       },
       "geometry": {
@@ -311,7 +311,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "2700, 700",
         "Name": "Lake Powell/Narcooyia-Nenandie"
       },
       "geometry": {
