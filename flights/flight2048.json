@@ -3,7 +3,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "2700, 700",
         "Name": "51 Neimann/49 Neimann/21 Milky"
       },
       "geometry": {
@@ -187,7 +187,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "2700, 700",
         "Name": "Wandown/Yungera"
       },
       "geometry": {
