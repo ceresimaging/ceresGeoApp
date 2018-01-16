@@ -3,7 +3,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3800, 500",
+        "Description": "6000, 700",
         "Name": "Wakool"
       },
       "geometry": {
@@ -131,7 +131,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3800, 500",
+        "Description": "6000, 700",
         "Name": "Mayrung"
       },
       "geometry": {
