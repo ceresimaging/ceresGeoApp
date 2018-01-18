@@ -7,7 +7,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "2400, 250",
+        "Description": "2900 250",
         "Name": "Sherwood Estates"
       },
       "geometry": {
@@ -206,7 +206,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "2400, 250",
+        "Description": "2900 250",
         "Name": "Sherwood Estates"
       },
       "geometry": {
@@ -333,7 +333,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "2400, 250",
+        "Description": "2900 250",
         "Name": "Sherwood Estates"
       },
       "geometry": {
@@ -433,7 +433,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3700, 500",
+        "Description": "4200, 550",
         "Name": "Mootooroo"
       },
       "geometry": {
@@ -612,7 +612,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "2400, 250",
+        "Description": "2900 250",
         "Name": "LM and FE Rosenzweig/BK Rosenweig"
       },
       "geometry": {
