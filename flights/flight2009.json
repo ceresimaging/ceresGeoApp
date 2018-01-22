@@ -3,7 +3,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4100, 700",
+        "Description": "2600, 700",
         "Name": "Allinga"
       },
       "geometry": {
@@ -171,7 +171,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "2700, 700",
         "Name": "Mullroo"
       },
       "geometry": {
@@ -327,7 +327,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "2700, 700",
         "Name": "Jubilee"
       },
       "geometry": {
@@ -587,7 +587,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4300, 700",
+        "Description": "2800, 700",
         "Name": "Amaroo"
       },
       "geometry": {
@@ -771,7 +771,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4300, 700",
+        "Description": "2800, 700",
         "Name": "Amaroo"
       },
       "geometry": {
