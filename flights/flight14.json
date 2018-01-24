@@ -1,0 +1,107 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.30322166362146,
+                    37.78502607346538
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "1000, 0",
+                "Name": "alameda0"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.3084787741441,
+                            37.78168702333706
+                        ],
+                        [
+                            -122.2985980741293,
+                            37.78106611517122
+                        ],
+                        [
+                            -122.2979094302164,
+                            37.78839447154782
+                        ],
+                        [
+                            -122.3079497685272,
+                            37.78892252175373
+                        ],
+                        [
+                            -122.3084787741441,
+                            37.78168702333706
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "alameda0"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.2708024208533,
+                    37.803731229785534
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "1000, 0",
+                "Name": "alameda1"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.2711322451065,
+                            37.80416962806778
+                        ],
+                        [
+                            -122.2713817486801,
+                            37.80367814803164
+                        ],
+                        [
+                            -122.2704736563434,
+                            37.80329019668902
+                        ],
+                        [
+                            -122.2702252177704,
+                            37.8037891737265
+                        ],
+                        [
+                            -122.2711322451065,
+                            37.80416962806778
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "alameda1"
+            },
+            "type": "Feature"
+        }
+    ]
+}
