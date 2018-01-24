@@ -113,7 +113,7 @@
             },
             "properties": {
                 "Description": "0, 0",
-                "Name": "airport"
+                "Name": "airport1"
             },
             "type": "Feature"
         },
@@ -147,7 +147,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "airport"
+                "Name": "airport1"
             },
             "type": "Feature"
         }
