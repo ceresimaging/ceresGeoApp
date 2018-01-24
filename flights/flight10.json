@@ -256,8 +256,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "1000, 0",
-                "Name": "alameda5"
+                "Description": "0, 0",
+                "Name": "airport"
             },
             "type": "Feature"
         },
@@ -291,7 +291,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "alameda5"
+                "Name": "airport"
             },
             "type": "Feature"
         }
