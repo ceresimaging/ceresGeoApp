@@ -10,14 +10,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    -122.3079297668164,
-                    37.78321309632555
+                    -122.3046170760457,
+                    37.78716421476621
                 ],
                 "type": "Point"
             },
             "properties": {
                 "Description": "1000, 0",
-                "Name": "alameda0/alameda1/alameda3/alameda1/alameda2/alameda3"
+                "Name": "alameda0/alameda1/alameda2/alameda0/alameda1"
             },
             "type": "Feature"
         },
@@ -27,45 +27,45 @@
                 "coordinates": [
                     [
                         [
-                            -122.31193181864488,
-                            37.7761779921232
+                            -122.30972558324422,
+                            37.7835895412336
                         ],
                         [
-                            -122.31193181864488,
-                            37.79024696007064
+                            -122.30972558324422,
+                            37.79073759095321
                         ],
                         [
-                            -122.30392771498788,
-                            37.790248200527856
+                            -122.2995085688472,
+                            37.79073888829881
                         ],
                         [
-                            -122.30392771498788,
-                            37.776179232580475
+                            -122.2995085688472,
+                            37.783590838579215
                         ],
                         [
-                            -122.31193181864488,
-                            37.7761779921232
+                            -122.30972558324422,
+                            37.7835895412336
                         ]
                     ]
                 ]
             },
             "properties": {
                 "Description": "",
-                "Name": "alameda0/alameda1/alameda3/alameda1/alameda2/alameda3"
+                "Name": "alameda0/alameda1/alameda2/alameda0/alameda1"
             },
             "type": "Feature"
         },
         {
             "geometry": {
                 "coordinates": [
-                    -122.30343559635796,
-                    37.788932951669246
+                    -122.30611288749235,
+                    37.78338896001655
                 ],
                 "type": "Point"
             },
             "properties": {
                 "Description": "1000, 0",
-                "Name": "alameda0/alameda1/alameda3/alameda1/alameda2/alameda3/alameda0/alameda1/alameda2/alameda31"
+                "Name": "alameda0/alameda1/alameda2/alameda0/alameda1"
             },
             "type": "Feature"
         },
@@ -75,79 +75,31 @@
                 "coordinates": [
                     [
                         [
-                            -122.30736300277299,
-                            37.78712793346065
+                            -122.30761368377458,
+                            37.78300143544668
                         ],
                         [
-                            -122.30736300277299,
-                            37.790737969320865
+                            -122.30761368377458,
+                            37.78377648441945
                         ],
                         [
-                            -122.29950818994291,
-                            37.79073796987784
+                            -122.30461209121009,
+                            37.78377648458641
                         ],
                         [
-                            -122.29950818994291,
-                            37.787127934017626
+                            -122.30461209121009,
+                            37.78300143561364
                         ],
                         [
-                            -122.30736300277299,
-                            37.78712793346065
+                            -122.30761368377458,
+                            37.78300143544668
                         ]
                     ]
                 ]
             },
             "properties": {
                 "Description": "",
-                "Name": "alameda0/alameda1/alameda3/alameda1/alameda2/alameda3/alameda0/alameda1/alameda2/alameda31"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -122.29992733767166,
-                    37.78321310347011
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "Description": "1000, 0",
-                "Name": "alameda1/alameda2/alameda3/alameda0/alameda1/alameda2/alameda31"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -122.30392708906486,
-                            37.7761792324531
-                        ],
-                        [
-                            -122.29592758627844,
-                            37.77617896880892
-                        ],
-                        [
-                            -122.29592758627844,
-                            37.79024697448711
-                        ],
-                        [
-                            -122.30392708906486,
-                            37.7902472381313
-                        ],
-                        [
-                            -122.30392708906486,
-                            37.7761792324531
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "Description": "",
-                "Name": "alameda1/alameda2/alameda3/alameda0/alameda1/alameda2/alameda31"
+                "Name": "alameda0/alameda1/alameda2/alameda0/alameda1"
             },
             "type": "Feature"
         },
