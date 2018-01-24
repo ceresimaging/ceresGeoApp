@@ -1,0 +1,203 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.3079297668164,
+                    37.78321309632555
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "1000, 0",
+                "Name": "alameda0/alameda1/alameda3/alameda1/alameda2/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.31193181864488,
+                            37.7761779921232
+                        ],
+                        [
+                            -122.31193181864488,
+                            37.79024696007064
+                        ],
+                        [
+                            -122.30392771498788,
+                            37.790248200527856
+                        ],
+                        [
+                            -122.30392771498788,
+                            37.776179232580475
+                        ],
+                        [
+                            -122.31193181864488,
+                            37.7761779921232
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "alameda0/alameda1/alameda3/alameda1/alameda2/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.30343559635796,
+                    37.788932951669246
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "1000, 0",
+                "Name": "alameda0/alameda1/alameda3/alameda1/alameda2/alameda3/alameda0/alameda1/alameda2/alameda31"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.30736300277299,
+                            37.78712793346065
+                        ],
+                        [
+                            -122.30736300277299,
+                            37.790737969320865
+                        ],
+                        [
+                            -122.29950818994291,
+                            37.79073796987784
+                        ],
+                        [
+                            -122.29950818994291,
+                            37.787127934017626
+                        ],
+                        [
+                            -122.30736300277299,
+                            37.78712793346065
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "alameda0/alameda1/alameda3/alameda1/alameda2/alameda3/alameda0/alameda1/alameda2/alameda31"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.29992733767166,
+                    37.78321310347011
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "1000, 0",
+                "Name": "alameda1/alameda2/alameda3/alameda0/alameda1/alameda2/alameda31"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.30392708906486,
+                            37.7761792324531
+                        ],
+                        [
+                            -122.29592758627844,
+                            37.77617896880892
+                        ],
+                        [
+                            -122.29592758627844,
+                            37.79024697448711
+                        ],
+                        [
+                            -122.30392708906486,
+                            37.7902472381313
+                        ],
+                        [
+                            -122.30392708906486,
+                            37.7761792324531
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "alameda1/alameda2/alameda3/alameda0/alameda1/alameda2/alameda31"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.2708024208533,
+                    37.803731229785534
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "0, 0",
+                "Name": "airport"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.2711322451065,
+                            37.80416962806778
+                        ],
+                        [
+                            -122.2713817486801,
+                            37.80367814803164
+                        ],
+                        [
+                            -122.2704736563434,
+                            37.80329019668902
+                        ],
+                        [
+                            -122.2702252177704,
+                            37.8037891737265
+                        ],
+                        [
+                            -122.2711322451065,
+                            37.80416962806778
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "airport"
+            },
+            "type": "Feature"
+        }
+    ]
+}

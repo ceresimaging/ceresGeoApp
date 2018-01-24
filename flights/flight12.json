@@ -1,0 +1,251 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.30610630570513,
+                    37.78338858639843
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "1000, 0",
+                "Name": "alameda0/alameda1/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.3075526193963,
+                            37.78377648518165
+                        ],
+                        [
+                            -122.3076136791585,
+                            37.78316225069985
+                        ],
+                        [
+                            -122.3046448014644,
+                            37.78300143602213
+                        ],
+                        [
+                            -122.3046120866119,
+                            37.78361602961095
+                        ],
+                        [
+                            -122.3075526193963,
+                            37.78377648518165
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "alameda0/alameda1/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.30839888522812,
+                    37.78626731936371
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "1000, 0",
+                "Name": "alameda0/alameda1/alameda2/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.3070463630902,
+                            37.78880758646923
+                        ],
+                        [
+                            -122.3093049456373,
+                            37.78892199523268
+                        ],
+                        [
+                            -122.3097228208113,
+                            37.78370184682602
+                        ],
+                        [
+                            -122.3075256095044,
+                            37.78358997111025
+                        ],
+                        [
+                            -122.3070463630902,
+                            37.78880758646923
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "alameda0/alameda1/alameda2/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.30342720648584,
+                    37.78893973601656
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "1000, 0",
+                "Name": "alameda1/alameda2/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.3070922128873,
+                            37.79073797801992
+                        ],
+                        [
+                            -122.3073629334608,
+                            37.78763835509553
+                        ],
+                        [
+                            -122.2997693972671,
+                            37.78712794237966
+                        ],
+                        [
+                            -122.2995081200332,
+                            37.79025787032659
+                        ],
+                        [
+                            -122.3070922128873,
+                            37.79073797801992
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "alameda1/alameda2/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.3038270838062,
+                    37.783214282277974
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "1000, 0",
+                "Name": "alameda0/alameda1/alameda2/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.3119258941315,
+                            37.77684639748458
+                        ],
+                        [
+                            -122.297017695593,
+                            37.77617903654485
+                        ],
+                        [
+                            -122.2959268927721,
+                            37.78970188385735
+                        ],
+                        [
+                            -122.3104657484922,
+                            37.79024705196098
+                        ],
+                        [
+                            -122.3119258941315,
+                            37.77684639748458
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "alameda0/alameda1/alameda2/alameda3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.2708024208533,
+                    37.803731229785534
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "0, 0",
+                "Name": "airport"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.2711322451065,
+                            37.80416962806778
+                        ],
+                        [
+                            -122.2713817486801,
+                            37.80367814803164
+                        ],
+                        [
+                            -122.2704736563434,
+                            37.80329019668902
+                        ],
+                        [
+                            -122.2702252177704,
+                            37.8037891737265
+                        ],
+                        [
+                            -122.2711322451065,
+                            37.80416962806778
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "Description": "",
+                "Name": "airport"
+            },
+            "type": "Feature"
+        }
+    ]
+}
