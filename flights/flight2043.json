@@ -3,7 +3,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "2700, 700",
         "Name": "Buchanan"
       },
       "geometry": {
@@ -139,7 +139,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "2700, 700",
         "Name": "Bannerton"
       },
       "geometry": {
@@ -499,7 +499,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "4200, 700",
+        "Description": "2700, 700",
         "Name": "Wakool Block 1-6/Rivernook stages 2-3/Rivernook stages 1&4/4 Winds"
       },
       "geometry": {
