@@ -15,7 +15,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "4200, 700",
+                "Description": "2700, 700",
                 "Name": "Woorinen"
             },
             "type": "Feature"
@@ -155,7 +155,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "4200, 700",
+                "Description": "2700, 700",
                 "Name": "Woorinen"
             },
             "type": "Feature"
@@ -399,7 +399,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "4300, 700",
+                "Description": "2800, 700",
                 "Name": "Wood Wood"
             },
             "type": "Feature"
@@ -603,7 +603,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "4200, 700",
+                "Description": "2700, 700",
                 "Name": "Boundary Bend"
             },
             "type": "Feature"
@@ -1119,7 +1119,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "4200, 700",
+                "Description": "2700, 700",
                 "Name": "Boundary Bend"
             },
             "type": "Feature"
