@@ -10,7 +10,7 @@
         ]
       },
       "properties": {
-        "Description": "4400, 700",
+        "Description": "2900, 700",
         "Name": "Clark Road"
       },
       "type": "Feature"
@@ -190,7 +190,7 @@
         ]
       },
       "properties": {
-        "Description": "4400, 700",
+        "Description": "2900, 700",
         "Name": "Monartos"
       },
       "type": "Feature"
@@ -401,7 +401,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "3200, 250",
+        "Description": "1700, 250",
         "Name": "Hanwood Estate"
       },
       "type": "Feature"
@@ -593,7 +593,7 @@
         ]
       },
       "properties": {
-        "Description": "4400, 700",
+        "Description": "2900, 700",
         "Name": "Mooral Orchard"
       },
       "type": "Feature"
