@@ -10,7 +10,7 @@
         ]
       },
       "properties": {
-        "Description": "2200, 250",
+        "Description": "2700, 300",
         "Name": "Monartos"
       },
       "type": "Feature"
@@ -194,7 +194,7 @@
         ]
       },
       "properties": {
-        "Description": "2200, 250",
+        "Description": "2700, 300",
         "Name": "Clark Road"
       },
       "type": "Feature"
