@@ -1,17 +1,21 @@
 {
+  "type": "FeatureCollection",
   "features": [
     {
       "properties": {
-        "Description": "3300, 840",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "Belridge Control"
       },
       "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.68105788828079,
           35.49476712551494
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -334,16 +338,19 @@
     },
     {
       "properties": {
-        "Description": "3400, 840",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "East Side"
       },
       "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.16037537544425,
           35.5333171413721
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -486,16 +493,19 @@
     },
     {
       "properties": {
-        "Description": "3400, 840",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "Belridge/Belridge Control"
       },
       "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.7226291665495,
           35.505306646055196
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -842,16 +852,19 @@
     },
     {
       "properties": {
-        "Description": "7500, 2100",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4000, 700",
         "Name": "Wasco South"
       },
       "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.51746276557425,
           35.504602984901126
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -1014,16 +1027,19 @@
     },
     {
       "properties": {
-        "Description": "3400, 840",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "UC Davis Eastern Test Plot (Water)"
       },
       "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.1653676519069,
           35.51045933104
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -1166,16 +1182,19 @@
     },
     {
       "properties": {
-        "Description": "3600, 840",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "West Valley/West Valley-Control"
       },
       "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.9181927103317,
           35.65544252401907
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -1478,16 +1497,19 @@
     },
     {
       "properties": {
-        "Description": "7500, 2100",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4000, 700",
         "Name": "Wasco North/Wasco South"
       },
       "type": "Feature",
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -119.49580714136349,
           35.56898118624468
-        ],
-        "type": "Point"
+        ]
       }
     },
     {
@@ -1960,12 +1982,5 @@
         ]
       }
     }
-  ],
-  "type": "FeatureCollection",
-  "crs": {
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    },
-    "type": "name"
-  }
+  ]
 }
