@@ -10,7 +10,10 @@
         ]
       },
       "properties": {
-        "Description": "4200, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4000, 700",
         "Name": "KG Ranch"
       },
       "type": "Feature"
@@ -293,7 +296,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "1600, 250",
+        "Description": "1600, 280",
         "Name": "New Columbia"
       },
       "type": "Feature"
@@ -529,7 +532,10 @@
         ]
       },
       "properties": {
-        "Description": "4300, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4000, 700",
         "Name": "Le Grand"
       },
       "type": "Feature"
@@ -701,7 +707,10 @@
         ]
       },
       "properties": {
-        "Description": "4300, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4000, 700",
         "Name": "Turlock Lake"
       },
       "type": "Feature"
@@ -1033,7 +1042,10 @@
         ]
       },
       "properties": {
-        "Description": "4200, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4000, 700",
         "Name": "Ckjmorg"
       },
       "type": "Feature"
@@ -1177,7 +1189,10 @@
         ]
       },
       "properties": {
-        "Description": "4200, 700",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "4000, 700",
         "Name": "Ckjmorg"
       },
       "type": "Feature"

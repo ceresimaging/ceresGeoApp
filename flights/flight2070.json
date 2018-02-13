@@ -6,7 +6,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "1600, 250",
+        "Description": "1600, 280",
         "Name": "Belridge Control"
       },
       "type": "Feature",
@@ -341,7 +341,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "1600, 250",
+        "Description": "1600, 280",
         "Name": "East Side"
       },
       "type": "Feature",
@@ -496,7 +496,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "1600, 250",
+        "Description": "1600, 280",
         "Name": "Belridge/Belridge Control"
       },
       "type": "Feature",
@@ -1030,7 +1030,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "1600, 250",
+        "Description": "1600, 280",
         "Name": "UC Davis Eastern Test Plot (Water)"
       },
       "type": "Feature",
@@ -1185,7 +1185,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "1600, 250",
+        "Description": "1600, 280",
         "Name": "West Valley/West Valley-Control"
       },
       "type": "Feature",
