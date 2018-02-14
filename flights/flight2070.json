@@ -134,7 +134,7 @@
                         ],
                         [
                             -119.6612777314672,
-                            35.5013891003114a85
+                            35.5013891003114
                         ],
                         [
                             -119.66088897154802,
@@ -851,7 +851,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "3200, 840",
+                "Description": "7500, 2100",
                 "Name": "Wasco South"
             },
             "type": "Feature"
@@ -1171,7 +1171,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "3200, 840",
+                "Description": "7500, 2500",
                 "Name": "Wasco North"
             },
             "type": "Feature"
