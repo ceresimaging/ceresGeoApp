@@ -2,13 +2,6 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Description": "1600, 280",
-        "Name": "Belridge Control"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -16,13 +9,13 @@
           -119.68105788828079,
           35.49476712551494
         ]
+      },
+      "properties": {
+        "Description": "3300, 840",
+        "Name": "Belridge Control"
       }
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Belridge Control"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -334,16 +327,13 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "Description": "",
+        "Name": "Belridge Control"
       }
     },
     {
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Description": "1600, 280",
-        "Name": "East Side"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -351,13 +341,13 @@
           -119.16037537544425,
           35.5333171413721
         ]
+      },
+      "properties": {
+        "Description": "3400, 840",
+        "Name": "East Side"
       }
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "East Side"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -489,16 +479,13 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "Description": "",
+        "Name": "East Side"
       }
     },
     {
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Description": "1600, 280",
-        "Name": "Belridge/Belridge Control"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -506,13 +493,13 @@
           -119.7226291665495,
           35.505306646055196
         ]
+      },
+      "properties": {
+        "Description": "3400, 840",
+        "Name": "Belridge/Belridge Control"
       }
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Belridge/Belridge Control"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -848,16 +835,13 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "Description": "",
+        "Name": "Belridge/Belridge Control"
       }
     },
     {
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Description": "4000, 700",
-        "Name": "Wasco South"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -865,13 +849,16 @@
           -119.51746276557425,
           35.504602984901126
         ]
+      },
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "7500, 2100",
+        "Name": "Wasco South"
       }
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Wasco South"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -1023,16 +1010,13 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "Description": "",
+        "Name": "Wasco South"
       }
     },
     {
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Description": "1600, 280",
-        "Name": "UC Davis Eastern Test Plot (Water)"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -1040,13 +1024,13 @@
           -119.1653676519069,
           35.51045933104
         ]
+      },
+      "properties": {
+        "Description": "3400, 840",
+        "Name": "UC Davis Eastern Test Plot (Water)"
       }
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "UC Davis Eastern Test Plot (Water)"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -1178,16 +1162,13 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "Description": "",
+        "Name": "UC Davis Eastern Test Plot (Water)"
       }
     },
     {
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Description": "1600, 280",
-        "Name": "West Valley/West Valley-Control"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -1195,13 +1176,13 @@
           -119.9181927103317,
           35.65544252401907
         ]
+      },
+      "properties": {
+        "Description": "3600, 840",
+        "Name": "West Valley/West Valley-Control"
       }
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "West Valley/West Valley-Control"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -1493,16 +1474,13 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "Description": "",
+        "Name": "West Valley/West Valley-Control"
       }
     },
     {
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "Description": "4000, 700",
-        "Name": "Wasco North/Wasco South"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -1510,13 +1488,16 @@
           -119.49580714136349,
           35.56898118624468
         ]
+      },
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "7500, 2100",
+        "Name": "Wasco North/Wasco South"
       }
     },
     {
-      "properties": {
-        "Description": "",
-        "Name": "Wasco North/Wasco South"
-      },
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -1980,6 +1961,10 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "Description": "",
+        "Name": "Wasco North/Wasco South"
       }
     }
   ]
