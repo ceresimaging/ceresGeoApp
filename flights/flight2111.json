@@ -15,7 +15,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2500, 1000",
+                "Description": "2500, 1200",
                 "Name": "Machado"
             },
             "type": "Feature"
@@ -311,7 +311,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2500, 1000",
+                "Description": "2500, 1200",
                 "Name": "Sequera Ranch"
             },
             "type": "Feature"
