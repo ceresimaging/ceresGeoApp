@@ -15,7 +15,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2500, 700",
+                "Description": "2500, 1000",
                 "Name": "Machado"
             },
             "type": "Feature"
@@ -183,7 +183,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2600, 700",
+                "Description": "2600, 900",
                 "Name": "Rivercrest Home Ranch"
             },
             "type": "Feature"
@@ -311,7 +311,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2500, 700",
+                "Description": "2500, 1000",
                 "Name": "Sequera Ranch"
             },
             "type": "Feature"
