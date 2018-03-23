@@ -15,7 +15,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 00"
             },
             "type": "Feature"
@@ -63,7 +63,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 10"
             },
             "type": "Feature"
@@ -111,7 +111,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 20"
             },
             "type": "Feature"
@@ -159,7 +159,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 30"
             },
             "type": "Feature"
@@ -207,7 +207,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 40"
             },
             "type": "Feature"
@@ -255,7 +255,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 41"
             },
             "type": "Feature"
@@ -303,7 +303,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 50"
             },
             "type": "Feature"
@@ -351,7 +351,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 60"
             },
             "type": "Feature"
@@ -399,7 +399,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 70"
             },
             "type": "Feature"
@@ -447,7 +447,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 80"
             },
             "type": "Feature"
@@ -495,7 +495,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 90"
             },
             "type": "Feature"
@@ -543,7 +543,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 100"
             },
             "type": "Feature"
@@ -591,7 +591,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 110"
             },
             "type": "Feature"
@@ -639,7 +639,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 111"
             },
             "type": "Feature"
@@ -687,7 +687,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 120"
             },
             "type": "Feature"
@@ -735,7 +735,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 130"
             },
             "type": "Feature"
@@ -783,7 +783,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 131"
             },
             "type": "Feature"
@@ -831,7 +831,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 140"
             },
             "type": "Feature"
@@ -879,7 +879,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 150"
             },
             "type": "Feature"
@@ -927,7 +927,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 160"
             },
             "type": "Feature"
@@ -975,7 +975,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 170"
             },
             "type": "Feature"
@@ -1023,7 +1023,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10194, 100",
+                "Description": "10194, 0",
                 "Name": "Home West 180"
             },
             "type": "Feature"
@@ -1071,7 +1071,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 190"
             },
             "type": "Feature"
@@ -1119,7 +1119,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 191"
             },
             "type": "Feature"
@@ -1167,7 +1167,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 200"
             },
             "type": "Feature"
@@ -1215,7 +1215,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 210"
             },
             "type": "Feature"
@@ -1263,7 +1263,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 220"
             },
             "type": "Feature"
@@ -1311,7 +1311,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10201, 100",
+                "Description": "10201, 0",
                 "Name": "Miller 40 230"
             },
             "type": "Feature"
@@ -1359,7 +1359,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 240"
             },
             "type": "Feature"
@@ -1407,7 +1407,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 250"
             },
             "type": "Feature"
@@ -1455,7 +1455,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 260"
             },
             "type": "Feature"
@@ -1503,7 +1503,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 270"
             },
             "type": "Feature"
@@ -1551,7 +1551,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 280"
             },
             "type": "Feature"
@@ -1599,7 +1599,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 290"
             },
             "type": "Feature"
@@ -1647,7 +1647,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "45/Kent Test Flight/Kent Test Flight 300"
             },
             "type": "Feature"
@@ -1695,7 +1695,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "45/Kent Test Flight/Kent Test Flight 301"
             },
             "type": "Feature"
@@ -1743,7 +1743,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 310"
             },
             "type": "Feature"
@@ -1791,7 +1791,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 311"
             },
             "type": "Feature"
@@ -1839,7 +1839,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 320"
             },
             "type": "Feature"
@@ -1887,7 +1887,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 330"
             },
             "type": "Feature"
@@ -1935,7 +1935,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 340"
             },
             "type": "Feature"
@@ -1983,7 +1983,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 350"
             },
             "type": "Feature"
@@ -2031,7 +2031,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 360"
             },
             "type": "Feature"
@@ -2079,7 +2079,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 370"
             },
             "type": "Feature"
@@ -2127,7 +2127,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 380"
             },
             "type": "Feature"
@@ -2175,7 +2175,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 381"
             },
             "type": "Feature"
@@ -2223,7 +2223,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 390"
             },
             "type": "Feature"
@@ -2271,7 +2271,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 400"
             },
             "type": "Feature"
@@ -2319,7 +2319,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 401"
             },
             "type": "Feature"
@@ -2367,7 +2367,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 410"
             },
             "type": "Feature"
@@ -2415,7 +2415,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10272, 100",
+                "Description": "10272, 0",
                 "Name": "Home 420"
             },
             "type": "Feature"
@@ -2463,7 +2463,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 430"
             },
             "type": "Feature"
@@ -2511,7 +2511,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 440"
             },
             "type": "Feature"
@@ -2559,7 +2559,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 450"
             },
             "type": "Feature"
@@ -2607,7 +2607,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 460"
             },
             "type": "Feature"
@@ -2655,7 +2655,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 470"
             },
             "type": "Feature"
@@ -2703,7 +2703,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 480"
             },
             "type": "Feature"
@@ -2751,7 +2751,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 490"
             },
             "type": "Feature"
@@ -2799,7 +2799,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10240, 100",
+                "Description": "10240, 0",
                 "Name": "south yates/Kent Test Flight 500"
             },
             "type": "Feature"
@@ -2847,7 +2847,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 510"
             },
             "type": "Feature"
@@ -2895,7 +2895,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 520"
             },
             "type": "Feature"
@@ -2943,7 +2943,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 530"
             },
             "type": "Feature"
@@ -2991,7 +2991,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 540"
             },
             "type": "Feature"
@@ -3039,7 +3039,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 550"
             },
             "type": "Feature"
@@ -3087,7 +3087,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 560"
             },
             "type": "Feature"
@@ -3135,7 +3135,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10241, 100",
+                "Description": "10241, 0",
                 "Name": "Home n of creek 570"
             },
             "type": "Feature"
@@ -3183,7 +3183,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 580"
             },
             "type": "Feature"
@@ -3231,7 +3231,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 590"
             },
             "type": "Feature"
@@ -3279,7 +3279,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 600"
             },
             "type": "Feature"
@@ -3327,7 +3327,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10247, 100",
+                "Description": "10247, 0",
                 "Name": "Doenitz 610"
             },
             "type": "Feature"
@@ -3375,7 +3375,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 620"
             },
             "type": "Feature"
@@ -3423,7 +3423,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10229, 100",
+                "Description": "10229, 0",
                 "Name": "South 630"
             },
             "type": "Feature"
@@ -3471,7 +3471,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10229, 100",
+                "Description": "10229, 0",
                 "Name": "South 640"
             },
             "type": "Feature"
@@ -3519,7 +3519,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10230, 100",
+                "Description": "10230, 0",
                 "Name": "Center 650"
             },
             "type": "Feature"
@@ -3567,7 +3567,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10229, 100",
+                "Description": "10229, 0",
                 "Name": "Home Farm West 660"
             },
             "type": "Feature"
@@ -3615,7 +3615,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10221, 100",
+                "Description": "10221, 0",
                 "Name": "Secor West 40/Secor West 20/Secor East 40 670"
             },
             "type": "Feature"
@@ -3663,7 +3663,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10230, 100",
+                "Description": "10230, 0",
                 "Name": "Sharons West 40 680"
             },
             "type": "Feature"
@@ -3711,7 +3711,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10215, 100",
+                "Description": "10215, 0",
                 "Name": "Voelker Middle/Voelker South/Voelker South 690"
             },
             "type": "Feature"
@@ -3759,7 +3759,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10220, 100",
+                "Description": "10220, 0",
                 "Name": "Debolt 80/Debolt 40 700"
             },
             "type": "Feature"
@@ -3807,7 +3807,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10206, 100",
+                "Description": "10206, 0",
                 "Name": "Fort Farm 710"
             },
             "type": "Feature"
@@ -3855,7 +3855,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 720"
             },
             "type": "Feature"
@@ -3903,7 +3903,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 730"
             },
             "type": "Feature"
@@ -3951,7 +3951,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 740"
             },
             "type": "Feature"
@@ -3999,7 +3999,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 750"
             },
             "type": "Feature"
@@ -4047,7 +4047,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 751"
             },
             "type": "Feature"
@@ -4095,7 +4095,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 760"
             },
             "type": "Feature"
@@ -4143,7 +4143,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 770"
             },
             "type": "Feature"
@@ -4191,7 +4191,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 771"
             },
             "type": "Feature"
@@ -4239,7 +4239,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 780"
             },
             "type": "Feature"
@@ -4287,7 +4287,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 781"
             },
             "type": "Feature"
@@ -4335,7 +4335,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 790"
             },
             "type": "Feature"
@@ -4383,7 +4383,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 800"
             },
             "type": "Feature"
@@ -4431,7 +4431,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 810"
             },
             "type": "Feature"
@@ -4479,7 +4479,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 820"
             },
             "type": "Feature"
@@ -4527,7 +4527,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 830"
             },
             "type": "Feature"
@@ -4575,7 +4575,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 840"
             },
             "type": "Feature"
@@ -4623,7 +4623,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 850"
             },
             "type": "Feature"
@@ -4671,7 +4671,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 860"
             },
             "type": "Feature"
@@ -4719,7 +4719,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 870"
             },
             "type": "Feature"
@@ -4767,7 +4767,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10272, 100",
+                "Description": "10272, 0",
                 "Name": "Home 880"
             },
             "type": "Feature"
@@ -4815,7 +4815,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10272, 100",
+                "Description": "10272, 0",
                 "Name": "Home 890"
             },
             "type": "Feature"
@@ -4863,7 +4863,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 900"
             },
             "type": "Feature"
@@ -4911,7 +4911,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 901"
             },
             "type": "Feature"
@@ -4959,7 +4959,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10199, 100",
+                "Description": "10199, 0",
                 "Name": "Singley 910"
             },
             "type": "Feature"
@@ -5007,7 +5007,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 920"
             },
             "type": "Feature"
@@ -5055,7 +5055,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight/Kent Test Flight 921"
             },
             "type": "Feature"
@@ -5103,7 +5103,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 930"
             },
             "type": "Feature"
@@ -5151,7 +5151,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 931"
             },
             "type": "Feature"
@@ -5199,7 +5199,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 940"
             },
             "type": "Feature"
@@ -5247,7 +5247,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 950"
             },
             "type": "Feature"
@@ -5295,7 +5295,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 960"
             },
             "type": "Feature"
@@ -5343,7 +5343,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 970"
             },
             "type": "Feature"
@@ -5391,7 +5391,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10272, 100",
+                "Description": "10272, 0",
                 "Name": "Home/Home/Home 980"
             },
             "type": "Feature"
@@ -5439,7 +5439,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight 990"
             },
             "type": "Feature"
@@ -5487,7 +5487,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 1000"
             },
             "type": "Feature"
@@ -5535,7 +5535,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Kent Test Flight/Kent Test Flight 1010"
             },
             "type": "Feature"
@@ -5583,7 +5583,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Knupp 120 North/West/Kent Test Flight 1020"
             },
             "type": "Feature"
@@ -5631,7 +5631,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Knupp 120 North/West/Kent Test Flight 1021"
             },
             "type": "Feature"
@@ -5679,7 +5679,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Knupp 120 North/West/Kent Test Flight 1022"
             },
             "type": "Feature"
@@ -5727,7 +5727,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Knupp 120 North/West/Kent Test Flight 1023"
             },
             "type": "Feature"
@@ -5775,7 +5775,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Knupp 120 North/West/Kent Test Flight 1024"
             },
             "type": "Feature"
@@ -5823,7 +5823,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "10196, 100",
+                "Description": "10196, 0",
                 "Name": "Knupp 120 North/West/Kent Test Flight 1025"
             },
             "type": "Feature"
