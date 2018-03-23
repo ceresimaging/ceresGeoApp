@@ -5861,6 +5861,50 @@
                 "Name": "Knupp 120 North/West/Kent Test Flight 1025"
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -89.4104,
+                    41.025
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "0, 0",
+                "Name": "KILO Aviation LLC"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -89.4104,
+                            41.025
+                        ],
+                        [
+                            -89.4104,
+                            41.025
+                        ],
+                        [
+                            -89.4104,
+                            41.025
+                        ],
+                        [
+                            -89.4104,
+                            41.025
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "Description": "",
+                "Name": "KILO Aviation LLC"
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
