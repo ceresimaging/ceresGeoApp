@@ -15,8 +15,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2600, 700",
-                "Name": "Rock Valley Ranch"
+                "Description": "4238, 700",
+                "Name": "Rock Valley Ranch 00"
             },
             "type": "Feature"
         },
@@ -114,7 +114,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "Rock Valley Ranch"
+                "Name": "Rock Valley Ranch 00"
             },
             "type": "Feature"
         },
@@ -127,8 +127,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2600, 700",
-                "Name": "Shiloh Orchards"
+                "Description": "4216, 700",
+                "Name": "Shiloh Orchards 10"
             },
             "type": "Feature"
         },
@@ -266,7 +266,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "Shiloh Orchards"
+                "Name": "Shiloh Orchards 10"
             },
             "type": "Feature"
         },
@@ -279,8 +279,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2600, 700",
-                "Name": "Ellery Ranch/Ellery Ranch 2"
+                "Description": "4224, 700",
+                "Name": "Ellery Ranch/Ellery Ranch 2 20"
             },
             "type": "Feature"
         },
@@ -406,7 +406,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "Ellery Ranch/Ellery Ranch 2"
+                "Name": "Ellery Ranch/Ellery Ranch 2 20"
             },
             "type": "Feature"
         },
@@ -419,8 +419,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2600, 700",
-                "Name": "Toomes Ranch"
+                "Description": "4220, 700",
+                "Name": "Toomes Ranch 30"
             },
             "type": "Feature"
         },
@@ -554,7 +554,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "Toomes Ranch"
+                "Name": "Toomes Ranch 30"
             },
             "type": "Feature"
         },
@@ -567,8 +567,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2600, 700",
-                "Name": "Blewett Ranch"
+                "Description": "4215, 700",
+                "Name": "Blewett Ranch 40"
             },
             "type": "Feature"
         },
@@ -670,7 +670,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "Blewett Ranch"
+                "Name": "Blewett Ranch 40"
             },
             "type": "Feature"
         },
@@ -683,8 +683,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2600, 700",
-                "Name": "Orchard Rd Ranch/Morris Ranch/Pelican Ranch/El Solyo Ranch/Morris 2 Ranch/White Lake Ranch"
+                "Description": "4221, 700",
+                "Name": "Orchard Rd Ranch/Morris Ranch/Pelican Ranch 50"
             },
             "type": "Feature"
         },
@@ -974,7 +974,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "Orchard Rd Ranch/Morris Ranch/Pelican Ranch/El Solyo Ranch/Morris 2 Ranch/White Lake Ranch"
+                "Name": "Orchard Rd Ranch/Morris Ranch/Pelican Ranch 50"
             },
             "type": "Feature"
         },
@@ -987,8 +987,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2600, 700",
-                "Name": "Griffin Ranch 1/Griffin Ranch 2/Maze Ranch/Stone Ranch"
+                "Description": "4221, 700",
+                "Name": "Griffin Ranch 1/Griffin Ranch 2/Maze Ranch 60"
             },
             "type": "Feature"
         },
@@ -1374,7 +1374,51 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "Griffin Ranch 1/Griffin Ranch 2/Maze Ranch/Stone Ranch"
+                "Name": "Griffin Ranch 1/Griffin Ranch 2/Maze Ranch 60"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -120.09,
+                    36.99
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Description": "0, 0",
+                "Name": "Phillip Boyett"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -120.09,
+                            36.99
+                        ],
+                        [
+                            -120.09,
+                            36.99
+                        ],
+                        [
+                            -120.09,
+                            36.99
+                        ],
+                        [
+                            -120.09,
+                            36.99
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "Description": "",
+                "Name": "Phillip Boyett"
             },
             "type": "Feature"
         }
