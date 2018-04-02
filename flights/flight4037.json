@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3400, 590",
+        "Description": "3400, 550",
         "Name": "East Side"
       },
       "geometry": {
@@ -128,7 +128,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3300, 590",
+        "Description": "3300, 550",
         "Name": "Belridge Control"
       },
       "geometry": {
@@ -424,7 +424,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3400, 590",
+        "Description": "3400, 550",
         "Name": "Belridge/Belridge Control"
       },
       "geometry": {
@@ -676,7 +676,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Description": "3600, 590",
+        "Description": "3600, 550",
         "Name": "West Valley/West Valley-Control"
       },
       "geometry": {
