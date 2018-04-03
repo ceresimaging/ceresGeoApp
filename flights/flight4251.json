@@ -10,7 +10,10 @@
         ]
       },
       "properties": {
-        "Description": "3590, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "3800, 500",
         "Name": "Kern Lerdo 00"
       },
       "type": "Feature"
@@ -418,7 +421,10 @@
         ]
       },
       "properties": {
-        "Description": "3576, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "3800, 500",
         "Name": "Oberti Almonds 10"
       },
       "type": "Feature"
@@ -597,7 +603,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "Description": "1400, 250",
+        "Description": "1600, 250",
         "Name": "198 Ranch 20"
       },
       "type": "Feature"
@@ -737,7 +743,10 @@
         ]
       },
       "properties": {
-        "Description": "3618, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1600, 250",
         "Name": "TA Onion 30"
       },
       "type": "Feature"
@@ -853,7 +862,10 @@
         ]
       },
       "properties": {
-        "Description": "3605, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "3900, 500",
         "Name": "Zhonglin-Xindongya 40"
       },
       "type": "Feature"
@@ -969,7 +981,10 @@
         ]
       },
       "properties": {
-        "Description": "3597, 500",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "3900, 500",
         "Name": "SinoMatic 50"
       },
       "type": "Feature"
