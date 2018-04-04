@@ -15,7 +15,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2900, 700.0",
+                "Description": "2800, 700.0",
                 "Name": "Portwood 00"
             },
             "type": "Feature"
@@ -207,7 +207,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2900, 700.0",
+                "Description": "2800, 700.0",
                 "Name": "PK 10"
             },
             "type": "Feature"
@@ -335,7 +335,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2900, 700.0",
+                "Description": "2800, 700.0",
                 "Name": "Aztec Ante Almonds 20"
             },
             "type": "Feature"
@@ -487,7 +487,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2900, 700.0",
+                "Description": "2800, 700.0",
                 "Name": "49er Almonds 1-4/49er Almonds 5-8 30"
             },
             "type": "Feature"
@@ -781,14 +781,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    -119.79,
-                    36.3003
+                    -121.425,
+                    37.7397
                 ],
                 "type": "Point"
             },
             "properties": {
                 "Description": "0, 0",
-                "Name": "Big E"
+                "Name": "Skyview Aviation"
             },
             "type": "Feature"
         },
@@ -797,20 +797,20 @@
                 "coordinates": [
                     [
                         [
-                            -119.79,
-                            36.3003
+                            -121.425,
+                            37.7397
                         ],
                         [
-                            -119.79,
-                            36.3003
+                            -121.425,
+                            37.7397
                         ],
                         [
-                            -119.79,
-                            36.3003
+                            -121.425,
+                            37.7397
                         ],
                         [
-                            -119.79,
-                            36.3003
+                            -121.425,
+                            37.7397
                         ]
                     ]
                 ],
@@ -818,7 +818,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "Big E"
+                "Name": "Skyview Aviation"
             },
             "type": "Feature"
         }
