@@ -15,7 +15,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2800, 500.0",
+                "Description": "3800, 500.0",
                 "Name": "SinoMatic 00"
             },
             "type": "Feature"
@@ -159,7 +159,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2600, 500.0",
+                "Description": "3600, 500.0",
                 "Name": "Phase 3 Almonds 10"
             },
             "type": "Feature"
@@ -347,7 +347,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "2800, 500.0",
+                "Description": "3800, 500.0",
                 "Name": "Zhonglin-Xindongya 20"
             },
             "type": "Feature"
