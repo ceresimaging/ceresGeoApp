@@ -15,7 +15,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "3900, 500.0",
+                "Description": "6400, 700.0",
                 "Name": "Lloyds 00"
             },
             "type": "Feature"
@@ -179,7 +179,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Description": "3900, 500.0",
+                "Description": "6400, 700.0",
                 "Name": "Parilla 10"
             },
             "type": "Feature"
