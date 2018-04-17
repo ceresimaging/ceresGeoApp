@@ -479,11 +479,7 @@
                 "type": "Point"
             },
             "properties": {
-<<<<<<< HEAD
                 "Description": "1800, 189",
-=======
-                "Description": "1600, 200",
->>>>>>> 0ab60ff7f02aea4b9672ac867ffc32e722995126
                 "Name": "Rampage Vineyard 30"
             },
             "type": "Feature"
