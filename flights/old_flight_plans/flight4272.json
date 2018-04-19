@@ -909,14 +909,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    -121.425,
-                    37.7397
+                    -120.09,
+                    36.99
                 ],
                 "type": "Point"
             },
             "properties": {
                 "Description": "0, 0",
-                "Name": "Skyview Aviation"
+                "Name": "Phillip Boyett"
             },
             "type": "Feature"
         },
@@ -925,20 +925,20 @@
                 "coordinates": [
                     [
                         [
-                            -121.425,
-                            37.7397
+                            -120.09,
+                            36.99
                         ],
                         [
-                            -121.425,
-                            37.7397
+                            -120.09,
+                            36.99
                         ],
                         [
-                            -121.425,
-                            37.7397
+                            -120.09,
+                            36.99
                         ],
                         [
-                            -121.425,
-                            37.7397
+                            -120.09,
+                            36.99
                         ]
                     ]
                 ],
@@ -946,7 +946,7 @@
             },
             "properties": {
                 "Description": "",
-                "Name": "Skyview Aviation"
+                "Name": "Phillip Boyett"
             },
             "type": "Feature"
         }
