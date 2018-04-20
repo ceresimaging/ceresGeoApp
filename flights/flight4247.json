@@ -1,3 +1,21 @@
+CeresWorks
+Customers
+Fields
+Visits
+Flights
+mark
+Admin
+Logout
+Flight Plan 4247
+Altitude: 
+
+Camera: 
+
+Imaging strategy: 
+Flight Plan
+© Mapbox © OpenStreetMap Improve this map © DigitalGlobe
+Flightplan Geojson
+Geojson: 
 {
     "crs": {
         "properties": {
@@ -2255,3 +2273,5 @@
     ],
     "type": "FeatureCollection"
 }
+
+Download
