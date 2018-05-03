@@ -1113,7 +1113,10 @@
         ]
       },
       "properties": {
-        "Description": "800, 189",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1400, 250",
         "Name": "River Junction 80"
       },
       "type": "Feature"
@@ -1824,7 +1827,10 @@
         ]
       },
       "properties": {
-        "Description": "800, 189",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Description": "1400, 250",
         "Name": "Browns Lake 110"
       },
       "type": "Feature"
