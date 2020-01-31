@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>Pegasus 1.7.4</title>
+<style type="text/css">
+body {background:#fff;margin:0;padding:0;font-family:arial,helvetica,sans-serif;text-align:center;padding:10px;color:#333;font-size:16px;}
+
+#h1 {margin:0;padding:0;font-size:14px;}
+#p {font-size:13px;}
+table th, td {
+    border: 1px solid black;
+    text-align:center;
+}
+
+.link {background:#ecf5ff;border-top:1px solid #fff;border:1px solid #dfebf8;margin-top:.5em;padding:.3em;}
+.link a {text-decoration:none;font-size:15px;display:block;color:#069;}
+.last_updated {font-size: x-small;text-align: right;font-style: italic;}
+.created_with {font-size: x-small;text-align: center;}
+</style>
+</head>
+<body>
+
+    
+<img src="https://www.ceresimaging.net/hs-fs/hubfs/Logo.png?width=314&name=Logo.png" alt="www.ceresimaging.net">
+
+<div id="image_container">
+    <p></p>
+    <img src="https://dl.dropboxusercontent.com/s/qr4p8sjvhwsdflq/Pegaz_Rogaska_Slatina.png" alt="Pegasus">
+</div>
+
+<!--
+<div id="image_container2">
+        <p></p>
+        <img src="https://s3.us-west-2.amazonaws.com/cobbcounty.org.if-us-west-2/prod/s3fs-public/2018-12/alert.png" alt="Alert">
+        <h1 style="color:red">Warning: Old versions of Pegasus will no longer work. You must upgrade to this latest version IMMEDIATELY</h1>
+    </div>
+    -->
+
+<div id="container">
+<p></p>
+<h3>Install Link</h3>
+
+<!-- Main Release Version Installer-->
+<!-- https://www.dropbox.com/s/rrhxamgb1k5jngh/manifest.plist?dl=0 -->
+<!-- Beta Testing Version Installer - in folder test_build -->
+<!-- https://www.dropbox.com/s/ntphmgibiopqnvn/manifest.plist?dl=0 -->
+<!-- Beta Testing 2 Version Installer-->
+<!-- https://www.dropbox.com/s/6qkckfiz2vfmtev/manifest.plist?dl=0 -->
+
+<div class="link"><a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/ntphmgibiopqnvn/manifest.plist">
+    Tap Here to Install<br />Pegasus 1.7.4<br />Directly On Your Device</a></div>
+
+<p><strong>Link didn't work?</strong><br />
+Make sure you're visiting this page on your device, not your computer.</p>
+
+<p class="last_updated">Last Updated: November 12, 2019</p>
+
+<h2>Version Release Notes</h2>
+<table width="100%">
+    <tbody>
+        <tr> <th>Version </th> <th>New Features</th></tr>
+
+        <tr><td>1.7.4: </td><td style="text-align:left"> 
+            <ol type="1">
+                    <li> Fixed crash on flight report view, when running on iOS prior to version 13.x.
+                    </li>
+                    <li> Fixed date selection colors in flight report view.
+                    </li>
+                    <li> Fixed bug where we could not export the flight plan to Foreflight.
+                    </li>
+            </ol></td></tr>
+
+        <tr><td>1.7.3: </td><td style="text-align:left"> 
+            <ol type="1">
+                    <li> Dotted blue line to pass and solid blue line to field only update once every 3 seconds.
+                         iOS 13.2 makes the redraw of these look even worse. 
+                         Drawing these can now be disabled from the right hand settings menu.
+                    </li>
+                    <li> Fixed colors of turnaround distance selector in advanced settings.
+                    </li>
+                    <li> Changed the way we are computing the service distance to now take the measured turn time into account instead of just using a fixed constant.
+                        Now submitting estimated flight time to the flight report API.
+                    </li>
+            </ol></td></tr>
+
+
+        <tr><td>1.7.2: </td><td style="text-align:left"> 
+            <ol type="1">
+                    <li> Dotted blue line to pass and solid blue line to field only update once a second.
+                        In iOS 13.x updating these lines 10 times a second was causing massive CPU usage and causing the App to crash.
+                        This seems like a bug in iOS 13. 
+                    </li>
+                    <li> Updated the Startup screen and login modal to use the new Ceres logos from marketing.
+                    </li>
+            </ol>
+
+        </td></tr>
+
+        <tr><td>1.7.1: </td><td style="text-align:left"> 
+            <ol type="1">
+                    <li> Give pilots ability to change which pass is selected</li>
+ 
+            </ol>
+
+        </td></tr>
+
+        <tr><td>1.7.0: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li> Remove Next / Previous Pass buttons<br>
+                    <ul>
+                        <li>When a pass is succesffuly completed automatically select the next one once we reach the field turnaround boundary</li>
+                        <li>When a pass is failed, now have the option to override the failure</li>
+                        <li>Once we reach the turn around distance, we now flash a bold green arrow on the screen in the direction of the next pass</li>
+                    </ul>  
+                </li>
+
+                <li> Changed the way pass failure is displayed<br>
+                    <ul>
+                        <li>Should only display once you have exited 5x the pass deviation distance beyond the boundary of the pass</li>
+                    </ul>  
+                </li>
+    
+                <li> Now recording the following new values when the flight report is submitted:
+                    <ul>
+                        <li>est_flight_distance</li>
+                        <li>est_transit_distance</li>
+                        <li>est_service_distance</li>
+                        <li>successful_passes</li>
+                        <li>failed_passes</li>
+                        <li>total_passes</li>
+                        <li>avg_turn_time</li>
+                        <li>avg_velocity_mph</li>
+                        <li>weather</li>
+                        <li>ignored_fails</li>
+                    </ul>
+                </li>
+
+                <li>Pass Deviation changed to 75 feet for Mosaic fields</li>
+                <li>Turnaround Distance changed to three options, "Beginner, .6 miles, Intermediate, .3 miles, Expert, .1 miles"</li>
+                <li>Add to Flight Report "All Fields Completed" checkbox, if "no" is checked, open dialogue box for explanation</li>
+                <li>Add Turbulence descriptions, 0=none, 1=light chop, 2=very choppy, 3=moderate</li>
+                <li>Submit "turnaround distance" setting, in feet to flight report</li>
+                <li>Improved usability / aesthetics of flight report creation</li>
+                <li>More UI improvements and optimizations for smaller screens</li>
+                <li>Display Ground Speed (MPH) when Timer is pressed</li>
+                <li>Export Placemark with KML when sending Uno flight to Foreflight</li>
+                <li>Increased opacity of Course Deviation Number Block</li>
+                </li>
+            </ol>
+            </td></tr>
+<tr><td>1.6.0: </td><td style="text-align:left"> 
+    <ol type="1">
+        <li> Lots of UI adjustments to accommodate smaller screens (i.e. iPhones)<br>
+            <ul>
+                <li>Login Screen now slides up when the keyboard is showing.</li>
+                <li>All text on buttons, menus, labels should shrink to fit within the available space.</li>
+                <li>Fixed Settings and Advanced Settings menus to correctly scroll up and down on smaller screens or in landscape mode.</li>
+                <li>Increased the height of the Field Detail View to make the buttons easier to press.</li>
+                <li>When in Landscape mode on iPhone, the height of the deviation bar is halved to make more room for the map.</li>
+                <li>When in Landscape mode on iPhone, removed the images from the select field and settings menus to make more room for menu items.</li>
+                <li>Should now work in upside down mode on iPhones (excluding iPhone X, Xr, and Xs).</li>
+                <li>Timer Display is now hidden and replaced with Heading Display on iPhones when in Landscape mode.</li>
+            </ul>  
+        </li>
+        <li> Added Settings Menu button for showing / hiding the map pins</li>
+            <li> Now when the user presses the pass deviation numeric indicator at the center of the pass deviation bar, we switch between two settings:
+                    <ul>
+                            <li>Mode 1: <br>
+        <strong>Map Orientation = Locked to My Heading</strong> <br> 
+        <strong>Map Mode = Center on my location</strong><br>
+                            </li>
+                            <li>Mode 2: <br>
+                                <strong>Map Orientation = Free Rotate</strong> <br>
+                                <strong>Map Mode = Free Move</strong>
+                            </li>
+                            </ul>
+        This will allow the user to quickly change these two settings without having to enter the side menu.
+    </li>
+        <li> Incorporated the BLE code to enable comms with the camera system. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;currently disabled; needs more in flight testing
+    </li>
+    </ol>
+</td></tr>
+<tr><td>1.5.1: </td><td style="text-align:left"> 
+    <ol type="1"> 
+        <li>Pass Deviation is now settable between 50 and 100 feet in the Advanced Settings Page (only applicable to Mosaic Fields)</li>
+    </ol>
+</td></tr>
+<tr><td>1.5.0: </td><td style="text-align:left"> 
+    <ol type="1">
+        <li>Added Individual Flying Service Logins. Now Flying Services must login in order to use the app. </li>
+        <li>Added version checking to prevent old Pegasus versions from working. </li>
+        <li>Fixed bug that was coloring the border of pass deviation incorrectly. </li>
+        <li>We now show a warning when selecting a new flight plan if the flight report has not yet been submitted. </li>
+        <li>Disable flight mode button in the settings menu. </li>
+        <li>Added iOS version, iPad Model, Pegasus version to the flight report when submitting it to Ceres Works. </li>
+        <li>Disable GPS coordinates logging to Ceres Works, which was causing crashes when cell service would go out.</li>   
+    </ol>
+</td></tr>
+</tbody>
+</table>
+</div>
+
+</body>
+</html>
