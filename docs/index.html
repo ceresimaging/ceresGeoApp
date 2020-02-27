@@ -20,6 +20,28 @@ table th, td {
 .link a {text-decoration:none;font-size:15px;display:block;color:#069;}
 .last_updated {font-size: x-small;text-align: right;font-style: italic;}
 .created_with {font-size: x-small;text-align: center;}
+
+.glow {
+    font-family: cursive;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffc200, 0 0 40px #ffc200, 0 0 50px #ffc200, 0 0 60px #ffc200, 0 0 70px #ffc200;
+  
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #0b5c23, 0 0 40px #0b5c23, 0 0 50px #0b5c23, 0 0 60px #0b5c23, 0 0 70px #0b5c23, 0 0 80px #0b5c23;
+  }
+}
+
+
 </style>
 </head>
 <body>
@@ -27,9 +49,10 @@ table th, td {
     
 <img src="https://www.ceresimaging.net/hs-fs/hubfs/Logo.png?width=314&name=Logo.png" alt="www.ceresimaging.net">
 
+<h1 class="glow">Pegasus</h1>
 <div id="image_container">
     <p></p>
-    <img src="https://dl.dropboxusercontent.com/s/qr4p8sjvhwsdflq/Pegaz_Rogaska_Slatina.png" alt="Pegasus">
+    <img src="https://dl.dropboxusercontent.com/s/qr4p8sjvhwsdflq/Pegaz_Rogaska_Slatina.png" alt="Pegasus" style="width: 50%;">
 </div>
 
 <!--
