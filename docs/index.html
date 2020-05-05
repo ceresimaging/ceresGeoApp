@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<title>Pegasus 1.8.7</title>
+<title>Pegasus 1.9.1</title>
 <style type="text/css">
 body {background:#fff;margin:0;padding:0;font-family:arial,helvetica,sans-serif;text-align:center;padding:10px;color:#333;font-size:16px;}
 
@@ -50,17 +50,40 @@ table th, td {
 <!-- https://www.dropbox.com/s/6qkckfiz2vfmtev/manifest.plist?dl=0 -->
 
 <div class="link"><a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/rrhxamgb1k5jngh/manifest.plist">
-    Tap Here to Install<br />Pegasus 1.8.7<br />Directly On Your Device</a></div>
+    Tap Here to Install<br />Pegasus 1.9.1<br />Directly On Your Device</a></div>
 
 <p><strong>Link didn't work?</strong><br />
 Make sure you're visiting this page on your device, not your computer.</p>
 
-<p class="last_updated">Last Updated: March 23, 2020</p>
+<p class="last_updated">Last Updated: May 5, 2020</p>
 
 <h2>Version Release Notes</h2>
 <table width="100%">
     <tbody>
         <tr> <th>Version </th> <th>New Features</th></tr>
+
+        <tr><td>1.9.1: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Changed the way that we export KMLs in order to support flight planning / navigation in ForeFlight.</li>
+            </ol></td></tr>
+
+        <tr><td>1.9.0: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Pointed works API from staging to production.</li>
+            </ol></td></tr>
+
+        <tr><td>1.8.9: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Automatically deleting the old credentials file when Pegasus starts.</li>
+                <li>Added +/- buttons to the Altitude changing view.</li>
+                <li>Altitude now slides +/- 2000ft from the starting value in the slider bar (was +/- 4000ft).</li>
+            </ol></td></tr>
+
+        <tr><td>1.8.8: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Fixed security flaw with how we store usernames and passwords.</li>
+                <li>Now submitting the iPad device name in the flight report for improved asset tracking.</li>
+            </ol></td></tr>
 
         <tr><td>1.8.7: </td><td style="text-align:left"> 
             <ol type="1">
@@ -88,7 +111,7 @@ Make sure you're visiting this page on your device, not your computer.</p>
             <ol type="1">
                 <li>Now displaying pins over each field in the Flight Select View with the Altitude displayed above each.</li>
                 <li>Fixed Flight refresh functionality to copy over the settings from the flight planning view.</li>
-                <li>Now rounding the the user specified altitude and pass spacing so that it's an integer.</li>
+                <li>Now rounding the user specified altitude and pass spacing so that it's an integer.</li>
             </ol></td></tr>
 
         <tr><td>1.8.2: </td><td style="text-align:left"> 
