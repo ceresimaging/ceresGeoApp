@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<title>Pegasus 1.9.4</title>
+<title>Pegasus 1.9.7</title>
 <style type="text/css">
 body {background:#fff;margin:0;padding:0;font-family:arial,helvetica,sans-serif;text-align:center;padding:10px;color:#333;font-size:16px;}
 
@@ -49,23 +49,41 @@ table th, td {
 <!-- Beta Testing 2 Version Installer-->
 <!-- https://www.dropbox.com/s/6qkckfiz2vfmtev/manifest.plist?dl=0 -->
 
-<div class="link"><a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/rrhxamgb1k5jngh/manifest.plist">
-    Tap Here to Install<br />Pegasus 1.9.4<br />Directly On Your Device</a></div>
+<div class="link"><a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/ntphmgibiopqnvn/manifest.plist">
+    Tap Here to Install<br />Pegasus 1.9.7<br />Directly On Your Device</a></div>
 
 <p><strong>Link didn't work?</strong><br />
 Make sure you're visiting this page on your device, not your computer.</p>
 
-<p class="last_updated">Last Updated: May 14, 2020</p>
+<p class="last_updated">Last Updated: June 17, 2020</p>
 
 <h2>Version Release Notes</h2>
 <table width="100%">
     <tbody>
         <tr> <th>Version </th> <th>New Features</th></tr>
 
+        <tr><td>1.9.7: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>When scanning QR code, video preview display now rotates when iPad is rotated.</li>
+                <li>Restored previous and next pass buttons to allow user to change which pass is active manually.</li>
+            </ol></td></tr>
+
+        <tr><td>1.9.6: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Do not start scan for BLE devices unless initiated by user.</li>
+                <li>Fixed pins on flight selection map to properly display each field's altitude. Pin color is determined by field altitude.</li>
+                <li>Fixed Silo API call to get flight path data for Helios flights (previously only worked for Sylvanus).</li>
+            </ol></td></tr>
+
+        <tr><td>1.9.5: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>We now can disable scanning for BLE devices by pressing the "scan" button in the Settings menu.</li>
+            </ol></td></tr>
+
         <tr><td>1.9.4: </td><td style="text-align:left"> 
             <ol type="1">
                 <li>For fields with pass spacing less than or equal to 550ft, reduce the pass spacing be a factor of 10%. 
-                    Ultimatly this correction should be done in Ceres Works and not in Pegasus.</li>
+                    Ultimately this correction should be done in Ceres Works and not in Pegasus.</li>
             </ol></td></tr>
 
         <tr><td>1.9.3: </td><td style="text-align:left"> 
