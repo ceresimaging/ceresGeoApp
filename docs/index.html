@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<title>Pegasus 1.9.7</title>
+<title>Pegasus 1.9.9.3</title>
 <style type="text/css">
 body {background:#fff;margin:0;padding:0;font-family:arial,helvetica,sans-serif;text-align:center;padding:10px;color:#333;font-size:16px;}
 
@@ -49,18 +49,45 @@ table th, td {
 <!-- Beta Testing 2 Version Installer-->
 <!-- https://www.dropbox.com/s/6qkckfiz2vfmtev/manifest.plist?dl=0 -->
 
-<div class="link"><a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/ntphmgibiopqnvn/manifest.plist">
-    Tap Here to Install<br />Pegasus 1.9.7<br />Directly On Your Device</a></div>
+<div class="link"><a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/rrhxamgb1k5jngh/manifest.plist">
+    Tap Here to Install<br />Pegasus 1.9.9.3<br />Directly On Your Device</a></div>
 
 <p><strong>Link didn't work?</strong><br />
 Make sure you're visiting this page on your device, not your computer.</p>
 
-<p class="last_updated">Last Updated: June 17, 2020</p>
+<p class="last_updated">Last Updated: February 25, 2021</p>
 
 <h2>Version Release Notes</h2>
 <table width="100%">
     <tbody>
         <tr> <th>Version </th> <th>New Features</th></tr>
+        <tr><td>1.9.9.3: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Reenabled Bad Elf GPS reception which was accidentally disabled.</li>
+                <li>Regenerated certificates because Pegasus randomly stopped working.</li>
+            </ol></td></tr>
+
+        <tr><td>1.9.9.2: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Fixed weighted averaging algorithm to handle headings correctly.</li>
+            </ol></td></tr>
+
+        <tr><td>1.9.9.1: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Now weighted averaging the heading from the Inertialsense Redpark external GPS. 
+                    We take the last 5 headings and average them together with the newest weighted twice as much as the oldest.</li>
+                <li>Major code cleanup centered around GPS receiving.</li>
+            </ol></td></tr>
+
+        <tr><td>1.9.9: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>We are now receiving and decoding messages from the Inertialsense uINS via the Redpark RS232 cable.</li>
+            </ol></td></tr>
+
+        <tr><td>1.9.8: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Now decoding ADS-B / GDL90 messages over wifi. Traffic messages are decoded and aircraft tracks are displayed on the map.</li>
+            </ol></td></tr>
 
         <tr><td>1.9.7: </td><td style="text-align:left"> 
             <ol type="1">
