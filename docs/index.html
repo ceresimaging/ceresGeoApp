@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<title>Pegasus 2.0.2.5</title>
+<title>Pegasus 2.0.2.6</title>
 <style type="text/css">
 body {background:#fff;margin:0;padding:0;font-family:arial,helvetica,sans-serif;text-align:center;padding:10px;color:#333;font-size:16px;}
 
@@ -55,12 +55,13 @@ table th, td {
 
 
 <div class="link">
+    <a href="https://webapp.diawi.com/install/Mq6kMd">
+        Tap Here to Install<br />Pegasus 2.0.2.6<br /></a></div>
 
     <a href="https://webapp.diawi.com/install/WdpUAR">
         Tap Here to Install<br />Pegasus 2.0.2.5<br /></a></div>
 
-    <a href="https://webapp.diawi.com/install/SPErSs">
-        Tap Here to Install<br />Pegasus 2.0.2.4<br /></a></div>
+
 <!--
     <a href="https://webapp.diawi.com/install/eF9aWK">
     Tap Here to Install<br />Pegasus 2.0.2.3<br /></a></div>
@@ -74,12 +75,27 @@ table th, td {
 <p><strong>Link didn't work?</strong><br />
 Make sure you're visiting this page on your device, not your computer.</p>
 
-<p class="last_updated">Last Updated: March 6, 2024</p>
+<p class="last_updated">Last Updated: May 2, 2024</p>
 
 <h2>Version Release Notes</h2>
 <table width="100%">
     <tbody>
         <tr> <th>Version </th> <th>New Features</th></tr>
+
+        <tr><td>2.0.2.6: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>Now using pass speed and transit speed as two separate values to estimate the flight plan length. 
+                    These are now setable via two sliders on the flight planning screen.</li>
+                <li>Now measuring pass speed and transit speed as two separate values and submitting them with the flight report.</li>
+                <li>Now pulling pass speed and transit speed from the Ceres Works API on per pilot / per aircraft basis.</li>
+                <li>User now must select an aircraft and pilot after choosing a flight plan.</li>
+                <li>Added a warning popup if the version you are using is not the latest.</li>
+                <li>Fixed bug that was preventing the flight simulator from working with Pegasus.</li>
+                <li>Corrected how we compute the time remaining for the camera system battery.</li>
+                <li>Pulling in gps / battery status and info from Falcon over BLE. Updated protobufs.</li>
+                <li>Corrected how we compute the time remaining for the camera system battery.</li>
+            </ol></td></tr>
+            </ol></td></tr>
 
         <tr><td>2.0.2.5: </td><td style="text-align:left"> 
             <ol type="1">
