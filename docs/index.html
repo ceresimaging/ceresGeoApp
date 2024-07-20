@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<title>Pegasus 2.0.2.8</title>
+<title>Pegasus 2.0.2.9</title>
 <style type="text/css">
 body {background:#fff;margin:0;padding:0;font-family:arial,helvetica,sans-serif;text-align:center;padding:10px;color:#333;font-size:16px;}
 
@@ -54,29 +54,35 @@ table th, td {
 <!-- https://www.dropbox.com/s/ol5hvl91dzm3vpu/manifest.plist?dl=0 -->
 
 <div class="link">
+    <a href="https://webapp.diawi.com/install/y67tv2">
+        Tap Here to Install<br />Pegasus 2.0.2.9<br /></a></div>
+
+<div class="link">
     <a href="https://webapp.diawi.com/install/fWCWPF">
         Tap Here to Install<br />Pegasus 2.0.2.8<br /></a></div>
 
 <div class="link">
     <a href="https://webapp.diawi.com/install/qK7oPS">
         Tap Here to Install<br />Pegasus 2.0.2.7<br /></a></div>
-<!--
-    <a href="https://webapp.diawi.com/install/xGUuag">
-        Tap Here to Install<br />Pegasus 2.0.2.6<br /></a></div>
- -->
-
-
-
 
 <p><strong>Link didn't work?</strong><br />
 Make sure you're visiting this page on your device, not your computer.</p>
 
-<p class="last_updated">Last Updated: July 11, 2024</p>
+<p class="last_updated">Last Updated: July 20, 2024</p>
 
 <h2>Version Release Notes</h2>
-<table width="100%">
+
+<table width="90%">
     <tbody>
         <tr> <th>Version </th> <th>New Features</th></tr>
+
+        <tr><td>2.0.2.9: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li>We are now logging a whole bunch of state variables to help us further track down what is going wrong with the laggy GPS reception from Falcon to Pegasus.
+                    When the pilot goes to the submit flight report screen, we stop the logger and zip the log file and upload it to data-acq's S3 bucket. 
+                </li>
+            </ol></td></tr>
+
 
         <tr><td>2.0.2.8: </td><td style="text-align:left"> 
             <ol type="1">
