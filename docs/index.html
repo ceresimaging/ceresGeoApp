@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<title>Pegasus 2.0.3.1</title>
+<title>Pegasus 2.0.3.2</title>
 <style type="text/css">
 body {background:#fff;margin:0;padding:0;font-family:arial,helvetica,sans-serif;text-align:center;padding:10px;color:#333;font-size:16px;}
 
@@ -53,31 +53,48 @@ table th, td {
 
 <!-- https://www.dropbox.com/s/ol5hvl91dzm3vpu/manifest.plist?dl=0 -->
 
+<div class="link">
+    <p class="last_updated">Last Updated: August 9th, 2024</p>
+    <a href="https://webapp.diawi.com/install/dfFncG">
+        Tap Here to Install<br />Pegasus 2.0.3.2<br /></a></div>
+
 
 <div class="link">
     <p class="last_updated">Last Updated: July 29, 2024</p>
     <a href="https://webapp.diawi.com/install/XL2FUH">
         Tap Here to Install<br />Pegasus 2.0.3.1<br /></a></div>
 
-<div class="link">
-    <a href="https://webapp.diawi.com/install/y67tv2">
-        Tap Here to Install<br />Pegasus 2.0.2.9<br /></a></div>
-
-<div class="link">
-    <a href="https://webapp.diawi.com/install/fWCWPF">
-        Tap Here to Install<br />Pegasus 2.0.2.8<br /></a></div>
-
 
 <p><strong>Link didn't work?</strong><br />
 Make sure you're visiting this page on your device, not your computer.</p>
 
-<p class="last_updated">Last Updated: July 23, 2024</p>
+<p class="last_updated">Last Updated: August 6th, 2024</p>
 
 <h2>Version Release Notes</h2>
 
 <table width="90%">
     <tbody>
         <tr> <th>Version </th> <th>New Features</th></tr>
+
+        <tr><td>2.0.3.2: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li> Fixed a huge memory leak that was allocating around a hundred megabytes of memory 
+                    every time the user would go to a new screen from the main screen.
+                </li>
+                <li> Fixed problems when running on the iPhone (not iPad). Fixed button text to fit the smaller buttons. 
+                    For some reason the back button was not showing for some of the new the SwiftUI views.
+                    I had to explicitly make the back button show on these views in the code. 
+                    Previously you just got stuck on these screens and would have to restart Pegasus.
+                </li>
+                <li> 
+                    When we go to the GPS status view, we now periodically get a new bluetooth signal strength RSSI from the BLE radio. 
+                    This display updates once every 5 seconds and it animates when the update happens.
+                </li>
+                <li> 
+                  Lots of code cleanup around the new smart print method that can automatically 
+                  log to the new console view which can be dynamically turned on or off by the user.
+                </li>
+            </ol></td></tr>
 
         <tr><td>2.0.3.1: </td><td style="text-align:left"> 
             <ol type="1">
