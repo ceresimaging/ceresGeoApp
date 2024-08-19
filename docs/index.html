@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<title>Pegasus 2.0.3.2</title>
+<title>Pegasus 2.0.4.0</title>
 <style type="text/css">
 body {background:#fff;margin:0;padding:0;font-family:arial,helvetica,sans-serif;text-align:center;padding:10px;color:#333;font-size:16px;}
 
@@ -52,6 +52,10 @@ table th, td {
 <!-- https://www.dropbox.com/s/oo55enkvh7ut113/manifest.plist?dl=0 -->
 
 <!-- https://www.dropbox.com/s/ol5hvl91dzm3vpu/manifest.plist?dl=0 -->
+<div class="link">
+    <p class="last_updated">Last Updated: Audgust 19, 2024</p>
+    <a href="https://webapp.diawi.com/install/czheaA">
+        Tap Here to Install<br />Pegasus 2.0.4.0<br /></a></div>
 
 <div class="link">
     <p class="last_updated">Last Updated: August 9th, 2024</p>
@@ -59,22 +63,31 @@ table th, td {
         Tap Here to Install<br />Pegasus 2.0.3.2<br /></a></div>
 
 
-<div class="link">
-    <p class="last_updated">Last Updated: July 29, 2024</p>
-    <a href="https://webapp.diawi.com/install/XL2FUH">
-        Tap Here to Install<br />Pegasus 2.0.3.1<br /></a></div>
+
 
 
 <p><strong>Link didn't work?</strong><br />
 Make sure you're visiting this page on your device, not your computer.</p>
 
-<p class="last_updated">Last Updated: August 6th, 2024</p>
+<p class="last_updated">Last Updated: August 19th, 2024</p>
 
 <h2>Version Release Notes</h2>
 
 <table width="90%">
     <tbody>
         <tr> <th>Version </th> <th>New Features</th></tr>
+
+        <tr><td>2.0.4.0: </td><td style="text-align:left"> 
+            <ol type="1">
+                <li> Pegasus seems to be crashing when an unexpected BLE device is connected. Instead of crashing, hopefully we will now show a warning message instead.
+                </li>
+                <li> Removed operations from receiving email reports of crashes from Pegasus, because they were getting too many.
+                </li>
+                <li> Added Lots of little checks in places where Pegasus reported that it is crashing. Some of the crash reports were vague, so this will be a game of whack-a-mole.
+                </li>
+                <li> Replaced all calls to fatalerror with displaying a modal warning message.
+                </li>
+            </ol></td></tr>
 
         <tr><td>2.0.3.2: </td><td style="text-align:left"> 
             <ol type="1">
